@@ -1,0 +1,9 @@
+# Staleness allowlist — "done, not dead".
+#
+# One entry title per line, matched verbatim against `title` in research/manifest.json.
+# Lines starting with # are comments; blank lines are ignored.
+#
+# List entries here that are finished tools, canonical papers, or historical benchmarks
+# that will never get a fresh `verified_on` but are still correct — so the staleness
+# check doesn't cry wolf on stable, still-accurate content. Any ERROR for a listed
+# title is downgraded to WARN instead of failing CI.

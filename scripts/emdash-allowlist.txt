@@ -1,0 +1,3 @@
+# Em-dash allowlist: one exact substring per line. Only verbatim quotations
+# qualify; altering a quote's own punctuation would falsify the citation.
+only about one thing — but which

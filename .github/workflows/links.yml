@@ -1,0 +1,30 @@
+name: Link check
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  schedule:
+    # Weekly, Monday 06:00 UTC
+    - cron: "0 6 * * 1"
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --exclude "localhost"
+            --exclude "127.0.0.1"
+            --max-retries 3
+            --retry-wait-time 30
+            --timeout 45
+            --accept 100..=103,200..=299,403,429
+            .
+          fail: true

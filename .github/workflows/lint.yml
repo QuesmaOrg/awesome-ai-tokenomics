@@ -1,0 +1,24 @@
+name: Lint
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+  push:
+    branches:
+      - main
+    paths:
+      - "README.md"
+
+jobs:
+  awesome-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+
+      - name: Run awesome-lint (with marker-format waiver)
+        run: bash scripts/lint_readme.sh
