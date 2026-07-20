@@ -126,6 +126,15 @@
     "super_area": "govern"
   },
   {
+    "title": "JetBrains AI moves business plans from monthly licenses to 12-month credits",
+    "url": "https://blog.jetbrains.com/blog/2026/07/07/jetbrains-ai-for-teams-and-organizations-from-fragmented-ai-usage-to-coordinated-software-development/",
+    "verified_on": "2026-07-20",
+    "stale_after": "2026-10-20",
+    "category": "allocation-chargeback",
+    "kind": "article",
+    "super_area": "govern"
+  },
+  {
     "title": "Kong AI Gateway",
     "url": "https://developer.konghq.com/ai-gateway/",
     "verified_on": "2026-07-02",
@@ -1028,8 +1037,8 @@
   {
     "title": "rtk - the context-compression genre's largest adoption anchor (reduction-only headline)",
     "url": "https://github.com/rtk-ai/rtk",
-    "verified_on": "2026-07-05",
-    "stale_after": "2026-10-05",
+    "verified_on": "2026-07-20",
+    "stale_after": "2026-10-20",
     "category": "context-engineering",
     "kind": "oss",
     "super_area": "optimize"
@@ -1287,6 +1296,24 @@
     "super_area": "understand"
   },
   {
+    "title": "Cursor charges by tokens, split into first-party and third-party pools",
+    "url": "https://cursor.com/docs/account/pricing",
+    "verified_on": "2026-07-20",
+    "stale_after": "2026-10-20",
+    "category": "pricing-models",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "Devin's Agent Compute Unit has no published definition of what it meters",
+    "url": "https://docs.devin.ai/admin/billing/enterprise",
+    "verified_on": "2026-07-20",
+    "stale_after": "2026-10-20",
+    "category": "pricing-models",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
     "title": "DORA 2025 - AI as amplifier, and the delivery-stability tension",
     "url": "https://dora.dev/insights/balancing-ai-tensions/",
     "verified_on": "2026-07-02",
@@ -1374,6 +1401,15 @@
     "stale_after": "2026-10-15",
     "category": "pricing-models",
     "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "JetBrains independently measured two token-saving skills against their own claims",
+    "url": "https://blog.jetbrains.com/ai/2026/07/rtk-claude-code-token-savings/",
+    "verified_on": "2026-07-20",
+    "stale_after": "2026-10-20",
+    "category": "compression-efficacy",
+    "kind": "benchmark",
     "super_area": "understand"
   },
   {
@@ -1544,6 +1580,15 @@
     "verified_on": "2026-07-01",
     "stale_after": "2026-10-01",
     "category": "buyer-incentives",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "Windsurf became Devin Desktop and switched credits to token-based quota",
+    "url": "https://docs.devin.ai/desktop/accounts/quota",
+    "verified_on": "2026-07-20",
+    "stale_after": "2026-10-20",
+    "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
   }
