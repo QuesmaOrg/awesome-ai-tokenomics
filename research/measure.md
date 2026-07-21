@@ -19,9 +19,6 @@
 
 ## Cache Accounting
 
-### Tools
-- [LMCache - KV-cache reuse layer with token-level cache-hit accounting (self-host)](https://github.com/LMCache/LMCache) - LMCache is a self-hosted KV-cache layer beneath vLLM, giving token-level cache-hit observability for teams who own their GPUs, not a hosted bill. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![stars](https://img.shields.io/github/stars/LMCache/LMCache?style=flat-square&logo=github&label=) ![last commit](https://img.shields.io/github/last-commit/LMCache/LMCache?style=flat-square&label=)
-
 ### Reading
 - [Gemini context caching - the per-hour storage meter (the third-vendor axis)](https://ai.google.dev/gemini-api/docs/pricing) - Among major providers, only Gemini bills a per-hour storage meter for explicit prompt caching, making a cache a rented line item that accrues cost while it sits…
 - [OpenAI prompt-caching `cached_tokens` accounting](https://platform.openai.com/docs/guides/prompt-caching) - This is the measurement substrate for prompt-cache savings on the OpenAI API.
