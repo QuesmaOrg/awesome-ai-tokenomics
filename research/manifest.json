@@ -594,6 +594,15 @@
     "super_area": "monitor"
   },
   {
+    "title": "CodexBar",
+    "url": "https://github.com/steipete/CodexBar",
+    "verified_on": "2026-07-21",
+    "stale_after": "2026-10-21",
+    "category": "dashboards",
+    "kind": "oss",
+    "super_area": "monitor"
+  },
+  {
     "title": "Codex Usage Tracker",
     "url": "https://github.com/douglasmonsky/codex-usage-tracker",
     "verified_on": "2026-07-18",
