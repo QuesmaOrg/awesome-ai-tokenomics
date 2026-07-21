@@ -7,6 +7,9 @@
 - [Mavvrik (fmr. DigitalEx)](https://www.mavvrik.ai/press-releases/mavvrik-unveils-full-stack-ai-cost-governance/) - Mavvrik is an AI/hybrid-infrastructure cost governance and FinOps platform, rebranded from DigitalEx in February 2025. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Pay-i](https://docs.pay-i.com/) - An SDK-based GenAI cost-observability platform that tracks token-level spend per call and rolls it up into cost-center allocation across orgs and apps. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
+### Reading
+- [JetBrains AI moves business plans from monthly licenses to 12-month credits](https://blog.jetbrains.com/blog/2026/07/07/jetbrains-ai-for-teams-and-organizations-from-fragmented-ai-usage-to-coordinated-software-development/) - JetBrains is moving business AI from monthly per-seat licenses to 12-month reallocatable credits plus a governance dashboard; personal Pro/Ultimate prices are…
+
 ## Anomaly Detection
 
 ### Research & Benchmarks

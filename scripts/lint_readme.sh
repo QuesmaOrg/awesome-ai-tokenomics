@@ -12,7 +12,10 @@
 # syntax) still fails the build.
 set -uo pipefail
 
-WAIVED='remark-lint:awesome-list-item'
+# awesome-github's "valid git repository" check requires the checkout to be
+# on the default branch, so every PR branch fails it by construction; waive
+# that one message (not the whole rule) now that main is PR-only.
+WAIVED='remark-lint:awesome-list-item|Awesome list must reside in a valid git repository'
 
 out="$(npx --yes awesome-lint 2>&1)" || true
 errors="$(printf '%s\n' "$out" | grep '✖' | grep -v 'Linting' | grep -vE "$WAIVED" || true)"
