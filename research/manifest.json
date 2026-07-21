@@ -387,6 +387,33 @@
     "super_area": "measure"
   },
   {
+    "title": "LoCoMo",
+    "url": "https://github.com/snap-research/locomo",
+    "verified_on": "2026-07-21",
+    "stale_after": "2026-10-21",
+    "category": "benchmarks-evals",
+    "kind": "benchmark",
+    "super_area": "measure"
+  },
+  {
+    "title": "LongMemEval",
+    "url": "https://github.com/xiaowu0162/LongMemEval",
+    "verified_on": "2026-07-21",
+    "stale_after": "2026-10-21",
+    "category": "benchmarks-evals",
+    "kind": "benchmark",
+    "super_area": "measure"
+  },
+  {
+    "title": "MemoryBench",
+    "url": "https://github.com/supermemoryai/memorybench",
+    "verified_on": "2026-07-21",
+    "stale_after": "2026-10-21",
+    "category": "benchmarks-evals",
+    "kind": "benchmark",
+    "super_area": "measure"
+  },
+  {
     "title": "OpenAI prompt-caching `cached_tokens` accounting",
     "url": "https://platform.openai.com/docs/guides/prompt-caching",
     "verified_on": "2026-07-01",
@@ -614,8 +641,8 @@
   {
     "title": "Helicone",
     "url": "https://helicone.ai",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
+    "verified_on": "2026-07-21",
+    "stale_after": "2026-10-21",
     "category": "observability",
     "kind": "oss",
     "super_area": "monitor"
@@ -756,12 +783,30 @@
     "super_area": "optimize"
   },
   {
+    "title": "claude-code-memory-setup",
+    "url": "https://github.com/lucasrosati/claude-code-memory-setup",
+    "verified_on": "2026-07-21",
+    "stale_after": "2026-10-21",
+    "category": "retrieval-memory",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
     "title": "Claude Code v2.1.199 - transient-retry hardening & partial-output preservation",
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199",
     "verified_on": "2026-07-05",
     "stale_after": "2026-10-05",
     "category": "retry-and-reliability",
     "kind": "article",
+    "super_area": "optimize"
+  },
+  {
+    "title": "claude-mem",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "verified_on": "2026-07-21",
+    "stale_after": "2026-10-21",
+    "category": "retrieval-memory",
+    "kind": "oss",
     "super_area": "optimize"
   },
   {
@@ -879,6 +924,33 @@
     "stale_after": "2026-10-01",
     "category": "context-engineering",
     "kind": "technique",
+    "super_area": "optimize"
+  },
+  {
+    "title": "khazad",
+    "url": "https://github.com/GuglielmoCerri/khazad",
+    "verified_on": "2026-07-21",
+    "stale_after": "2026-10-21",
+    "category": "caching",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
+    "title": "LangMem",
+    "url": "https://github.com/langchain-ai/langmem",
+    "verified_on": "2026-07-21",
+    "stale_after": "2026-10-21",
+    "category": "retrieval-memory",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Letta (MemGPT)",
+    "url": "https://github.com/letta-ai/letta",
+    "verified_on": "2026-07-21",
+    "stale_after": "2026-10-21",
+    "category": "retrieval-memory",
+    "kind": "oss",
     "super_area": "optimize"
   },
   {
@@ -1008,6 +1080,24 @@
     "super_area": "optimize"
   },
   {
+    "title": "prompt-cache",
+    "url": "https://github.com/messkan/prompt-cache",
+    "verified_on": "2026-07-21",
+    "stale_after": "2026-10-21",
+    "category": "caching",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Redis LangCache",
+    "url": "https://redis.io/langcache/",
+    "verified_on": "2026-07-21",
+    "stale_after": "2026-10-21",
+    "category": "caching",
+    "kind": "tool",
+    "super_area": "optimize"
+  },
+  {
     "title": "Repomix",
     "url": "https://github.com/yamadashy/repomix",
     "verified_on": "2026-07-01",
@@ -1098,6 +1188,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "Supermemory",
+    "url": "https://github.com/supermemoryai/supermemory",
+    "verified_on": "2026-07-21",
+    "stale_after": "2026-10-21",
+    "category": "retrieval-memory",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
     "title": "SupervisorAgent - \"Stop Wasting Your Tokens\" (runtime supervision)",
     "url": "https://arxiv.org/abs/2510.26585",
     "verified_on": "2026-07-02",
@@ -1158,6 +1257,15 @@
     "stale_after": "2026-10-02",
     "category": "test-time-compute",
     "kind": "paper",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Zep / Graphiti",
+    "url": "https://www.getzep.com/",
+    "verified_on": "2026-07-21",
+    "stale_after": "2026-10-21",
+    "category": "retrieval-memory",
+    "kind": "oss",
     "super_area": "optimize"
   },
   {
