@@ -1,5 +1,7 @@
 # Awesome AI Tokenomics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<img src=".github/logo.svg" align="right" width="110" alt="">
+
 > A map of what AI tokens actually cost, and where they're wasted vs. well spent.
 
 *"I feel nervous when I have subscription left over. That just means I haven't maximized my token throughput."*
