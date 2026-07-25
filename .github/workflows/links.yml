@@ -18,10 +18,15 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v2
         with:
+          # ampcode.com is alive (curl gets 200 over both HTTP/1.1 and HTTP/2)
+          # but lychee's HTTP/2 client errors against its server, reproduced
+          # locally with lychee 0.24.2 outside CI (checked 2026-07-25).
+          # Reported upstream: https://github.com/lycheeverse/lychee/issues/2264
           args: >-
             --no-progress
             --exclude "localhost"
             --exclude "127.0.0.1"
+            --exclude "ampcode.com"
             --max-retries 3
             --retry-wait-time 30
             --timeout 45

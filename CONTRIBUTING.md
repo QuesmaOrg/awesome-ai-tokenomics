@@ -43,3 +43,8 @@ Every internal cross-reference is a plain relative markdown link. No wikilinks:
 Entries carry a `verified_on` date. CI flags entries that haven't been re-verified within our
 staleness thresholds (see `.github/workflows/staleness.yml`). A stale flag isn't necessarily
 wrong. It's a prompt to re-check.
+
+Tool entries additionally follow a maintenance rule: a tool whose repository has had no commit
+for more than 12 months gets flagged for review and dropped unless there is a stated reason to
+keep it (a finished, stable tool can earn an explicit exception). The last-commit badges on the
+list are the instrument of this rule, not decoration.
