@@ -945,7 +945,7 @@
     "super_area": "optimize"
   },
   {
-    "title": "headroom - the context-compression genre's mega-anchor (quality story dissected)",
+    "title": "headroom - context compression for LLM and agent pipelines (quality story dissected)",
     "url": "https://github.com/headroomlabs-ai/headroom",
     "verified_on": "2026-07-05",
     "stale_after": "2026-10-05",
@@ -1161,7 +1161,7 @@
     "super_area": "optimize"
   },
   {
-    "title": "rtk - the context-compression genre's largest adoption anchor (reduction-only headline)",
+    "title": "rtk - CLI proxy that compresses dev-command output (reduction-only headline)",
     "url": "https://github.com/rtk-ai/rtk",
     "verified_on": "2026-07-20",
     "stale_after": "2026-10-20",
@@ -1305,7 +1305,7 @@
     "super_area": "optimize"
   },
   {
-    "title": "Aider - a top OSS coding CLI that meters its own dollar cost",
+    "title": "Aider - an OSS coding CLI that meters its own dollar cost",
     "url": "https://github.com/Aider-AI/aider",
     "verified_on": "2026-07-26",
     "stale_after": "2026-10-26",
@@ -1422,7 +1422,7 @@
     "super_area": "understand"
   },
   {
-    "title": "Cline - the most-adopted OSS coding agent, on a bring-your-own-key cost model",
+    "title": "Cline - an OSS coding agent on a bring-your-own-key cost model",
     "url": "https://github.com/cline/cline",
     "verified_on": "2026-07-26",
     "stale_after": "2026-10-26",
