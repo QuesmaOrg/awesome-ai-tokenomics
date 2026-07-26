@@ -25,7 +25,6 @@
 ## Budgets Caps
 
 ### Tools
-- [AEGIS](https://github.com/Justin0504/Aegis) - An open-source (MIT) pre-execution firewall and cryptographic audit layer for AI agents. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![stars](https://img.shields.io/github/stars/Justin0504/Aegis?style=flat-square&logo=github&label=) ![last commit](https://img.shields.io/github/last-commit/Justin0504/Aegis?style=flat-square&label=)
 - [TrueFoundry (AI Gateway - Budget Limiting)](https://www.truefoundry.com/docs/ai-gateway/budgetlimiting) - TrueFoundry is an enterprise GenAI deployment/gateway company founded by ex-Meta founders. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
 ### Reading
@@ -48,7 +47,8 @@
 
 ### Tools
 - [ActPlane](https://github.com/eunomia-bpf/ActPlane) - An eBPF-based, OS-level policy-enforcement engine for AI-agent harnesses like Claude Code and Codex. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![stars](https://img.shields.io/github/stars/eunomia-bpf/ActPlane?style=flat-square&logo=github&label=) ![last commit](https://img.shields.io/github/last-commit/eunomia-bpf/ActPlane?style=flat-square&label=)
-- [MCPGuard-Dynamic](https://github.com/facebook/mcpguard-dynamic) - Meta's open-source kernel-level eBPF sandbox built specifically for MCP. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![stars](https://img.shields.io/github/stars/facebook/mcpguard-dynamic?style=flat-square&logo=github&label=) ![last commit](https://img.shields.io/github/last-commit/facebook/mcpguard-dynamic?style=flat-square&label=)
+- [AEGIS](https://github.com/Justin0504/Aegis) - An open-source (MIT) pre-execution firewall and cryptographic audit layer for AI agents. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![stars](https://img.shields.io/github/stars/Justin0504/Aegis?style=flat-square&logo=github&label=) ![last commit](https://img.shields.io/github/last-commit/Justin0504/Aegis?style=flat-square&label=)
+- [MCPGuard-Dynamic](https://github.com/facebook/mcpguard-dynamic) - An early-stage, research-grade kernel-level eBPF sandbox for MCP (64★), published under Meta's official GitHub org. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![stars](https://img.shields.io/github/stars/facebook/mcpguard-dynamic?style=flat-square&logo=github&label=) ![last commit](https://img.shields.io/github/last-commit/facebook/mcpguard-dynamic?style=flat-square&label=)
 
 ## Spend Management
 
