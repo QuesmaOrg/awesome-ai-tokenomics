@@ -13,7 +13,7 @@
     "url": "https://github.com/Justin0504/Aegis",
     "verified_on": "2026-07-03",
     "stale_after": "2026-10-03",
-    "category": "budgets-caps",
+    "category": "policy-enforcement",
     "kind": "oss",
     "super_area": "govern"
   },
@@ -468,6 +468,15 @@
     "super_area": "measure"
   },
   {
+    "title": "SWE-bench - the root benchmark the cost-aware derivatives build on",
+    "url": "https://github.com/SWE-bench/SWE-bench",
+    "verified_on": "2026-07-26",
+    "stale_after": "2026-10-26",
+    "category": "benchmarks-evals",
+    "kind": "benchmark",
+    "super_area": "measure"
+  },
+  {
     "title": "SWE-Effi - cost-aware re-ranking of SWE-agents under resource budgets",
     "url": "https://arxiv.org/abs/2509.09853",
     "verified_on": "2026-07-02",
@@ -594,19 +603,19 @@
     "super_area": "monitor"
   },
   {
-    "title": "CodexBar",
-    "url": "https://github.com/steipete/CodexBar",
-    "verified_on": "2026-07-21",
-    "stale_after": "2026-10-21",
+    "title": "Codex Usage Tracker",
+    "url": "https://github.com/douglasmonsky/codex-usage-tracker",
+    "verified_on": "2026-07-18",
+    "stale_after": "2026-10-16",
     "category": "dashboards",
     "kind": "oss",
     "super_area": "monitor"
   },
   {
-    "title": "Codex Usage Tracker",
-    "url": "https://github.com/douglasmonsky/codex-usage-tracker",
-    "verified_on": "2026-07-18",
-    "stale_after": "2026-10-16",
+    "title": "CodexBar",
+    "url": "https://github.com/steipete/CodexBar",
+    "verified_on": "2026-07-26",
+    "stale_after": "2026-10-26",
     "category": "dashboards",
     "kind": "oss",
     "super_area": "monitor"
@@ -765,6 +774,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "Antigravity CLI - per-subagent model-tier routing + /effort (v1.1.5)",
+    "url": "https://github.com/google-antigravity/antigravity-cli/blob/main/CHANGELOG.md",
+    "verified_on": "2026-07-26",
+    "stale_after": "2026-10-24",
+    "category": "routing-model-selection",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
     "title": "Bifrost (Maxim AI)",
     "url": "https://github.com/maximhq/bifrost",
     "verified_on": "2026-07-02",
@@ -806,6 +824,15 @@
     "verified_on": "2026-07-05",
     "stale_after": "2026-10-05",
     "category": "retry-and-reliability",
+    "kind": "article",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Claude Code spend-governance bundle (v2.1.216-219) - caps tightened, fan-out default loosened",
+    "url": "https://code.claude.com/docs/en/changelog",
+    "verified_on": "2026-07-26",
+    "stale_after": "2026-10-24",
+    "category": "cost-controls",
     "kind": "article",
     "super_area": "optimize"
   },
@@ -1278,6 +1305,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "Aider - a top OSS coding CLI that meters its own dollar cost",
+    "url": "https://github.com/Aider-AI/aider",
+    "verified_on": "2026-07-26",
+    "stale_after": "2026-10-26",
+    "category": "market-competitors",
+    "kind": "oss",
+    "super_area": "understand"
+  },
+  {
     "title": "Amp (Sourcegraph) - pay-as-you-go, no-markup pricing + mode-based routing",
     "url": "https://ampcode.com/",
     "verified_on": "2026-07-02",
@@ -1368,12 +1404,30 @@
     "super_area": "understand"
   },
   {
+    "title": "Claude Opus 5 - flat price vs Opus 4.8, but 1M context and thinking on by default",
+    "url": "https://platform.claude.com/docs/en/release-notes/api",
+    "verified_on": "2026-07-26",
+    "stale_after": "2026-10-26",
+    "category": "model-economics",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
     "title": "Claude \"subscription arbitrage\" and its (announced, then paused) end",
     "url": "https://zed.dev/blog/anthropic-subscription-changes",
     "verified_on": "2026-07-02",
     "stale_after": "2026-10-02",
     "category": "buyer-incentives",
     "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "Cline - the most-adopted OSS coding agent, on a bring-your-own-key cost model",
+    "url": "https://github.com/cline/cline",
+    "verified_on": "2026-07-26",
+    "stale_after": "2026-10-26",
+    "category": "market-competitors",
+    "kind": "oss",
     "super_area": "understand"
   },
   {
@@ -1442,8 +1496,8 @@
   {
     "title": "Fable 5 leaves subscription inclusion - frontier tier moves to usage-credit metering (July 7 cliff)",
     "url": "https://www.anthropic.com/news/redeploying-fable-5",
-    "verified_on": "2026-07-17",
-    "stale_after": "2026-07-27",
+    "verified_on": "2026-07-26",
+    "stale_after": "2026-08-25",
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
@@ -1482,6 +1536,15 @@
     "stale_after": "2026-10-01",
     "category": "market-sizing",
     "kind": "report",
+    "super_area": "understand"
+  },
+  {
+    "title": "Gemini 3.6 Flash - a Flash tier marketed on fewer tokens per task, not just a lower unit price",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+    "verified_on": "2026-07-26",
+    "stale_after": "2026-10-26",
+    "category": "model-economics",
+    "kind": "article",
     "super_area": "understand"
   },
   {
