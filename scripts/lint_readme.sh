@@ -44,4 +44,17 @@ if [ -n "$dash_hits" ]; then
   exit 1
 fi
 
-echo "lint_readme: OK (${waived_count} waived awesome-list-item marker-format notices; no em-dashes)"
+# Objectivity gate (2026-07-26, from the issue-#6 objectivity standard):
+# descriptions state what a thing is; adoption is shown by star/install
+# numbers and badges, never by ranking adjectives. This list catches the
+# marketing phrases that keep creeping back in via regenerated entries.
+SUPERLATIVES='most-adopted|top-adopted|widely[- ](adopted|used)|de facto|best-in-class|state-of-the-art|world-class|mega-anchor|adoption anchor|load-bearing|visually clean|top-tier|highest-starred|\bthe leading\b|\bdominant\b'
+sup_hits="$(grep -inE "$SUPERLATIVES" README.md || true)"
+if [ -n "$sup_hits" ]; then
+  printf '%s\n' "$sup_hits"
+  echo
+  echo "lint_readme: FAIL (subjective/superlative phrasing above; describe what it is, let the numbers carry adoption)"
+  exit 1
+fi
+
+echo "lint_readme: OK (${waived_count} waived awesome-list-item marker-format notices; no em-dashes; no superlatives)"
