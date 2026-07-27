@@ -6,12 +6,13 @@ sources:
   - https://github.com/cabinlab/litellm-claude-code
   - https://github.com/numman-ali/cc-mirror
   - https://github.com/NadirRouter/NadirClaw
+  - https://github.com/musistudio/claude-code-router
   - https://docs.litellm.ai/docs/proxy/virtual_keys
 ---
 
 # Which "cheaper Claude Code" gateway pattern do you actually want?
 
-**TL;DR:** four different shapes all get called "the LiteLLM pattern" or "run Claude Code cheap," and they solve different problems. Picking the wrong one means either the wrong integration effort or the wrong outcome. Repo star counts and licenses below are live-pulled from the GitHub API, 2026-07-18.
+**TL;DR:** five different shapes all get called "the LiteLLM pattern" or "run Claude Code cheap," and they solve different problems. Picking the wrong one means either the wrong integration effort or the wrong outcome. Repo star counts and licenses below are live-pulled from the GitHub API, 2026-07-18.
 
 ## Bridge-out: point Claude Code at a non-Anthropic model
 
@@ -32,14 +33,21 @@ sources:
 **What it is:** doesn't touch env vars or a proxy at all. Creates fully separate Claude Code installs under `~/.cc-mirror/<variant>/`, each mapping its Sonnet/Opus/Haiku slots onto a different provider's native models.
 **When it's right:** you want "Claude Code, but cheap or local," want multiple providers available side by side without juggling env vars per session, or want a one-liner onboarding rather than infra to run.
 **Cost mechanism:** whatever the target provider charges for the mapped model, no proxy tax.
-**Example:** [numman-ali/cc-mirror](https://github.com/numman-ali/cc-mirror) - MIT: by far the highest-traction repo in this survey. `npx cc-mirror quick --provider <p> --api-key <k> --model-sonnet "p/model" --model-opus "p/model"`. This is the artifact people reach for more than a raw LiteLLM config. ![last commit](https://img.shields.io/github/last-commit/numman-ali/cc-mirror?style=flat-square&label=)
+**Example:** [numman-ali/cc-mirror](https://github.com/numman-ali/cc-mirror) - MIT: the highest-traction isolated-install tool in this survey. `npx cc-mirror quick --provider <p> --api-key <k> --model-sonnet "p/model" --model-opus "p/model"`. This is the artifact people reach for more than a raw LiteLLM config. ![last commit](https://img.shields.io/github/last-commit/numman-ali/cc-mirror?style=flat-square&label=)
 
 ## Router-with-classifier: route by request complexity, not by provider
 
 **What it is:** a drop-in OpenAI-compatible proxy that classifies each prompt (simple vs. complex) and routes accordingly, escalating to a stronger model on low-confidence output.
 **When it's right:** you're optimizing cost *within* a single provider relationship or across several, at the request level, and want that decision automated rather than picked by a human per task.
 **Cost mechanism:** cheap-model-by-default, escalate-on-signal: the savings depend entirely on how good the classifier is; treat any vendor's savings percentage as unconfirmed until measured on your own workload.
-**Example:** [NadirRouter/NadirClaw](https://github.com/NadirRouter/NadirClaw) - **PolyForm Noncommercial License 1.0.0**: the most substantive tool in this tier (claims RouterArena #5, AUROC 0.961), but **not free for commercial use**. Confirm the license before adopting it at a company. ![last commit](https://img.shields.io/github/last-commit/NadirRouter/NadirClaw?style=flat-square&label=)
+**Example:** [NadirRouter/NadirClaw](https://github.com/NadirRouter/NadirClaw) - **PolyForm Noncommercial License 1.0.0**: the most substantive tool in this tier, with two caveats. Its published benchmark figures (RouterBench AUROC 0.961, the RouterArena #5 claim) describe the paid Nadir Pro classifier - the project's own README says the free OSS classifier is a simpler binary centroid with no benchmark attached. And it is **not free for commercial use**: confirm the license before adopting it at a company. ![last commit](https://img.shields.io/github/last-commit/NadirRouter/NadirClaw?style=flat-square&label=)
+
+## Control-plane: one local endpoint, routing rules you author
+
+**What it is:** a persistent local gateway that puts Claude Code - and also Codex, OpenCode, and other compatible CLIs - behind one endpoint, with ordered condition rules (by header, body, or estimated token count), per-rule fallbacks, and optional Node.js script rules deciding which provider and model serves each request. A prompt-tag mechanism also lets the agent itself pick the model for each subagent it spawns.
+**When it's right:** you want several providers and routing policies behind one stable endpoint, with rules you write yourself, rather than a fixed remap or an automatic classifier.
+**Cost mechanism:** whatever your rules route to; the project itself publishes no savings figure. Request logs include token usage and cost estimates, so you can measure your own outcome.
+**Example:** [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) - MIT: the highest-traction repo in this survey, actively maintained. Caution: routing scripts run as fully trusted code with access to your environment variables and request headers, including credentials - only use scripts you wrote yourself. ![last commit](https://img.shields.io/github/last-commit/musistudio/claude-code-router?style=flat-square&label=)
 
 ## Anthropic's own position
 
@@ -51,3 +59,4 @@ The official costs docs name LiteLLM by name, verbatim: *"Several large enterpri
 - Have OpenAI-shaped tooling, want it to call Claude: **bridge-in**.
 - Want multiple providers side by side with minimal setup: **isolated-install**.
 - Want per-request cost optimization by complexity, and can accept the license: **router-with-classifier**.
+- Want one endpoint with routing rules you author yourself, across several CLIs: **control-plane**.
