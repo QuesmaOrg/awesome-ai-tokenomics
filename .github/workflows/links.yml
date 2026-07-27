@@ -22,11 +22,15 @@ jobs:
           # but lychee's HTTP/2 client errors against its server, reproduced
           # locally with lychee 0.24.2 outside CI (checked 2026-07-25).
           # Reported upstream: https://github.com/lycheeverse/lychee/issues/2264
+          # a16z.com is alive (curl gets 200 with both browser and plain user
+          # agents, checked 2026-07-27) but refuses connections from GitHub
+          # CI runners ("Connection failed" in lychee).
           args: >-
             --no-progress
             --exclude "localhost"
             --exclude "127.0.0.1"
             --exclude "ampcode.com"
+            --exclude "a16z.com"
             --max-retries 3
             --retry-wait-time 30
             --timeout 45

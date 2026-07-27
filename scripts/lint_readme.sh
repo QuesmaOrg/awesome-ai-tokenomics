@@ -48,8 +48,11 @@ fi
 # descriptions state what a thing is; adoption is shown by star/install
 # numbers and badges, never by ranking adjectives. This list catches the
 # marketing phrases that keep creeping back in via regenerated entries.
-SUPERLATIVES='most-adopted|top-adopted|widely[- ](adopted|used)|de facto|best-in-class|state-of-the-art|world-class|mega-anchor|adoption anchor|load-bearing|visually clean|top-tier|highest-starred|\bthe leading\b|\bdominant\b'
-sup_hits="$(grep -inE "$SUPERLATIVES" README.md || true)"
+SUPERLATIVES='most-adopted|top-adopted|widely[- ](adopted|used)|de facto|best-in-class|state-of-the-art|world-class|mega-anchor|adoption anchor|load-bearing|visually clean|top-tier|highest-starred|\bthe leading\b|\bdominant\b|highest[- ]traction|most (substantive|capable|popular|advanced|polished|powerful)|the (top|best) [a-z-]+ (statusline|tool|router|repo|proxy|option|list|CLI)|\bby far\b|\bgo-to\b|\bcredible\b|people actually|reach for|\bpremier\b|\bfamous\b'
+# Scan every tracked markdown file, not only README.md (the setups/ pages
+# feed the same public surface and regressed on 2026-07-27 when only the
+# README was gated).
+sup_hits="$(git ls-files '*.md' | xargs grep -inE "$SUPERLATIVES" || true)"
 if [ -n "$sup_hits" ]; then
   printf '%s\n' "$sup_hits"
   echo
