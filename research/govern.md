@@ -8,7 +8,7 @@
 - [Pay-i](https://docs.pay-i.com/) - An SDK-based GenAI cost-observability platform that tracks token-level spend per call and rolls it up into cost-center allocation across orgs and apps. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
 ### Reading
-- [JetBrains AI moves business plans from monthly licenses to 12-month credits](https://blog.jetbrains.com/blog/2026/07/07/jetbrains-ai-for-teams-and-organizations-from-fragmented-ai-usage-to-coordinated-software-development/) - JetBrains is moving business AI from monthly per-seat licenses to 12-month reallocatable credits plus a governance dashboard; personal Pro/Ultimate prices are…
+- [JetBrains AI moves business plans from monthly licenses to 12-month credits](https://blog.jetbrains.com/blog/2026/07/07/jetbrains-ai-for-teams-and-organizations-from-fragmented-ai-usage-to-coordinated-software-development/) - JetBrains is moving business AI from monthly per-seat licenses to 12-month reallocatable credits plus a governance dashboard.
 
 ## Anomaly Detection
 
@@ -33,8 +33,8 @@
 ## Energy Carbon
 
 ### Tools
-- [CodeCarbon](https://github.com/mlco2/codecarbon) - An open-source (MIT) library for estimating a workload's energy use and CO2e emissions, and ML's widely-cited carbon baseline. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![stars](https://img.shields.io/github/stars/mlco2/codecarbon?style=flat-square&logo=github&label=) ![last commit](https://img.shields.io/github/last-commit/mlco2/codecarbon?style=flat-square&label=)
-- [EcoLogits - energy/carbon of LLM *API* calls (the hosted-usage estimator)](https://github.com/mlco2/ecologits) - Estimates the energy and carbon footprint of calling generative-AI APIs: the hosted counterpart to CodeCarbon, which measures your own hardware. ![tool: MPL-2.0](https://img.shields.io/badge/tool-MPL--2.0-blue?style=flat-square) ![stars](https://img.shields.io/github/stars/mlco2/ecologits?style=flat-square&logo=github&label=) ![last commit](https://img.shields.io/github/last-commit/mlco2/ecologits?style=flat-square&label=)
+- [CodeCarbon](https://github.com/mlco2/codecarbon) - An open-source (MIT) library for estimating a workload's energy use and CO2e emissions, and ML's widely-cited carbon baseline. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mlco2/codecarbon?style=flat-square&label=)
+- [EcoLogits - energy/carbon of LLM *API* calls (the hosted-usage estimator)](https://github.com/mlco2/ecologits) - Estimates the energy and carbon footprint of calling generative-AI APIs: the hosted counterpart to CodeCarbon, which measures your own hardware. ![tool: MPL-2.0](https://img.shields.io/badge/tool-MPL--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mlco2/ecologits?style=flat-square&label=)
 
 ### Research & Benchmarks
 - [Google - measuring the environmental impact of AI inference (provider disclosure)](https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference) - Google published a first-party disclosure of the energy, carbon, and water cost of a median Gemini Apps text prompt, authored by Amin Vahdat and Jeff Dean. ![report](https://img.shields.io/badge/report-555?style=flat-square)
@@ -46,9 +46,9 @@
 ## Policy Enforcement
 
 ### Tools
-- [ActPlane](https://github.com/eunomia-bpf/ActPlane) - An eBPF-based, OS-level policy-enforcement engine for AI-agent harnesses like Claude Code and Codex. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![stars](https://img.shields.io/github/stars/eunomia-bpf/ActPlane?style=flat-square&logo=github&label=) ![last commit](https://img.shields.io/github/last-commit/eunomia-bpf/ActPlane?style=flat-square&label=)
-- [AEGIS](https://github.com/Justin0504/Aegis) - An open-source (MIT) pre-execution firewall and cryptographic audit layer for AI agents. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![stars](https://img.shields.io/github/stars/Justin0504/Aegis?style=flat-square&logo=github&label=) ![last commit](https://img.shields.io/github/last-commit/Justin0504/Aegis?style=flat-square&label=)
-- [MCPGuard-Dynamic](https://github.com/facebook/mcpguard-dynamic) - An early-stage, research-grade kernel-level eBPF sandbox for MCP (64★), published under Meta's official GitHub org. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![stars](https://img.shields.io/github/stars/facebook/mcpguard-dynamic?style=flat-square&logo=github&label=) ![last commit](https://img.shields.io/github/last-commit/facebook/mcpguard-dynamic?style=flat-square&label=)
+- [ActPlane](https://github.com/eunomia-bpf/ActPlane) - An eBPF-based, OS-level policy-enforcement engine for AI-agent harnesses like Claude Code and Codex. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/eunomia-bpf/ActPlane?style=flat-square&label=)
+- [AEGIS](https://github.com/Justin0504/Aegis) - An open-source (MIT) pre-execution firewall and cryptographic audit layer for AI agents. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/Justin0504/Aegis?style=flat-square&label=)
+- [MCPGuard-Dynamic](https://github.com/facebook/mcpguard-dynamic) - An early-stage, research-grade kernel-level eBPF sandbox for MCP (64★), published under Meta's official GitHub org. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/facebook/mcpguard-dynamic?style=flat-square&label=)
 
 ## Spend Management
 
