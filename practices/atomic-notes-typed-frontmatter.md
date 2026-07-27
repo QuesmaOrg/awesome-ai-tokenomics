@@ -14,7 +14,7 @@ An agent told to fix one fact opens a long composite page, edits its paragraph, 
 
 - Atomicity bounds the blast radius of an agent edit to one small file with a reviewable diff instead of a silent rewrite of a large composite page. Andy Matuschak: notes should be "only about one thing — but which… capture the entirety of that thing."
 - Stable titles act like APIs: "the entire note's ideas can then be referenced using that handle," which is why basename wikilinks need unique titles as the base grows.
-- Once agents write frontmatter, every property is load-bearing: Obsidian Bases builds database views directly on note properties, and downstream scripts key off exact field names and types, so a free-styled field silently breaks queries.
+- Once agents write frontmatter, downstream consumers depend on every property: Obsidian Bases builds database views directly on note properties, and downstream scripts key off exact field names and types, so a free-styled field silently breaks queries.
 - Enum and schema validation in CI turns that silent breakage into a failed commit instead of a silent one.
 - The pattern is going platform-level: Obsidian's CEO ships agent skills (obsidian-markdown, obsidian-bases, json-canvas, obsidian-cli) for vaults run through Claude Code, Codex, and Open Code. Agent-operated knowledge bases are the expected case now, not an exotic one.
 

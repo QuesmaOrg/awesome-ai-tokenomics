@@ -20,7 +20,7 @@ Wire up a token counter, watch it tick to a few dollars a month, and feel safe, 
 
 **How to apply**
 - Capture every token class per call (uncached input, cache-write, cache-read, output), not a single blended input/output figure.
-- Sum across the full trajectory tree (subagents, retries, tool round-trips), since subagent fan-out is often the dominant, best-hidden cost.
+- Sum across the full trajectory tree (subagents, retries, tool round-trips), since subagent fan-out is often the largest and least visible cost.
 - Pull non-token charges (server-side tools, container and session runtime) from their own metering surface; don't assume the token ledger caught them.
 - Reconcile computed spend against the actual provider invoice on a cadence, and treat any persistent gap as something to investigate.
 - For cloud-routed traffic, pull cost straight from the cloud billing export: don't trust the harness's own telemetry as the bill.
