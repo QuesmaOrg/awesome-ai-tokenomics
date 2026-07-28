@@ -26,6 +26,7 @@ A hybrid by design: a curated awesome list at the core, plus a field-guide layer
 - [Concepts](#concepts)
 - [Claims](#claims)
 - [Setups and skills](#setups-and-skills)
+- [Related lists](#related-lists)
 
 ## Where to start
 
@@ -387,6 +388,13 @@ Confidence-scored beliefs, clearly labeled as beliefs rather than facts, each wi
 ## Setups and skills
 
 Runnable, validated Claude Code and Codex configurations and skills for token-efficient agentic coding, each labeled with how it was validated. [Browse the setups](setups/README.md).
+
+## Related lists
+
+- [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) - Curated papers, frameworks, and resources on large language models.
+- [Awesome-LLMOps](https://github.com/tensorchord/Awesome-LLMOps) - Tools and platforms for operating LLMs in production.
+- [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - A collection of Model Context Protocol servers.
+- [awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning) - Open-source libraries to deploy, monitor, version, and scale machine learning.
 
 ---
 
