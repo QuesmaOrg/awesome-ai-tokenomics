@@ -399,3 +399,5 @@ Runnable, validated Claude Code and Codex configurations and skills for token-ef
 ---
 
 Text content: CC-BY 4.0 ([LICENSE](LICENSE)) · Code and configs: MIT ([LICENSE-CODE](LICENSE-CODE)). Maintained by the team at [Quesma](https://quesma.com).
+
+- [Bride Cognitive API](https://tools.gracestack.se/oracle-bridge-landing.html) — Kognitiv analys som optimerar din AI-tokenanvändning. Upptäck när modeller övertänker. 7 dagar gratis.
