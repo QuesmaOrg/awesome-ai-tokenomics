@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you cite this repository, please use the metadata from this file."
+title: "Awesome AI Tokenomics"
+type: dataset
+authors:
+  - name: "Quesma"
+    website: "https://quesma.com"
+repository-code: "https://github.com/QuesmaOrg/awesome-ai-tokenomics"
+url: "https://github.com/QuesmaOrg/awesome-ai-tokenomics"
+license: CC-BY-4.0
+abstract: "A map of what AI tokens actually cost, and where they're wasted vs. well spent: a curated list of tools, benchmarks, papers, and primary sources on AI token economics, with a field-guide layer of practices, concepts, and claims."
+keywords:
+  - ai
+  - tokenomics
+  - llm
+  - token-economics
+  - agentic-coding
+  - cost-optimization
+  - finops
