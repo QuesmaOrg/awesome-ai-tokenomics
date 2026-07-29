@@ -1287,6 +1287,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "Weave Router - per-request semantic routing across Anthropic, OpenAI, and Gemini APIs",
+    "url": "https://github.com/workweave/router",
+    "verified_on": "2026-07-29",
+    "stale_after": "2026-10-27",
+    "category": "routing-model-selection",
+    "kind": "tool",
+    "super_area": "optimize"
+  },
+  {
     "title": "When more reasoning hurts - the test-time-compute ceiling",
     "url": "https://arxiv.org/abs/2604.10739",
     "verified_on": "2026-07-02",
