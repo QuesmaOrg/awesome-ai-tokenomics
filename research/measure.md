@@ -45,6 +45,7 @@
 
 ### Tools
 - [Cross-vendor coding-agent usage trackers (AgentsView · caut)](https://github.com/kenn-io/agentsview) - AgentsView and caut are open-source tools that read local session logs to aggregate token usage and cost across roughly 20 coding-agent vendors. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/kenn-io/agentsview?style=flat-square&label=)
+- [OpenCost - AI inference cost tracking (cost per million tokens for self-hosted vLLM)](https://github.com/opencost/opencost/blob/develop/docs/inference-cost-tracking.md) - The CNCF Kubernetes cost tool added inference cost tracking (2026-07) for vLLM/llm-d deployments: it joins vLLM token metrics with GPU and shared-infrastructure costs into blended and input/output cost per million tokens, KV-cache-corrected, under a cost basis that reconciles to the infrastructure bill. Scoped to vLLM-compatible serving stacks. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/opencost/opencost?style=flat-square&label=)
 - [tokview](https://github.com/headroomlabs-ai/tokview) - A local, zero-config proxy showing a coding agent's token spend by session, model, and tool call, flagging re-sent results that multiply the bill. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/headroomlabs-ai/tokview?style=flat-square&label=)
 
 ### Research & Benchmarks

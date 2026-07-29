@@ -171,6 +171,15 @@
     "super_area": "govern"
   },
   {
+    "title": "OpenCost - AI inference cost tracking (cost per million tokens for self-hosted vLLM)",
+    "url": "https://github.com/opencost/opencost/blob/develop/docs/inference-cost-tracking.md",
+    "verified_on": "2026-07-29",
+    "stale_after": "2026-10-27",
+    "category": "metering",
+    "kind": "oss",
+    "super_area": "measure"
+  },
+  {
     "title": "Pay-i",
     "url": "https://docs.pay-i.com/",
     "verified_on": "2026-07-02",
