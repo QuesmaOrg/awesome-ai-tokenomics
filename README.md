@@ -47,7 +47,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [CodeBurn](https://github.com/getagentseal/codeburn#find-and-fix-waste) - An open-source tracker for 36 coding tools whose optimize command flags named harness-waste patterns with dollar estimates it later checks against actuals. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square)
 - [Codex Usage Tracker](https://github.com/douglasmonsky/codex-usage-tracker) - A local-first dashboard, CLI, and MCP tools indexing Codex CLI logs into SQLite to show where tokens, credits, and cost go, including cache ratios. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/douglasmonsky/codex-usage-tracker?style=flat-square&label=)
 - [CodexBar](https://github.com/steipete/CodexBar) - A free, open-source macOS menu-bar app that shows limits and reset timers at a glance across dozens of AI providers, plus credit balances and spending. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/steipete/CodexBar?style=flat-square&label=)
-- [CodeZeno Usage Monitor](https://github.com/CodeZeno/Claude-Code-Usage-Monitor) - A Windows-taskbar widget showing real-time Claude Code quota and usage at a glance, without opening a terminal. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/CodeZeno/Claude-Code-Usage-Monitor?style=flat-square&label=)
+- [CodeZeno Usage Monitor](https://github.com/CodeZeno/Claude-Code-Usage-Monitor) - A Windows taskbar widget showing real-time Claude Code quota and usage at a glance, without opening a terminal. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/CodeZeno/Claude-Code-Usage-Monitor?style=flat-square&label=)
 - [Datadog LLM Observability - Cost](https://docs.datadoghq.com/llm_observability/monitoring/cost/) - Datadog's LLM Observability estimates per-request cost across 800+ models from token counts and public pricing; invoice reconciliation is a separate product. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [gh-aw (GitHub Agentic Workflows)](https://github.com/github/gh-aw) - GitHub's agentic-workflows runtime with first-party per-run token and cost metering, plus budget caps that stop a workflow mid-run. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/github/gh-aw?style=flat-square&label=)
 - [Grafana Cloud GenAI Observability](https://grafana.com/docs/grafana-cloud/monitor-applications/ai-observability/genai/observability/) - Grafana Cloud's GenAI Observability ships a prebuilt dashboard for LLM cost, token usage, and latency, built on top of the OpenLIT SDK. ![co](https://img.shields.io/badge/co-555?style=flat-square)
@@ -55,19 +55,19 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [OpenUsage](https://github.com/robinebers/openusage) - A native Swift macOS menu-bar meter for 10 AI coding subscriptions, showing session and weekly limits, credits, and estimated spend from local credentials. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/robinebers/openusage?style=flat-square&label=)
 - [TokenTracker](https://github.com/mm7894215/TokenTracker) - A local-first token and cost dashboard for 27 coding tools, with a desktop pet, native widgets, and achievements as a distinct gamified take on usage metering. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mm7894215/TokenTracker?style=flat-square&label=)
 
-### Ebpf Kernel Capture
+### eBPF Kernel Capture
 
-- [AgentSight](https://github.com/eunomia-bpf/agentsight) - Uses eBPF to watch an AI agent from the kernel boundary, correlating what it said it would do against what it did, at under 3% overhead. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/eunomia-bpf/agentsight?style=flat-square&label=)
+- [AgentSight](https://github.com/eunomia-bpf/agentsight) - Uses eBPF to watch an AI agent from the kernel boundary, correlating what it said it would do with what it did, with under 3% overhead. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/eunomia-bpf/agentsight?style=flat-square&label=)
 - [OpenTelemetry eBPF Instrumentation (OBI) - GenAI / MCP](https://opentelemetry.io/docs/zero-code/obi/) - OBI is OpenTelemetry's zero-code eBPF instrumentation (formerly Grafana Beyla) that captures GenAI and MCP traces at the kernel layer with no SDK. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square)
 
 ### Observability
 
 - [Langfuse](https://langfuse.com) - An open-source platform for tracing, evaluating, and analyzing LLM and agent transcripts, with a prompt-management layer on top. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square)
 
-### Otel For Llms
+### OTel for LLMs
 
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - An open-source set of OpenTelemetry-based SDKs and instrumentations, built by Traceloop, for LLM apps. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/traceloop/openllmetry?style=flat-square&label=)
-- [OpenTelemetry GenAI Semantic Conventions](https://github.com/open-telemetry/semantic-conventions-genai) - OpenTelemetry's GenAI Semantic Conventions define the vendor-neutral token, cost, and cache attribute names that OpenLLMetry and Phoenix both converge onto.
+- [OpenTelemetry GenAI Semantic Conventions](https://github.com/open-telemetry/semantic-conventions-genai) - OpenTelemetry's GenAI Semantic Conventions define the vendor-neutral token, cost, and cache attribute names that OpenLLMetry and Phoenix both converge on.
 
 ### Tracing
 
@@ -84,7 +84,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [khazad](https://github.com/GuglielmoCerri/khazad) - A transport-layer semantic cache for LLM APIs on Redis 8 Vector Sets: it intercepts HTTP traffic with zero application code changes and replays cached responses. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/GuglielmoCerri/khazad?style=flat-square&label=)
 - [LMCache - KV-cache reuse layer with token-level cache-hit accounting (self-host)](https://github.com/LMCache/LMCache) - LMCache is a self-hosted KV-cache layer beneath vLLM, giving token-level cache-hit observability for teams who own their GPUs, not a hosted bill. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/LMCache/LMCache?style=flat-square&label=)
 - [prompt-cache](https://github.com/messkan/prompt-cache) - A Go LLM proxy that adds a three-tier semantic cache: high similarity hits directly, low skips, and a gray zone runs a cheap verification model. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/messkan/prompt-cache?style=flat-square&label=)
-- [Redis LangCache](https://redis.io/langcache/) - Redis's fully-managed semantic cache: a REST API that returns a stored response when a new query is similar to a past one. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
+- [Redis LangCache](https://redis.io/langcache/) - Redis's fully managed semantic cache: a REST API that returns a stored response when a new query is similar to a past one. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
 
 ### Cheap Local Models
 
@@ -96,7 +96,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Context Mode - MCP server that sandboxes tool output out of the context window](https://github.com/mksglu/context-mode) - This MCP server sandboxes tool calls and returns only the distilled result, claiming a 98% cut: 315 KB of output down to 5.4 KB. ![tool: Elastic-2.0](https://img.shields.io/badge/tool-Elastic--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mksglu/context-mode?style=flat-square&label=)
 - [headroom - context compression for LLM and agent pipelines (quality story dissected)](https://github.com/headroomlabs-ai/headroom) - An Apache-2.0 context-compression tool for LLM/agent pipelines, the category's largest repo, confirmed organic by star-forensics. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/headroomlabs-ai/headroom?style=flat-square&label=)
 - [LLMLingua](https://github.com/microsoft/LLMLingua) - Microsoft's prompt-compression library that uses a small model to drop low-information tokens before a prompt reaches the target LLM. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/microsoft/LLMLingua?style=flat-square&label=)
-- [llmtrim](https://github.com/fkiene/llmtrim) - A local proxy that compresses a coding agent's prompt, tool schemas, and history before forwarding, and can reroute Claude calls to Grok. ![tool: MPL-2.0](https://img.shields.io/badge/tool-MPL--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/fkiene/llmtrim?style=flat-square&label=)
+- [llmtrim](https://github.com/fkiene/llmtrim) - A local proxy that compresses a coding agent's prompt, tool schemas, and history before forwarding and can reroute Claude calls to Grok. ![tool: MPL-2.0](https://img.shields.io/badge/tool-MPL--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/fkiene/llmtrim?style=flat-square&label=)
 - [Minification of state-in-context agents - the clean waste-vs-capability datapoint](https://arxiv.org/abs/2606.01326) - This ICPC 2026 study found that minifying code in a coding agent's context cuts input tokens by 42% but costs 12 percentage points of accuracy. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [rtk - CLI proxy that compresses dev-command output (reduction-only headline)](https://github.com/rtk-ai/rtk) - rtk is a single-binary Rust CLI proxy that intercepts and compresses the output of common dev commands before it reaches an LLM coding agent's context window. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/rtk-ai/rtk?style=flat-square&label=)
 - [TOON (Token-Oriented Object Notation)](https://github.com/toon-format/toon) - TOON is a compact, human-readable, lossless serialization of the JSON data model, designed for LLM input. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/toon-format/toon?style=flat-square&label=)
@@ -120,9 +120,9 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Claude Code spend-governance bundle (v2.1.216-219) - caps tightened, fan-out default loosened](https://code.claude.com/docs/en/changelog) - Claude Code's v2.1.216-219 bundle (2026-07-20 to 07-24) hardens spend controls - a concurrent-subagent cap and enforced --max-budget-usd.
 - [Harness-side runaway-loop cost guardrails (Claude Code + Codex, July 2026)](https://github.com/anthropics/claude-code/releases/tag/v2.1.212) - In mid-July 2026 Claude Code and Codex both shipped first-party guardrails against runaway agent loops within days of each other.
 
-### Gateways And Proxies
+### Gateways and Proxies
 
-- [Bifrost (Maxim AI)](https://github.com/maximhq/bifrost) - Bifrost is a Go-based AI gateway fronting 1000+ models that measured just 11 microseconds of added latency per request at 5,000 requests per second. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/maximhq/bifrost?style=flat-square&label=)
+- [Bifrost (Maxim AI)](https://github.com/maximhq/bifrost) - Bifrost is a Go-based AI gateway fronting 1,000+ models that measured just 11 microseconds of added latency per request at 5,000 requests per second. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/maximhq/bifrost?style=flat-square&label=)
 - [Cloudflare AI Gateway (Spend Limits)](https://developers.cloudflare.com/ai-gateway/features/spend-limits/) - Cloudflare AI Gateway is an edge-native LLM proxy that added dollar-denominated spend limits in June 2026, blocking or rerouting requests once a budget is hit. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Helicone](https://helicone.ai) - An open-source (Apache-2.0) LLM proxy that logs every request's cost, latency, and tokens in one line of code; Mintlify acquired it in March 2026. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square)
 - [Kong AI Gateway](https://developer.konghq.com/ai-gateway/) - The AI layer of Kong's API-gateway platform: a proxy that meters LLM/agent/MCP traffic for billing, showback, and chargeback. ![co](https://img.shields.io/badge/co-555?style=flat-square)
@@ -142,7 +142,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Supermemory](https://github.com/supermemoryai/supermemory) - A memory and context engine that self-reports 95% recall on LongMemEval while adding only ~720 tokens of context. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/supermemoryai/supermemory?style=flat-square&label=)
 - [Zep / Graphiti](https://www.getzep.com/) - A memory platform for agents built on temporal knowledge graphs; it self-reports serving benchmark answers from a few thousand tokens of retrieved context. (also: [Graphiti (OSS engine)](https://github.com/getzep/graphiti) · [zep repo](https://github.com/getzep/zep)) ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square)
 
-### Multi Agent Systems
+### Multi-Agent Systems
 
 - [Framework orchestration overhead (the manager-LLM tax)](https://docs.crewai.com/en/learn/hierarchical-process) - Hierarchical frameworks like CrewAI add a manager-LLM delegation tax, an extra model that plans and validates, though its cost is unquantified in any primary.
 - [SupervisorAgent - "Stop Wasting Your Tokens" (runtime supervision)](https://arxiv.org/abs/2510.26585) - SupervisorAgent is a lightweight, modular framework for runtime, adaptive supervision of multi-agent systems. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
@@ -153,7 +153,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Orchestrator-worker model tiering (frontier plans / cheap executes)](https://www.mindstudio.ai/blog/smart-orchestrator-cheaper-sub-agent-models-claude-code) - A capable model plans while cheaper agents execute; the pattern now ships as a vendor default, hitting 89.7% of LLM quality at 4% of the cost.
 - [token-ninja](https://github.com/oanhduong/token-ninja) - Intercepts deterministic commands like git status or npm test before they reach the model, running them locally and skipping the LLM call. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/oanhduong/token-ninja?style=flat-square&label=)
 
-### Retry And Reliability
+### Retry and Reliability
 
 - [Claude Code v2.1.199 - transient-retry hardening & partial-output preservation](https://github.com/anthropics/claude-code/releases/tag/v2.1.199) - Claude Code v2.1.199 now auto-retries rate-limit errors with backoff and raised the default retry ceiling to 300, up from a prior cap of 15.
 
@@ -182,9 +182,9 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [SGLang](https://github.com/sgl-project/sglang) - A high-performance serving framework for large language and multimodal models. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/sgl-project/sglang?style=flat-square&label=)
 - [vLLM](https://github.com/vllm-project/vllm) - The canonical open-source LLM serving engine, using PagedAttention to manage KV-cache memory in blocks so more requests batch at lower cost. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/vllm-project/vllm?style=flat-square&label=)
 
-### Test Time Compute
+### Test-Time Compute
 
-- [Stop When Reasoning Converges](https://arxiv.org/abs/2605.17672) - Reasoning models often keep generating steps after a solution has already stabilized, wasting tokens and adding latency - what this paper calls "overthink.". ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
+- [Stop When Reasoning Converges](https://arxiv.org/abs/2605.17672) - Reasoning models often keep generating steps after a solution has already stabilized, wasting tokens and adding latency - a pattern the paper describes as overthinking. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [When more reasoning hurts - the test-time-compute ceiling](https://arxiv.org/abs/2604.10739) - Two 2026 papers found giving a model more reasoning budget makes it perform worse and cost more; past a point, tool delegation wins outright. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
 ### Tool Protocol Overhead
@@ -207,7 +207,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Denial-of-Wallet / token-exhaustion attacks](https://arxiv.org/abs/2601.10955) - Denial-of-wallet attacks exploit pay-per-token pricing to inflate a bill, via stolen-credential LLMjacking or agents steered into runaway token use. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [Governance Decay - compaction silently erasing safety/governance constraints](https://arxiv.org/abs/2606.22528) - Compacting an agent's context can silently erase governance rules: across 7 model families, violations rose from 0% to 30%, up to 59% for some. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
-### Billing Audit Finops
+### Billing Audit FinOps
 
 - [FinOps for AI - canonical practitioner framework for governing AI/LLM spend](https://www.finops.org/framework/scope/finops-for-ai/) - FinOps for AI is the FinOps Foundation's official practitioner framework for governing AI, GPU, and token spend. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [Vaudit - TokenAudit (LLM invoice reconciliation / AI spend audit)](https://www.vaudit.com/) - Vaudit is an AI-native, independent spend-auditing and recovery platform (San Francisco, founded late 2023). ![co](https://img.shields.io/badge/co-555?style=flat-square)
@@ -282,7 +282,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Artificial Analysis - Coding Agent Index (tokens & cost per task, model × harness)](https://artificialanalysis.ai/agents/coding-agents) - This benchmark scores full model-plus-harness stacks, spanning $0.27 to $11.80 per task: a roughly 44x range at similar quality, per Artificial Analysis. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
 - [Artificial Analysis - Intelligence Index + Blended Price (intelligence-per-dollar leaderboard)](https://artificialanalysis.ai/leaderboards/models) - Artificial Analysis's Intelligence Index plots a 0-100 capability score against blended price per million tokens, live across 85-122 base LLMs. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
 - [Claude Opus 5 - flat price vs Opus 4.8, but 1M context and thinking on by default](https://platform.claude.com/docs/en/release-notes/api) - Claude Opus 5 launched 2026-07-24 at the same $5/$25 per MTok as Opus 4.8, but ships 1M context and thinking on by default.
-- [Gemini 3.6 Flash - a Flash tier marketed on fewer tokens per task, not just a lower unit price](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/) - Gemini 3.6 Flash (2026-07-21) is priced lower than 3.5 Flash at $1.50/$7.50 per MTok AND uses 17% fewer output tokens on the same work.
+- [Gemini 3.6 Flash - a Flash tier marketed on fewer tokens per task, not just a lower unit price](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/) - Gemini 3.6 Flash (2026-07-21) is priced lower than 3.5 Flash at $1.50/$7.50 per MTok and uses 17% fewer output tokens on the same work.
 - [Kimi K2.6/K2.7-Code and GLM-5.2 official API pricing](https://platform.kimi.ai/docs/pricing/chat-k27-code) - Kimi K2.7-Code ($0.95/$4.00 per million tokens) and GLM-5.2 ($1.40/$4.40) both undercut Claude Sonnet 5 and GPT-5.5 on raw price by 2-5x.
 - [Local / open-model economics for coding - state of the field (2026)](https://huggingface.co/Qwen/Qwen3.6-27B) - Open-weight coding models now score 77-81% on SWE-bench Verified, within a few points of closed frontier models, reshaping self-host-vs-API math.
 - [OckBench - measuring token efficiency / verbosity of LLM reasoning](https://arxiv.org/abs/2511.05722) - OckBench answers a specific tokenomics question: which model burns the most tokens for the same answer? ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
@@ -308,7 +308,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Tokenization multiplicity & overcharging - the pay-per-token integrity problem](https://arxiv.org/abs/2506.06446) - Two academic papers show the same output can be billed a different token count depending on tokenization, and providers can be incentivized to inflate it. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [Windsurf became Devin Desktop and switched credits to token-based quota](https://docs.devin.ai/desktop/accounts/quota) - Windsurf became Devin Desktop and in March 2026 swapped opaque per-model credit multipliers for token-based quota where free models cost nothing.
 
-### Reliability Sla
+### Reliability SLAs
 
 - [Reserved-capacity reliability economics (Azure PTU · AWS Bedrock MU)](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/provisioned-throughput) - Azure's Provisioned Throughput Units and AWS Bedrock's Model Units both let buyers reserve guaranteed capacity, billed hourly whether or not it's used.
 
@@ -373,6 +373,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 ### Whole Bill Accounting
 
 - [FOCUS 1.4 - the cross-vendor billing-data normalization standard (now with invoice reconciliation)](https://focus.finops.org/focus-specification/) - FOCUS 1.4, the Linux Foundation's billing-data schema, added Invoice Detail and Billing Period datasets to reconcile spend against real invoices. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
+
 ## Practices
 
 Tool-agnostic, evidence-grounded standards for token-efficient agentic coding. Each is one page: TL;DR, claim, evidence, links. [Browse the practices](practices/README.md).
@@ -398,4 +399,4 @@ Runnable, validated Claude Code and Codex configurations and skills for token-ef
 
 ---
 
-Text content: CC-BY 4.0 ([LICENSE](LICENSE)) · Code and configs: MIT ([LICENSE-CODE](LICENSE-CODE)). Maintained by the team at [Quesma](https://quesma.com).
+Text content: CC BY 4.0 ([LICENSE](LICENSE)) · Code and configs: MIT ([LICENSE-CODE](LICENSE-CODE)). Maintained by the team at [Quesma](https://quesma.com).
