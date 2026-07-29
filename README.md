@@ -7,7 +7,7 @@
 *"I feel nervous when I have subscription left over. That just means I haven't maximized my token throughput."*
 <br>Andrej Karpathy, [No Priors](https://podscripts.co/podcasts/no-priors-artificial-intelligence-technology-startups/andrej-karpathy-on-code-agents-autoresearch-and-the-loopy-era-of-ai) (2026)
 
-As of 2026-07: 197 entries across five areas, 8 practices, 10 concepts, 8 claims, and 7 copy-paste setups.
+As of 2026-07: ~200 entries across five areas, plus practices, concepts, claims, and copy-paste setups.
 
 **Topics:** [Caching](#caching) · [Compression](#compression) · [Context engineering](#context-engineering) · [Memory](#memory) · [Routing](#routing-model-selection) · [Multi-agent systems](#multi-agent-systems) · [Gateways](#gateways-and-proxies) · [Observability](#observability) · [Benchmarks](#benchmarks-evals) · [Cache accounting](#cache-accounting) · [Budgets](#budgets-caps) · [Pricing models](#pricing-models) · [Energy](#energy-carbon)
 
