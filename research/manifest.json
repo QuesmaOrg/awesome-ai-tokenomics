@@ -18,6 +18,24 @@
     "super_area": "govern"
   },
   {
+    "title": "Agent system-prompt leak corpora (x1xhlol · asgeirtj)",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "verified_on": "2026-07-30",
+    "stale_after": "2026-10-28",
+    "category": "harness-overhead",
+    "kind": "dataset",
+    "super_area": "measure"
+  },
+  {
+    "title": "Antigravity CLI first-turn context overhead",
+    "url": "https://github.com/google-gemini/gemini-cli/discussions/27307",
+    "verified_on": "2026-07-30",
+    "stale_after": "2026-10-28",
+    "category": "harness-overhead",
+    "kind": "report",
+    "super_area": "measure"
+  },
+  {
     "title": "ChatGPT Enterprise - usage analytics & spend controls",
     "url": "https://openai.com/index/chatgpt-enterprise-spend-controls/",
     "verified_on": "2026-07-03",
@@ -72,6 +90,15 @@
     "super_area": "govern"
   },
   {
+    "title": "Codex CLI exec-mode token baseline",
+    "url": "https://gist.github.com/alexfazio/359c17d84cb6a5af12bac88fa1db9770",
+    "verified_on": "2026-07-30",
+    "stale_after": "2026-10-28",
+    "category": "harness-overhead",
+    "kind": "dataset",
+    "super_area": "measure"
+  },
+  {
     "title": "Denial-of-Wallet / token-exhaustion attacks",
     "url": "https://arxiv.org/abs/2601.10955",
     "verified_on": "2026-07-01",
@@ -106,6 +133,15 @@
     "category": "billing-audit-finops",
     "kind": "framework",
     "super_area": "govern"
+  },
+  {
+    "title": "GitHub Copilot CLI fixed request overhead",
+    "url": "https://github.com/github/copilot-cli/issues/2627",
+    "verified_on": "2026-07-30",
+    "stale_after": "2026-10-28",
+    "category": "harness-overhead",
+    "kind": "report",
+    "super_area": "measure"
   },
   {
     "title": "Google - measuring the environmental impact of AI inference (provider disclosure)",
@@ -151,6 +187,15 @@
     "category": "allocation-chargeback",
     "kind": "company",
     "super_area": "govern"
+  },
+  {
+    "title": "MCP tool-schema token overhead (spec issue)",
+    "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/2808",
+    "verified_on": "2026-07-30",
+    "stale_after": "2026-10-28",
+    "category": "tool-protocol-overhead",
+    "kind": "report",
+    "super_area": "optimize"
   },
   {
     "title": "MCPGuard-Dynamic",
