@@ -18,6 +18,15 @@
     "super_area": "govern"
   },
   {
+    "title": "Agent system-prompt leak corpora (x1xhlol · asgeirtj)",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "verified_on": "2026-07-30",
+    "stale_after": "2026-10-28",
+    "category": "harness-overhead",
+    "kind": "dataset",
+    "super_area": "measure"
+  },
+  {
     "title": "ChatGPT Enterprise - usage analytics & spend controls",
     "url": "https://openai.com/index/chatgpt-enterprise-spend-controls/",
     "verified_on": "2026-07-03",

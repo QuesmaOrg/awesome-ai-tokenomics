@@ -38,6 +38,7 @@
 ## Harness Overhead
 
 ### Research & Benchmarks
+- [Agent system-prompt leak corpora (x1xhlol · asgeirtj)](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - Two maintained collections of extracted agent system prompts and tool schemas across 35+ vendors; the [asgeirtj corpus](https://github.com/asgeirtj/system_prompts_leaks) adds harnesses others miss, like Antigravity CLI, under CC0. Raw text with no token counts: a source corpus for overhead measurement, not a measurement. ![data](https://img.shields.io/badge/data-555?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/x1xhlol/system-prompts-and-models-of-ai-tools?style=flat-square&label=)
 - [Claude Code system prompts (Piebald extraction)](https://github.com/Piebald-AI/claude-code-system-prompts) - Piebald AI extracts Claude Code's full compiled prompt payload per release: 515 prompt strings and 27 tool descriptions at v2.1.212, each priced in tokens. ![data](https://img.shields.io/badge/data-555?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/Piebald-AI/claude-code-system-prompts?style=flat-square&label=)
 - [Claude Code vs OpenCode token overhead (Systima study)](https://systima.ai/blog/claude-code-vs-opencode-token-overhead) - Systima measured harness scaffolding overhead before a prompt is even read: Claude Code carries about 32,800 tokens versus OpenCode's 6,900, a 4.7x gap. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 
