@@ -256,7 +256,6 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 ### Compression Efficacy
 
 - [JetBrains independently measured two token-saving skills against their own claims](https://blog.jetbrains.com/ai/2026/07/rtk-claude-code-token-savings/) - JetBrains independently A/B-tested two token-saving skills: rtk ran +7.6% more expensive at low effort (claimed 60-90% cut), Caveman saved ~8.5% (claimed 65%). (also: [Caveman A/B post](https://blog.jetbrains.com/ai/2026/07/speak-to-ai-agents-like-cavemen-tosave-tokens/)) ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
-- [Token-saving plugins are mostly a stupid idea (Tura benchmark)](https://turaai.net/blog#token-saving-plugins-are-mostly-stupid-idea) - A benchmark of token-saving plugins found one actively worse than none: cost up 7.2%, tokens up 13.2%, because it broke an already-cached prompt prefix.
 
 ### Consolidation
 

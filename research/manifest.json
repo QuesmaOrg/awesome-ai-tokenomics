@@ -1755,15 +1755,6 @@
     "super_area": "understand"
   },
   {
-    "title": "Token-saving plugins are mostly a stupid idea (Tura benchmark)",
-    "url": "https://turaai.net/blog#token-saving-plugins-are-mostly-stupid-idea",
-    "verified_on": "2026-07-17",
-    "stale_after": "2026-10-17",
-    "category": "compression-efficacy",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
     "title": "Tokenization multiplicity & overcharging - the pay-per-token integrity problem",
     "url": "https://arxiv.org/abs/2506.06446",
     "verified_on": "2026-07-02",
