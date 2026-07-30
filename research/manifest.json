@@ -90,15 +90,6 @@
     "super_area": "govern"
   },
   {
-    "title": "Codex CLI exec-mode token baseline",
-    "url": "https://gist.github.com/alexfazio/359c17d84cb6a5af12bac88fa1db9770",
-    "verified_on": "2026-07-30",
-    "stale_after": "2026-10-28",
-    "category": "harness-overhead",
-    "kind": "dataset",
-    "super_area": "measure"
-  },
-  {
     "title": "Denial-of-Wallet / token-exhaustion attacks",
     "url": "https://arxiv.org/abs/2601.10955",
     "verified_on": "2026-07-01",
