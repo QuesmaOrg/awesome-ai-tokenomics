@@ -27,15 +27,6 @@
     "super_area": "measure"
   },
   {
-    "title": "Antigravity CLI first-turn context overhead",
-    "url": "https://github.com/google-gemini/gemini-cli/discussions/27307",
-    "verified_on": "2026-07-30",
-    "stale_after": "2026-10-28",
-    "category": "harness-overhead",
-    "kind": "report",
-    "super_area": "measure"
-  },
-  {
     "title": "ChatGPT Enterprise - usage analytics & spend controls",
     "url": "https://openai.com/index/chatgpt-enterprise-spend-controls/",
     "verified_on": "2026-07-03",
@@ -169,15 +160,6 @@
     "category": "allocation-chargeback",
     "kind": "company",
     "super_area": "govern"
-  },
-  {
-    "title": "MCP tool-schema token overhead (spec issue)",
-    "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/discussions/2812",
-    "verified_on": "2026-07-30",
-    "stale_after": "2026-10-28",
-    "category": "tool-protocol-overhead",
-    "kind": "report",
-    "super_area": "optimize"
   },
   {
     "title": "MCPGuard-Dynamic",

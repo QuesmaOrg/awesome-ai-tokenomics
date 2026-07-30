@@ -142,7 +142,6 @@
 
 ### Research & Benchmarks
 - [MCP Tool Descriptions Are Smelly!](https://arxiv.org/abs/2602.14878) - This study found poorly-written MCP tool descriptions measurably hurt agent efficiency, using an LLM-jury scanner and an A/B protocol on MCP-Universe. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
-- [MCP tool-schema token overhead (spec issue)](https://github.com/modelcontextprotocol/modelcontextprotocol/discussions/2812) - A tool-by-tool measurement via Anthropic's count_tokens API filed against the MCP spec and continued as a discussion: heavy tool schemas cost ~1,000 tokens each, four independent measurements in the thread average ~123 tokens per tool, and 20-30 registered tools occupy 15-30 KB of context before the first user message. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [Tool Attention Is All You Need](https://arxiv.org/abs/2604.21816) - MCP re-sends every tool's full schema on every turn, whether or not the agent needs it - a protocol tax known as the MCP/Tools Tax. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
 ### Reading
