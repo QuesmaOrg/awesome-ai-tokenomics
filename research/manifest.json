@@ -190,7 +190,7 @@
   },
   {
     "title": "MCP tool-schema token overhead (spec issue)",
-    "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/2808",
+    "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/discussions/2812",
     "verified_on": "2026-07-30",
     "stale_after": "2026-10-28",
     "category": "tool-protocol-overhead",
