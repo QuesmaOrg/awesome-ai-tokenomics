@@ -135,15 +135,6 @@
     "super_area": "govern"
   },
   {
-    "title": "GitHub Copilot CLI fixed request overhead",
-    "url": "https://github.com/github/copilot-cli/issues/2627",
-    "verified_on": "2026-07-30",
-    "stale_after": "2026-10-28",
-    "category": "harness-overhead",
-    "kind": "report",
-    "super_area": "measure"
-  },
-  {
     "title": "Google - measuring the environmental impact of AI inference (provider disclosure)",
     "url": "https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference",
     "verified_on": "2026-07-02",
