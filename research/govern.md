@@ -20,7 +20,7 @@
 
 ### Tools
 - [FinOps for AI - canonical practitioner framework for governing AI/LLM spend](https://www.finops.org/framework/scope/finops-for-ai/) - FinOps for AI is the FinOps Foundation's official practitioner framework for governing AI, GPU, and token spend. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
-- [Vaudit - TokenAudit (LLM invoice reconciliation / AI spend audit)](https://www.vaudit.com/) - Vaudit is an AI-native, independent spend-auditing and recovery platform (San Francisco, founded late 2023). ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [Vaudit - TokenAudit](https://www.vaudit.com/) - Vaudit is an AI-native, independent spend-auditing and recovery platform (San Francisco, founded late 2023). TokenAudit is its LLM invoice-reconciliation product. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
 ## Budgets Caps
 
@@ -34,11 +34,11 @@
 
 ### Tools
 - [CodeCarbon](https://github.com/mlco2/codecarbon) - An open-source (MIT) library for estimating a workload's energy use and CO2e emissions, and ML's widely-cited carbon baseline. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mlco2/codecarbon?style=flat-square&label=)
-- [EcoLogits - energy/carbon of LLM *API* calls (the hosted-usage estimator)](https://github.com/mlco2/ecologits) - Estimates the energy and carbon footprint of calling generative-AI APIs: the hosted counterpart to CodeCarbon, which measures your own hardware. ![tool: MPL-2.0](https://img.shields.io/badge/tool-MPL--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mlco2/ecologits?style=flat-square&label=)
+- [EcoLogits](https://github.com/mlco2/ecologits) - Estimates the energy and carbon footprint of calling generative-AI APIs: the hosted counterpart to CodeCarbon, which measures your own hardware. ![tool: MPL-2.0](https://img.shields.io/badge/tool-MPL--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mlco2/ecologits?style=flat-square&label=)
 
 ### Research & Benchmarks
 - [Google - measuring the environmental impact of AI inference (provider disclosure)](https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference) - Google published a first-party disclosure of the energy, carbon, and water cost of a median Gemini Apps text prompt, authored by Amin Vahdat and Jeff Dean. ![report](https://img.shields.io/badge/report-555?style=flat-square)
-- [ML.ENERGY Leaderboard v3.0 - measured inference energy (the "reasoning ≈ 25× energy" signal)](https://ml.energy/blog/measurement/energy/diagnosing-inference-energy-consumption-with-the-mlenergy-leaderboard-v30/) - Version 3.0 of this leaderboard measures real GPU inference energy across 46 models x 7 tasks, finding reasoning models use roughly 25x the energy of others. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
+- [ML.ENERGY Leaderboard](https://ml.energy/blog/measurement/energy/diagnosing-inference-energy-consumption-with-the-mlenergy-leaderboard-v30/) - Version 3.0 of this leaderboard measures real GPU inference energy across 46 models x 7 tasks, finding reasoning models use roughly 25x the energy of others. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
 
 ### Reading
 - [Epoch AI - how much energy a query uses (the per-token energy anchor)](https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use) - Epoch AI built a transparent, first-principles estimate of how much energy one LLM query costs.
@@ -56,6 +56,6 @@
 - [ChatGPT Enterprise - usage analytics & spend controls](https://openai.com/index/chatgpt-enterprise-spend-controls/) - OpenAI's first-party spend layer for ChatGPT Enterprise/Business: a Global Admin Console with credit caps, request workflows, and a Cost API. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
 - [Claude Enterprise - admin analytics & cost controls](https://www.claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend) - Anthropic's first-party spend surface for Claude Enterprise/Team admins: org-level spend caps, model defaults, and per-user cost analytics via the Admin API. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
 - [PointFive (AI Efficiency OS / TokenShift)](https://www.pointfive.co/press/pointfive-launches-ai-efficiency-os-tokenshift) - PointFive's TokenShift governs coding-agent token spend across Claude Code, Cursor, Codex, and more, claiming a 10-20% cut across 11 partners. ![co](https://img.shields.io/badge/co-555?style=flat-square)
-- [Revenium - runtime AI economic control / spend management](https://www.revenium.ai/) - Revenium tracks AI agent spend at runtime to the cent, attributing every model call and tool cost to its workflow, with auto-shutoff on runaway budgets. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [Revenium](https://www.revenium.ai/) - Tracks AI agent spend at runtime to the cent, attributing every model call and tool cost to its workflow, with auto-shutoff on runaway budgets. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Vantage](https://www.vantage.sh/blog/agentic-coding-costs) - A FinOps platform ingesting native token-level cost data from Anthropic and OpenAI's own usage APIs, plus Cursor and cloud spend. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Vercel AI Gateway - per-API-key budgets](https://vercel.com/changelog/budgets-for-api-keys-on-ai-gateway) - Vercel AI Gateway lets you cap spend per API key in dollars (min $1) with a daily/weekly/monthly refresh, rejecting further requests once the cap is hit. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)

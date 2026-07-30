@@ -81,7 +81,7 @@
     "super_area": "govern"
   },
   {
-    "title": "EcoLogits - energy/carbon of LLM *API* calls (the hosted-usage estimator)",
+    "title": "EcoLogits",
     "url": "https://github.com/mlco2/ecologits",
     "verified_on": "2026-07-02",
     "stale_after": "2026-10-02",
@@ -162,7 +162,7 @@
     "super_area": "govern"
   },
   {
-    "title": "ML.ENERGY Leaderboard v3.0 - measured inference energy (the \"reasoning ≈ 25× energy\" signal)",
+    "title": "ML.ENERGY Leaderboard",
     "url": "https://ml.energy/blog/measurement/energy/diagnosing-inference-energy-consumption-with-the-mlenergy-leaderboard-v30/",
     "verified_on": "2026-07-02",
     "stale_after": "2026-10-02",
@@ -207,7 +207,7 @@
     "super_area": "govern"
   },
   {
-    "title": "Revenium - runtime AI economic control / spend management",
+    "title": "Revenium",
     "url": "https://www.revenium.ai/",
     "verified_on": "2026-07-01",
     "stale_after": "2026-10-01",
@@ -234,7 +234,7 @@
     "super_area": "govern"
   },
   {
-    "title": "Vaudit - TokenAudit (LLM invoice reconciliation / AI spend audit)",
+    "title": "Vaudit - TokenAudit",
     "url": "https://www.vaudit.com/",
     "verified_on": "2026-07-01",
     "stale_after": "2026-10-01",
@@ -387,7 +387,7 @@
     "super_area": "measure"
   },
   {
-    "title": "LMCache - KV-cache reuse layer with token-level cache-hit accounting (self-host)",
+    "title": "LMCache",
     "url": "https://github.com/LMCache/LMCache",
     "verified_on": "2026-07-02",
     "stale_after": "2026-10-02",
@@ -468,7 +468,7 @@
     "super_area": "measure"
   },
   {
-    "title": "RouterArena - the open benchmark + live leaderboard for LLM routers",
+    "title": "RouterArena",
     "url": "https://github.com/RouteWorks/RouterArena",
     "verified_on": "2026-07-03",
     "stale_after": "2026-10-03",
@@ -477,7 +477,7 @@
     "super_area": "measure"
   },
   {
-    "title": "SWE-bench - the root benchmark the cost-aware derivatives build on",
+    "title": "SWE-bench",
     "url": "https://github.com/SWE-bench/SWE-bench",
     "verified_on": "2026-07-26",
     "stale_after": "2026-10-26",
@@ -513,7 +513,7 @@
     "super_area": "measure"
   },
   {
-    "title": "token-optimizer (alexgreensh) - per-session $ waste-detection plugin, semi-cross-vendor",
+    "title": "token-optimizer (alexgreensh)",
     "url": "https://github.com/alexgreensh/token-optimizer",
     "verified_on": "2026-07-02",
     "stale_after": "2026-10-02",
@@ -891,7 +891,7 @@
     "super_area": "optimize"
   },
   {
-    "title": "Context Mode - MCP server that sandboxes tool output out of the context window",
+    "title": "Context Mode",
     "url": "https://github.com/mksglu/context-mode",
     "verified_on": "2026-07-03",
     "stale_after": "2026-10-03",
@@ -954,7 +954,7 @@
     "super_area": "optimize"
   },
   {
-    "title": "headroom - context compression for LLM and agent pipelines (quality story dissected)",
+    "title": "headroom",
     "url": "https://github.com/headroomlabs-ai/headroom",
     "verified_on": "2026-07-05",
     "stale_after": "2026-10-05",
@@ -1089,7 +1089,7 @@
     "super_area": "optimize"
   },
   {
-    "title": "OpenCode - open-source coding-agent CLI with explicit cost-tier routing",
+    "title": "OpenCode - explicit cost-tier routing",
     "url": "https://opencode.ai/docs/",
     "verified_on": "2026-07-05",
     "stale_after": "2026-10-05",
@@ -1170,7 +1170,7 @@
     "super_area": "optimize"
   },
   {
-    "title": "rtk - CLI proxy that compresses dev-command output (reduction-only headline)",
+    "title": "rtk",
     "url": "https://github.com/rtk-ai/rtk",
     "verified_on": "2026-07-20",
     "stale_after": "2026-10-20",
@@ -1179,7 +1179,7 @@
     "super_area": "optimize"
   },
   {
-    "title": "ruflo (formerly Claude-Flow; npm `claude-flow` v3.17.0) - agent meta-harness with cost-adjusted model routing",
+    "title": "ruflo (formerly Claude-Flow) - cost-adjusted model routing",
     "url": "https://github.com/ruvnet/ruflo",
     "verified_on": "2026-07-03",
     "stale_after": "2026-10-03",
@@ -1188,7 +1188,7 @@
     "super_area": "optimize"
   },
   {
-    "title": "RULER - the \"real context size\" long-context benchmark",
+    "title": "RULER",
     "url": "https://github.com/NVIDIA/RULER",
     "verified_on": "2026-07-02",
     "stale_after": "2026-10-02",
@@ -1296,7 +1296,7 @@
     "super_area": "optimize"
   },
   {
-    "title": "Weave Router - per-request semantic routing across Anthropic, OpenAI, and Gemini APIs",
+    "title": "Weave Router",
     "url": "https://github.com/workweave/router",
     "verified_on": "2026-07-29",
     "stale_after": "2026-10-27",
@@ -1341,7 +1341,7 @@
     "super_area": "understand"
   },
   {
-    "title": "Artificial Analysis - Coding Agent Index (tokens & cost per task, model × harness)",
+    "title": "Artificial Analysis - Coding Agent Index",
     "url": "https://artificialanalysis.ai/agents/coding-agents",
     "verified_on": "2026-07-02",
     "stale_after": "2026-10-02",
@@ -1350,7 +1350,7 @@
     "super_area": "understand"
   },
   {
-    "title": "Artificial Analysis - Intelligence Index + Blended Price (intelligence-per-dollar leaderboard)",
+    "title": "Artificial Analysis - Intelligence Index + Blended Price",
     "url": "https://artificialanalysis.ai/leaderboards/models",
     "verified_on": "2026-07-02",
     "stale_after": "2026-10-02",
