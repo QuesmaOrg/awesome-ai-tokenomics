@@ -48,8 +48,8 @@
 ## Model Economics
 
 ### Research & Benchmarks
-- [Artificial Analysis - Coding Agent Index (tokens & cost per task, model × harness)](https://artificialanalysis.ai/agents/coding-agents) - This benchmark scores full model-plus-harness stacks, spanning $0.27 to $11.80 per task: a roughly 44x range at similar quality, per Artificial Analysis. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
-- [Artificial Analysis - Intelligence Index + Blended Price (intelligence-per-dollar leaderboard)](https://artificialanalysis.ai/leaderboards/models) - Artificial Analysis's Intelligence Index plots a 0-100 capability score against blended price per million tokens, live across 85-122 base LLMs. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
+- [Artificial Analysis - Coding Agent Index](https://artificialanalysis.ai/agents/coding-agents) - This benchmark scores full model-plus-harness stacks, spanning $0.27 to $11.80 per task: a roughly 44x range at similar quality, per Artificial Analysis. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
+- [Artificial Analysis - Intelligence Index + Blended Price](https://artificialanalysis.ai/leaderboards/models) - Artificial Analysis's Intelligence Index plots a 0-100 capability score against blended price per million tokens, live across 85-122 base LLMs. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
 - [OckBench - measuring token efficiency / verbosity of LLM reasoning](https://arxiv.org/abs/2511.05722) - OckBench answers a specific tokenomics question: which model burns the most tokens for the same answer? ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [Reasoning-token consumption behavior - length ≠ effort, and verbosity is a separate lever](https://arxiv.org/abs/2602.13517) - Chain-of-thought can burn about 258 tokens on problems a direct answer solves in 15 (roughly 17x overhead), and simple agentic steps trigger it by accident. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
