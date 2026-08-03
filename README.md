@@ -2,16 +2,16 @@
 
 <img src=".github/logo.svg" align="right" width="110" alt="">
 
-> A map of what AI tokens actually cost, and where they're wasted vs. well spent.
+> A curated list of tools, benchmarks, papers, and copy-paste configs for AI token costs: what tokens cost, where they get wasted, and how to cut the bill.
+
+Every entry is a link with a one-line summary: what it does, and the number behind it. On top of the list sit a few short pages written here: [practices](practices/) (what to do), [concepts](concepts/) (how the economics work), [claims](claims.md) (what we currently believe, with the evidence), and [setups](setups/) (configs you can paste straight into Claude Code or Codex). It's a reference to browse, grep, or hand to your agent - not a product.
 
 *"I feel nervous when I have subscription left over. That just means I haven't maximized my token throughput."*
 <br>Andrej Karpathy, [No Priors](https://podscripts.co/podcasts/no-priors-artificial-intelligence-technology-startups/andrej-karpathy-on-code-agents-autoresearch-and-the-loopy-era-of-ai) (2026)
 
-As of 2026-07: ~200 entries across five areas, plus practices, concepts, claims, and copy-paste setups.
+As of 2026-07: ~200 entries across five areas.
 
 **Topics:** [Caching](#caching) · [Compression](#compression) · [Context engineering](#context-engineering) · [Memory](#memory) · [Routing](#routing-model-selection) · [Multi-agent systems](#multi-agent-systems) · [Gateways](#gateways-and-proxies) · [Observability](#observability) · [Benchmarks](#benchmarks-evals) · [Cache accounting](#cache-accounting) · [Budgets](#budgets-caps) · [Pricing models](#pricing-models) · [Energy](#energy-carbon)
-
-A hybrid by design: a curated awesome list at the core, plus a field-guide layer on top (practices, concepts, claims) that carries an editorial point of view.
 
 ## Contents
 
