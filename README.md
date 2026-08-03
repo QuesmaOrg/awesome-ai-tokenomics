@@ -4,7 +4,7 @@
 
 > A curated list of tools, benchmarks, papers, and copy-paste configs for AI token costs: what tokens cost, where they get wasted, and how to cut the bill.
 
-Every entry is a link with a one-line summary: what it does, and the number behind it. On top of the list sit a few short pages written here: [practices](#practices) (what to do), [concepts](#concepts) (how the economics work), [claims](#claims) (what we currently believe, with the evidence), and [setups](#setups-and-skills) (configs you can paste straight into Claude Code or Codex). It's a reference to browse, grep, or hand to your agent - not a product.
+Every entry is a link with a one-line summary: what it does, and the number behind it. On top of the list sit a few short pages written here: practices (what to do), concepts (how the economics work), claims (what we currently believe, with the evidence), and setups (configs you can paste straight into Claude Code or Codex). It's a reference to browse, grep, or hand to your agent - not a product.
 
 *"I feel nervous when I have subscription left over. That just means I haven't maximized my token throughput."*
 <br>Andrej Karpathy, [No Priors](https://podscripts.co/podcasts/no-priors-artificial-intelligence-technology-startups/andrej-karpathy-on-code-agents-autoresearch-and-the-loopy-era-of-ai) (2026)
