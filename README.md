@@ -276,7 +276,6 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 
 ### Market Competitors
 
-- [AI Tokenomics: how to tokenmin while ROImaxxing (MMC Ventures)](https://mmc.vc/research/ai-tokenomics-how-to-tokenmin-while-roimaxxing/) - MMC's 2026-06-30 map of the token-efficiency vendor landscape across five levers: context and memory, multi-model systems, inference optimisation, routers and gateways, and output optimisation. Its headline waste estimates are the firm's own, without published methodology. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [Aider - an OSS coding CLI that meters its own dollar cost](https://github.com/Aider-AI/aider) - An open-source terminal coding agent (Apache-2.0, ~48k★) with built-in per-message dollar-cost tracking and a public polyglot leaderboard. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/Aider-AI/aider?style=flat-square&label=)
 - [Amp (Sourcegraph) - pay-as-you-go, no-markup pricing + mode-based routing](https://ampcode.com/) - Amp, Sourcegraph's coding agent, passes through LLM cost with zero markup for individuals and teams, with a cost/capability mode: Deep, Smart, or Rush. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [Cline - an OSS coding agent on a bring-your-own-key cost model](https://github.com/cline/cline) - An open-source AI coding agent (Apache-2.0, ~65k★, ~4.8M VS Code installs), built on a bring-your-own-API-key cost model. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/cline/cline?style=flat-square&label=)
@@ -286,6 +285,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 
 ### Market Sizing
 
+- [AI Tokenomics: how to tokenmin while ROImaxxing (MMC Ventures)](https://mmc.vc/research/ai-tokenomics-how-to-tokenmin-while-roimaxxing/) - MMC's 2026-06-30 map of the token-efficiency vendor landscape across five levers: context and memory, multi-model systems, inference optimisation, routers and gateways, and output optimisation. Its headline waste estimates are the firm's own, without published methodology. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [Gartner - worldwide AI spending forecast: $2.59T in 2026 (+47% YoY)](https://www.gartner.com/en/newsroom/press-releases/2026-05-19-gartner-forecasts-worldwide-ai-spending-to-grow-47-percent-in-2026) - Gartner's latest forecast puts worldwide AI spending at $2.59 trillion in 2026, up 47% year-over-year, with infrastructure over 45% of the total. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [Menlo Ventures - enterprise generative-AI spend $11.5B → $37B (2024→2025)](https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/) - Menlo Ventures found enterprise generative-AI spend hit $37B in 2025, up 3.2x from 2024, with coding tools the largest application category at $7.3B. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 
