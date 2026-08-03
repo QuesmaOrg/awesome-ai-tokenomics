@@ -31,6 +31,7 @@
 ## Market Competitors
 
 ### Tools
+- [AI Tokenomics: how to tokenmin while ROImaxxing (MMC Ventures)](https://mmc.vc/research/ai-tokenomics-how-to-tokenmin-while-roimaxxing/) - MMC's 2026-06-30 map of the token-efficiency vendor landscape across five levers: context and memory, multi-model systems, inference optimisation, routers and gateways, and output optimisation. Its headline waste estimates are the firm's own, without published methodology. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [Aider - an OSS coding CLI that meters its own dollar cost](https://github.com/Aider-AI/aider) - An open-source terminal coding agent (Apache-2.0, ~48k★) with built-in per-message dollar-cost tracking and a public polyglot leaderboard. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/Aider-AI/aider?style=flat-square&label=)
 - [Amp (Sourcegraph) - pay-as-you-go, no-markup pricing + mode-based routing](https://ampcode.com/) - Amp, Sourcegraph's coding agent, passes through LLM cost with zero markup for individuals and teams, with a cost/capability mode: Deep, Smart, or Rush. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [Cline - an OSS coding agent on a bring-your-own-key cost model](https://github.com/cline/cline) - An open-source AI coding agent (Apache-2.0, ~65k★, ~4.8M VS Code installs), built on a bring-your-own-API-key cost model. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/cline/cline?style=flat-square&label=)
@@ -63,6 +64,7 @@
 ## Pricing Models
 
 ### Research & Benchmarks
+- [Doubleword](https://doubleword.ai) - Sells async and batch inference on open models, publishing a cost-per-1B-tokens table that holds capability constant using the third-party Artificial Analysis index. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Tokenization multiplicity & overcharging - the pay-per-token integrity problem](https://arxiv.org/abs/2506.06446) - Two academic papers show the same output can be billed a different token count depending on tokenization, and providers can be incentivized to inflate it. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
 ### Reading
@@ -90,6 +92,7 @@
 ## Unit Economics
 
 ### Research & Benchmarks
+- [Paid (paid.ai)](https://paid.ai/) - A monetization platform for AI agents that sets pricing, tracks delivery cost per action and reports margin per customer; distinct from the similarly named Pay-i. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Cost-of-Pass - an economic framework for evaluating language models](https://arxiv.org/abs/2504.13359) - Cost-of-Pass defines the expected dollar cost of one correct answer as inference cost divided by success rate, pricing benchmark accuracy directly. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [DORA 2025 - AI as amplifier, and the delivery-stability tension](https://dora.dev/insights/balancing-ai-tensions/) - Google's DORA program found that as AI adoption becomes universal, delivery throughput rises but so does instability: AI as an amplifier, not a pure win. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [Faros - "The Acceleration Whiplash" (AI Engineering Report 2026)](https://pages.faros.ai/hubfs/AI_Engineering_Report_2026_The_Acceleration_Whiplash_Faros.pdf) - The "velocity has a hidden bill" study: telemetry from 22,000 developers across 4,000 teams over two years. ![report](https://img.shields.io/badge/report-555?style=flat-square)

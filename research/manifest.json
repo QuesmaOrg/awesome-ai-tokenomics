@@ -36,6 +36,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "AI Tokenomics: how to tokenmin while ROImaxxing (MMC Ventures)",
+    "url": "https://mmc.vc/research/ai-tokenomics-how-to-tokenmin-while-roimaxxing/",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "market-competitors",
+    "kind": "report",
+    "super_area": "understand"
+  },
+  {
     "title": "ChatGPT Enterprise - usage analytics & spend controls",
     "url": "https://openai.com/index/chatgpt-enterprise-spend-controls/",
     "verified_on": "2026-07-03",
@@ -90,6 +99,15 @@
     "super_area": "govern"
   },
   {
+    "title": "Coral",
+    "url": "https://github.com/withcoral/coral",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "tool-protocol-overhead",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
     "title": "Denial-of-Wallet / token-exhaustion attacks",
     "url": "https://arxiv.org/abs/2601.10955",
     "verified_on": "2026-07-01",
@@ -97,6 +115,15 @@
     "category": "anomaly-detection",
     "kind": "paper",
     "super_area": "govern"
+  },
+  {
+    "title": "Doubleword",
+    "url": "https://doubleword.ai",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "pricing-models",
+    "kind": "company",
+    "super_area": "understand"
   },
   {
     "title": "EcoLogits",
@@ -117,6 +144,15 @@
     "super_area": "govern"
   },
   {
+    "title": "Exa",
+    "url": "https://exa.ai/pricing",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "search-retrieval-boundary",
+    "kind": "tool",
+    "super_area": "optimize"
+  },
+  {
     "title": "FinOps for AI - canonical practitioner framework for governing AI/LLM spend",
     "url": "https://www.finops.org/framework/scope/finops-for-ai/",
     "verified_on": "2026-07-01",
@@ -124,6 +160,15 @@
     "category": "billing-audit-finops",
     "kind": "framework",
     "super_area": "govern"
+  },
+  {
+    "title": "Firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "search-retrieval-boundary",
+    "kind": "oss",
+    "super_area": "optimize"
   },
   {
     "title": "GitHub Copilot default model enablement",
@@ -207,6 +252,24 @@
     "super_area": "measure"
   },
   {
+    "title": "Paid (paid.ai)",
+    "url": "https://paid.ai/",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "unit-economics",
+    "kind": "company",
+    "super_area": "understand"
+  },
+  {
+    "title": "Parallel (parallel.ai)",
+    "url": "https://parallel.ai/benchmarks",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "search-retrieval-boundary",
+    "kind": "tool",
+    "super_area": "optimize"
+  },
+  {
     "title": "Pay-i",
     "url": "https://docs.pay-i.com/",
     "verified_on": "2026-07-02",
@@ -243,6 +306,24 @@
     "super_area": "govern"
   },
   {
+    "title": "StackOne Falcon",
+    "url": "https://www.stackone.com/blog/mcp-token-optimization/",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "tool-protocol-overhead",
+    "kind": "tool",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Tavily",
+    "url": "https://docs.tavily.com/documentation/api-credits",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "search-retrieval-boundary",
+    "kind": "tool",
+    "super_area": "optimize"
+  },
+  {
     "title": "TrueFoundry (AI Gateway - Budget Limiting)",
     "url": "https://www.truefoundry.com/docs/ai-gateway/budgetlimiting",
     "verified_on": "2026-07-01",
@@ -250,6 +331,15 @@
     "category": "budgets-caps",
     "kind": "company",
     "super_area": "govern"
+  },
+  {
+    "title": "Valyu",
+    "url": "https://github.com/valyuAI/valyu-benchmarks",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "search-retrieval-boundary",
+    "kind": "tool",
+    "super_area": "optimize"
   },
   {
     "title": "Vantage",
