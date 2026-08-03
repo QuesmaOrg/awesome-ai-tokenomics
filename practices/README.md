@@ -8,6 +8,7 @@ Tool-agnostic, evidence-grounded standards for token-efficient agentic coding.
 - [Context-compaction discipline](context-compaction-discipline.md) - compaction is a costed operation with a re-read-loop failure mode; measure it, don't trust it.
 - [Whole-bill measurement](whole-bill-measurement.md) - sum every token class, sub-call, retry, and non-token charge, and reconcile against the actual invoice.
 - [Waste-attribution first](waste-attribution-first.md) - classify spend as capability-limit vs harness-waste before cutting it.
+- [Retrieval-boundary compression](retrieval-boundary-compression.md) - distill web pages, tool output, and schemas before they enter context, without touching the cached prefix.
 
 ## Knowledge ops
 - [LLM-legible knowledge base](llm-legible-knowledge-base.md) - plain-markdown cross-linked wiki; raw sources / synthesis / schema doc separated; lean index files as agent entry points.

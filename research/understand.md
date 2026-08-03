@@ -40,6 +40,7 @@
 
 ## Market Sizing
 
+- [AI Tokenomics: how to tokenmin while ROImaxxing (MMC Ventures)](https://mmc.vc/research/ai-tokenomics-how-to-tokenmin-while-roimaxxing/) - MMC's 2026-06-30 map of the token-efficiency vendor landscape across five levers: context and memory, multi-model systems, inference optimisation, routers and gateways, and output optimisation. Its headline waste estimates are the firm's own, without published methodology. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 ### Research & Benchmarks
 - [Gartner - worldwide AI spending forecast: $2.59T in 2026 (+47% YoY)](https://www.gartner.com/en/newsroom/press-releases/2026-05-19-gartner-forecasts-worldwide-ai-spending-to-grow-47-percent-in-2026) - Gartner's latest forecast puts worldwide AI spending at $2.59 trillion in 2026, up 47% year-over-year, with infrastructure over 45% of the total. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [Menlo Ventures - enterprise generative-AI spend $11.5B → $37B (2024→2025)](https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/) - Menlo Ventures found enterprise generative-AI spend hit $37B in 2025, up 3.2x from 2024, with coding tools the largest application category at $7.3B. ![report](https://img.shields.io/badge/report-555?style=flat-square)
@@ -63,6 +64,7 @@
 ## Pricing Models
 
 ### Research & Benchmarks
+- [Doubleword](https://doubleword.ai) - Sells async and batch inference on open models, publishing a cost-per-1B-tokens table that holds capability constant using the third-party Artificial Analysis index. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Tokenization multiplicity & overcharging - the pay-per-token integrity problem](https://arxiv.org/abs/2506.06446) - Two academic papers show the same output can be billed a different token count depending on tokenization, and providers can be incentivized to inflate it. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
 ### Reading
@@ -90,6 +92,7 @@
 ## Unit Economics
 
 ### Research & Benchmarks
+- [Paid (paid.ai)](https://paid.ai/) - A monetization platform for AI agents that sets pricing, tracks delivery cost per action and reports margin per customer; distinct from the similarly named Pay-i. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Cost-of-Pass - an economic framework for evaluating language models](https://arxiv.org/abs/2504.13359) - Cost-of-Pass defines the expected dollar cost of one correct answer as inference cost divided by success rate, pricing benchmark accuracy directly. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [DORA 2025 - AI as amplifier, and the delivery-stability tension](https://dora.dev/insights/balancing-ai-tensions/) - Google's DORA program found that as AI adoption becomes universal, delivery throughput rises but so does instability: AI as an amplifier, not a pure win. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [Faros - "The Acceleration Whiplash" (AI Engineering Report 2026)](https://pages.faros.ai/hubfs/AI_Engineering_Report_2026_The_Acceleration_Whiplash_Faros.pdf) - The "velocity has a hidden bill" study: telemetry from 22,000 developers across 4,000 teams over two years. ![report](https://img.shields.io/badge/report-555?style=flat-square)

@@ -178,6 +178,14 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) - Sends routine queries to cheap or local models and hard ones to stronger backends, as an open-source, self-hostable router. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/vllm-project/semantic-router?style=flat-square&label=)
 - [Weave Router](https://github.com/workweave/router) - A drop-in proxy that picks a model for every request with an on-box embedding cluster scorer derived from [Avengers-Pro](https://arxiv.org/abs/2508.12631), speaking all three provider APIs (BYOK, OTLP traces, one-command setup for Claude Code, Codex, and opencode). Source-available under Elastic License 2.0, which bars offering it as a hosted service; its cost-reduction figures are vendor-reported, not independently measured. ![tool: ELv2](https://img.shields.io/badge/tool-ELv2-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/workweave/router?style=flat-square&label=)
 
+### Search and Retrieval Boundary
+
+- [Exa](https://exa.ai/pricing) - A search API for agents that bills content retrieval separately per type, so an agent can buy query-scoped highlights or a summary instead of full page text. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [Firecrawl](https://github.com/firecrawl/firecrawl) - A web scraping API that converts pages to markdown or structured JSON before they reach the model, billed at 1 credit per page. ![tool: AGPL-3.0](https://img.shields.io/badge/tool-AGPL--3.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/firecrawl/firecrawl?style=flat-square&label=)
+- [Parallel (parallel.ai)](https://parallel.ai/benchmarks) - A web search and extraction API for agents that publishes an accuracy-versus-cost table across five benchmarks with sample sizes, judge model and test dates stated. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [Tavily](https://docs.tavily.com/documentation/api-credits) - A search API for agents that returns capped content snippets instead of pages, priced at $0.008 per credit with one credit per basic search; acquired by Nebius (announced 2026-02-10). ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [Valyu](https://github.com/valyuAI/valyu-benchmarks) - A search and deep-research API whose cost-versus-accuracy results on the third-party DRACO benchmark ship with an open harness, raw outputs and per-provider runners; the harness repo carries no license file. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+
 ### Serving Inference
 
 - [RLM-Cascade - response-level speculative decoding at the gateway](https://arxiv.org/abs/2606.22840) - RLM-Cascade, from a PayPal team, has a cheap draft model answer first and an Opus 4.8 verifier accept or rewrite it, at roughly 2% of Opus's cost. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
@@ -192,7 +200,9 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 ### Tool Protocol Overhead
 
 - [Code execution with MCP (Anthropic)](https://www.anthropic.com/engineering/code-execution-with-mcp) - Anthropic proposes agents call MCP servers by writing and executing code instead of a tool call per step, so unused tool schemas skip the context window.
+- [Coral](https://github.com/withcoral/coral) - Gives agents one SQL interface over APIs and internal systems instead of many MCP servers; its own 82-task benchmark reports 64% fewer tokens on the complex-task slice, 41% across all tasks. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/withcoral/coral?style=flat-square&label=)
 - [MCP Tool Descriptions Are Smelly!](https://arxiv.org/abs/2602.14878) - This study found poorly-written MCP tool descriptions measurably hurt agent efficiency, using an LLM-jury scanner and an A/B protocol on MCP-Universe. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
+- [StackOne Falcon](https://www.stackone.com/blog/mcp-token-optimization/) - An execution engine that cuts tool-calling tokens by filtering tool definitions, shaping responses and running code at the edge, with search-first discovery benchmarked on 1,843 tasks; its broader reduction percentages are vendor-reported. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Tool Attention Is All You Need](https://arxiv.org/abs/2604.21816) - MCP re-sends every tool's full schema on every turn, whether or not the agent needs it - a protocol tax known as the MCP/Tools Tax. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
 ## Govern
@@ -275,6 +285,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 
 ### Market Sizing
 
+- [AI Tokenomics: how to tokenmin while ROImaxxing (MMC Ventures)](https://mmc.vc/research/ai-tokenomics-how-to-tokenmin-while-roimaxxing/) - MMC's 2026-06-30 map of the token-efficiency vendor landscape across five levers: context and memory, multi-model systems, inference optimisation, routers and gateways, and output optimisation. Its headline waste estimates are the firm's own, without published methodology. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [Gartner - worldwide AI spending forecast: $2.59T in 2026 (+47% YoY)](https://www.gartner.com/en/newsroom/press-releases/2026-05-19-gartner-forecasts-worldwide-ai-spending-to-grow-47-percent-in-2026) - Gartner's latest forecast puts worldwide AI spending at $2.59 trillion in 2026, up 47% year-over-year, with infrastructure over 45% of the total. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [Menlo Ventures - enterprise generative-AI spend $11.5B → $37B (2024→2025)](https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/) - Menlo Ventures found enterprise generative-AI spend hit $37B in 2025, up 3.2x from 2024, with coding tools the largest application category at $7.3B. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 
@@ -300,6 +311,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [ChatGPT workspace-agent credit billing (effective July 6, 2026)](https://help.openai.com/en/articles/11481834-chatgpt-rate-card) - OpenAI ended the free preview for agent runs invoked inside ChatGPT Business, Enterprise, Edu, and Teachers on 2026-07-06.
 - [Cursor charges by tokens, split into first-party and third-party pools](https://cursor.com/docs/account/pricing) - Cursor meters by tokens per million (input/output/cache-write/cache-read), split into a first-party pool and a third-party API pool. (also: [Teams pricing blog](https://cursor.com/blog/teams-pricing-june-2026))
 - [Devin's Agent Compute Unit has no published definition of what it meters](https://docs.devin.ai/admin/billing/enterprise) - Devin bills Enterprise usage in Agent Compute Units, but no official doc defines what an ACU measures (not tokens, seconds, or calls).
+- [Doubleword](https://doubleword.ai) - Sells async and batch inference on open models, publishing a cost-per-1B-tokens table that holds capability constant using the third-party Artificial Analysis index. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Fable 5 leaves subscription inclusion - frontier tier moves to usage-credit metering (July 7 cliff)](https://www.anthropic.com/news/redeploying-fable-5) - Fable 5's subscription saga settled 2026-07-20 (after two extensions) as a primary-confirmed two-tier split.
 - [Google AI Pro price and Gemini/Antigravity free-tier limits (2026)](https://gemini.google/subscriptions/) - Google AI Pro is confirmed at $19.99/month, beneath the $99.99 and $199.99 AI Ultra tiers giving higher rate limits on the Gemini API and Antigravity.
 - [GPT-5.6 family (Sol / Terra / Luna) - API pricing](https://developers.openai.com/api/docs/pricing) - OpenAI's GPT-5.6 family prices three tiers: Sol at $5/$30 per million tokens, Terra at $2/$12, and Luna at $0.20/$1.20 (Terra and Luna cut 2026-07-30, three weeks after launch). "Fast mode" is the renamed priority tier at a flat 2x.
@@ -322,6 +334,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Faros - "The Acceleration Whiplash" (AI Engineering Report 2026)](https://pages.faros.ai/hubfs/AI_Engineering_Report_2026_The_Acceleration_Whiplash_Faros.pdf) - The "velocity has a hidden bill" study: telemetry from 22,000 developers across 4,000 teams over two years. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [getDX - AI coding assistant pricing & ROI guide (2026)](https://getdx.com/blog/ai-coding-assistant-pricing/) - Typical AI coding tools cost $200-600 per engineer monthly in seat plus token spend, per getDX, for a median 7.76% PR gain: below vendors' claimed 3-10x.
 - [METR - measured vs perceived AI productivity (the RCT)](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) - METR's controlled trial found developers took 19% longer to finish issues when allowed to use AI, while still believing it had sped them up by 20%. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
+- [Paid (paid.ai)](https://paid.ai/) - A monetization platform for AI agents that sets pricing, tracks delivery cost per action and reports margin per customer; distinct from the similarly named Pay-i. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
 ## Measure
 

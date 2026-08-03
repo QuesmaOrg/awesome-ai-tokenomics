@@ -124,6 +124,15 @@
 - [Claude Code via a LiteLLM gateway (cheap-tier-in-front setup)](https://docs.litellm.ai/docs/tutorials/claude_non_anthropic_models) - Pointing Claude Code's ANTHROPIC_BASE_URL at a local LiteLLM proxy lets cheaper or non-Anthropic models absorb work the frontier model would otherwise bill for.
 - [Distilling agent behavior into small task-specific models](https://arxiv.org/abs/2505.17612) - Distilling a large agent's behavior into a small 0.5-3B model lets most of its work run at a fraction of the frontier model's per-token cost.
 
+## Search and Retrieval Boundary
+
+### Tools
+- [Exa](https://exa.ai/pricing) - A search API for agents that bills content retrieval separately per type, so an agent can buy query-scoped highlights or a summary instead of full page text. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [Firecrawl](https://github.com/firecrawl/firecrawl) - A web scraping API that converts pages to markdown or structured JSON before they reach the model, billed at 1 credit per page. ![tool: AGPL-3.0](https://img.shields.io/badge/tool-AGPL--3.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/firecrawl/firecrawl?style=flat-square&label=)
+- [Parallel (parallel.ai)](https://parallel.ai/benchmarks) - A web search and extraction API for agents that publishes an accuracy-versus-cost table across five benchmarks with sample sizes, judge model and test dates stated. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [Tavily](https://docs.tavily.com/documentation/api-credits) - A search API for agents that returns capped content snippets instead of pages, priced at $0.008 per credit with one credit per basic search; acquired by Nebius (announced 2026-02-10). ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [Valyu](https://github.com/valyuAI/valyu-benchmarks) - A search and deep-research API whose cost-versus-accuracy results on the third-party DRACO benchmark ship with an open harness, raw outputs and per-provider runners; the harness repo carries no license file. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+
 ## Serving Inference
 
 ### Tools
@@ -143,6 +152,8 @@
 
 ### Research & Benchmarks
 - [MCP Tool Descriptions Are Smelly!](https://arxiv.org/abs/2602.14878) - This study found poorly-written MCP tool descriptions measurably hurt agent efficiency, using an LLM-jury scanner and an A/B protocol on MCP-Universe. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
+- [Coral](https://github.com/withcoral/coral) - Gives agents one SQL interface over APIs and internal systems instead of many MCP servers; its own 82-task benchmark reports 64% fewer tokens on the complex-task slice, 41% across all tasks. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/withcoral/coral?style=flat-square&label=)
+- [StackOne Falcon](https://www.stackone.com/blog/mcp-token-optimization/) - An execution engine that cuts tool-calling tokens by filtering tool definitions, shaping responses and running code at the edge, with search-first discovery benchmarked on 1,843 tasks; its broader reduction percentages are vendor-reported. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Tool Attention Is All You Need](https://arxiv.org/abs/2604.21816) - MCP re-sends every tool's full schema on every turn, whether or not the agent needs it - a protocol tax known as the MCP/Tools Tax. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
 ### Reading
