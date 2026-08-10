@@ -18,6 +18,15 @@
     "super_area": "govern"
   },
   {
+    "title": "Agent Island",
+    "url": "https://github.com/tristan666666/agent-island",
+    "verified_on": "2026-08-10",
+    "stale_after": "2026-11-08",
+    "category": "dashboards",
+    "kind": "oss",
+    "super_area": "monitor"
+  },
+  {
     "title": "Agent system-prompt leak corpora (x1xhlol · asgeirtj)",
     "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "verified_on": "2026-07-30",
