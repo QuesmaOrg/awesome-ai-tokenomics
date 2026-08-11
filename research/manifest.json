@@ -18,42 +18,6 @@
     "super_area": "govern"
   },
   {
-    "title": "Agent Island",
-    "url": "https://github.com/tristan666666/agent-island",
-    "verified_on": "2026-08-10",
-    "stale_after": "2026-11-08",
-    "category": "dashboards",
-    "kind": "oss",
-    "super_area": "monitor"
-  },
-  {
-    "title": "Agent system-prompt leak corpora (x1xhlol · asgeirtj)",
-    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-    "verified_on": "2026-07-30",
-    "stale_after": "2026-10-28",
-    "category": "harness-overhead",
-    "kind": "dataset",
-    "super_area": "measure"
-  },
-  {
-    "title": "Agentic Context Management for long-horizon tasks",
-    "url": "https://arxiv.org/abs/2607.23809",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
-    "category": "context-engineering",
-    "kind": "paper",
-    "super_area": "optimize"
-  },
-  {
-    "title": "AI Tokenomics: how to tokenmin while ROImaxxing (MMC Ventures)",
-    "url": "https://mmc.vc/research/ai-tokenomics-how-to-tokenmin-while-roimaxxing/",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
-    "category": "market-sizing",
-    "kind": "report",
-    "super_area": "understand"
-  },
-  {
     "title": "ChatGPT Enterprise - usage analytics & spend controls",
     "url": "https://openai.com/index/chatgpt-enterprise-spend-controls/",
     "verified_on": "2026-07-03",
@@ -108,15 +72,6 @@
     "super_area": "govern"
   },
   {
-    "title": "Coral",
-    "url": "https://github.com/withcoral/coral",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
-    "category": "tool-protocol-overhead",
-    "kind": "oss",
-    "super_area": "optimize"
-  },
-  {
     "title": "Denial-of-Wallet / token-exhaustion attacks",
     "url": "https://arxiv.org/abs/2601.10955",
     "verified_on": "2026-07-01",
@@ -124,15 +79,6 @@
     "category": "anomaly-detection",
     "kind": "paper",
     "super_area": "govern"
-  },
-  {
-    "title": "Doubleword",
-    "url": "https://doubleword.ai",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
-    "category": "pricing-models",
-    "kind": "company",
-    "super_area": "understand"
   },
   {
     "title": "EcoLogits",
@@ -153,39 +99,12 @@
     "super_area": "govern"
   },
   {
-    "title": "Exa",
-    "url": "https://exa.ai/pricing",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
-    "category": "search-retrieval-boundary",
-    "kind": "tool",
-    "super_area": "optimize"
-  },
-  {
     "title": "FinOps for AI - canonical practitioner framework for governing AI/LLM spend",
     "url": "https://www.finops.org/framework/scope/finops-for-ai/",
     "verified_on": "2026-07-01",
     "stale_after": "2026-10-01",
     "category": "billing-audit-finops",
     "kind": "framework",
-    "super_area": "govern"
-  },
-  {
-    "title": "Firecrawl",
-    "url": "https://github.com/firecrawl/firecrawl",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
-    "category": "search-retrieval-boundary",
-    "kind": "oss",
-    "super_area": "optimize"
-  },
-  {
-    "title": "GitHub Copilot default model enablement",
-    "url": "https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise/",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
-    "category": "policy-enforcement",
-    "kind": "report",
     "super_area": "govern"
   },
   {
@@ -252,31 +171,13 @@
     "super_area": "govern"
   },
   {
-    "title": "OpenCost - AI inference cost tracking",
-    "url": "https://github.com/opencost/opencost/blob/develop/docs/inference-cost-tracking.md",
-    "verified_on": "2026-07-29",
-    "stale_after": "2026-10-27",
-    "category": "metering",
-    "kind": "oss",
-    "super_area": "measure"
-  },
-  {
     "title": "Paid (paid.ai)",
     "url": "https://paid.ai/",
     "verified_on": "2026-08-03",
     "stale_after": "2026-11-01",
     "category": "unit-economics",
     "kind": "company",
-    "super_area": "understand"
-  },
-  {
-    "title": "Parallel (parallel.ai)",
-    "url": "https://parallel.ai/benchmarks",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
-    "category": "search-retrieval-boundary",
-    "kind": "tool",
-    "super_area": "optimize"
+    "super_area": "govern"
   },
   {
     "title": "Pay-i",
@@ -315,24 +216,6 @@
     "super_area": "govern"
   },
   {
-    "title": "StackOne Falcon",
-    "url": "https://www.stackone.com/blog/mcp-token-optimization/",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
-    "category": "tool-protocol-overhead",
-    "kind": "tool",
-    "super_area": "optimize"
-  },
-  {
-    "title": "Tavily",
-    "url": "https://docs.tavily.com/documentation/api-credits",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
-    "category": "search-retrieval-boundary",
-    "kind": "tool",
-    "super_area": "optimize"
-  },
-  {
     "title": "TrueFoundry (AI Gateway - Budget Limiting)",
     "url": "https://www.truefoundry.com/docs/ai-gateway/budgetlimiting",
     "verified_on": "2026-07-01",
@@ -340,15 +223,6 @@
     "category": "budgets-caps",
     "kind": "company",
     "super_area": "govern"
-  },
-  {
-    "title": "Valyu",
-    "url": "https://github.com/valyuAI/valyu-benchmarks",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
-    "category": "search-retrieval-boundary",
-    "kind": "tool",
-    "super_area": "optimize"
   },
   {
     "title": "Vantage",
@@ -567,6 +441,15 @@
     "super_area": "measure"
   },
   {
+    "title": "OpenCost - AI inference cost tracking",
+    "url": "https://github.com/opencost/opencost/blob/develop/docs/inference-cost-tracking.md",
+    "verified_on": "2026-07-29",
+    "stale_after": "2026-10-27",
+    "category": "metering",
+    "kind": "oss",
+    "super_area": "measure"
+  },
+  {
     "title": "Prompt Compression in the Wild - the end-to-end referee for compression",
     "url": "https://arxiv.org/abs/2604.02985",
     "verified_on": "2026-07-03",
@@ -621,6 +504,24 @@
     "super_area": "measure"
   },
   {
+    "title": "Multi-vendor system-prompt corpus (asgeirtj)",
+    "url": "https://github.com/asgeirtj/system_prompts_leaks",
+    "verified_on": "2026-07-30",
+    "stale_after": "2026-10-28",
+    "category": "harness-overhead",
+    "kind": "dataset",
+    "super_area": "measure"
+  },
+  {
+    "title": "Multi-vendor system-prompt and tool-schema corpus (x1xhlol)",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "verified_on": "2026-07-30",
+    "stale_after": "2026-10-28",
+    "category": "harness-overhead",
+    "kind": "dataset",
+    "super_area": "measure"
+  },
+  {
     "title": "TensorZero - cross-vendor token-count divergence (\"stop comparing $/M tokens\")",
     "url": "https://www.tensorzero.com/blog/stop-comparing-price-per-million-tokens-the-hidden-llm-api-costs/",
     "verified_on": "2026-07-02",
@@ -664,6 +565,15 @@
     "category": "cost-anatomy",
     "kind": "article",
     "super_area": "measure"
+  },
+  {
+    "title": "Agent Island",
+    "url": "https://github.com/tristan666666/agent-island",
+    "verified_on": "2026-08-10",
+    "stale_after": "2026-11-08",
+    "category": "dashboards",
+    "kind": "oss",
+    "super_area": "monitor"
   },
   {
     "title": "AgentSight",
@@ -963,10 +873,19 @@
     "super_area": "optimize"
   },
   {
-    "title": "Claude Code spend-governance bundle (v2.1.216-219) - caps tightened, fan-out default loosened",
+    "title": "Claude Code Router",
+    "url": "https://github.com/musistudio/claude-code-router",
+    "verified_on": "2026-07-27",
+    "stale_after": "2026-10-25",
+    "category": "routing-model-selection",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Claude Code spend-governance bundle (v2.1.216-225) - caps tightened, fan-out default loosened",
     "url": "https://code.claude.com/docs/en/changelog",
-    "verified_on": "2026-07-26",
-    "stale_after": "2026-10-24",
+    "verified_on": "2026-08-10",
+    "stale_after": "2026-11-08",
     "category": "cost-controls",
     "kind": "article",
     "super_area": "optimize"
@@ -1001,8 +920,8 @@
   {
     "title": "Codex CLI compaction cost - over-eager compaction as a token-amplification loop",
     "url": "https://github.com/openai/codex/issues/16812",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
+    "verified_on": "2026-08-10",
+    "stale_after": "2026-11-08",
     "category": "context-engineering",
     "kind": "article",
     "super_area": "optimize"
@@ -1044,12 +963,57 @@
     "super_area": "optimize"
   },
   {
+    "title": "GitHub Copilot auto model selection",
+    "url": "https://docs.github.com/en/copilot/concepts/models/auto-model-selection",
+    "verified_on": "2026-07-27",
+    "stale_after": "2026-10-25",
+    "category": "routing-model-selection",
+    "kind": "company",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Coral",
+    "url": "https://github.com/withcoral/coral",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "tool-protocol-overhead",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
     "title": "Cursor vendor-native context management - dynamic context discovery + Composer self-summarization",
     "url": "https://cursor.com/blog/dynamic-context-discovery",
     "verified_on": "2026-07-02",
     "stale_after": "2026-10-02",
     "category": "context-engineering",
     "kind": "technique",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Cursor Router",
+    "url": "https://cursor.com/blog/router",
+    "verified_on": "2026-07-27",
+    "stale_after": "2026-10-25",
+    "category": "routing-model-selection",
+    "kind": "company",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Exa",
+    "url": "https://exa.ai/pricing",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "search-retrieval-boundary",
+    "kind": "company",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "search-retrieval-boundary",
+    "kind": "oss",
     "super_area": "optimize"
   },
   {
@@ -1071,6 +1035,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "Harness-native heuristic pre-routers - two mechanism-only per-turn routers",
+    "url": "https://github.com/yeliu84/pi-model-router",
+    "verified_on": "2026-07-26",
+    "stale_after": "2026-10-24",
+    "category": "routing-model-selection",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
     "title": "Harness-side runaway-loop cost guardrails (Claude Code + Codex, July 2026)",
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.212",
     "verified_on": "2026-07-17",
@@ -1082,8 +1055,8 @@
   {
     "title": "headroom",
     "url": "https://github.com/headroomlabs-ai/headroom",
-    "verified_on": "2026-07-05",
-    "stale_after": "2026-10-05",
+    "verified_on": "2026-08-10",
+    "stale_after": "2026-11-08",
     "category": "context-engineering",
     "kind": "oss",
     "super_area": "optimize"
@@ -1112,6 +1085,15 @@
     "verified_on": "2026-07-21",
     "stale_after": "2026-10-21",
     "category": "retrieval-memory",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
+    "title": "lean-ctx - MCP context layer with a self-measured savings ledger",
+    "url": "https://github.com/yvgude/lean-ctx",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-03",
+    "category": "context-engineering",
     "kind": "oss",
     "super_area": "optimize"
   },
@@ -1197,6 +1179,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "NadirClaw - a pre-router proxy, with its benchmark attached to the paid tier",
+    "url": "https://github.com/NadirRouter/NadirClaw",
+    "verified_on": "2026-07-26",
+    "stale_after": "2026-10-24",
+    "category": "routing-model-selection",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
     "title": "Not Diamond",
     "url": "https://www.notdiamond.ai/",
     "verified_on": "2026-07-02",
@@ -1211,6 +1202,15 @@
     "verified_on": "2026-07-01",
     "stale_after": "2026-10-01",
     "category": "cheap-local-models",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
+    "title": "opencode-fusion",
+    "url": "https://github.com/mihneaptu/opencode-fusion",
+    "verified_on": "2026-07-27",
+    "stale_after": "2026-10-25",
+    "category": "routing-model-selection",
     "kind": "oss",
     "super_area": "optimize"
   },
@@ -1248,6 +1248,33 @@
     "stale_after": "2026-10-15",
     "category": "prompt-agent-loop",
     "kind": "technique",
+    "super_area": "optimize"
+  },
+  {
+    "title": "PageIndex",
+    "url": "https://github.com/VectifyAI/PageIndex",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "retrieval-memory",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Parallel (parallel.ai)",
+    "url": "https://parallel.ai/benchmarks",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "search-retrieval-boundary",
+    "kind": "company",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Plano (formerly archgw)",
+    "url": "https://github.com/katanemo/plano",
+    "verified_on": "2026-07-27",
+    "stale_after": "2026-10-25",
+    "category": "routing-model-selection",
+    "kind": "oss",
     "super_area": "optimize"
   },
   {
@@ -1350,6 +1377,24 @@
     "super_area": "optimize"
   },
   {
+    "title": "Signet AI",
+    "url": "https://github.com/Signet-AI/signetai",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "retrieval-memory",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
+    "title": "StackOne Falcon",
+    "url": "https://www.stackone.com/blog/mcp-token-optimization/",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "tool-protocol-overhead",
+    "kind": "company",
+    "super_area": "optimize"
+  },
+  {
     "title": "Stop When Reasoning Converges",
     "url": "https://arxiv.org/abs/2605.17672",
     "verified_on": "2026-07-02",
@@ -1374,6 +1419,15 @@
     "stale_after": "2026-10-02",
     "category": "multi-agent-overhead",
     "kind": "paper",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Tavily",
+    "url": "https://docs.tavily.com/documentation/api-credits",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "search-retrieval-boundary",
+    "kind": "company",
     "super_area": "optimize"
   },
   {
@@ -1404,6 +1458,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "Valyu",
+    "url": "https://github.com/valyuAI/valyu-benchmarks",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "search-retrieval-boundary",
+    "kind": "company",
+    "super_area": "optimize"
+  },
+  {
     "title": "vLLM Semantic Router",
     "url": "https://github.com/vllm-project/semantic-router",
     "verified_on": "2026-07-02",
@@ -1427,7 +1490,7 @@
     "verified_on": "2026-07-29",
     "stale_after": "2026-10-27",
     "category": "routing-model-selection",
-    "kind": "tool",
+    "kind": "oss",
     "super_area": "optimize"
   },
   {
@@ -1437,6 +1500,24 @@
     "stale_after": "2026-10-02",
     "category": "test-time-compute",
     "kind": "paper",
+    "super_area": "optimize"
+  },
+  {
+    "title": "WOZCODE",
+    "url": "https://www.tbench.ai/leaderboard/terminal-bench/2.0",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "harness-efficiency",
+    "kind": "tool",
+    "super_area": "optimize"
+  },
+  {
+    "title": "xmemory",
+    "url": "https://arxiv.org/abs/2604.27906",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "retrieval-memory",
+    "kind": "tool",
     "super_area": "optimize"
   },
   {
@@ -1505,8 +1586,8 @@
   {
     "title": "Cached-input discounts - the ~90%-off lever behind cache-accounting",
     "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
-    "verified_on": "2026-07-17",
-    "stale_after": "2026-10-15",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-03",
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
@@ -1638,10 +1719,19 @@
     "super_area": "understand"
   },
   {
+    "title": "Doubleword",
+    "url": "https://doubleword.ai",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "pricing-models",
+    "kind": "company",
+    "super_area": "understand"
+  },
+  {
     "title": "Fable 5 leaves subscription inclusion - frontier tier moves to usage-credit metering (July 7 cliff)",
     "url": "https://www.anthropic.com/news/redeploying-fable-5",
-    "verified_on": "2026-07-26",
-    "stale_after": "2026-08-25",
+    "verified_on": "2026-08-10",
+    "stale_after": "2026-09-10",
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
@@ -1711,9 +1801,9 @@
   },
   {
     "title": "Google AI Pro price and Gemini/Antigravity free-tier limits (2026)",
-    "url": "https://gemini.google/subscriptions/",
-    "verified_on": "2026-07-05",
-    "stale_after": "2026-10-05",
+    "url": "https://gemini.google/us/subscriptions/",
+    "verified_on": "2026-08-10",
+    "stale_after": "2026-11-10",
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
@@ -1721,8 +1811,8 @@
   {
     "title": "GPT-5.6 family (Sol / Terra / Luna) - API pricing",
     "url": "https://developers.openai.com/api/docs/pricing",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
+    "verified_on": "2026-08-10",
+    "stale_after": "2026-11-03",
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
@@ -1739,8 +1829,8 @@
   {
     "title": "Kimi K2.6/K2.7-Code and GLM-5.2 official API pricing",
     "url": "https://platform.kimi.ai/docs/pricing/chat-k27-code",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
+    "verified_on": "2026-08-10",
+    "stale_after": "2026-11-03",
     "category": "model-economics",
     "kind": "article",
     "super_area": "understand"
@@ -1806,6 +1896,15 @@
     "stale_after": "2026-10-02",
     "category": "unit-economics",
     "kind": "paper",
+    "super_area": "understand"
+  },
+  {
+    "title": "AI Tokenomics: how to tokenmin while ROImaxxing (MMC Ventures)",
+    "url": "https://mmc.vc/research/ai-tokenomics-how-to-tokenmin-while-roimaxxing/",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "market-sizing",
+    "kind": "report",
     "super_area": "understand"
   },
   {
@@ -1882,9 +1981,9 @@
   },
   {
     "title": "Tokenomics Foundation (Linux Foundation + FinOps Foundation)",
-    "url": "https://www.linuxfoundation.org/press/linux-foundation-announces-the-intent-to-launch-the-tokenomics-foundation-to-establish-open-standards-for-ai-cost-management",
-    "verified_on": "2026-07-03",
-    "stale_after": "2026-10-02",
+    "url": "https://www.linuxfoundation.org/press/linux-foundation-launches-the-tokenomics-foundation-to-define-the-economics-and-roi-of-ai-value",
+    "verified_on": "2026-08-10",
+    "stale_after": "2026-11-08",
     "category": "consolidation",
     "kind": "company",
     "super_area": "understand"

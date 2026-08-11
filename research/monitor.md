@@ -11,7 +11,7 @@
 - [CodeBurn](https://github.com/getagentseal/codeburn#find-and-fix-waste) - An open-source tracker for 36 coding tools whose optimize command flags named harness-waste patterns with dollar estimates it later checks against actuals. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square)
 - [Codex Usage Tracker](https://github.com/douglasmonsky/codex-usage-tracker) - A local-first dashboard, CLI, and MCP tools indexing Codex CLI logs into SQLite to show where tokens, credits, and cost go, including cache ratios. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/douglasmonsky/codex-usage-tracker?style=flat-square&label=)
 - [CodexBar](https://github.com/steipete/CodexBar) - A free, open-source macOS menu-bar app that shows limits and reset timers at a glance across dozens of AI providers, plus credit balances and spending. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/steipete/CodexBar?style=flat-square&label=)
-- [CodeZeno Usage Monitor](https://github.com/CodeZeno/Claude-Code-Usage-Monitor) - A Windows-taskbar widget showing real-time Claude Code quota and usage at a glance, without opening a terminal. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/CodeZeno/Claude-Code-Usage-Monitor?style=flat-square&label=)
+- [CodeZeno Usage Monitor](https://github.com/CodeZeno/Claude-Code-Usage-Monitor) - A Windows taskbar widget showing real-time Claude Code quota and usage at a glance, without opening a terminal. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/CodeZeno/Claude-Code-Usage-Monitor?style=flat-square&label=)
 - [Datadog LLM Observability - Cost](https://docs.datadoghq.com/llm_observability/monitoring/cost/) - Datadog's LLM Observability estimates per-request cost across 800+ models from token counts and public pricing; invoice reconciliation is a separate product. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [gh-aw (GitHub Agentic Workflows)](https://github.com/github/gh-aw) - GitHub's agentic-workflows runtime with first-party per-run token and cost metering, plus budget caps that stop a workflow mid-run. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/github/gh-aw?style=flat-square&label=)
 - [Grafana Cloud GenAI Observability](https://grafana.com/docs/grafana-cloud/monitor-applications/ai-observability/genai/observability/) - Grafana Cloud's GenAI Observability ships a prebuilt dashboard for LLM cost, token usage, and latency, built on top of the OpenLIT SDK. ![co](https://img.shields.io/badge/co-555?style=flat-square)
@@ -19,10 +19,10 @@
 - [OpenUsage](https://github.com/robinebers/openusage) - A native Swift macOS menu-bar meter for 10 AI coding subscriptions, showing session and weekly limits, credits, and estimated spend from local credentials. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/robinebers/openusage?style=flat-square&label=)
 - [TokenTracker](https://github.com/mm7894215/TokenTracker) - A local-first token and cost dashboard for 27 coding tools, with a desktop pet, native widgets, and achievements as a distinct gamified take on usage metering. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mm7894215/TokenTracker?style=flat-square&label=)
 
-## Ebpf Kernel Capture
+## eBPF Kernel Capture
 
 ### Tools
-- [AgentSight](https://github.com/eunomia-bpf/agentsight) - Uses eBPF to watch an AI agent from the kernel boundary, correlating what it said it would do against what it did, at under 3% overhead. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/eunomia-bpf/agentsight?style=flat-square&label=)
+- [AgentSight](https://github.com/eunomia-bpf/agentsight) - Uses eBPF to watch an AI agent from the kernel boundary, correlating what it said it would do with what it did, with under 3% overhead. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/eunomia-bpf/agentsight?style=flat-square&label=)
 - [OpenTelemetry eBPF Instrumentation (OBI) - GenAI / MCP](https://opentelemetry.io/docs/zero-code/obi/) - OBI is OpenTelemetry's zero-code eBPF instrumentation (formerly Grafana Beyla) that captures GenAI and MCP traces at the kernel layer with no SDK. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square)
 
 ## Observability
@@ -30,13 +30,13 @@
 ### Tools
 - [Langfuse](https://langfuse.com) - An open-source platform for tracing, evaluating, and analyzing LLM and agent transcripts, with a prompt-management layer on top. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square)
 
-## Otel For Llms
+## OTel for LLMs
 
 ### Tools
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - An open-source set of OpenTelemetry-based SDKs and instrumentations, built by Traceloop, for LLM apps. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/traceloop/openllmetry?style=flat-square&label=)
 
 ### Reading
-- [OpenTelemetry GenAI Semantic Conventions](https://github.com/open-telemetry/semantic-conventions-genai) - OpenTelemetry's GenAI Semantic Conventions define the vendor-neutral token, cost, and cache attribute names that OpenLLMetry and Phoenix both converge onto.
+- [OpenTelemetry GenAI Semantic Conventions](https://github.com/open-telemetry/semantic-conventions-genai) - OpenTelemetry's GenAI Semantic Conventions define the vendor-neutral token, cost, and cache attribute names that OpenLLMetry and Phoenix both converge on.
 
 ## Tracing
 

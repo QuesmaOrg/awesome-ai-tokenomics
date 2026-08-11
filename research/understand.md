@@ -20,13 +20,11 @@
 ### Research & Benchmarks
 - [JetBrains independently measured two token-saving skills against their own claims](https://blog.jetbrains.com/ai/2026/07/rtk-claude-code-token-savings/) - JetBrains independently A/B-tested two token-saving skills: rtk ran +7.6% more expensive at low effort (claimed 60-90% cut), Caveman saved ~8.5% (claimed 65%). (also: [Caveman A/B post](https://blog.jetbrains.com/ai/2026/07/speak-to-ai-agents-like-cavemen-tosave-tokens/)) ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
 
-### Reading
-
 ## Consolidation
 
 ### Tools
 - [Cisco acquires Galileo (LLM eval/observability) → folded into Splunk Observability](https://blogs.cisco.com/news/cisco-announces-the-intent-to-acquire-galileo) - Cisco acquired Galileo, an LLM/agent evaluation and observability platform, folding it into Splunk Observability Cloud's AI Agent Monitoring. ![co](https://img.shields.io/badge/co-555?style=flat-square)
-- [Tokenomics Foundation (Linux Foundation + FinOps Foundation)](https://www.linuxfoundation.org/press/linux-foundation-announces-the-intent-to-launch-the-tokenomics-foundation-to-establish-open-standards-for-ai-cost-management) - The Linux Foundation is launching the Tokenomics Foundation to build open standards for AI token spend, extending FOCUS to cover token-based costs. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [Tokenomics Foundation (Linux Foundation + FinOps Foundation)](https://www.linuxfoundation.org/press/linux-foundation-launches-the-tokenomics-foundation-to-define-the-economics-and-roi-of-ai-value) - A Linux Foundation body building open standards for AI token spend, launched 2026-08-04 with 30 founding members and a roadmap that moves the unit of account from cost per token to cost per call. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
 ## Market Competitors
 
@@ -40,8 +38,8 @@
 
 ## Market Sizing
 
-- [AI Tokenomics: how to tokenmin while ROImaxxing (MMC Ventures)](https://mmc.vc/research/ai-tokenomics-how-to-tokenmin-while-roimaxxing/) - MMC's 2026-06-30 map of the token-efficiency vendor landscape across five levers: context and memory, multi-model systems, inference optimisation, routers and gateways, and output optimisation. Its headline waste estimates are the firm's own, without published methodology. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 ### Research & Benchmarks
+- [AI Tokenomics: how to tokenmin while ROImaxxing (MMC Ventures)](https://mmc.vc/research/ai-tokenomics-how-to-tokenmin-while-roimaxxing/) - MMC's 2026-06-30 map of the token-efficiency vendor landscape across five levers: context and memory, multi-model systems, inference optimisation, routers and gateways, and output optimisation. Its headline waste estimates are the firm's own, without published methodology. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [Gartner - worldwide AI spending forecast: $2.59T in 2026 (+47% YoY)](https://www.gartner.com/en/newsroom/press-releases/2026-05-19-gartner-forecasts-worldwide-ai-spending-to-grow-47-percent-in-2026) - Gartner's latest forecast puts worldwide AI spending at $2.59 trillion in 2026, up 47% year-over-year, with infrastructure over 45% of the total. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [Menlo Ventures - enterprise generative-AI spend $11.5B → $37B (2024→2025)](https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/) - Menlo Ventures found enterprise generative-AI spend hit $37B in 2025, up 3.2x from 2024, with coding tools the largest application category at $7.3B. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 
@@ -56,15 +54,17 @@
 ### Reading
 - ["Qwen 3.6 27B is the sweet spot for local development" - Migdał / Quesma (first-party)](https://quesma.com/blog/qwen-36-is-awesome/) - Piotr Migdał's #1-on-Hacker-News essay argues Qwen3.6-27B (dense) is the first local model good enough for real coding instead of a metered cloud API.
 - [Claude Opus 5 - flat price vs Opus 4.8, but 1M context and thinking on by default](https://platform.claude.com/docs/en/release-notes/api) - Claude Opus 5 launched 2026-07-24 at the same $5/$25 per MTok as Opus 4.8, but ships 1M context and thinking on by default.
-- [Gemini 3.6 Flash - a Flash tier marketed on fewer tokens per task, not just a lower unit price](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/) - Gemini 3.6 Flash (2026-07-21) is priced lower than 3.5 Flash at $1.50/$7.50 per MTok AND uses 17% fewer output tokens on the same work.
-- [Kimi K2.6/K2.7-Code and GLM-5.2 official API pricing](https://platform.kimi.ai/docs/pricing/chat-k27-code) - Kimi K2.7-Code ($0.95/$4.00 per million tokens) and GLM-5.2 ($1.40/$4.40) undercut Claude Sonnet 5 and GPT-5.5 on raw price by 2-5x; Moonshot's flagship is Kimi K3 at $3/$15, and GPT-5.6 Luna holds the bottom of the hosted price curve since its 2026-07-30 cut.
+- [Gemini 3.6 Flash - a Flash tier marketed on fewer tokens per task, not just a lower unit price](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/) - Gemini 3.6 Flash (2026-07-21) is priced lower than 3.5 Flash at $1.50/$7.50 per MTok and uses 17% fewer output tokens on the same work.
+- [Kimi K2.6/K2.7-Code and GLM-5.2 official API pricing](https://platform.kimi.ai/docs/pricing/chat-k27-code) - Kimi K2.7-Code ($0.95/$4.00 per million tokens) and GLM-5.2 ($1.40/$4.40) undercut Claude Sonnet 5 on raw price by 2-5x. Moonshot's flagship moved to Kimi K3 ($3.00/$15.00), and GPT-5.6 Luna's 2026-07-30 cut to $0.20/$1.20 took the bottom of the hosted price curve.
 - [Local / open-model economics for coding - state of the field (2026)](https://huggingface.co/Qwen/Qwen3.6-27B) - Open-weight coding models now score 77-81% on SWE-bench Verified, within a few points of closed frontier models, reshaping self-host-vs-API math.
 - [Reasoning-token billing across providers - the hidden output multiplier](https://developers.openai.com/api/docs/guides/reasoning) - Every major AI provider bills a model's hidden reasoning tokens at the most expensive output rate, without ever returning them to the caller. (also: [Google](https://ai.google.dev/gemini-api/docs/pricing) · [DeepSeek](https://api-docs.deepseek.com/guides/reasoning_model))
 
 ## Pricing Models
 
-### Research & Benchmarks
+### Tools
 - [Doubleword](https://doubleword.ai) - Sells async and batch inference on open models, publishing a cost-per-1B-tokens table that holds capability constant using the third-party Artificial Analysis index. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+
+### Research & Benchmarks
 - [Tokenization multiplicity & overcharging - the pay-per-token integrity problem](https://arxiv.org/abs/2506.06446) - Two academic papers show the same output can be billed a different token count depending on tokenization, and providers can be incentivized to inflate it. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
 ### Reading
@@ -76,15 +76,15 @@
 - [Cursor charges by tokens, split into first-party and third-party pools](https://cursor.com/docs/account/pricing) - Cursor meters by tokens per million (input/output/cache-write/cache-read), split into a first-party pool and a third-party API pool. (also: [Teams pricing blog](https://cursor.com/blog/teams-pricing-june-2026))
 - [Devin's Agent Compute Unit has no published definition of what it meters](https://docs.devin.ai/admin/billing/enterprise) - Devin bills Enterprise usage in Agent Compute Units, but no official doc defines what an ACU measures (not tokens, seconds, or calls).
 - [Fable 5 leaves subscription inclusion - frontier tier moves to usage-credit metering (July 7 cliff)](https://www.anthropic.com/news/redeploying-fable-5) - Fable 5's subscription saga settled 2026-07-20 (after two extensions) as a primary-confirmed two-tier split.
-- [Google AI Pro price and Gemini/Antigravity free-tier limits (2026)](https://gemini.google/subscriptions/) - Google AI Pro is confirmed at $19.99/month, beneath the $99.99 and $199.99 AI Ultra tiers giving higher rate limits on the Gemini API and Antigravity.
-- [GPT-5.6 family (Sol / Terra / Luna) - API pricing](https://developers.openai.com/api/docs/pricing) - OpenAI's GPT-5.6 family prices three tiers: Sol at $5/$30 per million tokens, Terra at $2/$12, and Luna at $0.20/$1.20 (Terra and Luna cut 2026-07-30, three weeks after launch). "Fast mode" is the renamed priority tier at a flat 2x.
+- [Google AI Pro price and Gemini/Antigravity free-tier limits (2026)](https://gemini.google/us/subscriptions/) - Google AI Pro is confirmed at $19.99/month, beneath the $99.99 and $199.99 AI Ultra tiers giving higher rate limits on the Gemini API and Antigravity.
+- [GPT-5.6 family (Sol / Terra / Luna) - API pricing](https://developers.openai.com/api/docs/pricing) - OpenAI's GPT-5.6 family launched 2026-07-09 as three tiers a clean 2x apart, then repriced 21 days later (2026-07-30): Sol held at $5/$30 per million tokens while Terra fell to $2/$12 and Luna to $0.20/$1.20, an 80% cut that stretched the ladder to 25x input top-to-bottom.
 - [LiteLLM flex/priority service-tier cost keys - the harness-level tier-routing lever](https://docs.litellm.ai/docs/proxy/custom_pricing) - LiteLLM automatically prices requests made at a non-standard tier like flex or priority, applying the right discounted or premium rate automatically.
 - [LLM price decline + Jevons paradox - unit price crashes, total spend climbs](https://a16z.com/llmflation-llm-inference-cost/) - Per-token prices are falling roughly an order of magnitude per year, while total AI spend rises even faster.
 - [LLM token pricing dimensions - the structure of a token bill](https://platform.claude.com/docs/en/about-claude/pricing) - This maps out how frontier LLM APIs meter and price tokens, read straight off the two largest providers' pricing pages, Anthropic and OpenAI.
 - [OpenAI is winding down the self-serve fine-tuning API and platform](https://developers.openai.com/api/docs/deprecations) - OpenAI is winding down self-serve fine-tuning because prompting got cheaper and more capable than fine-tuning for most uses, cutting off customers by 2027.
 - [Windsurf became Devin Desktop and switched credits to token-based quota](https://docs.devin.ai/desktop/accounts/quota) - Windsurf became Devin Desktop and in March 2026 swapped opaque per-model credit multipliers for token-based quota where free models cost nothing.
 
-## Reliability Sla
+## Reliability SLAs
 
 ### Reading
 - [Reserved-capacity reliability economics (Azure PTU · AWS Bedrock MU)](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/provisioned-throughput) - Azure's Provisioned Throughput Units and AWS Bedrock's Model Units both let buyers reserve guaranteed capacity, billed hourly whether or not it's used.
@@ -92,7 +92,6 @@
 ## Unit Economics
 
 ### Research & Benchmarks
-- [Paid (paid.ai)](https://paid.ai/) - A monetization platform for AI agents that sets pricing, tracks delivery cost per action and reports margin per customer; distinct from the similarly named Pay-i. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Cost-of-Pass - an economic framework for evaluating language models](https://arxiv.org/abs/2504.13359) - Cost-of-Pass defines the expected dollar cost of one correct answer as inference cost divided by success rate, pricing benchmark accuracy directly. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [DORA 2025 - AI as amplifier, and the delivery-stability tension](https://dora.dev/insights/balancing-ai-tensions/) - Google's DORA program found that as AI adoption becomes universal, delivery throughput rises but so does instability: AI as an amplifier, not a pure win. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [Faros - "The Acceleration Whiplash" (AI Engineering Report 2026)](https://pages.faros.ai/hubfs/AI_Engineering_Report_2026_The_Acceleration_Whiplash_Faros.pdf) - The "velocity has a hidden bill" study: telemetry from 22,000 developers across 4,000 teams over two years. ![report](https://img.shields.io/badge/report-555?style=flat-square)
