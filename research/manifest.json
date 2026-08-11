@@ -1530,6 +1530,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "AICostBudget AI API Pricing Dataset",
+    "url": "https://aicostbudget.com/en/datasets/ai-api-pricing",
+    "verified_on": "2026-08-11",
+    "stale_after": "2026-11-09",
+    "category": "pricing-models",
+    "kind": "dataset",
+    "super_area": "understand"
+  },
+  {
     "title": "Aider - an OSS coding CLI that meters its own dollar cost",
     "url": "https://github.com/Aider-AI/aider",
     "verified_on": "2026-07-26",

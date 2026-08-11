@@ -62,6 +62,7 @@
 ## Pricing Models
 
 ### Tools
+- [AICostBudget AI API Pricing Dataset](https://aicostbudget.com/en/datasets/ai-api-pricing) - Publishes source-linked AI API pricing records with normalized JSON and CSV exports.
 - [Doubleword](https://doubleword.ai) - Sells async and batch inference on open models, publishing a cost-per-1B-tokens table that holds capability constant using the third-party Artificial Analysis index. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
 ### Research & Benchmarks
