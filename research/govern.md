@@ -50,9 +50,6 @@
 - [AEGIS](https://github.com/Justin0504/Aegis) - An open-source (MIT) pre-execution firewall and cryptographic audit layer for AI agents. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/Justin0504/Aegis?style=flat-square&label=)
 - [MCPGuard-Dynamic](https://github.com/facebook/mcpguard-dynamic) - An early-stage, research-grade kernel-level eBPF sandbox for MCP (64★), published under Meta's official GitHub org. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/facebook/mcpguard-dynamic?style=flat-square&label=)
 
-### Reading
-- [GitHub Copilot default model enablement](https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise/) - From 2026-08-26, new GA models are enabled by default for Copilot Business/Enterprise orgs under a single opt-out policy, inverting the prior per-model opt-in; open-weight models and models outside GitHub's data-retention agreement (e.g., DeepSeek, Kimi K2.7, Fable 5) stay excluded regardless of the policy.
-
 ## Spend Management
 
 ### Tools

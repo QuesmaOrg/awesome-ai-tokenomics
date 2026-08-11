@@ -72,15 +72,6 @@
     "super_area": "govern"
   },
   {
-    "title": "GitHub Copilot default model enablement",
-    "url": "https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise/",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-03",
-    "category": "policy-enforcement",
-    "kind": "article",
-    "super_area": "govern"
-  },
-  {
     "title": "Denial-of-Wallet / token-exhaustion attacks",
     "url": "https://arxiv.org/abs/2601.10955",
     "verified_on": "2026-07-01",
