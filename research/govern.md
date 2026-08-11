@@ -16,7 +16,7 @@
 - [Denial-of-Wallet / token-exhaustion attacks](https://arxiv.org/abs/2601.10955) - Denial-of-wallet attacks exploit pay-per-token pricing to inflate a bill, via stolen-credential LLMjacking or agents steered into runaway token use. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [Governance Decay - compaction silently erasing safety/governance constraints](https://arxiv.org/abs/2606.22528) - Compacting an agent's context can silently erase governance rules: across 7 model families, violations rose from 0% to 30%, up to 59% for some. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
-## Billing Audit Finops
+## Billing Audit FinOps
 
 ### Tools
 - [FinOps for AI - canonical practitioner framework for governing AI/LLM spend](https://www.finops.org/framework/scope/finops-for-ai/) - FinOps for AI is the FinOps Foundation's official practitioner framework for governing AI, GPU, and token spend. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
@@ -48,8 +48,10 @@
 ### Tools
 - [ActPlane](https://github.com/eunomia-bpf/ActPlane) - An eBPF-based, OS-level policy-enforcement engine for AI-agent harnesses like Claude Code and Codex. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/eunomia-bpf/ActPlane?style=flat-square&label=)
 - [AEGIS](https://github.com/Justin0504/Aegis) - An open-source (MIT) pre-execution firewall and cryptographic audit layer for AI agents. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/Justin0504/Aegis?style=flat-square&label=)
-- [GitHub Copilot default model enablement](https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise/) - From 2026-08-26, new GA models are enabled by default for Copilot Business/Enterprise orgs under a single opt-out policy, inverting the prior per-model opt-in; open-weight models and models outside GitHub's data-retention agreement (e.g., DeepSeek, Kimi K2.7, Fable 5) stay excluded regardless of the policy.
 - [MCPGuard-Dynamic](https://github.com/facebook/mcpguard-dynamic) - An early-stage, research-grade kernel-level eBPF sandbox for MCP (64★), published under Meta's official GitHub org. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/facebook/mcpguard-dynamic?style=flat-square&label=)
+
+### Reading
+- [GitHub Copilot default model enablement](https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise/) - From 2026-08-26, new GA models are enabled by default for Copilot Business/Enterprise orgs under a single opt-out policy, inverting the prior per-model opt-in; open-weight models and models outside GitHub's data-retention agreement (e.g., DeepSeek, Kimi K2.7, Fable 5) stay excluded regardless of the policy.
 
 ## Spend Management
 
@@ -60,3 +62,8 @@
 - [Revenium](https://www.revenium.ai/) - Tracks AI agent spend at runtime to the cent, attributing every model call and tool cost to its workflow, with auto-shutoff on runaway budgets. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Vantage](https://www.vantage.sh/blog/agentic-coding-costs) - A FinOps platform ingesting native token-level cost data from Anthropic and OpenAI's own usage APIs, plus Cursor and cloud spend. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Vercel AI Gateway - per-API-key budgets](https://vercel.com/changelog/budgets-for-api-keys-on-ai-gateway) - Vercel AI Gateway lets you cap spend per API key in dollars (min $1) with a daily/weekly/monthly refresh, rejecting further requests once the cap is hit. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
+
+## Unit Economics
+
+### Tools
+- [Paid (paid.ai)](https://paid.ai/) - A monetization platform for AI agents that sets pricing, tracks delivery cost per action and reports margin per customer; distinct from the similarly named Pay-i. ![co](https://img.shields.io/badge/co-555?style=flat-square)

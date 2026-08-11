@@ -7,7 +7,7 @@
 - [khazad](https://github.com/GuglielmoCerri/khazad) - A transport-layer semantic cache for LLM APIs on Redis 8 Vector Sets: it intercepts HTTP traffic with zero application code changes and replays cached responses. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/GuglielmoCerri/khazad?style=flat-square&label=)
 - [LMCache](https://github.com/LMCache/LMCache) - A self-hosted KV-cache layer beneath vLLM, giving token-level cache-hit observability for teams who own their GPUs, not a hosted bill. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/LMCache/LMCache?style=flat-square&label=)
 - [prompt-cache](https://github.com/messkan/prompt-cache) - A Go LLM proxy that adds a three-tier semantic cache: high similarity hits directly, low skips, and a gray zone runs a cheap verification model. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/messkan/prompt-cache?style=flat-square&label=)
-- [Redis LangCache](https://redis.io/langcache/) - Redis's fully-managed semantic cache: a REST API that returns a stored response when a new query is similar to a past one. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
+- [Redis LangCache](https://redis.io/langcache/) - Redis's fully managed semantic cache: a REST API that returns a stored response when a new query is similar to a past one. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
 
 ## Cheap Local Models
 
@@ -19,9 +19,10 @@
 
 ### Tools
 - [Context Mode](https://github.com/mksglu/context-mode) - This MCP server sandboxes tool calls and returns only the distilled result, claiming a 98% cut: 315 KB of output down to 5.4 KB. ![tool: Elastic-2.0](https://img.shields.io/badge/tool-Elastic--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mksglu/context-mode?style=flat-square&label=)
-- [headroom](https://github.com/headroomlabs-ai/headroom) - An Apache-2.0 context-compression tool for LLM/agent pipelines, the category's largest repo, confirmed organic by star-forensics. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/headroomlabs-ai/headroom?style=flat-square&label=)
+- [headroom](https://github.com/headroomlabs-ai/headroom) - An Apache-2.0 context-compression tool for LLM/agent pipelines at 65,698 GitHub stars (2026-08-10), confirmed organic by star-forensics. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/headroomlabs-ai/headroom?style=flat-square&label=)
+- [lean-ctx - MCP context layer with a self-measured savings ledger](https://github.com/yvgude/lean-ctx) - Rust MCP server that mediates what a coding agent reads, with a self-measured 60-90% token-reduction headline, a reported quality column, and an accounting of its own context overhead. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/yvgude/lean-ctx?style=flat-square&label=)
 - [LLMLingua](https://github.com/microsoft/LLMLingua) - Microsoft's prompt-compression library that uses a small model to drop low-information tokens before a prompt reaches the target LLM. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/microsoft/LLMLingua?style=flat-square&label=)
-- [llmtrim](https://github.com/fkiene/llmtrim) - A local proxy that compresses a coding agent's prompt, tool schemas, and history before forwarding, and can reroute Claude calls to Grok. ![tool: MPL-2.0](https://img.shields.io/badge/tool-MPL--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/fkiene/llmtrim?style=flat-square&label=)
+- [llmtrim](https://github.com/fkiene/llmtrim) - A local proxy that compresses a coding agent's prompt, tool schemas, and history before forwarding and can reroute Claude calls to Grok. ![tool: MPL-2.0](https://img.shields.io/badge/tool-MPL--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/fkiene/llmtrim?style=flat-square&label=)
 - [rtk](https://github.com/rtk-ai/rtk) - A single-binary Rust CLI proxy that intercepts and compresses the output of common dev commands before it reaches an LLM coding agent's context window. Its headline figures are token reduction, not measured cost reduction. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/rtk-ai/rtk?style=flat-square&label=)
 - [TOON (Token-Oriented Object Notation)](https://github.com/toon-format/toon) - TOON is a compact, human-readable, lossless serialization of the JSON data model, designed for LLM input. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/toon-format/toon?style=flat-square&label=)
 
@@ -36,7 +37,6 @@
 
 ### Research & Benchmarks
 - [AgentDiet - trajectory reduction ("Reducing Cost of LLM Agents with Trajectory Reduction")](https://arxiv.org/abs/2509.23586) - AgentDiet is an inference-time module that strips useless, redundant, and expired information from an agent's trajectory, without hurting performance. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
-- [Agentic Context Management for long-horizon tasks](https://arxiv.org/abs/2607.23809) - ACM reduces peak token usage by around 14-20% while raising accuracy, but trajectories get longer: in one benchmark peak fell 14% while tool calls went up 2.4x, and the paper reports no total-token or dollar result - window pressure is not the bill. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [Context Rot - LLM performance degrades as input length grows](https://www.trychroma.com/research/context-rot) - This is Chroma's controlled study of how LLM output quality changes as input length grows, holding task difficulty fixed. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [ContextBudget - context management as a budget-constrained sequential decision](https://arxiv.org/abs/2604.01664) - ContextBudget's BACM method has an agent decide when and how much to compress its history based on remaining context budget, not a fixed rule. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [RULER](https://github.com/NVIDIA/RULER) - NVIDIA's RULER benchmark found that of models claiming 32K+ token context windows, only half actually maintain quality once you fill them to 32K. ![bench](https://img.shields.io/badge/bench-555?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/NVIDIA/RULER?style=flat-square&label=)
@@ -51,19 +51,24 @@
 ## Cost Controls
 
 ### Reading
-- [Claude Code spend-governance bundle (v2.1.216-219) - caps tightened, fan-out default loosened](https://code.claude.com/docs/en/changelog) - Claude Code's v2.1.216-219 bundle (2026-07-20 to 07-24) hardens spend controls - a concurrent-subagent cap and enforced --max-budget-usd.
+- [Claude Code spend-governance bundle (v2.1.216-225) - caps tightened, fan-out default loosened](https://code.claude.com/docs/en/changelog) - Claude Code's v2.1.216-225 releases (2026-07-20 to 08-08) harden spend controls - a concurrent-subagent cap, enforced --max-budget-usd, and gateway spend limits named inline in the CLI - while loosening the nested-subagent default from depth 1 to 3, widening the same fan-out surface they cap.
 - [Harness-side runaway-loop cost guardrails (Claude Code + Codex, July 2026)](https://github.com/anthropics/claude-code/releases/tag/v2.1.212) - In mid-July 2026 Claude Code and Codex both shipped first-party guardrails against runaway agent loops within days of each other.
 
-## Gateways And Proxies
+## Gateways and Proxies
 
 ### Tools
-- [Bifrost (Maxim AI)](https://github.com/maximhq/bifrost) - Bifrost is a Go-based AI gateway fronting 1000+ models that measured just 11 microseconds of added latency per request at 5,000 requests per second. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/maximhq/bifrost?style=flat-square&label=)
+- [Bifrost (Maxim AI)](https://github.com/maximhq/bifrost) - Bifrost is a Go-based AI gateway fronting 1,000+ models that measured just 11 microseconds of added latency per request at 5,000 requests per second. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/maximhq/bifrost?style=flat-square&label=)
 - [Cloudflare AI Gateway (Spend Limits)](https://developers.cloudflare.com/ai-gateway/features/spend-limits/) - Cloudflare AI Gateway is an edge-native LLM proxy that added dollar-denominated spend limits in June 2026, blocking or rerouting requests once a budget is hit. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Helicone](https://helicone.ai) - An open-source (Apache-2.0) LLM proxy that logs every request's cost, latency, and tokens in one line of code; Mintlify acquired it in March 2026. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square)
 - [Kong AI Gateway](https://developer.konghq.com/ai-gateway/) - The AI layer of Kong's API-gateway platform: a proxy that meters LLM/agent/MCP traffic for billing, showback, and chargeback. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [LiteLLM](https://github.com/BerriAI/litellm) - An open-source gateway fronting 100+ LLM APIs that computes real per-request dollar cost from a live pricing map, with spend limits. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/BerriAI/litellm?style=flat-square&label=)
 - [OpenRouter](https://openrouter.ai/docs/guides/routing/provider-selection) - A unified API gateway fronting 400+ models across 70+ providers that auto-routes each request by price, with fallback on outages. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Portkey AI Gateway](https://portkey.ai/docs/product/ai-gateway/virtual-keys/budget-limits) - Routes LLM traffic across providers and enforces hard USD budget limits on virtual keys, auto-expiring a key once its cap is hit. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+
+## Harness Efficiency
+
+### Tools
+- [WOZCODE](https://www.tbench.ai/leaderboard/terminal-bench/2.0) - Claude Code plugin claiming lower token usage and higher task completion, listed sixth on the Terminal-Bench 2.0 leaderboard at 80.2% as an unverified submission. ![tool: none declared](https://img.shields.io/badge/tool-none_declared-blue?style=flat-square)
 
 ## Memory
 
@@ -80,7 +85,7 @@
 ### Reading
 - [Karpathy's LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) - Andrej Karpathy's LLM Wiki pattern has an agent build and maintain a persistent markdown wiki from your sources, instead of re-retrieving raw files.
 
-## Multi Agent Systems
+## Multi-Agent Systems
 
 ### Research & Benchmarks
 - [SupervisorAgent - "Stop Wasting Your Tokens" (runtime supervision)](https://arxiv.org/abs/2510.26585) - SupervisorAgent is a lightweight, modular framework for runtime, adaptive supervision of multi-agent systems. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
@@ -91,7 +96,7 @@
 ## Prompt Agent Loop
 
 ### Tools
-- [token-ninja](https://github.com/oanhduong/token-ninja) - Intercepts deterministic commands like git status or npm test before they reach the model, running them locally and skipping the LLM call. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/oanhduong/token-ninja?style=flat-square&label=)
+- [token-ninja](https://github.com/oanhduong/token-ninja) - Intercepts deterministic commands like `git status` or `npm test` before they reach the model, running them locally and skipping the LLM call. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/oanhduong/token-ninja?style=flat-square&label=)
 
 ### Research & Benchmarks
 - [LOOP Skill Engine](https://arxiv.org/abs/2605.14237) - LOOP records an agent's first run of a repetitive task with full LLM reasoning, then replays the extracted tool-call template without calling the LLM again. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
@@ -99,7 +104,14 @@
 ### Reading
 - [Orchestrator-worker model tiering (frontier plans / cheap executes)](https://www.mindstudio.ai/blog/smart-orchestrator-cheaper-sub-agent-models-claude-code) - A capable model plans while cheaper agents execute; the pattern now ships as a vendor default, hitting 89.7% of LLM quality at 4% of the cost.
 
-## Retry And Reliability
+## Retrieval Memory
+
+### Tools
+- [PageIndex](https://github.com/VectifyAI/PageIndex) - Vectorless RAG engine that builds a hierarchical tree index over long documents and has an LLM reason over the index instead of embedding chunks. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/VectifyAI/PageIndex?style=flat-square&label=)
+- [Signet AI](https://github.com/Signet-AI/signetai) - Local-first memory and context layer that syncs memories, transcripts and secrets across Claude Code, Codex, OpenCode and other harnesses. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/Signet-AI/signetai?style=flat-square&label=)
+- [xmemory](https://arxiv.org/abs/2604.27906) - Schema-grounded agent memory that extracts structured facts instead of storing text, reporting 97.10% F1 against named memory baselines in its own paper. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
+
+## Retry and Reliability
 
 ### Reading
 - [Claude Code v2.1.199 - transient-retry hardening & partial-output preservation](https://github.com/anthropics/claude-code/releases/tag/v2.1.199) - Claude Code v2.1.199 now auto-retries rate-limit errors with backoff and raised the default retry ceiling to 300, up from a prior cap of 15.
@@ -108,8 +120,15 @@
 
 ### Tools
 - [Antigravity CLI - per-subagent model-tier routing + /effort (v1.1.5)](https://github.com/google-antigravity/antigravity-cli/blob/main/CHANGELOG.md) - Antigravity CLI v1.1.5 shipped first-party per-subagent model-tier routing (a model: flash|pro field in custom-agent frontmatter) plus an /effort control. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/google-antigravity/antigravity-cli?style=flat-square&label=)
+- [Claude Code Router](https://github.com/musistudio/claude-code-router) - A local gateway that puts Claude Code, Codex, and other coding CLIs behind one endpoint and routes each request by ordered condition rules, Node.js script rules, or a prompt tag that lets the agent pick a model per subagent. The project publishes no savings figure, and routing scripts run as fully trusted code next to your credentials - only use scripts you wrote yourself. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/musistudio/claude-code-router?style=flat-square&label=)
+- [Cursor Router](https://cursor.com/blog/router) - Cursor's Auto mode classifies each request and routes it to a model under three modes (Intelligence, Balance, Cost), with reported savings measured cache-miss-inclusive. All percentages are Cursor's own, against a constructed all-Opus baseline, with no third-party replication yet. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [GitHub Copilot auto model selection](https://docs.github.com/en/copilot/concepts/models/auto-model-selection) - Copilot's Auto setting routes by real-time model health and task complexity, and only along cache boundaries: GitHub states mid-session model switching "has shown increased cost without ample improvements in quality." The 10% discount for paid plans in Auto is a pricing multiplier, not a measured routing saving. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [Harness-native heuristic pre-routers - two mechanism-only per-turn routers](https://github.com/yeliu84/pi-model-router) - Two mechanism-only heuristic per-turn routers - one for the pi coding agent, one an OpenCode plugin - route each turn to a model tier by keyword and word-count heuristics. Neither ships a measured savings number, and the OpenCode entry's headline percentage is an assumed-inputs arithmetic simulation, not telemetry. (also: [opencode-model-router](https://github.com/marco-jardim/opencode-model-router)) ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/yeliu84/pi-model-router?style=flat-square&label=)
+- [NadirClaw - a pre-router proxy, with its benchmark attached to the paid tier](https://github.com/NadirRouter/NadirClaw) - An OpenAI-compatible pre-router proxy for coding harnesses: a ~10ms embedding classifier picks the cheapest model predicted to answer, verifies the answer against quality heuristics, and escalates on failure. Its committed RouterBench numbers belong to the paid Nadir Pro classifier, not the free OSS one. ![tool: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/tool-PolyForm_Noncommercial_1.0.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/NadirRouter/NadirClaw?style=flat-square&label=)
 - [Not Diamond](https://www.notdiamond.ai/) - Not Diamond's meta-model predicts, per input, which LLM will give the best answer at the lowest cost, then routes the request there. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [OpenCode - explicit cost-tier routing](https://opencode.ai/docs/) - OpenCode is an open-source (MIT) coding-agent CLI with its own explicit cost- and model-routing configuration, set directly in config. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square)
+- [opencode-fusion](https://github.com/mihneaptu/opencode-fusion) - An OpenCode config layer that denies the main agent's edit and search tools so they are removed from its tool schema entirely, forcing every file change through a cheaper sidekick agent. Model assignments are fixed per role at startup, and the project publishes no savings measurement of its own. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mihneaptu/opencode-fusion?style=flat-square&label=)
+- [Plano (formerly archgw)](https://github.com/katanemo/plano) - An Envoy-based proxy whose router matches queries to user-defined domains and actions via a small routing model, rather than picking by benchmark rank. Since July 2026 it also prices the warm cache a model switch would discard, and vetoes switches once their cumulative cost passes a configured overhead cap. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/katanemo/plano?style=flat-square&label=)
 - [RouteLLM](https://github.com/lm-sys/RouteLLM) - LMSYS's open-source router sending each query to a cheap or expensive model based on a trained cost threshold, as a drop-in server. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/lm-sys/RouteLLM?style=flat-square&label=)
 - [ruflo (formerly Claude-Flow) - cost-adjusted model routing](https://github.com/ruvnet/ruflo) - ruflo is an open-source agent meta-harness for Claude Code and Codex, providing swarm orchestration and persistent memory. Ships on npm as `claude-flow` (v3.17.0). ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/ruvnet/ruflo?style=flat-square&label=)
 - [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) - Sends routine queries to cheap or local models and hard ones to stronger backends, as an open-source, self-hostable router. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/vllm-project/semantic-router?style=flat-square&label=)
@@ -142,18 +161,20 @@
 ### Research & Benchmarks
 - [RLM-Cascade - response-level speculative decoding at the gateway](https://arxiv.org/abs/2606.22840) - RLM-Cascade, from a PayPal team, has a cheap draft model answer first and an Opus 4.8 verifier accept or rewrite it, at roughly 2% of Opus's cost. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
-## Test Time Compute
+## Test-Time Compute
 
 ### Research & Benchmarks
-- [Stop When Reasoning Converges](https://arxiv.org/abs/2605.17672) - Reasoning models often keep generating steps after a solution has already stabilized, wasting tokens and adding latency - what this paper calls "overthink.". ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
+- [Stop When Reasoning Converges](https://arxiv.org/abs/2605.17672) - Reasoning models often keep generating steps after a solution has already stabilized, wasting tokens and adding latency - a pattern the paper describes as overthinking. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [When more reasoning hurts - the test-time-compute ceiling](https://arxiv.org/abs/2604.10739) - Two 2026 papers found giving a model more reasoning budget makes it perform worse and cost more; past a point, tool delegation wins outright. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
 ## Tool Protocol Overhead
 
-### Research & Benchmarks
-- [MCP Tool Descriptions Are Smelly!](https://arxiv.org/abs/2602.14878) - This study found poorly-written MCP tool descriptions measurably hurt agent efficiency, using an LLM-jury scanner and an A/B protocol on MCP-Universe. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
+### Tools
 - [Coral](https://github.com/withcoral/coral) - Gives agents one SQL interface over APIs and internal systems instead of many MCP servers; its own 82-task benchmark reports 64% fewer tokens on the complex-task slice, 41% across all tasks. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/withcoral/coral?style=flat-square&label=)
 - [StackOne Falcon](https://www.stackone.com/blog/mcp-token-optimization/) - An execution engine that cuts tool-calling tokens by filtering tool definitions, shaping responses and running code at the edge, with search-first discovery benchmarked on 1,843 tasks; its broader reduction percentages are vendor-reported. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+
+### Research & Benchmarks
+- [MCP Tool Descriptions Are Smelly!](https://arxiv.org/abs/2602.14878) - This study found poorly-written MCP tool descriptions measurably hurt agent efficiency, using an LLM-jury scanner and an A/B protocol on MCP-Universe. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [Tool Attention Is All You Need](https://arxiv.org/abs/2604.21816) - MCP re-sends every tool's full schema on every turn, whether or not the agent needs it - a protocol tax known as the MCP/Tools Tax. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
 ### Reading
