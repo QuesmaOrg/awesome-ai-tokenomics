@@ -19,9 +19,6 @@
 - [OpenUsage](https://github.com/robinebers/openusage) - A native Swift macOS menu-bar meter for 10 AI coding subscriptions, showing session and weekly limits, credits, and estimated spend from local credentials. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/robinebers/openusage?style=flat-square&label=)
 - [TokenTracker](https://github.com/mm7894215/TokenTracker) - A local-first token and cost dashboard for 27 coding tools, with a desktop pet, native widgets, and achievements as a distinct gamified take on usage metering. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mm7894215/TokenTracker?style=flat-square&label=)
 
-### Reading
-- [Cursor removes dollar costs from self-serve usage reporting](https://forum.cursor.com/t/usage-page-to-token-amount-what/167153) - On 2026-07-31 Cursor removed dollar costs from the Usage page, the Cost column and the usage-events CSV for self-serve plans including Teams, applied retroactively to historical records.
-
 ## eBPF Kernel Capture
 
 ### Tools
