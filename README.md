@@ -318,7 +318,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 
 ### Pricing Models
 
-- [AICostBudget AI API Pricing Dataset](https://aicostbudget.com/en/datasets/ai-api-pricing) - Publishes source-linked AI API pricing records with normalized JSON and CSV exports.
+- [AICostBudget AI API Pricing Dataset](https://aicostbudget.com/en/datasets/ai-api-pricing) - Publishes source-linked AI API pricing records with normalized JSON and CSV exports. ![data](https://img.shields.io/badge/data-555?style=flat-square)
 - [Batch / Priority / Flex service tiers - the scheduling axis of token pricing (clustered, cross-vendor)](https://platform.claude.com/docs/en/docs/build-with-claude/batch-processing) - Every major LLM vendor sells the same lever, trading latency for price via async batch scheduling, with Anthropic, OpenAI, and Google all near 50% off. (also: [OpenAI](https://developers.openai.com/api/docs/pricing) · [Google](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/claude/batch))
 - [Bessemer - the AI pricing & monetization playbook (seat → usage → outcome)](https://www.bvp.com/atlas/the-ai-pricing-and-monetization-playbook) - Bessemer's playbook argues AI pricing is shifting from per-seat to consumption/outcome-based, citing Intercom's $0.99-per-resolved-ticket model.
 - [Cached-input discounts - the ~90%-off lever behind cache-accounting](https://platform.claude.com/docs/en/build-with-claude/prompt-caching) - Cache-read pricing discounts input tokens by about 90%: the biggest lever on an agentic bill, since input is roughly 85% of session cost.
