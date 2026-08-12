@@ -65,6 +65,7 @@
 - [Doubleword](https://doubleword.ai) - Sells async and batch inference on open models, publishing a cost-per-1B-tokens table that holds capability constant using the third-party Artificial Analysis index. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
 ### Research & Benchmarks
+- [AICostBudget AI API Pricing Dataset](https://aicostbudget.com/en/datasets/ai-api-pricing) - Publishes source-linked AI API pricing records with normalized JSON and CSV exports. ![data](https://img.shields.io/badge/data-555?style=flat-square)
 - [Tokenization multiplicity & overcharging - the pay-per-token integrity problem](https://arxiv.org/abs/2506.06446) - Two academic papers show the same output can be billed a different token count depending on tokenization, and providers can be incentivized to inflate it. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
 ### Reading
