@@ -567,15 +567,6 @@
     "super_area": "measure"
   },
   {
-    "title": "Agent Island",
-    "url": "https://github.com/tristan666666/agent-island",
-    "verified_on": "2026-08-10",
-    "stale_after": "2026-11-08",
-    "category": "dashboards",
-    "kind": "oss",
-    "super_area": "monitor"
-  },
-  {
     "title": "AgentSight",
     "url": "https://github.com/eunomia-bpf/agentsight",
     "verified_on": "2026-07-01",
