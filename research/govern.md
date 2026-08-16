@@ -20,6 +20,7 @@
 
 ### Tools
 - [FinOps for AI - canonical practitioner framework for governing AI/LLM spend](https://www.finops.org/framework/scope/finops-for-ai/) - FinOps for AI is the FinOps Foundation's official practitioner framework for governing AI, GPU, and token spend. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
+- [TokenGauge](https://github.com/fablgen-agent/tokengauge) - A browser-local tool that maps aggregate input, cache-read, and output tokens to dated rate cards for nine providers, then reports variance against a user-entered invoice total. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/fablgen-agent/tokengauge?style=flat-square&label=)
 - [Vaudit - TokenAudit](https://www.vaudit.com/) - Vaudit is an AI-native, independent spend-auditing and recovery platform (San Francisco, founded late 2023). TokenAudit is its LLM invoice-reconciliation product. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
 ## Budgets Caps

@@ -216,6 +216,15 @@
     "super_area": "govern"
   },
   {
+    "title": "TokenGauge",
+    "url": "https://github.com/fablgen-agent/tokengauge",
+    "verified_on": "2026-08-16",
+    "stale_after": "2026-11-14",
+    "category": "billing-audit-finops",
+    "kind": "oss",
+    "super_area": "govern"
+  },
+  {
     "title": "TrueFoundry (AI Gateway - Budget Limiting)",
     "url": "https://www.truefoundry.com/docs/ai-gateway/budgetlimiting",
     "verified_on": "2026-07-01",
