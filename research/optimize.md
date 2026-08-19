@@ -3,7 +3,6 @@
 ## Caching
 
 ### Tools
-- [GPTCache](https://github.com/zilliztech/GPTCache) - An open-source semantic cache returning a stored LLM response for a paraphrased repeat query via vector search, skipping the paid call. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/zilliztech/GPTCache?style=flat-square&label=)
 - [khazad](https://github.com/GuglielmoCerri/khazad) - A transport-layer semantic cache for LLM APIs on Redis 8 Vector Sets: it intercepts HTTP traffic with zero application code changes and replays cached responses. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/GuglielmoCerri/khazad?style=flat-square&label=)
 - [LMCache](https://github.com/LMCache/LMCache) - A self-hosted KV-cache layer beneath vLLM, giving token-level cache-hit observability for teams who own their GPUs, not a hosted bill. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/LMCache/LMCache?style=flat-square&label=)
 - [prompt-cache](https://github.com/messkan/prompt-cache) - A Go LLM proxy that adds a three-tier semantic cache: high similarity hits directly, low skips, and a gray zone runs a cheap verification model. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/messkan/prompt-cache?style=flat-square&label=)
