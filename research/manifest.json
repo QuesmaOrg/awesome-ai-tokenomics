@@ -342,6 +342,15 @@
     "super_area": "measure"
   },
   {
+    "title": "FOCUS 1.5 - what the AI-cost release includes, and what it rules out",
+    "url": "https://www.tokeneconomics.com/projects/what-1-5-does-for-ai-cost-and-what-it-does-not/",
+    "verified_on": "2026-08-19",
+    "stale_after": "2026-10-08",
+    "category": "whole-bill-accounting",
+    "kind": "article",
+    "super_area": "measure"
+  },
+  {
     "title": "FOCUS 1.4 - the cross-vendor billing-data normalization standard (now with invoice reconciliation)",
     "url": "https://focus.finops.org/focus-specification/",
     "verified_on": "2026-07-02",
@@ -819,6 +828,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "benjamin-plus - JetBrains' own token-efficiency skill, measured on its own published A/B rig",
+    "url": "https://github.com/JetBrains/benjamin-plus-skill",
+    "verified_on": "2026-08-19",
+    "stale_after": "2026-11-17",
+    "category": "prompt-agent-loop",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
     "title": "Bifrost (Maxim AI)",
     "url": "https://github.com/maximhq/bifrost",
     "verified_on": "2026-07-02",
@@ -1014,15 +1032,6 @@
     "stale_after": "2026-10-03",
     "category": "multi-agent-overhead",
     "kind": "technique",
-    "super_area": "optimize"
-  },
-  {
-    "title": "GPTCache",
-    "url": "https://github.com/zilliztech/GPTCache",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "caching",
-    "kind": "oss",
     "super_area": "optimize"
   },
   {
@@ -1307,7 +1316,7 @@
   {
     "title": "RouteLLM",
     "url": "https://github.com/lm-sys/RouteLLM",
-    "verified_on": "2026-07-02",
+    "verified_on": "2026-08-19",
     "stale_after": "2026-10-02",
     "category": "routing-model-selection",
     "kind": "oss",
@@ -1523,8 +1532,8 @@
   {
     "title": "AICostBudget AI API Pricing Dataset",
     "url": "https://aicostbudget.com/en/datasets/ai-api-pricing",
-    "verified_on": "2026-08-11",
-    "stale_after": "2026-11-09",
+    "verified_on": "2026-08-13",
+    "stale_after": "2026-11-12",
     "category": "pricing-models",
     "kind": "dataset",
     "super_area": "understand"
@@ -1584,9 +1593,18 @@
     "super_area": "understand"
   },
   {
+    "title": "Big-T Notation - a complexity ladder for token consumption",
+    "url": "https://www.tokeneconomics.com/projects/big-t-notation/",
+    "verified_on": "2026-08-19",
+    "stale_after": "2026-11-17",
+    "category": "unit-economics",
+    "kind": "framework",
+    "super_area": "understand"
+  },
+  {
     "title": "Cached-input discounts - the ~90%-off lever behind cache-accounting",
     "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
-    "verified_on": "2026-08-03",
+    "verified_on": "2026-08-19",
     "stale_after": "2026-11-03",
     "category": "pricing-models",
     "kind": "article",
@@ -1730,7 +1748,7 @@
   {
     "title": "Fable 5 leaves subscription inclusion - frontier tier moves to usage-credit metering (July 7 cliff)",
     "url": "https://www.anthropic.com/news/redeploying-fable-5",
-    "verified_on": "2026-08-10",
+    "verified_on": "2026-08-19",
     "stale_after": "2026-09-10",
     "category": "pricing-models",
     "kind": "article",
@@ -1811,7 +1829,7 @@
   {
     "title": "GPT-5.6 family (Sol / Terra / Luna) - API pricing",
     "url": "https://developers.openai.com/api/docs/pricing",
-    "verified_on": "2026-08-10",
+    "verified_on": "2026-08-19",
     "stale_after": "2026-11-03",
     "category": "pricing-models",
     "kind": "article",
@@ -1829,7 +1847,7 @@
   {
     "title": "Kimi K2.6/K2.7-Code and GLM-5.2 official API pricing",
     "url": "https://platform.kimi.ai/docs/pricing/chat-k27-code",
-    "verified_on": "2026-08-10",
+    "verified_on": "2026-08-19",
     "stale_after": "2026-11-03",
     "category": "model-economics",
     "kind": "article",
