@@ -95,6 +95,7 @@
 ## Prompt Agent Loop
 
 ### Tools
+- [benjamin-plus - JetBrains' own token-efficiency skill, measured on its own published A/B rig](https://github.com/JetBrains/benjamin-plus-skill) - A 745-token instruction payload from JetBrains that changes how a coding agent looks things up and waits; the repo reports −17.9% median cost on 80 paired SkillsBench tasks with quality tied, and publishes no raw data. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/JetBrains/benjamin-plus-skill?style=flat-square&label=)
 - [token-ninja](https://github.com/oanhduong/token-ninja) - Intercepts deterministic commands like `git status` or `npm test` before they reach the model, running them locally and skipping the LLM call. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/oanhduong/token-ninja?style=flat-square&label=)
 
 ### Research & Benchmarks

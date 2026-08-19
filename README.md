@@ -151,6 +151,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 
 ### Prompt Agent Loop
 
+- [benjamin-plus - JetBrains' own token-efficiency skill, measured on its own published A/B rig](https://github.com/JetBrains/benjamin-plus-skill) - A 745-token instruction payload from JetBrains that changes how a coding agent looks things up and waits; the repo reports −17.9% median cost on 80 paired SkillsBench tasks with quality tied, and publishes no raw data. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/JetBrains/benjamin-plus-skill?style=flat-square&label=)
 - [LOOP Skill Engine](https://arxiv.org/abs/2605.14237) - LOOP records an agent's first run of a repetitive task with full LLM reasoning, then replays the extracted tool-call template without calling the LLM again. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [Orchestrator-worker model tiering (frontier plans / cheap executes)](https://www.mindstudio.ai/blog/smart-orchestrator-cheaper-sub-agent-models-claude-code) - A capable model plans while cheaper agents execute; the pattern now ships as a vendor default, hitting 89.7% of LLM quality at 4% of the cost.
 - [token-ninja](https://github.com/oanhduong/token-ninja) - Intercepts deterministic commands like `git status` or `npm test` before they reach the model, running them locally and skipping the LLM call. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/oanhduong/token-ninja?style=flat-square&label=)
@@ -341,6 +342,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 
 ### Unit Economics
 
+- [Big-T Notation - a complexity ladder for token consumption](https://www.tokeneconomics.com/projects/big-t-notation/) - A Big-O-style vocabulary for token cost, published by the Tokenomics Foundation: workloads are classified T(1) through T(n·k·a) and T(∞) by how consumption grows with requests, calls per request, and agent depth. ![tool: CC BY 4.0](https://img.shields.io/badge/tool-CC_BY_4.0-blue?style=flat-square)
 - [Cloud Capital - gross margin in the age of AI (the vendor/supply side)](https://www.cloudcapital.co/learn/gross-margin-in-the-age-of-ai) - AI-native software runs at roughly 50-60% gross margin versus 70-80% for SaaS, since inference and compute became a large, variable cost of goods sold.
 - [Cost-of-Pass - an economic framework for evaluating language models](https://arxiv.org/abs/2504.13359) - Cost-of-Pass defines the expected dollar cost of one correct answer as inference cost divided by success rate, pricing benchmark accuracy directly. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [DORA 2025 - AI as amplifier, and the delivery-stability tension](https://dora.dev/insights/balancing-ai-tensions/) - Google's DORA program found that as AI adoption becomes universal, delivery throughput rises but so does instability: AI as an amplifier, not a pure win. ![report](https://img.shields.io/badge/report-555?style=flat-square)
@@ -403,6 +405,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 ### Whole Bill Accounting
 
 - [FOCUS 1.4 - the cross-vendor billing-data normalization standard (now with invoice reconciliation)](https://focus.finops.org/focus-specification/) - FOCUS 1.4, the Linux Foundation's billing-data schema, added Invoice Detail and Billing Period datasets to reconcile spend against real invoices. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
+- [FOCUS 1.5 - what the AI-cost release includes, and what it rules out](https://www.tokeneconomics.com/projects/what-1-5-does-for-ai-cost-and-what-it-does-not/) - The FOCUS working group's own scope statement for release 1.5: model identity merged into SkuPriceDetails with no new columns, cache and token-type work still unmerged, and session, event and harness identifiers ruled out of scope on the record.
 
 ## Practices
 

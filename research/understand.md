@@ -92,6 +92,9 @@
 
 ## Unit Economics
 
+### Tools
+- [Big-T Notation - a complexity ladder for token consumption](https://www.tokeneconomics.com/projects/big-t-notation/) - A Big-O-style vocabulary for token cost, published by the Tokenomics Foundation: workloads are classified T(1) through T(n·k·a) and T(∞) by how consumption grows with requests, calls per request, and agent depth. ![tool: CC BY 4.0](https://img.shields.io/badge/tool-CC_BY_4.0-blue?style=flat-square)
+
 ### Research & Benchmarks
 - [Cost-of-Pass - an economic framework for evaluating language models](https://arxiv.org/abs/2504.13359) - Cost-of-Pass defines the expected dollar cost of one correct answer as inference cost divided by success rate, pricing benchmark accuracy directly. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [DORA 2025 - AI as amplifier, and the delivery-stability tension](https://dora.dev/insights/balancing-ai-tensions/) - Google's DORA program found that as AI adoption becomes universal, delivery throughput rises but so does instability: AI as an amplifier, not a pure win. ![report](https://img.shields.io/badge/report-555?style=flat-square)
