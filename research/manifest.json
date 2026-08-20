@@ -1323,15 +1323,6 @@
     "super_area": "optimize"
   },
   {
-    "title": "RouteLLM",
-    "url": "https://github.com/lm-sys/RouteLLM",
-    "verified_on": "2026-08-19",
-    "stale_after": "2026-10-02",
-    "category": "routing-model-selection",
-    "kind": "oss",
-    "super_area": "optimize"
-  },
-  {
     "title": "rtk",
     "url": "https://github.com/rtk-ai/rtk",
     "verified_on": "2026-07-20",
