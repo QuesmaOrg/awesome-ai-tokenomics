@@ -38,6 +38,21 @@ Every internal cross-reference is a plain relative markdown link. No wikilinks:
    verified.
 3. Expect an editorial pass: we may tighten wording or ask for a stronger source before merging.
 
+## Self-submissions
+
+You may submit your own project. Additional rules apply:
+
+- Disclose it in the PR body.
+- Every claim in the one-liner must be checkable against a public primary source: the code, live
+  docs, or a published pricing table. A claim only a hosted backend can confirm is worded as
+  vendor-reported or left out.
+- The kind badge must match where the features live. An OSS license badge means the listed
+  features exist in that repository's code; features served by a hosted backend take the `co`
+  badge.
+- Adoption is not required, but the project must be inspectable: working code or a live service,
+  not a landing page.
+- Near-identical submissions sent to many lists at once are declined.
+
 ## Freshness
 
 Entries carry a `verified_on` date. CI flags entries that haven't been re-verified within our
