@@ -801,6 +801,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "Agent QA",
+    "url": "https://github.com/vostride/agent-qa",
+    "verified_on": "2026-08-16",
+    "stale_after": "2026-11-14",
+    "category": "harness-efficiency",
+    "kind": "tool",
+    "super_area": "optimize"
+  },
+  {
     "title": "AgentDiet - trajectory reduction (\"Reducing Cost of LLM Agents with Trajectory Reduction\")",
     "url": "https://arxiv.org/abs/2509.23586",
     "verified_on": "2026-07-02",

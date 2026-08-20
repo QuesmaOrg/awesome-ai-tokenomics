@@ -130,6 +130,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 
 ### Harness Efficiency
 
+- [Agent QA](https://github.com/vostride/agent-qa) - A self-improving software-testing harness combining persistent test memory with self-healing web and mobile runs; its primary source publishes no token-use or cost-savings measurement. ![tool: FSL-1.1-ALv2](https://img.shields.io/badge/tool-FSL--1.1--ALv2-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/vostride/agent-qa?style=flat-square&label=)
 - [WOZCODE](https://www.tbench.ai/leaderboard/terminal-bench/2.0) - Claude Code plugin claiming lower token usage and higher task completion, listed sixth on the Terminal-Bench 2.0 leaderboard at 80.2% as an unverified submission. ![tool: none declared](https://img.shields.io/badge/tool-none_declared-blue?style=flat-square)
 
 ### Memory
