@@ -414,15 +414,6 @@
     "super_area": "measure"
   },
   {
-    "title": "LoCoMo",
-    "url": "https://github.com/snap-research/locomo",
-    "verified_on": "2026-07-21",
-    "stale_after": "2026-10-21",
-    "category": "benchmarks-evals",
-    "kind": "benchmark",
-    "super_area": "measure"
-  },
-  {
     "title": "LongMemEval",
     "url": "https://github.com/xiaowu0162/LongMemEval",
     "verified_on": "2026-07-21",
