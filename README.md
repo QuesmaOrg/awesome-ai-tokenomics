@@ -1,8 +1,8 @@
 # Awesome AI Tokenomics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-<img src=".github/logo.svg" align="right" width="110" alt="">
+<a href="https://quesma.com"><img src=".github/logo.svg" align="right" width="110" alt=""></a>
 
-> A curated list of tools, benchmarks, papers, and copy-paste configs for AI token costs: what tokens cost, where they get wasted, and how to cut the bill.
+> What AI tokens cost, where they get wasted, and how to cut the bill.
 
 Every entry is a link with a one-line summary: what it does, and the number behind it. On top of the list sit a few short pages written here: practices (what to do), concepts (how the economics work), claims (what we currently believe, with the evidence), and setups (configs you can paste straight into Claude Code or Codex). It's a reference to browse, grep, or hand to your agent - not a product.
 
@@ -431,4 +431,4 @@ Runnable, validated Claude Code and Codex configurations and skills for token-ef
 
 ---
 
-Text content: CC BY 4.0 ([LICENSE](LICENSE)) · Code and configs: MIT ([LICENSE-CODE](LICENSE-CODE)). Maintained by the team at [Quesma](https://quesma.com).
+Maintained by the team at [Quesma](https://quesma.com).
