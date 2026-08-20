@@ -63,6 +63,7 @@
 - [LiteLLM](https://github.com/BerriAI/litellm) - An open-source gateway fronting 100+ LLM APIs that computes real per-request dollar cost from a live pricing map, with spend limits. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/BerriAI/litellm?style=flat-square&label=)
 - [OpenRouter](https://openrouter.ai/docs/guides/routing/provider-selection) - A unified API gateway fronting 400+ models across 70+ providers that auto-routes each request by price, with fallback on outages. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Portkey AI Gateway](https://portkey.ai/docs/product/ai-gateway/virtual-keys/budget-limits) - Routes LLM traffic across providers and enforces hard USD budget limits on virtual keys, auto-expiring a key once its cap is hit. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [SandBase CLI](https://github.com/sandbaseai/cli) - An Apache-2.0 CLI and local MCP bridge for 25 AI clients; its inspect tool exposes a model or API's price before execution, and runs lists recent calls with cost breakdowns across a 2,000+ catalog. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/sandbaseai/cli?style=flat-square&label=)
 
 ## Harness Efficiency
 
