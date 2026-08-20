@@ -261,6 +261,15 @@
     "super_area": "govern"
   },
   {
+    "title": "aGiTrack",
+    "url": "https://github.com/core-aix/agitrack",
+    "verified_on": "2026-08-20",
+    "stale_after": "2026-11-20",
+    "category": "metering",
+    "kind": "oss",
+    "super_area": "measure"
+  },
+  {
     "title": "Anthropic bill anatomy - the whole-bill line-item taxonomy",
     "url": "https://platform.claude.com/docs/en/about-claude/pricing#code-execution-tool",
     "verified_on": "2026-07-02",
