@@ -265,6 +265,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 ### Unit Economics
 
 - [Paid (paid.ai)](https://paid.ai/) - A monetization platform for AI agents that sets pricing, tracks delivery cost per action and reports margin per customer; distinct from the similarly named Pay-i. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [Weckr](https://useweckr.com) - Reports margin per end customer for AI SaaS: an SDK tags each LLM call with the user id, feature and plan, the backend recomputes cost from token counts server-side rather than trusting the client-reported figure, and per-plan spending caps block or downgrade a call before the provider bills for it. Publishes the pricing table it bills from as a live JSON feed. MIT SDKs for TypeScript and Python; hosted backend. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
 ## Understand
 
