@@ -1568,8 +1568,8 @@
   {
     "title": "Batch / Priority / Flex service tiers - the scheduling axis of token pricing (clustered, cross-vendor)",
     "url": "https://platform.claude.com/docs/en/docs/build-with-claude/batch-processing",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
@@ -1577,8 +1577,8 @@
   {
     "title": "Bessemer - the AI pricing & monetization playbook (seat → usage → outcome)",
     "url": "https://www.bvp.com/atlas/the-ai-pricing-and-monetization-playbook",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
@@ -1603,9 +1603,9 @@
   },
   {
     "title": "ChatGPT subscription tiers and Codex CLI bundling/pricing (2026)",
-    "url": "https://developers.openai.com/codex/pricing",
-    "verified_on": "2026-07-05",
-    "stale_after": "2026-10-05",
+    "url": "https://learn.chatgpt.com/docs/pricing",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
@@ -1703,8 +1703,8 @@
   {
     "title": "Cursor charges by tokens, split into first-party and third-party pools",
     "url": "https://cursor.com/docs/account/pricing",
-    "verified_on": "2026-07-20",
-    "stale_after": "2026-10-20",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
@@ -1712,8 +1712,8 @@
   {
     "title": "Devin's Agent Compute Unit has no published definition of what it meters",
     "url": "https://docs.devin.ai/admin/billing/enterprise",
-    "verified_on": "2026-07-20",
-    "stale_after": "2026-10-20",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
@@ -1730,8 +1730,8 @@
   {
     "title": "Doubleword",
     "url": "https://doubleword.ai",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
     "category": "pricing-models",
     "kind": "company",
     "super_area": "understand"
@@ -1811,8 +1811,8 @@
   {
     "title": "Google AI Pro price and Gemini/Antigravity free-tier limits (2026)",
     "url": "https://gemini.google/us/subscriptions/",
-    "verified_on": "2026-08-10",
-    "stale_after": "2026-11-10",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
@@ -1856,8 +1856,8 @@
   {
     "title": "LiteLLM flex/priority service-tier cost keys - the harness-level tier-routing lever",
     "url": "https://docs.litellm.ai/docs/proxy/custom_pricing",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
     "category": "pricing-models",
     "kind": "technique",
     "super_area": "understand"
@@ -1865,8 +1865,8 @@
   {
     "title": "LLM price decline + Jevons paradox - unit price crashes, total spend climbs",
     "url": "https://a16z.com/llmflation-llm-inference-cost/",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
@@ -1874,8 +1874,8 @@
   {
     "title": "LLM token pricing dimensions - the structure of a token bill",
     "url": "https://platform.claude.com/docs/en/about-claude/pricing",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
@@ -1928,8 +1928,8 @@
   {
     "title": "OpenAI is winding down the self-serve fine-tuning API and platform",
     "url": "https://developers.openai.com/api/docs/deprecations",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
@@ -1982,8 +1982,8 @@
   {
     "title": "Tokenization multiplicity & overcharging - the pay-per-token integrity problem",
     "url": "https://arxiv.org/abs/2506.06446",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
     "category": "pricing-models",
     "kind": "paper",
     "super_area": "understand"
@@ -2009,8 +2009,8 @@
   {
     "title": "Windsurf became Devin Desktop and switched credits to token-based quota",
     "url": "https://docs.devin.ai/desktop/accounts/quota",
-    "verified_on": "2026-07-20",
-    "stale_after": "2026-10-20",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
