@@ -171,6 +171,15 @@
     "super_area": "govern"
   },
   {
+    "title": "nable (finopsmcp)",
+    "url": "https://github.com/getnable/finopsmcp",
+    "verified_on": "2026-08-19",
+    "stale_after": "2026-11-19",
+    "category": "spend-management",
+    "kind": "tool",
+    "super_area": "govern"
+  },
+  {
     "title": "Paid (paid.ai)",
     "url": "https://paid.ai/",
     "verified_on": "2026-08-03",
@@ -187,15 +196,6 @@
     "category": "allocation-chargeback",
     "kind": "company",
     "super_area": "govern"
-  },
-  {
-    "category": "spend-management",
-    "kind": "oss",
-    "stale_after": "2026-11-19",
-    "super_area": "govern",
-    "title": "nable",
-    "url": "https://github.com/getnable/finopsmcp",
-    "verified_on": "2026-08-19"
   },
   {
     "title": "PointFive (AI Efficiency OS / TokenShift)",
