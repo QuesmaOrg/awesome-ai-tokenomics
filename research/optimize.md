@@ -68,7 +68,8 @@
 ## Harness Efficiency
 
 ### Tools
-- [WOZCODE](https://www.tbench.ai/leaderboard/terminal-bench/2.0) - Claude Code plugin claiming lower token usage and higher task completion, listed sixth on the Terminal-Bench 2.0 leaderboard at 80.2% as an unverified submission. ![tool: none declared](https://img.shields.io/badge/tool-none_declared-blue?style=flat-square)
+- [SoL-Pi](https://nvlabs.github.io/SoL-Pi/) - An NVIDIA Labs extension for the Pi coding harness that packages four token-efficiency mechanisms, reporting 45-49% fewer tokens than stock Pi while a held-out gate keeps roughly 94% of its score. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square)
+- [WOZCODE](https://wozcode.com) - A proprietary Claude Code plugin. Its own published dataset (35 paired tasks, one run each, read 2026-09-14) records 54.4% lower cost and 69.3% fewer tokens than stock Claude Code; no live Terminal-Bench leaderboard lists it. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
 
 ## Memory
 
@@ -89,6 +90,7 @@
 
 ### Tools
 - [CrewAI](https://github.com/crewAIInc/crewAI) - An MIT-licensed multi-agent orchestration framework whose crew object exposes cache-aware token totals, including an explicit reconciliation step so cached Anthropic prompt tokens are not undercounted against the bill. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/crewAIInc/crewAI?style=flat-square&label=)
+- [LangChain](https://github.com/langchain-ai/langchain) - The MIT-licensed agent framework underneath LangGraph, LangMem and LangSmith: it defines the cache-aware UsageMetadata every LangChain integration reports, reconciles Anthropic cache tokens into billed input totals in provider code, and ships context-editing, summarization and call-limit middleware; it prices nothing. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/langchain-ai/langchain?style=flat-square&label=)
 - [LangGraph](https://github.com/langchain-ai/langgraph) - LangChain's graph orchestration library for stateful agents, with per-super-step checkpointing, per-node pending writes, and an opt-in node result cache; it ships no token accounting of its own. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/langchain-ai/langgraph?style=flat-square&label=)
 
 ### Research & Benchmarks
