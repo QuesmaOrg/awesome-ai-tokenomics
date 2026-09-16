@@ -424,6 +424,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 
 - [FOCUS 1.4 - the cross-vendor billing-data normalization standard (now with invoice reconciliation)](https://focus.finops.org/focus-specification/) - FOCUS 1.4, the Linux Foundation's billing-data schema, added Invoice Detail and Billing Period datasets to reconcile spend against real invoices. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [FOCUS 1.5 - what the AI-cost release includes, and what it rules out](https://www.tokeneconomics.com/projects/what-1-5-does-for-ai-cost-and-what-it-does-not/) - The FOCUS working group's own scope statement for release 1.5: model identity merged into SkuPriceDetails with no new columns, cache and token-type work still unmerged, and session, event and harness identifiers ruled out of scope on the record.
+- [HostDeFi](https://hostdefi.com) — free token-safety scanner grading tokens A+–F from on-chain checks (mint/freeze authority, liquidity, holder concentration) across Solana + 7 EVM chains. Keyless REST API, hosted MCP, x402 endpoints.
 
 ## Practices
 
