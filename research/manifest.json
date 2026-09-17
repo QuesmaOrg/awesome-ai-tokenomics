@@ -1,5 +1,14 @@
 [
   {
+    "title": "\"Qwen 3.6 27B is the sweet spot for local development\" - Migdał / Quesma (first-party)",
+    "url": "https://quesma.com/blog/qwen-36-is-awesome/",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "model-economics",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
     "title": "ActPlane",
     "url": "https://github.com/eunomia-bpf/ActPlane",
     "verified_on": "2026-07-03",
@@ -18,6 +27,195 @@
     "super_area": "govern"
   },
   {
+    "title": "AgentDiet - trajectory reduction (\"Reducing Cost of LLM Agents with Trajectory Reduction\")",
+    "url": "https://arxiv.org/abs/2509.23586",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "context-engineering",
+    "kind": "paper",
+    "super_area": "optimize"
+  },
+  {
+    "title": "AgentSight",
+    "url": "https://github.com/eunomia-bpf/agentsight",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "ebpf-kernel-capture",
+    "kind": "oss",
+    "super_area": "monitor"
+  },
+  {
+    "title": "AI Tokenomics: how to tokenmin while ROImaxxing (MMC Ventures)",
+    "url": "https://mmc.vc/research/ai-tokenomics-how-to-tokenmin-while-roimaxxing/",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "market-sizing",
+    "kind": "report",
+    "super_area": "understand"
+  },
+  {
+    "title": "AICostBudget AI API Pricing Dataset",
+    "url": "https://aicostbudget.com/en/datasets/ai-api-pricing",
+    "verified_on": "2026-08-13",
+    "stale_after": "2026-11-12",
+    "category": "pricing-models",
+    "kind": "dataset",
+    "super_area": "understand"
+  },
+  {
+    "title": "Aider - an OSS coding CLI that meters its own dollar cost",
+    "url": "https://github.com/Aider-AI/aider",
+    "verified_on": "2026-07-26",
+    "stale_after": "2026-10-26",
+    "category": "market-competitors",
+    "kind": "oss",
+    "super_area": "understand"
+  },
+  {
+    "title": "Alumet",
+    "url": "https://github.com/alumet-dev/alumet",
+    "verified_on": "2026-09-05",
+    "stale_after": "2026-12-04",
+    "category": "energy-carbon",
+    "kind": "oss",
+    "super_area": "measure"
+  },
+  {
+    "title": "Amp (Sourcegraph) - pay-as-you-go, no-markup pricing + mode-based routing",
+    "url": "https://ampcode.com/",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "market-competitors",
+    "kind": "tool",
+    "super_area": "understand"
+  },
+  {
+    "title": "Anthropic bill anatomy - the whole-bill line-item taxonomy",
+    "url": "https://platform.claude.com/docs/en/about-claude/pricing#code-execution-tool",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "cost-anatomy",
+    "kind": "article",
+    "super_area": "measure"
+  },
+  {
+    "title": "Anthropic vendor-native context management (context editing + memory tool + server-side compaction)",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/context-editing",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "context-engineering",
+    "kind": "technique",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Antigravity CLI - per-subagent model-tier routing + /effort (v1.1.5)",
+    "url": "https://github.com/google-antigravity/antigravity-cli/blob/main/CHANGELOG.md",
+    "verified_on": "2026-07-26",
+    "stale_after": "2026-10-24",
+    "category": "routing-model-selection",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Arize Phoenix",
+    "url": "https://github.com/Arize-ai/phoenix",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "tracing",
+    "kind": "oss",
+    "super_area": "monitor"
+  },
+  {
+    "title": "Artificial Analysis - Coding Agent Index",
+    "url": "https://artificialanalysis.ai/agents/coding-agents",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "model-economics",
+    "kind": "benchmark",
+    "super_area": "understand"
+  },
+  {
+    "title": "Artificial Analysis - Intelligence Index + Blended Price",
+    "url": "https://artificialanalysis.ai/leaderboards/models",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "model-economics",
+    "kind": "benchmark",
+    "super_area": "understand"
+  },
+  {
+    "title": "Batch / Priority / Flex service tiers - the scheduling axis of token pricing (clustered, cross-vendor)",
+    "url": "https://platform.claude.com/docs/en/docs/build-with-claude/batch-processing",
+    "verified_on": "2026-09-14",
+    "stale_after": "2026-12-13",
+    "category": "pricing-models",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "benjamin-plus - JetBrains' own token-efficiency skill, measured on its own published A/B rig",
+    "url": "https://github.com/JetBrains/benjamin-plus-skill",
+    "verified_on": "2026-08-19",
+    "stale_after": "2026-11-17",
+    "category": "prompt-agent-loop",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Bessemer - the AI pricing & monetization playbook (seat → usage → outcome)",
+    "url": "https://www.bvp.com/atlas/the-ai-pricing-and-monetization-playbook",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
+    "category": "pricing-models",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "Bifrost (Maxim AI)",
+    "url": "https://github.com/maximhq/bifrost",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "routing-model-selection",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Big-T Notation - a complexity ladder for token consumption",
+    "url": "https://www.tokeneconomics.com/projects/big-t-notation/",
+    "verified_on": "2026-08-19",
+    "stale_after": "2026-11-17",
+    "category": "unit-economics",
+    "kind": "framework",
+    "super_area": "understand"
+  },
+  {
+    "title": "Braintrust",
+    "url": "https://www.braintrust.dev",
+    "verified_on": "2026-09-14",
+    "stale_after": "2026-12-13",
+    "category": "observability",
+    "kind": "company",
+    "super_area": "monitor"
+  },
+  {
+    "title": "Cached-input discounts - the ~90%-off lever behind cache-accounting",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+    "verified_on": "2026-09-14",
+    "stale_after": "2026-12-05",
+    "category": "pricing-models",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "ccusage",
+    "url": "https://github.com/ccusage/ccusage",
+    "verified_on": "2026-07-20",
+    "stale_after": "2026-10-20",
+    "category": "dashboards",
+    "kind": "oss",
+    "super_area": "monitor"
+  },
+  {
     "title": "ChatGPT Enterprise - usage analytics & spend controls",
     "url": "https://openai.com/index/chatgpt-enterprise-spend-controls/",
     "verified_on": "2026-07-03",
@@ -25,6 +223,114 @@
     "category": "spend-management",
     "kind": "tool",
     "super_area": "govern"
+  },
+  {
+    "title": "ChatGPT subscription tiers and Codex CLI bundling/pricing (2026)",
+    "url": "https://learn.chatgpt.com/docs/pricing",
+    "verified_on": "2026-09-14",
+    "stale_after": "2026-12-05",
+    "category": "pricing-models",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "ChatGPT workspace-agent credit billing (effective July 6, 2026)",
+    "url": "https://help.openai.com/en/articles/11481834-chatgpt-rate-card-business-enterpriseedu-credit-based-pricing",
+    "verified_on": "2026-07-17",
+    "stale_after": "2026-10-15",
+    "category": "pricing-models",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "Cisco acquires Galileo (LLM eval/observability) → folded into Splunk Observability",
+    "url": "https://blogs.cisco.com/news/cisco-announces-the-intent-to-acquire-galileo",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "consolidation",
+    "kind": "company",
+    "super_area": "understand"
+  },
+  {
+    "title": "Claude \"subscription arbitrage\" and its (announced, then paused) end",
+    "url": "https://zed.dev/blog/anthropic-subscription-changes",
+    "verified_on": "2026-08-28",
+    "stale_after": "2026-11-26",
+    "category": "buyer-incentives",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "Claude Code compaction engine - the three-tier mechanism and its cache/correctness failure modes",
+    "url": "https://barazany.dev/blog/claude-codes-compaction-engine",
+    "verified_on": "2026-07-03",
+    "stale_after": "2026-10-03",
+    "category": "context-engineering",
+    "kind": "article",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Claude Code Router",
+    "url": "https://github.com/musistudio/claude-code-router",
+    "verified_on": "2026-07-27",
+    "stale_after": "2026-10-25",
+    "category": "routing-model-selection",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Claude Code spend-governance bundle (v2.1.216-225) - caps tightened, fan-out default loosened",
+    "url": "https://code.claude.com/docs/en/changelog",
+    "verified_on": "2026-08-10",
+    "stale_after": "2026-11-08",
+    "category": "cost-controls",
+    "kind": "article",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Claude Code system prompts (Piebald extraction)",
+    "url": "https://github.com/Piebald-AI/claude-code-system-prompts",
+    "verified_on": "2026-07-17",
+    "stale_after": "2026-10-17",
+    "category": "harness-overhead",
+    "kind": "dataset",
+    "super_area": "measure"
+  },
+  {
+    "title": "Claude Code Usage Monitor",
+    "url": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor",
+    "verified_on": "2026-07-18",
+    "stale_after": "2026-10-16",
+    "category": "dashboards",
+    "kind": "oss",
+    "super_area": "monitor"
+  },
+  {
+    "title": "Claude Code v2.1.199 - transient-retry hardening & partial-output preservation",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199",
+    "verified_on": "2026-07-05",
+    "stale_after": "2026-10-05",
+    "category": "retry-and-reliability",
+    "kind": "article",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Claude Code via a LiteLLM gateway (cheap-tier-in-front setup)",
+    "url": "https://docs.litellm.ai/docs/tutorials/claude_non_anthropic_models",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "routing-model-selection",
+    "kind": "technique",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Claude Code vs OpenCode token overhead (Systima study)",
+    "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+    "verified_on": "2026-07-17",
+    "stale_after": "2026-10-17",
+    "category": "harness-overhead",
+    "kind": "report",
+    "super_area": "measure"
   },
   {
     "title": "Claude Code's 5-hour/weekly usage quotas - Anthropic has stopped publishing exact numbers",
@@ -45,616 +351,49 @@
     "super_area": "govern"
   },
   {
-    "title": "Cloudflare AI Gateway (Spend Limits)",
-    "url": "https://developers.cloudflare.com/ai-gateway/features/spend-limits/",
-    "verified_on": "2026-09-06",
+    "title": "Claude Fable 5.1 - same headline price, a 4x steeper cache-hit discount",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+    "verified_on": "2026-09-14",
     "stale_after": "2026-12-05",
-    "category": "budgets-caps",
-    "kind": "company",
-    "super_area": "govern"
+    "category": "pricing-models",
+    "kind": "model",
+    "super_area": "understand"
   },
   {
-    "title": "CloudZero",
-    "url": "https://www.cloudzero.com/blog/ai-cost-optimization-at-scale/",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "allocation-chargeback",
-    "kind": "company",
-    "super_area": "govern"
-  },
-  {
-    "title": "Denial-of-Wallet / token-exhaustion attacks",
-    "url": "https://arxiv.org/abs/2601.10955",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "anomaly-detection",
-    "kind": "paper",
-    "super_area": "govern"
-  },
-  {
-    "title": "FinOps for AI - canonical practitioner framework for governing AI/LLM spend",
-    "url": "https://www.finops.org/framework/scope/finops-for-ai/",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "billing-audit-finops",
-    "kind": "framework",
-    "super_area": "govern"
-  },
-  {
-    "title": "Governance Decay - compaction silently erasing safety/governance constraints",
-    "url": "https://arxiv.org/abs/2606.22528",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "anomaly-detection",
-    "kind": "paper",
-    "super_area": "govern"
-  },
-  {
-    "title": "JetBrains AI moves business plans from monthly licenses to 12-month credits",
-    "url": "https://blog.jetbrains.com/blog/2026/07/07/jetbrains-ai-for-teams-and-organizations-from-fragmented-ai-usage-to-coordinated-software-development/",
-    "verified_on": "2026-07-20",
-    "stale_after": "2026-10-20",
-    "category": "allocation-chargeback",
-    "kind": "article",
-    "super_area": "govern"
-  },
-  {
-    "title": "Kong AI Gateway",
-    "url": "https://developer.konghq.com/ai-gateway/",
-    "verified_on": "2026-09-06",
+    "title": "Claude Opus 5 - flat price vs Opus 4.8, but 1M context and thinking on by default",
+    "url": "https://platform.claude.com/docs/en/release-notes/api",
+    "verified_on": "2026-09-14",
     "stale_after": "2026-12-05",
-    "category": "allocation-chargeback",
-    "kind": "company",
-    "super_area": "govern"
-  },
-  {
-    "title": "Mavvrik (fmr. DigitalEx)",
-    "url": "https://www.mavvrik.ai/press-releases/mavvrik-unveils-full-stack-ai-cost-governance/",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "allocation-chargeback",
-    "kind": "company",
-    "super_area": "govern"
-  },
-  {
-    "title": "MCPGuard-Dynamic",
-    "url": "https://github.com/facebook/mcpguard-dynamic",
-    "verified_on": "2026-07-03",
-    "stale_after": "2026-10-03",
-    "category": "policy-enforcement",
-    "kind": "oss",
-    "super_area": "govern"
-  },
-  {
-    "title": "nable (finopsmcp)",
-    "url": "https://github.com/getnable/finopsmcp",
-    "verified_on": "2026-08-19",
-    "stale_after": "2026-11-19",
-    "category": "spend-management",
-    "kind": "tool",
-    "super_area": "govern"
-  },
-  {
-    "title": "Paid (paid.ai)",
-    "url": "https://paid.ai/",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
-    "category": "unit-economics",
-    "kind": "company",
-    "super_area": "govern"
-  },
-  {
-    "title": "Pay-i",
-    "url": "https://docs.pay-i.com/",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "allocation-chargeback",
-    "kind": "company",
-    "super_area": "govern"
-  },
-  {
-    "title": "PointFive (AI Efficiency OS / TokenShift)",
-    "url": "https://www.pointfive.co/press/pointfive-launches-ai-efficiency-os-tokenshift",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "spend-management",
-    "kind": "company",
-    "super_area": "govern"
-  },
-  {
-    "title": "Portkey AI Gateway",
-    "url": "https://portkey.ai/docs/product/ai-gateway/virtual-keys/budget-limits",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "budgets-caps",
-    "kind": "company",
-    "super_area": "govern"
-  },
-  {
-    "title": "Revenium",
-    "url": "https://www.revenium.ai/",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "spend-management",
-    "kind": "company",
-    "super_area": "govern"
-  },
-  {
-    "title": "TrueFoundry (AI Gateway - Budget Limiting)",
-    "url": "https://www.truefoundry.com/docs/ai-gateway/budgetlimiting",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "budgets-caps",
-    "kind": "company",
-    "super_area": "govern"
-  },
-  {
-    "title": "Vantage",
-    "url": "https://www.vantage.sh/blog/agentic-coding-costs",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "spend-management",
-    "kind": "company",
-    "super_area": "govern"
-  },
-  {
-    "title": "Vaudit - TokenAudit",
-    "url": "https://www.vaudit.com/",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "billing-audit-finops",
-    "kind": "company",
-    "super_area": "govern"
-  },
-  {
-    "title": "Vercel AI Gateway - per-API-key budgets",
-    "url": "https://vercel.com/changelog/budgets-for-api-keys-on-ai-gateway",
-    "verified_on": "2026-07-03",
-    "stale_after": "2026-10-03",
-    "category": "spend-management",
-    "kind": "tool",
-    "super_area": "govern"
-  },
-  {
-    "title": "Alumet",
-    "url": "https://github.com/alumet-dev/alumet",
-    "verified_on": "2026-09-05",
-    "stale_after": "2026-12-04",
-    "category": "energy-carbon",
-    "kind": "oss",
-    "super_area": "measure"
-  },
-  {
-    "title": "Anthropic bill anatomy - the whole-bill line-item taxonomy",
-    "url": "https://platform.claude.com/docs/en/about-claude/pricing#code-execution-tool",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "cost-anatomy",
+    "category": "model-economics",
     "kind": "article",
-    "super_area": "measure"
+    "super_area": "understand"
   },
   {
-    "title": "The cache share of an agentic bill, simulated on Open-SWE-Traces",
-    "url": "https://www.completeskeptic.com/p/kv-cache-rules-everything-around",
+    "title": "Claude's tokenizer vocabulary shrank, and plain English got about 46% more expensive",
+    "url": "https://tokencontributions.substack.com/p/on-the-biology-of-claudes-tokenizer",
     "verified_on": "2026-09-14",
     "stale_after": "2026-12-13",
-    "category": "cache-accounting",
+    "category": "pricing-models",
     "kind": "article",
-    "super_area": "measure"
+    "super_area": "understand"
   },
   {
-    "title": "Claude Code vs OpenCode token overhead (Systima study)",
-    "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
-    "verified_on": "2026-07-17",
-    "stale_after": "2026-10-17",
-    "category": "harness-overhead",
-    "kind": "report",
-    "super_area": "measure"
-  },
-  {
-    "title": "Claude Code system prompts (Piebald extraction)",
-    "url": "https://github.com/Piebald-AI/claude-code-system-prompts",
-    "verified_on": "2026-07-17",
-    "stale_after": "2026-10-17",
-    "category": "harness-overhead",
-    "kind": "dataset",
-    "super_area": "measure"
-  },
-  {
-    "title": "Claw-SWE-Bench",
-    "url": "https://github.com/opensquilla/claw-swe-bench",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "benchmarks-evals",
-    "kind": "benchmark",
-    "super_area": "measure"
-  },
-  {
-    "title": "CodeCarbon",
-    "url": "https://github.com/mlco2/codecarbon",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "energy-carbon",
-    "kind": "oss",
-    "super_area": "measure"
-  },
-  {
-    "title": "Coding Benchmarks Are Misaligned with Agentic SE (Tessl)",
-    "url": "https://arxiv.org/abs/2606.17799",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "benchmarks-evals",
-    "kind": "paper",
-    "super_area": "measure"
-  },
-  {
-    "title": "GitHub Copilot agentic-harness efficiency evaluation (first-party offline ablation)",
-    "url": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "benchmarks-evals",
-    "kind": "report",
-    "super_area": "measure"
-  },
-  {
-    "title": "Cross-vendor coding-agent usage trackers (AgentsView · caut)",
-    "url": "https://github.com/kenn-io/agentsview",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "metering",
-    "kind": "oss",
-    "super_area": "measure"
-  },
-  {
-    "title": "Deterministic Anchoring - how much static structure do code agents need?",
-    "url": "https://arxiv.org/abs/2606.26979",
-    "verified_on": "2026-07-03",
-    "stale_after": "2026-10-03",
-    "category": "benchmarks-evals",
-    "kind": "paper",
-    "super_area": "measure"
-  },
-  {
-    "title": "Early Diagnosis of Wasted Computation in Multi-Agent LLM Systems (Failure-Aware Observability)",
-    "url": "https://arxiv.org/abs/2606.01365",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "transcript-analysis",
-    "kind": "paper",
-    "super_area": "measure"
-  },
-  {
-    "title": "EcoLogits",
-    "url": "https://github.com/mlco2/ecologits",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "energy-carbon",
-    "kind": "oss",
-    "super_area": "measure"
-  },
-  {
-    "title": "Epoch AI - how much energy a query uses (the per-token energy anchor)",
-    "url": "https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "energy-carbon",
-    "kind": "article",
-    "super_area": "measure"
-  },
-  {
-    "title": "Faros AI - \"Token Intelligence\" / Token Attribution Ledger",
-    "url": "https://www.faros.ai/blog/token-intelligence-for-ai-engineering",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "transcript-analysis",
-    "kind": "company",
-    "super_area": "measure"
-  },
-  {
-    "title": "FOCUS 1.5 - what the AI-cost release includes, and what it rules out",
-    "url": "https://www.tokeneconomics.com/projects/what-1-5-does-for-ai-cost-and-what-it-does-not/",
-    "verified_on": "2026-08-28",
-    "stale_after": "2026-10-08",
-    "category": "whole-bill-accounting",
-    "kind": "article",
-    "super_area": "measure"
-  },
-  {
-    "title": "FOCUS 1.4 - the cross-vendor billing-data normalization standard (now with invoice reconciliation)",
-    "url": "https://focus.finops.org/focus-specification/",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "whole-bill-accounting",
-    "kind": "framework",
-    "super_area": "measure"
-  },
-  {
-    "title": "FrontierHarness Eval",
-    "url": "https://runta.com/blog/introducing-frontierharness-eval/",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-13",
-    "category": "harness-overhead",
-    "kind": "benchmark",
-    "super_area": "measure"
-  },
-  {
-    "title": "Gemini context caching - the per-hour storage meter (the third-vendor axis)",
-    "url": "https://ai.google.dev/gemini-api/docs/pricing",
-    "verified_on": "2026-07-20",
-    "stale_after": "2026-10-20",
-    "category": "cache-accounting",
-    "kind": "article",
-    "super_area": "measure"
-  },
-  {
-    "title": "Google - measuring the environmental impact of AI inference (provider disclosure)",
-    "url": "https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "energy-carbon",
-    "kind": "report",
-    "super_area": "measure"
-  },
-  {
-    "title": "Harness-Bench",
-    "url": "https://arxiv.org/abs/2605.27922",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "benchmarks-evals",
-    "kind": "paper",
-    "super_area": "measure"
-  },
-  {
-    "title": "The Harness Tax (twelve-harness fixed-model token benchmark)",
-    "url": "https://www.eishanlawrence.com/blog/harness-bench/harness-efficiency-paper.pdf",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-13",
-    "category": "harness-overhead",
-    "kind": "paper",
-    "super_area": "measure"
-  },
-  {
-    "title": "How Do AI Agents Spend Your Money?",
-    "url": "https://arxiv.org/abs/2604.22750",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "metering",
-    "kind": "paper",
-    "super_area": "measure"
-  },
-  {
-    "title": "LiteLLM",
-    "url": "https://github.com/BerriAI/litellm",
-    "verified_on": "2026-09-06",
-    "stale_after": "2026-12-05",
-    "category": "whole-bill-accounting",
-    "kind": "oss",
-    "super_area": "measure"
-  },
-  {
-    "title": "LMCache",
-    "url": "https://github.com/LMCache/LMCache",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "cache-accounting",
-    "kind": "oss",
-    "super_area": "measure"
-  },
-  {
-    "title": "LongMemEval",
-    "url": "https://github.com/xiaowu0162/LongMemEval",
+    "title": "claude-code-memory-setup",
+    "url": "https://github.com/lucasrosati/claude-code-memory-setup",
     "verified_on": "2026-07-21",
     "stale_after": "2026-10-21",
-    "category": "benchmarks-evals",
-    "kind": "benchmark",
-    "super_area": "measure"
+    "category": "retrieval-memory",
+    "kind": "oss",
+    "super_area": "optimize"
   },
   {
-    "title": "MemoryBench",
-    "url": "https://github.com/supermemoryai/memorybench",
+    "title": "claude-mem",
+    "url": "https://github.com/thedotmack/claude-mem",
     "verified_on": "2026-07-21",
     "stale_after": "2026-10-21",
-    "category": "benchmarks-evals",
-    "kind": "benchmark",
-    "super_area": "measure"
-  },
-  {
-    "title": "ML.ENERGY Leaderboard",
-    "url": "https://ml.energy/blog/measurement/energy/diagnosing-inference-energy-consumption-with-the-mlenergy-leaderboard-v30/",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "energy-carbon",
-    "kind": "benchmark",
-    "super_area": "measure"
-  },
-  {
-    "title": "OpenAI prompt-caching `cached_tokens` accounting",
-    "url": "https://platform.openai.com/docs/guides/prompt-caching",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "cache-accounting",
-    "kind": "article",
-    "super_area": "measure"
-  },
-  {
-    "title": "OpenAI Responses conversation state - you pay for the whole chain every turn (and the compaction levers)",
-    "url": "https://developers.openai.com/api/docs/guides/conversation-state",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "cache-accounting",
-    "kind": "article",
-    "super_area": "measure"
-  },
-  {
-    "title": "OpenCost - AI inference cost tracking",
-    "url": "https://github.com/opencost/opencost/blob/develop/docs/inference-cost-tracking.md",
-    "verified_on": "2026-07-29",
-    "stale_after": "2026-10-27",
-    "category": "metering",
+    "category": "retrieval-memory",
     "kind": "oss",
-    "super_area": "measure"
-  },
-  {
-    "title": "Prompt Compression in the Wild - the end-to-end referee for compression",
-    "url": "https://arxiv.org/abs/2604.02985",
-    "verified_on": "2026-07-03",
-    "stale_after": "2026-10-03",
-    "category": "benchmarks-evals",
-    "kind": "paper",
-    "super_area": "measure"
-  },
-  {
-    "title": "promptfoo",
-    "url": "https://github.com/promptfoo/promptfoo",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "benchmarks-evals",
-    "kind": "oss",
-    "super_area": "measure"
-  },
-  {
-    "title": "RedundancyBench - can anyone even *detect* a redundant step?",
-    "url": "https://arxiv.org/abs/2605.29893",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "benchmarks-evals",
-    "kind": "paper",
-    "super_area": "measure"
-  },
-  {
-    "title": "RouterArena",
-    "url": "https://github.com/RouteWorks/RouterArena",
-    "verified_on": "2026-07-03",
-    "stale_after": "2026-10-03",
-    "category": "benchmarks-evals",
-    "kind": "benchmark",
-    "super_area": "measure"
-  },
-  {
-    "title": "SWE-bench",
-    "url": "https://github.com/SWE-bench/SWE-bench",
-    "verified_on": "2026-07-26",
-    "stale_after": "2026-10-26",
-    "category": "benchmarks-evals",
-    "kind": "benchmark",
-    "super_area": "measure"
-  },
-  {
-    "title": "SWE-Effi - cost-aware re-ranking of SWE-agents under resource budgets",
-    "url": "https://arxiv.org/abs/2509.09853",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "benchmarks-evals",
-    "kind": "paper",
-    "super_area": "measure"
-  },
-  {
-    "title": "Multi-vendor system-prompt corpus (asgeirtj)",
-    "url": "https://github.com/asgeirtj/system_prompts_leaks",
-    "verified_on": "2026-07-30",
-    "stale_after": "2026-10-28",
-    "category": "harness-overhead",
-    "kind": "dataset",
-    "super_area": "measure"
-  },
-  {
-    "title": "Multi-vendor system-prompt and tool-schema corpus (x1xhlol)",
-    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-    "verified_on": "2026-07-30",
-    "stale_after": "2026-10-28",
-    "category": "harness-overhead",
-    "kind": "dataset",
-    "super_area": "measure"
-  },
-  {
-    "title": "TensorZero - cross-vendor token-count divergence (\"stop comparing $/M tokens\")",
-    "url": "https://www.tensorzero.com/blog/stop-comparing-price-per-million-tokens-the-hidden-llm-api-costs/",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "cost-anatomy",
-    "kind": "article",
-    "super_area": "measure"
-  },
-  {
-    "title": "Terminal-Bench",
-    "url": "https://www.tbench.ai/",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "benchmarks-evals",
-    "kind": "benchmark",
-    "super_area": "measure"
-  },
-  {
-    "title": "token-optimizer (alexgreensh)",
-    "url": "https://github.com/alexgreensh/token-optimizer",
-    "verified_on": "2026-08-28",
-    "stale_after": "2026-11-26",
-    "category": "transcript-analysis",
-    "kind": "oss",
-    "super_area": "measure"
-  },
-  {
-    "title": "tokview",
-    "url": "https://github.com/headroomlabs-ai/tokview",
-    "verified_on": "2026-07-17",
-    "stale_after": "2026-10-17",
-    "category": "metering",
-    "kind": "oss",
-    "super_area": "measure"
-  },
-  {
-    "title": "Vision-token pricing formulas across the big three",
-    "url": "https://platform.claude.com/docs/en/build-with-claude/vision",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "cost-anatomy",
-    "kind": "article",
-    "super_area": "measure"
-  },
-  {
-    "title": "AgentSight",
-    "url": "https://github.com/eunomia-bpf/agentsight",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "ebpf-kernel-capture",
-    "kind": "oss",
-    "super_area": "monitor"
-  },
-  {
-    "title": "Arize Phoenix",
-    "url": "https://github.com/Arize-ai/phoenix",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "tracing",
-    "kind": "oss",
-    "super_area": "monitor"
-  },
-  {
-    "title": "Braintrust",
-    "url": "https://www.braintrust.dev",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-13",
-    "category": "observability",
-    "kind": "company",
-    "super_area": "monitor"
-  },
-  {
-    "title": "ccusage",
-    "url": "https://github.com/ccusage/ccusage",
-    "verified_on": "2026-07-20",
-    "stale_after": "2026-10-20",
-    "category": "dashboards",
-    "kind": "oss",
-    "super_area": "monitor"
-  },
-  {
-    "title": "Claude Code Usage Monitor",
-    "url": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor",
-    "verified_on": "2026-07-18",
-    "stale_after": "2026-10-16",
-    "category": "dashboards",
-    "kind": "oss",
-    "super_area": "monitor"
+    "super_area": "optimize"
   },
   {
     "title": "claude-tap",
@@ -684,6 +423,69 @@
     "super_area": "monitor"
   },
   {
+    "title": "Claw-SWE-Bench",
+    "url": "https://github.com/opensquilla/claw-swe-bench",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "benchmarks-evals",
+    "kind": "benchmark",
+    "super_area": "measure"
+  },
+  {
+    "title": "Cline - an OSS coding agent on a bring-your-own-key cost model",
+    "url": "https://github.com/cline/cline",
+    "verified_on": "2026-07-26",
+    "stale_after": "2026-10-26",
+    "category": "market-competitors",
+    "kind": "oss",
+    "super_area": "understand"
+  },
+  {
+    "title": "Cloud Capital - gross margin in the age of AI (the vendor/supply side)",
+    "url": "https://www.cloudcapital.co/learn/gross-margin-in-the-age-of-ai",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "unit-economics",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "Cloudflare AI Gateway (Spend Limits)",
+    "url": "https://developers.cloudflare.com/ai-gateway/features/spend-limits/",
+    "verified_on": "2026-09-06",
+    "stale_after": "2026-12-05",
+    "category": "budgets-caps",
+    "kind": "company",
+    "super_area": "govern"
+  },
+  {
+    "title": "CloudZero",
+    "url": "https://www.cloudzero.com/blog/ai-cost-optimization-at-scale/",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "allocation-chargeback",
+    "kind": "company",
+    "super_area": "govern"
+  },
+  {
+    "title": "Cluster, Route, Escalate - cost-aware cascaded serving",
+    "url": "https://arxiv.org/abs/2606.27457",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "routing-model-selection",
+    "kind": "paper",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Code execution with MCP (Anthropic)",
+    "url": "https://www.anthropic.com/engineering/code-execution-with-mcp",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "tool-protocol-overhead",
+    "kind": "article",
+    "super_area": "optimize"
+  },
+  {
     "title": "CodeBurn",
     "url": "https://github.com/getagentseal/codeburn#find-and-fix-waste",
     "verified_on": "2026-07-20",
@@ -691,6 +493,24 @@
     "category": "dashboards",
     "kind": "oss",
     "super_area": "monitor"
+  },
+  {
+    "title": "CodeCarbon",
+    "url": "https://github.com/mlco2/codecarbon",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "energy-carbon",
+    "kind": "oss",
+    "super_area": "measure"
+  },
+  {
+    "title": "Codex CLI compaction cost - over-eager compaction as a token-amplification loop",
+    "url": "https://github.com/openai/codex/issues/16812",
+    "verified_on": "2026-08-28",
+    "stale_after": "2026-11-26",
+    "category": "context-engineering",
+    "kind": "article",
+    "super_area": "optimize"
   },
   {
     "title": "Codex Usage Tracker",
@@ -720,274 +540,22 @@
     "super_area": "monitor"
   },
   {
-    "title": "Datadog LLM Observability - Cost",
-    "url": "https://docs.datadoghq.com/llm_observability/monitoring/cost/",
-    "verified_on": "2026-07-03",
-    "stale_after": "2026-10-03",
-    "category": "dashboards",
-    "kind": "company",
-    "super_area": "monitor"
-  },
-  {
-    "title": "gh-aw (GitHub Agentic Workflows)",
-    "url": "https://github.com/github/gh-aw",
-    "verified_on": "2026-07-18",
-    "stale_after": "2026-10-16",
-    "category": "dashboards",
-    "kind": "oss",
-    "super_area": "monitor"
-  },
-  {
-    "title": "Grafana Cloud GenAI Observability",
-    "url": "https://grafana.com/docs/grafana-cloud/monitor-applications/ai-observability/genai/observability/",
+    "title": "Coding Benchmarks Are Misaligned with Agentic SE (Tessl)",
+    "url": "https://arxiv.org/abs/2606.17799",
     "verified_on": "2026-07-02",
     "stale_after": "2026-10-02",
-    "category": "dashboards",
-    "kind": "company",
-    "super_area": "monitor"
-  },
-  {
-    "title": "Helicone",
-    "url": "https://helicone.ai",
-    "verified_on": "2026-07-21",
-    "stale_after": "2026-10-21",
-    "category": "observability",
-    "kind": "oss",
-    "super_area": "monitor"
-  },
-  {
-    "title": "Langfuse",
-    "url": "https://langfuse.com",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "observability",
-    "kind": "oss",
-    "super_area": "monitor"
-  },
-  {
-    "title": "LangSmith - Cost Tracking",
-    "url": "https://docs.langchain.com/langsmith/cost-tracking",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "tracing",
-    "kind": "company",
-    "super_area": "monitor"
-  },
-  {
-    "title": "OpenAI Prompt Cache Diagnostics - the vendor tells you why the cache missed",
-    "url": "https://developers.openai.com/api/docs/guides/prompt-caching/diagnostics",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-13",
-    "category": "observability-platforms",
-    "kind": "tool",
-    "super_area": "monitor"
-  },
-  {
-    "title": "OpenLIT",
-    "url": "https://github.com/openlit/openlit",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "dashboards",
-    "kind": "oss",
-    "super_area": "monitor"
-  },
-  {
-    "title": "OpenLLMetry",
-    "url": "https://github.com/traceloop/openllmetry",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "otel-for-llms",
-    "kind": "oss",
-    "super_area": "monitor"
-  },
-  {
-    "title": "OpenUsage",
-    "url": "https://github.com/robinebers/openusage",
-    "verified_on": "2026-07-20",
-    "stale_after": "2026-10-20",
-    "category": "dashboards",
-    "kind": "oss",
-    "super_area": "monitor"
-  },
-  {
-    "title": "Opik",
-    "url": "https://github.com/comet-ml/opik",
-    "verified_on": "2026-07-18",
-    "stale_after": "2026-10-16",
-    "category": "tracing",
-    "kind": "oss",
-    "super_area": "monitor"
-  },
-  {
-    "title": "OpenTelemetry GenAI Semantic Conventions",
-    "url": "https://github.com/open-telemetry/semantic-conventions-genai",
-    "verified_on": "2026-07-03",
-    "stale_after": "2026-10-03",
-    "category": "otel-for-llms",
-    "kind": "article",
-    "super_area": "monitor"
-  },
-  {
-    "title": "OpenTelemetry eBPF Instrumentation (OBI) - GenAI / MCP",
-    "url": "https://opentelemetry.io/docs/zero-code/obi/",
-    "verified_on": "2026-07-03",
-    "stale_after": "2026-10-03",
-    "category": "ebpf-kernel-capture",
-    "kind": "oss",
-    "super_area": "monitor"
-  },
-  {
-    "title": "TokenTracker",
-    "url": "https://github.com/mm7894215/TokenTracker",
-    "verified_on": "2026-07-20",
-    "stale_after": "2026-10-20",
-    "category": "dashboards",
-    "kind": "oss",
-    "super_area": "monitor"
-  },
-  {
-    "title": "Distilling agent behavior into small task-specific models",
-    "url": "https://arxiv.org/abs/2505.17612",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "routing-model-selection",
-    "kind": "technique",
-    "super_area": "optimize"
-  },
-  {
-    "title": "AgentDiet - trajectory reduction (\"Reducing Cost of LLM Agents with Trajectory Reduction\")",
-    "url": "https://arxiv.org/abs/2509.23586",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "context-engineering",
+    "category": "benchmarks-evals",
     "kind": "paper",
-    "super_area": "optimize"
+    "super_area": "measure"
   },
   {
-    "title": "Anthropic vendor-native context management (context editing + memory tool + server-side compaction)",
-    "url": "https://platform.claude.com/docs/en/build-with-claude/context-editing",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "context-engineering",
-    "kind": "technique",
-    "super_area": "optimize"
-  },
-  {
-    "title": "Antigravity CLI - per-subagent model-tier routing + /effort (v1.1.5)",
-    "url": "https://github.com/google-antigravity/antigravity-cli/blob/main/CHANGELOG.md",
-    "verified_on": "2026-07-26",
-    "stale_after": "2026-10-24",
-    "category": "routing-model-selection",
-    "kind": "oss",
-    "super_area": "optimize"
-  },
-  {
-    "title": "benjamin-plus - JetBrains' own token-efficiency skill, measured on its own published A/B rig",
-    "url": "https://github.com/JetBrains/benjamin-plus-skill",
-    "verified_on": "2026-08-19",
-    "stale_after": "2026-11-17",
-    "category": "prompt-agent-loop",
-    "kind": "oss",
-    "super_area": "optimize"
-  },
-  {
-    "title": "Bifrost (Maxim AI)",
-    "url": "https://github.com/maximhq/bifrost",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "routing-model-selection",
-    "kind": "oss",
-    "super_area": "optimize"
-  },
-  {
-    "title": "Claude Code compaction engine - the three-tier mechanism and its cache/correctness failure modes",
-    "url": "https://barazany.dev/blog/claude-codes-compaction-engine",
-    "verified_on": "2026-07-03",
-    "stale_after": "2026-10-03",
-    "category": "context-engineering",
+    "title": "Coding-agent native spend controls (2026)",
+    "url": "https://cursor.com/changelog/05-04-26",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "buyer-incentives",
     "kind": "article",
-    "super_area": "optimize"
-  },
-  {
-    "title": "Claude Code via a LiteLLM gateway (cheap-tier-in-front setup)",
-    "url": "https://docs.litellm.ai/docs/tutorials/claude_non_anthropic_models",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "routing-model-selection",
-    "kind": "technique",
-    "super_area": "optimize"
-  },
-  {
-    "title": "claude-code-memory-setup",
-    "url": "https://github.com/lucasrosati/claude-code-memory-setup",
-    "verified_on": "2026-07-21",
-    "stale_after": "2026-10-21",
-    "category": "retrieval-memory",
-    "kind": "oss",
-    "super_area": "optimize"
-  },
-  {
-    "title": "Claude Code v2.1.199 - transient-retry hardening & partial-output preservation",
-    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199",
-    "verified_on": "2026-07-05",
-    "stale_after": "2026-10-05",
-    "category": "retry-and-reliability",
-    "kind": "article",
-    "super_area": "optimize"
-  },
-  {
-    "title": "Claude Code Router",
-    "url": "https://github.com/musistudio/claude-code-router",
-    "verified_on": "2026-07-27",
-    "stale_after": "2026-10-25",
-    "category": "routing-model-selection",
-    "kind": "oss",
-    "super_area": "optimize"
-  },
-  {
-    "title": "Claude Code spend-governance bundle (v2.1.216-225) - caps tightened, fan-out default loosened",
-    "url": "https://code.claude.com/docs/en/changelog",
-    "verified_on": "2026-08-10",
-    "stale_after": "2026-11-08",
-    "category": "cost-controls",
-    "kind": "article",
-    "super_area": "optimize"
-  },
-  {
-    "title": "claude-mem",
-    "url": "https://github.com/thedotmack/claude-mem",
-    "verified_on": "2026-07-21",
-    "stale_after": "2026-10-21",
-    "category": "retrieval-memory",
-    "kind": "oss",
-    "super_area": "optimize"
-  },
-  {
-    "title": "Cluster, Route, Escalate - cost-aware cascaded serving",
-    "url": "https://arxiv.org/abs/2606.27457",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "routing-model-selection",
-    "kind": "paper",
-    "super_area": "optimize"
-  },
-  {
-    "title": "Code execution with MCP (Anthropic)",
-    "url": "https://www.anthropic.com/engineering/code-execution-with-mcp",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "tool-protocol-overhead",
-    "kind": "article",
-    "super_area": "optimize"
-  },
-  {
-    "title": "Codex CLI compaction cost - over-eager compaction as a token-amplification loop",
-    "url": "https://github.com/openai/codex/issues/16812",
-    "verified_on": "2026-08-28",
-    "stale_after": "2026-11-26",
-    "category": "context-engineering",
-    "kind": "article",
-    "super_area": "optimize"
+    "super_area": "understand"
   },
   {
     "title": "Cognee",
@@ -1026,15 +594,6 @@
     "super_area": "optimize"
   },
   {
-    "title": "GitHub Copilot auto model selection",
-    "url": "https://docs.github.com/en/copilot/concepts/models/auto-model-selection",
-    "verified_on": "2026-07-27",
-    "stale_after": "2026-10-25",
-    "category": "routing-model-selection",
-    "kind": "company",
-    "super_area": "optimize"
-  },
-  {
     "title": "Coral",
     "url": "https://github.com/withcoral/coral",
     "verified_on": "2026-08-03",
@@ -1044,12 +603,48 @@
     "super_area": "optimize"
   },
   {
+    "title": "Cost-of-Pass - an economic framework for evaluating language models",
+    "url": "https://arxiv.org/abs/2504.13359",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "unit-economics",
+    "kind": "paper",
+    "super_area": "understand"
+  },
+  {
     "title": "CrewAI",
     "url": "https://github.com/crewAIInc/crewAI",
     "verified_on": "2026-09-06",
     "stale_after": "2026-12-05",
     "category": "multi-agent-overhead",
     "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
+    "title": "Cross-vendor coding-agent usage trackers (AgentsView · caut)",
+    "url": "https://github.com/kenn-io/agentsview",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "metering",
+    "kind": "oss",
+    "super_area": "measure"
+  },
+  {
+    "title": "Cursor charges by tokens, split into first-party and third-party pools",
+    "url": "https://cursor.com/docs/account/pricing",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
+    "category": "pricing-models",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "Cursor Router",
+    "url": "https://cursor.com/blog/router",
+    "verified_on": "2026-07-27",
+    "stale_after": "2026-10-25",
+    "category": "routing-model-selection",
+    "kind": "company",
     "super_area": "optimize"
   },
   {
@@ -1062,13 +657,103 @@
     "super_area": "optimize"
   },
   {
-    "title": "Cursor Router",
-    "url": "https://cursor.com/blog/router",
-    "verified_on": "2026-07-27",
-    "stale_after": "2026-10-25",
-    "category": "routing-model-selection",
+    "title": "Datadog LLM Observability - Cost",
+    "url": "https://docs.datadoghq.com/llm_observability/monitoring/cost/",
+    "verified_on": "2026-07-03",
+    "stale_after": "2026-10-03",
+    "category": "dashboards",
     "kind": "company",
+    "super_area": "monitor"
+  },
+  {
+    "title": "DeepSeek V4.1-Flash - a 4-7x cut, a 35-hour peak window, and a retirement that was called off",
+    "url": "https://api-docs.deepseek.com/quick_start/pricing",
+    "verified_on": "2026-09-14",
+    "stale_after": "2026-12-13",
+    "category": "pricing-models",
+    "kind": "model",
+    "super_area": "understand"
+  },
+  {
+    "title": "Denial-of-Wallet / token-exhaustion attacks",
+    "url": "https://arxiv.org/abs/2601.10955",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "anomaly-detection",
+    "kind": "paper",
+    "super_area": "govern"
+  },
+  {
+    "title": "Deterministic Anchoring - how much static structure do code agents need?",
+    "url": "https://arxiv.org/abs/2606.26979",
+    "verified_on": "2026-07-03",
+    "stale_after": "2026-10-03",
+    "category": "benchmarks-evals",
+    "kind": "paper",
+    "super_area": "measure"
+  },
+  {
+    "title": "Devin's Agent Compute Unit has no published definition of what it meters",
+    "url": "https://docs.devin.ai/admin/billing/enterprise",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
+    "category": "pricing-models",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "Distilling agent behavior into small task-specific models",
+    "url": "https://arxiv.org/abs/2505.17612",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "routing-model-selection",
+    "kind": "technique",
     "super_area": "optimize"
+  },
+  {
+    "title": "DORA 2025 - AI as amplifier, and the delivery-stability tension",
+    "url": "https://dora.dev/insights/balancing-ai-tensions/",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "unit-economics",
+    "kind": "report",
+    "super_area": "understand"
+  },
+  {
+    "title": "Doubleword",
+    "url": "https://doubleword.ai",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
+    "category": "pricing-models",
+    "kind": "company",
+    "super_area": "understand"
+  },
+  {
+    "title": "Early Diagnosis of Wasted Computation in Multi-Agent LLM Systems (Failure-Aware Observability)",
+    "url": "https://arxiv.org/abs/2606.01365",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "transcript-analysis",
+    "kind": "paper",
+    "super_area": "measure"
+  },
+  {
+    "title": "EcoLogits",
+    "url": "https://github.com/mlco2/ecologits",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "energy-carbon",
+    "kind": "oss",
+    "super_area": "measure"
+  },
+  {
+    "title": "Epoch AI - how much energy a query uses (the per-token energy anchor)",
+    "url": "https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "energy-carbon",
+    "kind": "article",
+    "super_area": "measure"
   },
   {
     "title": "Exa",
@@ -1080,6 +765,51 @@
     "super_area": "optimize"
   },
   {
+    "title": "Fable 5 leaves subscription inclusion - frontier tier moves to usage-credit metering (July 7 cliff)",
+    "url": "https://www.anthropic.com/news/redeploying-fable-5",
+    "verified_on": "2026-09-14",
+    "stale_after": "2026-09-25",
+    "category": "pricing-models",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "Factory (droids) - subscription pricing + $150M Series C at $1.5B",
+    "url": "https://factory.ai/pricing",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "market-competitors",
+    "kind": "company",
+    "super_area": "understand"
+  },
+  {
+    "title": "Faros - \"The Acceleration Whiplash\" (AI Engineering Report 2026)",
+    "url": "https://pages.faros.ai/hubfs/AI_Engineering_Report_2026_The_Acceleration_Whiplash_Faros.pdf",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "unit-economics",
+    "kind": "report",
+    "super_area": "understand"
+  },
+  {
+    "title": "Faros AI - \"Token Intelligence\" / Token Attribution Ledger",
+    "url": "https://www.faros.ai/blog/token-intelligence-for-ai-engineering",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "transcript-analysis",
+    "kind": "company",
+    "super_area": "measure"
+  },
+  {
+    "title": "FinOps for AI - canonical practitioner framework for governing AI/LLM spend",
+    "url": "https://www.finops.org/framework/scope/finops-for-ai/",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "billing-audit-finops",
+    "kind": "framework",
+    "super_area": "govern"
+  },
+  {
     "title": "Firecrawl",
     "url": "https://github.com/firecrawl/firecrawl",
     "verified_on": "2026-08-03",
@@ -1089,6 +819,24 @@
     "super_area": "optimize"
   },
   {
+    "title": "FOCUS 1.4 - the cross-vendor billing-data normalization standard (now with invoice reconciliation)",
+    "url": "https://focus.finops.org/focus-specification/",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "whole-bill-accounting",
+    "kind": "framework",
+    "super_area": "measure"
+  },
+  {
+    "title": "FOCUS 1.5 - what the AI-cost release includes, and what it rules out",
+    "url": "https://www.tokeneconomics.com/projects/what-1-5-does-for-ai-cost-and-what-it-does-not/",
+    "verified_on": "2026-08-28",
+    "stale_after": "2026-10-08",
+    "category": "whole-bill-accounting",
+    "kind": "article",
+    "super_area": "measure"
+  },
+  {
     "title": "Framework orchestration overhead (the manager-LLM tax)",
     "url": "https://docs.crewai.com/en/learn/hierarchical-process",
     "verified_on": "2026-07-03",
@@ -1096,6 +844,168 @@
     "category": "multi-agent-overhead",
     "kind": "technique",
     "super_area": "optimize"
+  },
+  {
+    "title": "FrontierHarness Eval",
+    "url": "https://runta.com/blog/introducing-frontierharness-eval/",
+    "verified_on": "2026-09-14",
+    "stale_after": "2026-12-13",
+    "category": "harness-overhead",
+    "kind": "benchmark",
+    "super_area": "measure"
+  },
+  {
+    "title": "Gartner - worldwide AI spending forecast: $2.59T in 2026 (+47% YoY)",
+    "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-19-gartner-forecasts-worldwide-ai-spending-to-grow-47-percent-in-2026",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "market-sizing",
+    "kind": "report",
+    "super_area": "understand"
+  },
+  {
+    "title": "Gemini 3.6 Flash - a Flash tier marketed on fewer tokens per task, not just a lower unit price",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+    "verified_on": "2026-07-26",
+    "stale_after": "2026-10-26",
+    "category": "model-economics",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "Gemini CLI retirement → Antigravity CLI (open-source coding agent closes, pricing restructures)",
+    "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "market-competitors",
+    "kind": "tool",
+    "super_area": "understand"
+  },
+  {
+    "title": "Gemini context caching - the per-hour storage meter (the third-vendor axis)",
+    "url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "verified_on": "2026-07-20",
+    "stale_after": "2026-10-20",
+    "category": "cache-accounting",
+    "kind": "article",
+    "super_area": "measure"
+  },
+  {
+    "title": "Gemini Flash pricing doubles on 2027-01-01, and for 3.6 Flash that is a return to its launch price",
+    "url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.8-flash",
+    "verified_on": "2026-09-14",
+    "stale_after": "2026-12-05",
+    "category": "pricing-models",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "getDX - AI coding assistant pricing & ROI guide (2026)",
+    "url": "https://getdx.com/blog/ai-coding-assistant-pricing/",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "unit-economics",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "gh-aw (GitHub Agentic Workflows)",
+    "url": "https://github.com/github/gh-aw",
+    "verified_on": "2026-07-18",
+    "stale_after": "2026-10-16",
+    "category": "dashboards",
+    "kind": "oss",
+    "super_area": "monitor"
+  },
+  {
+    "title": "GitHub Copilot agentic-harness efficiency evaluation (first-party offline ablation)",
+    "url": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "benchmarks-evals",
+    "kind": "report",
+    "super_area": "measure"
+  },
+  {
+    "title": "GitHub Copilot auto model selection",
+    "url": "https://docs.github.com/en/copilot/concepts/models/auto-model-selection",
+    "verified_on": "2026-07-27",
+    "stale_after": "2026-10-25",
+    "category": "routing-model-selection",
+    "kind": "company",
+    "super_area": "optimize"
+  },
+  {
+    "title": "GitHub Copilot metered-billing bill-shock - the demand-side reaction (\"tokenpocalypse\")",
+    "url": "https://news.ycombinator.com/item?id=47923357",
+    "verified_on": "2026-09-06",
+    "stale_after": "2026-12-05",
+    "category": "buyer-incentives",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "Google - measuring the environmental impact of AI inference (provider disclosure)",
+    "url": "https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "energy-carbon",
+    "kind": "report",
+    "super_area": "measure"
+  },
+  {
+    "title": "Google AI Pro price and Gemini/Antigravity free-tier limits (2026)",
+    "url": "https://gemini.google/us/subscriptions/",
+    "verified_on": "2026-09-06",
+    "stale_after": "2026-12-05",
+    "category": "pricing-models",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "Governance Decay - compaction silently erasing safety/governance constraints",
+    "url": "https://arxiv.org/abs/2606.22528",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "anomaly-detection",
+    "kind": "paper",
+    "super_area": "govern"
+  },
+  {
+    "title": "GPT-5.6 family (Sol / Terra / Luna) - API pricing",
+    "url": "https://developers.openai.com/api/docs/pricing",
+    "verified_on": "2026-09-14",
+    "stale_after": "2026-12-05",
+    "category": "pricing-models",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "GPT-6 Astra - API pricing and the 272K long-context surcharge",
+    "url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+    "verified_on": "2026-09-14",
+    "stale_after": "2026-12-05",
+    "category": "pricing-models",
+    "kind": "model",
+    "super_area": "understand"
+  },
+  {
+    "title": "Grafana Cloud GenAI Observability",
+    "url": "https://grafana.com/docs/grafana-cloud/monitor-applications/ai-observability/genai/observability/",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "dashboards",
+    "kind": "company",
+    "super_area": "monitor"
+  },
+  {
+    "title": "Harness-Bench",
+    "url": "https://arxiv.org/abs/2605.27922",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "benchmarks-evals",
+    "kind": "paper",
+    "super_area": "measure"
   },
   {
     "title": "Harness-native heuristic pre-routers - two mechanism-only per-turn routers",
@@ -1125,6 +1035,42 @@
     "super_area": "optimize"
   },
   {
+    "title": "Helicone",
+    "url": "https://helicone.ai",
+    "verified_on": "2026-07-21",
+    "stale_after": "2026-10-21",
+    "category": "observability",
+    "kind": "oss",
+    "super_area": "monitor"
+  },
+  {
+    "title": "How Do AI Agents Spend Your Money?",
+    "url": "https://arxiv.org/abs/2604.22750",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "metering",
+    "kind": "paper",
+    "super_area": "measure"
+  },
+  {
+    "title": "JetBrains AI moves business plans from monthly licenses to 12-month credits",
+    "url": "https://blog.jetbrains.com/blog/2026/07/07/jetbrains-ai-for-teams-and-organizations-from-fragmented-ai-usage-to-coordinated-software-development/",
+    "verified_on": "2026-07-20",
+    "stale_after": "2026-10-20",
+    "category": "allocation-chargeback",
+    "kind": "article",
+    "super_area": "govern"
+  },
+  {
+    "title": "JetBrains independently measured two token-saving skills against their own claims",
+    "url": "https://blog.jetbrains.com/ai/2026/07/rtk-claude-code-token-savings/",
+    "verified_on": "2026-07-20",
+    "stale_after": "2026-10-20",
+    "category": "compression-efficacy",
+    "kind": "benchmark",
+    "super_area": "understand"
+  },
+  {
     "title": "Karpathy's LLM Wiki",
     "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
     "verified_on": "2026-07-03",
@@ -1143,6 +1089,33 @@
     "super_area": "optimize"
   },
   {
+    "title": "Kimi K2.6/K2.7-Code and GLM-5.2 official API pricing",
+    "url": "https://platform.kimi.ai/docs/pricing/chat-k27-code",
+    "verified_on": "2026-09-14",
+    "stale_after": "2026-12-05",
+    "category": "model-economics",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "Kong AI Gateway",
+    "url": "https://developer.konghq.com/ai-gateway/",
+    "verified_on": "2026-09-06",
+    "stale_after": "2026-12-05",
+    "category": "allocation-chargeback",
+    "kind": "company",
+    "super_area": "govern"
+  },
+  {
+    "title": "Lanai",
+    "url": "https://www.prnewswire.com/news-releases/lanai-launches-ai--work-operating-system-to-help-enterprises-close-the-ai-accountability-gap-302743892.html",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "buyer-incentives",
+    "kind": "company",
+    "super_area": "understand"
+  },
+  {
     "title": "LangChain",
     "url": "https://github.com/langchain-ai/langchain",
     "verified_on": "2026-09-14",
@@ -1150,6 +1123,15 @@
     "category": "multi-agent-overhead",
     "kind": "oss",
     "super_area": "optimize"
+  },
+  {
+    "title": "Langfuse",
+    "url": "https://langfuse.com",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "observability",
+    "kind": "oss",
+    "super_area": "monitor"
   },
   {
     "title": "LangGraph",
@@ -1170,6 +1152,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "LangSmith - Cost Tracking",
+    "url": "https://docs.langchain.com/langsmith/cost-tracking",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "tracing",
+    "kind": "company",
+    "super_area": "monitor"
+  },
+  {
     "title": "lean-ctx - MCP context layer with a self-measured savings ledger",
     "url": "https://github.com/yvgude/lean-ctx",
     "verified_on": "2026-08-03",
@@ -1186,6 +1177,24 @@
     "category": "retrieval-memory",
     "kind": "oss",
     "super_area": "optimize"
+  },
+  {
+    "title": "LiteLLM",
+    "url": "https://github.com/BerriAI/litellm",
+    "verified_on": "2026-09-06",
+    "stale_after": "2026-12-05",
+    "category": "whole-bill-accounting",
+    "kind": "oss",
+    "super_area": "measure"
+  },
+  {
+    "title": "LiteLLM flex/priority service-tier cost keys - the harness-level tier-routing lever",
+    "url": "https://docs.litellm.ai/docs/proxy/custom_pricing",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
+    "category": "pricing-models",
+    "kind": "technique",
+    "super_area": "understand"
   },
   {
     "title": "llama.cpp",
@@ -1206,6 +1215,24 @@
     "super_area": "optimize"
   },
   {
+    "title": "LLM price decline + Jevons paradox - unit price crashes, total spend climbs",
+    "url": "https://a16z.com/llmflation-llm-inference-cost/",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
+    "category": "pricing-models",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "LLM token pricing dimensions - the structure of a token bill",
+    "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "verified_on": "2026-09-14",
+    "stale_after": "2026-12-13",
+    "category": "pricing-models",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
     "title": "LLMLingua",
     "url": "https://github.com/microsoft/LLMLingua",
     "verified_on": "2026-07-02",
@@ -1224,6 +1251,33 @@
     "super_area": "optimize"
   },
   {
+    "title": "LMCache",
+    "url": "https://github.com/LMCache/LMCache",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "cache-accounting",
+    "kind": "oss",
+    "super_area": "measure"
+  },
+  {
+    "title": "Local / open-model economics for coding - state of the field (2026)",
+    "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "model-economics",
+    "kind": "technique",
+    "super_area": "understand"
+  },
+  {
+    "title": "LongMemEval",
+    "url": "https://github.com/xiaowu0162/LongMemEval",
+    "verified_on": "2026-07-21",
+    "stale_after": "2026-10-21",
+    "category": "benchmarks-evals",
+    "kind": "benchmark",
+    "super_area": "measure"
+  },
+  {
     "title": "LOOP Skill Engine",
     "url": "https://arxiv.org/abs/2605.14237",
     "verified_on": "2026-07-02",
@@ -1231,6 +1285,15 @@
     "category": "prompt-agent-loop",
     "kind": "paper",
     "super_area": "optimize"
+  },
+  {
+    "title": "Mavvrik (fmr. DigitalEx)",
+    "url": "https://www.mavvrik.ai/press-releases/mavvrik-unveils-full-stack-ai-cost-governance/",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "allocation-chargeback",
+    "kind": "company",
+    "super_area": "govern"
   },
   {
     "title": "MCP Tool Descriptions Are Smelly!",
@@ -1242,6 +1305,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "MCPGuard-Dynamic",
+    "url": "https://github.com/facebook/mcpguard-dynamic",
+    "verified_on": "2026-07-03",
+    "stale_after": "2026-10-03",
+    "category": "policy-enforcement",
+    "kind": "oss",
+    "super_area": "govern"
+  },
+  {
     "title": "Mem0",
     "url": "https://github.com/mem0ai/mem0",
     "verified_on": "2026-07-01",
@@ -1249,6 +1321,33 @@
     "category": "retrieval-memory",
     "kind": "oss",
     "super_area": "optimize"
+  },
+  {
+    "title": "MemoryBench",
+    "url": "https://github.com/supermemoryai/memorybench",
+    "verified_on": "2026-07-21",
+    "stale_after": "2026-10-21",
+    "category": "benchmarks-evals",
+    "kind": "benchmark",
+    "super_area": "measure"
+  },
+  {
+    "title": "Menlo Ventures - enterprise generative-AI spend $11.5B → $37B (2024→2025)",
+    "url": "https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "market-sizing",
+    "kind": "report",
+    "super_area": "understand"
+  },
+  {
+    "title": "METR - measured vs perceived AI productivity (the RCT)",
+    "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "unit-economics",
+    "kind": "paper",
+    "super_area": "understand"
   },
   {
     "title": "Minification of state-in-context agents - the clean waste-vs-capability datapoint",
@@ -1260,6 +1359,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "ML.ENERGY Leaderboard",
+    "url": "https://ml.energy/blog/measurement/energy/diagnosing-inference-energy-consumption-with-the-mlenergy-leaderboard-v30/",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "energy-carbon",
+    "kind": "benchmark",
+    "super_area": "measure"
+  },
+  {
     "title": "MTRouter - per-turn cost-aware routing with history-model joint embeddings",
     "url": "https://arxiv.org/abs/2604.23530",
     "verified_on": "2026-07-03",
@@ -1267,6 +1375,33 @@
     "category": "routing-model-selection",
     "kind": "paper",
     "super_area": "optimize"
+  },
+  {
+    "title": "Multi-vendor system-prompt and tool-schema corpus (x1xhlol)",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "verified_on": "2026-07-30",
+    "stale_after": "2026-10-28",
+    "category": "harness-overhead",
+    "kind": "dataset",
+    "super_area": "measure"
+  },
+  {
+    "title": "Multi-vendor system-prompt corpus (asgeirtj)",
+    "url": "https://github.com/asgeirtj/system_prompts_leaks",
+    "verified_on": "2026-07-30",
+    "stale_after": "2026-10-28",
+    "category": "harness-overhead",
+    "kind": "dataset",
+    "super_area": "measure"
+  },
+  {
+    "title": "nable (finopsmcp)",
+    "url": "https://github.com/getnable/finopsmcp",
+    "verified_on": "2026-08-19",
+    "stale_after": "2026-11-19",
+    "category": "spend-management",
+    "kind": "tool",
+    "super_area": "govern"
   },
   {
     "title": "NadirClaw - a pre-router proxy, with its benchmark attached to the paid tier",
@@ -1278,6 +1413,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "NextReset",
+    "url": "https://nextreset.ai/",
+    "verified_on": "2026-09-17",
+    "stale_after": "2026-12-16",
+    "category": "dashboards",
+    "kind": "company",
+    "super_area": "monitor"
+  },
+  {
     "title": "Not Diamond",
     "url": "https://www.notdiamond.ai/",
     "verified_on": "2026-07-02",
@@ -1287,11 +1431,74 @@
     "super_area": "optimize"
   },
   {
+    "title": "OckBench - measuring token efficiency / verbosity of LLM reasoning",
+    "url": "https://arxiv.org/abs/2511.05722",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "model-economics",
+    "kind": "paper",
+    "super_area": "understand"
+  },
+  {
     "title": "Ollama",
     "url": "https://github.com/ollama/ollama",
     "verified_on": "2026-07-01",
     "stale_after": "2026-10-01",
     "category": "cheap-local-models",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
+    "title": "OpenAI Agents API - a hosted agent harness with no harness fee and an admitted metering gap",
+    "url": "https://developers.openai.com/api/docs/guides/agents-api/observability",
+    "verified_on": "2026-09-14",
+    "stale_after": "2026-12-13",
+    "category": "pricing-models",
+    "kind": "tool",
+    "super_area": "understand"
+  },
+  {
+    "title": "OpenAI is winding down the self-serve fine-tuning API and platform",
+    "url": "https://developers.openai.com/api/docs/deprecations",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
+    "category": "pricing-models",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "OpenAI Prompt Cache Diagnostics - the vendor tells you why the cache missed",
+    "url": "https://developers.openai.com/api/docs/guides/prompt-caching/diagnostics",
+    "verified_on": "2026-09-14",
+    "stale_after": "2026-12-13",
+    "category": "observability-platforms",
+    "kind": "tool",
+    "super_area": "monitor"
+  },
+  {
+    "title": "OpenAI prompt-caching `cached_tokens` accounting",
+    "url": "https://platform.openai.com/docs/guides/prompt-caching",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "cache-accounting",
+    "kind": "article",
+    "super_area": "measure"
+  },
+  {
+    "title": "OpenAI Responses conversation state - you pay for the whole chain every turn (and the compaction levers)",
+    "url": "https://developers.openai.com/api/docs/guides/conversation-state",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "cache-accounting",
+    "kind": "article",
+    "super_area": "measure"
+  },
+  {
+    "title": "OpenCode - explicit cost-tier routing",
+    "url": "https://opencode.ai/docs/",
+    "verified_on": "2026-07-05",
+    "stale_after": "2026-10-05",
+    "category": "routing-model-selection",
     "kind": "oss",
     "super_area": "optimize"
   },
@@ -1305,13 +1512,40 @@
     "super_area": "optimize"
   },
   {
-    "title": "OpenCode - explicit cost-tier routing",
-    "url": "https://opencode.ai/docs/",
-    "verified_on": "2026-07-05",
-    "stale_after": "2026-10-05",
-    "category": "routing-model-selection",
+    "title": "OpenCost - AI inference cost tracking",
+    "url": "https://github.com/opencost/opencost/blob/develop/docs/inference-cost-tracking.md",
+    "verified_on": "2026-07-29",
+    "stale_after": "2026-10-27",
+    "category": "metering",
     "kind": "oss",
-    "super_area": "optimize"
+    "super_area": "measure"
+  },
+  {
+    "title": "OpenHands - MIT OSS coding agent, free local + free cloud tier, at-cost LLM option",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "market-competitors",
+    "kind": "oss",
+    "super_area": "understand"
+  },
+  {
+    "title": "OpenLIT",
+    "url": "https://github.com/openlit/openlit",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "dashboards",
+    "kind": "oss",
+    "super_area": "monitor"
+  },
+  {
+    "title": "OpenLLMetry",
+    "url": "https://github.com/traceloop/openllmetry",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "otel-for-llms",
+    "kind": "oss",
+    "super_area": "monitor"
   },
   {
     "title": "OpenRouter",
@@ -1321,6 +1555,42 @@
     "category": "routing-model-selection",
     "kind": "company",
     "super_area": "optimize"
+  },
+  {
+    "title": "OpenTelemetry eBPF Instrumentation (OBI) - GenAI / MCP",
+    "url": "https://opentelemetry.io/docs/zero-code/obi/",
+    "verified_on": "2026-07-03",
+    "stale_after": "2026-10-03",
+    "category": "ebpf-kernel-capture",
+    "kind": "oss",
+    "super_area": "monitor"
+  },
+  {
+    "title": "OpenTelemetry GenAI Semantic Conventions",
+    "url": "https://github.com/open-telemetry/semantic-conventions-genai",
+    "verified_on": "2026-07-03",
+    "stale_after": "2026-10-03",
+    "category": "otel-for-llms",
+    "kind": "article",
+    "super_area": "monitor"
+  },
+  {
+    "title": "OpenUsage",
+    "url": "https://github.com/robinebers/openusage",
+    "verified_on": "2026-07-20",
+    "stale_after": "2026-10-20",
+    "category": "dashboards",
+    "kind": "oss",
+    "super_area": "monitor"
+  },
+  {
+    "title": "Opik",
+    "url": "https://github.com/comet-ml/opik",
+    "verified_on": "2026-07-18",
+    "stale_after": "2026-10-16",
+    "category": "tracing",
+    "kind": "oss",
+    "super_area": "monitor"
   },
   {
     "title": "OrcaRouter - production LinUCB bandit router (hybrid offline-online)",
@@ -1350,6 +1620,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "Paid (paid.ai)",
+    "url": "https://paid.ai/",
+    "verified_on": "2026-08-03",
+    "stale_after": "2026-11-01",
+    "category": "unit-economics",
+    "kind": "company",
+    "super_area": "govern"
+  },
+  {
     "title": "Parallel (parallel.ai)",
     "url": "https://parallel.ai/benchmarks",
     "verified_on": "2026-08-03",
@@ -1357,6 +1636,15 @@
     "category": "search-retrieval-boundary",
     "kind": "company",
     "super_area": "optimize"
+  },
+  {
+    "title": "Pay-i",
+    "url": "https://docs.pay-i.com/",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "allocation-chargeback",
+    "kind": "company",
+    "super_area": "govern"
   },
   {
     "title": "Plano (formerly archgw)",
@@ -1368,6 +1656,33 @@
     "super_area": "optimize"
   },
   {
+    "title": "PointFive (AI Efficiency OS / TokenShift)",
+    "url": "https://www.pointfive.co/press/pointfive-launches-ai-efficiency-os-tokenshift",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "spend-management",
+    "kind": "company",
+    "super_area": "govern"
+  },
+  {
+    "title": "Portkey AI Gateway",
+    "url": "https://portkey.ai/docs/product/ai-gateway/virtual-keys/budget-limits",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "budgets-caps",
+    "kind": "company",
+    "super_area": "govern"
+  },
+  {
+    "title": "Prompt Compression in the Wild - the end-to-end referee for compression",
+    "url": "https://arxiv.org/abs/2604.02985",
+    "verified_on": "2026-07-03",
+    "stale_after": "2026-10-03",
+    "category": "benchmarks-evals",
+    "kind": "paper",
+    "super_area": "measure"
+  },
+  {
     "title": "prompt-cache",
     "url": "https://github.com/messkan/prompt-cache",
     "verified_on": "2026-07-21",
@@ -1375,6 +1690,33 @@
     "category": "caching",
     "kind": "oss",
     "super_area": "optimize"
+  },
+  {
+    "title": "promptfoo",
+    "url": "https://github.com/promptfoo/promptfoo",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "benchmarks-evals",
+    "kind": "oss",
+    "super_area": "measure"
+  },
+  {
+    "title": "Reasoning-token billing across providers - the hidden output multiplier",
+    "url": "https://developers.openai.com/api/docs/guides/reasoning",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "model-economics",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "Reasoning-token consumption behavior - length ≠ effort, and verbosity is a separate lever",
+    "url": "https://arxiv.org/abs/2602.13517",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "model-economics",
+    "kind": "paper",
+    "super_area": "understand"
   },
   {
     "title": "Redis LangCache",
@@ -1386,6 +1728,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "RedundancyBench - can anyone even *detect* a redundant step?",
+    "url": "https://arxiv.org/abs/2605.29893",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "benchmarks-evals",
+    "kind": "paper",
+    "super_area": "measure"
+  },
+  {
     "title": "Repomix",
     "url": "https://github.com/yamadashy/repomix",
     "verified_on": "2026-07-01",
@@ -1395,6 +1746,24 @@
     "super_area": "optimize"
   },
   {
+    "title": "Reserved-capacity reliability economics (Azure PTU · AWS Bedrock MU)",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/provisioned-throughput",
+    "verified_on": "2026-07-05",
+    "stale_after": "2026-10-05",
+    "category": "reliability-sla",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "Revenium",
+    "url": "https://www.revenium.ai/",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "spend-management",
+    "kind": "company",
+    "super_area": "govern"
+  },
+  {
     "title": "RLM-Cascade - response-level speculative decoding at the gateway",
     "url": "https://arxiv.org/abs/2606.22840",
     "verified_on": "2026-07-02",
@@ -1402,6 +1771,15 @@
     "category": "serving-inference",
     "kind": "paper",
     "super_area": "optimize"
+  },
+  {
+    "title": "RouterArena",
+    "url": "https://github.com/RouteWorks/RouterArena",
+    "verified_on": "2026-07-03",
+    "stale_after": "2026-10-03",
+    "category": "benchmarks-evals",
+    "kind": "benchmark",
+    "super_area": "measure"
   },
   {
     "title": "rtk",
@@ -1485,6 +1863,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "State of FinOps 2026 - AI spend management is now the norm",
+    "url": "https://data.finops.org/",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "buyer-incentives",
+    "kind": "report",
+    "super_area": "understand"
+  },
+  {
     "title": "Stop When Reasoning Converges",
     "url": "https://arxiv.org/abs/2605.17672",
     "verified_on": "2026-07-02",
@@ -1512,6 +1899,24 @@
     "super_area": "optimize"
   },
   {
+    "title": "SWE-bench",
+    "url": "https://github.com/SWE-bench/SWE-bench",
+    "verified_on": "2026-07-26",
+    "stale_after": "2026-10-26",
+    "category": "benchmarks-evals",
+    "kind": "benchmark",
+    "super_area": "measure"
+  },
+  {
+    "title": "SWE-Effi - cost-aware re-ranking of SWE-agents under resource budgets",
+    "url": "https://arxiv.org/abs/2509.09853",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "benchmarks-evals",
+    "kind": "paper",
+    "super_area": "measure"
+  },
+  {
     "title": "Tavily",
     "url": "https://docs.tavily.com/documentation/api-credits",
     "verified_on": "2026-08-03",
@@ -1530,6 +1935,51 @@
     "super_area": "optimize"
   },
   {
+    "title": "TensorZero - cross-vendor token-count divergence (\"stop comparing $/M tokens\")",
+    "url": "https://www.tensorzero.com/blog/stop-comparing-price-per-million-tokens-the-hidden-llm-api-costs/",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "cost-anatomy",
+    "kind": "article",
+    "super_area": "measure"
+  },
+  {
+    "title": "Terminal-Bench",
+    "url": "https://www.tbench.ai/",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "benchmarks-evals",
+    "kind": "benchmark",
+    "super_area": "measure"
+  },
+  {
+    "title": "The \"$47k Claude Code bill\" - the anchor bill-shock anecdote and its mechanistic debunk",
+    "url": "https://yusufhansacak.medium.com/the-47-000-agent-bill-what-the-viral-token-stories-get-wrong-7ee1cdd81e65",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "buyer-incentives",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
+    "title": "The cache share of an agentic bill, simulated on Open-SWE-Traces",
+    "url": "https://www.completeskeptic.com/p/kv-cache-rules-everything-around",
+    "verified_on": "2026-09-14",
+    "stale_after": "2026-12-13",
+    "category": "cache-accounting",
+    "kind": "article",
+    "super_area": "measure"
+  },
+  {
+    "title": "The Harness Tax (twelve-harness fixed-model token benchmark)",
+    "url": "https://www.eishanlawrence.com/blog/harness-bench/harness-efficiency-paper.pdf",
+    "verified_on": "2026-09-14",
+    "stale_after": "2026-12-13",
+    "category": "harness-overhead",
+    "kind": "paper",
+    "super_area": "measure"
+  },
+  {
     "title": "token-ninja",
     "url": "https://github.com/oanhduong/token-ninja",
     "verified_on": "2026-07-03",
@@ -1537,6 +1987,51 @@
     "category": "prompt-agent-loop",
     "kind": "oss",
     "super_area": "optimize"
+  },
+  {
+    "title": "token-optimizer (alexgreensh)",
+    "url": "https://github.com/alexgreensh/token-optimizer",
+    "verified_on": "2026-08-28",
+    "stale_after": "2026-11-26",
+    "category": "transcript-analysis",
+    "kind": "oss",
+    "super_area": "measure"
+  },
+  {
+    "title": "Tokenization multiplicity & overcharging - the pay-per-token integrity problem",
+    "url": "https://arxiv.org/abs/2506.06446",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
+    "category": "pricing-models",
+    "kind": "paper",
+    "super_area": "understand"
+  },
+  {
+    "title": "Tokenomics Foundation (Linux Foundation + FinOps Foundation)",
+    "url": "https://www.linuxfoundation.org/press/linux-foundation-launches-the-tokenomics-foundation-to-define-the-economics-and-roi-of-ai-value",
+    "verified_on": "2026-09-14",
+    "stale_after": "2026-10-09",
+    "category": "consolidation",
+    "kind": "company",
+    "super_area": "understand"
+  },
+  {
+    "title": "TokenTracker",
+    "url": "https://github.com/mm7894215/TokenTracker",
+    "verified_on": "2026-07-20",
+    "stale_after": "2026-10-20",
+    "category": "dashboards",
+    "kind": "oss",
+    "super_area": "monitor"
+  },
+  {
+    "title": "tokview",
+    "url": "https://github.com/headroomlabs-ai/tokview",
+    "verified_on": "2026-07-17",
+    "stale_after": "2026-10-17",
+    "category": "metering",
+    "kind": "oss",
+    "super_area": "measure"
   },
   {
     "title": "Tool Attention Is All You Need",
@@ -1566,6 +2061,24 @@
     "super_area": "optimize"
   },
   {
+    "title": "TrueFoundry (AI Gateway - Budget Limiting)",
+    "url": "https://www.truefoundry.com/docs/ai-gateway/budgetlimiting",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "budgets-caps",
+    "kind": "company",
+    "super_area": "govern"
+  },
+  {
+    "title": "Uber caps AI-coding spend at $1,500/mo per tool after burning its budget in ~4 months",
+    "url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "buyer-incentives",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
     "title": "Valyu",
     "url": "https://github.com/valyuAI/valyu-benchmarks",
     "verified_on": "2026-08-03",
@@ -1575,13 +2088,40 @@
     "super_area": "optimize"
   },
   {
-    "title": "vLLM Semantic Router",
-    "url": "https://github.com/vllm-project/semantic-router",
+    "title": "Vantage",
+    "url": "https://www.vantage.sh/blog/agentic-coding-costs",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "spend-management",
+    "kind": "company",
+    "super_area": "govern"
+  },
+  {
+    "title": "Vaudit - TokenAudit",
+    "url": "https://www.vaudit.com/",
+    "verified_on": "2026-07-01",
+    "stale_after": "2026-10-01",
+    "category": "billing-audit-finops",
+    "kind": "company",
+    "super_area": "govern"
+  },
+  {
+    "title": "Vercel AI Gateway - per-API-key budgets",
+    "url": "https://vercel.com/changelog/budgets-for-api-keys-on-ai-gateway",
+    "verified_on": "2026-07-03",
+    "stale_after": "2026-10-03",
+    "category": "spend-management",
+    "kind": "tool",
+    "super_area": "govern"
+  },
+  {
+    "title": "Vision-token pricing formulas across the big three",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/vision",
     "verified_on": "2026-07-02",
     "stale_after": "2026-10-02",
-    "category": "routing-model-selection",
-    "kind": "oss",
-    "super_area": "optimize"
+    "category": "cost-anatomy",
+    "kind": "article",
+    "super_area": "measure"
   },
   {
     "title": "vLLM",
@@ -1589,6 +2129,15 @@
     "verified_on": "2026-07-01",
     "stale_after": "2026-10-01",
     "category": "serving-inference",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
+    "title": "vLLM Semantic Router",
+    "url": "https://github.com/vllm-project/semantic-router",
+    "verified_on": "2026-07-02",
+    "stale_after": "2026-10-02",
+    "category": "routing-model-selection",
     "kind": "oss",
     "super_area": "optimize"
   },
@@ -1609,6 +2158,15 @@
     "category": "test-time-compute",
     "kind": "paper",
     "super_area": "optimize"
+  },
+  {
+    "title": "Windsurf became Devin Desktop and switched credits to token-based quota",
+    "url": "https://docs.devin.ai/desktop/accounts/quota",
+    "verified_on": "2026-08-22",
+    "stale_after": "2026-11-20",
+    "category": "pricing-models",
+    "kind": "article",
+    "super_area": "understand"
   },
   {
     "title": "WOZCODE",
@@ -1636,554 +2194,5 @@
     "category": "retrieval-memory",
     "kind": "oss",
     "super_area": "optimize"
-  },
-  {
-    "title": "AICostBudget AI API Pricing Dataset",
-    "url": "https://aicostbudget.com/en/datasets/ai-api-pricing",
-    "verified_on": "2026-08-13",
-    "stale_after": "2026-11-12",
-    "category": "pricing-models",
-    "kind": "dataset",
-    "super_area": "understand"
-  },
-  {
-    "title": "Aider - an OSS coding CLI that meters its own dollar cost",
-    "url": "https://github.com/Aider-AI/aider",
-    "verified_on": "2026-07-26",
-    "stale_after": "2026-10-26",
-    "category": "market-competitors",
-    "kind": "oss",
-    "super_area": "understand"
-  },
-  {
-    "title": "Amp (Sourcegraph) - pay-as-you-go, no-markup pricing + mode-based routing",
-    "url": "https://ampcode.com/",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "market-competitors",
-    "kind": "tool",
-    "super_area": "understand"
-  },
-  {
-    "title": "Artificial Analysis - Coding Agent Index",
-    "url": "https://artificialanalysis.ai/agents/coding-agents",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "model-economics",
-    "kind": "benchmark",
-    "super_area": "understand"
-  },
-  {
-    "title": "Artificial Analysis - Intelligence Index + Blended Price",
-    "url": "https://artificialanalysis.ai/leaderboards/models",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "model-economics",
-    "kind": "benchmark",
-    "super_area": "understand"
-  },
-  {
-    "title": "Batch / Priority / Flex service tiers - the scheduling axis of token pricing (clustered, cross-vendor)",
-    "url": "https://platform.claude.com/docs/en/docs/build-with-claude/batch-processing",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-13",
-    "category": "pricing-models",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "Bessemer - the AI pricing & monetization playbook (seat → usage → outcome)",
-    "url": "https://www.bvp.com/atlas/the-ai-pricing-and-monetization-playbook",
-    "verified_on": "2026-08-22",
-    "stale_after": "2026-11-20",
-    "category": "pricing-models",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "Big-T Notation - a complexity ladder for token consumption",
-    "url": "https://www.tokeneconomics.com/projects/big-t-notation/",
-    "verified_on": "2026-08-19",
-    "stale_after": "2026-11-17",
-    "category": "unit-economics",
-    "kind": "framework",
-    "super_area": "understand"
-  },
-  {
-    "title": "Cached-input discounts - the ~90%-off lever behind cache-accounting",
-    "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-05",
-    "category": "pricing-models",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "ChatGPT subscription tiers and Codex CLI bundling/pricing (2026)",
-    "url": "https://learn.chatgpt.com/docs/pricing",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-05",
-    "category": "pricing-models",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "ChatGPT workspace-agent credit billing (effective July 6, 2026)",
-    "url": "https://help.openai.com/en/articles/11481834-chatgpt-rate-card-business-enterpriseedu-credit-based-pricing",
-    "verified_on": "2026-07-17",
-    "stale_after": "2026-10-15",
-    "category": "pricing-models",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "Cisco acquires Galileo (LLM eval/observability) → folded into Splunk Observability",
-    "url": "https://blogs.cisco.com/news/cisco-announces-the-intent-to-acquire-galileo",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "consolidation",
-    "kind": "company",
-    "super_area": "understand"
-  },
-  {
-    "title": "The \"$47k Claude Code bill\" - the anchor bill-shock anecdote and its mechanistic debunk",
-    "url": "https://yusufhansacak.medium.com/the-47-000-agent-bill-what-the-viral-token-stories-get-wrong-7ee1cdd81e65",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "buyer-incentives",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "Claude Fable 5.1 - same headline price, a 4x steeper cache-hit discount",
-    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-05",
-    "category": "pricing-models",
-    "kind": "model",
-    "super_area": "understand"
-  },
-  {
-    "title": "Claude Opus 5 - flat price vs Opus 4.8, but 1M context and thinking on by default",
-    "url": "https://platform.claude.com/docs/en/release-notes/api",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-05",
-    "category": "model-economics",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "Claude \"subscription arbitrage\" and its (announced, then paused) end",
-    "url": "https://zed.dev/blog/anthropic-subscription-changes",
-    "verified_on": "2026-08-28",
-    "stale_after": "2026-11-26",
-    "category": "buyer-incentives",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "Claude's tokenizer vocabulary shrank, and plain English got about 46% more expensive",
-    "url": "https://tokencontributions.substack.com/p/on-the-biology-of-claudes-tokenizer",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-13",
-    "category": "pricing-models",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "Cline - an OSS coding agent on a bring-your-own-key cost model",
-    "url": "https://github.com/cline/cline",
-    "verified_on": "2026-07-26",
-    "stale_after": "2026-10-26",
-    "category": "market-competitors",
-    "kind": "oss",
-    "super_area": "understand"
-  },
-  {
-    "title": "Cloud Capital - gross margin in the age of AI (the vendor/supply side)",
-    "url": "https://www.cloudcapital.co/learn/gross-margin-in-the-age-of-ai",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "unit-economics",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "Coding-agent native spend controls (2026)",
-    "url": "https://cursor.com/changelog/05-04-26",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "buyer-incentives",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "GitHub Copilot metered-billing bill-shock - the demand-side reaction (\"tokenpocalypse\")",
-    "url": "https://news.ycombinator.com/item?id=47923357",
-    "verified_on": "2026-09-06",
-    "stale_after": "2026-12-05",
-    "category": "buyer-incentives",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "Cost-of-Pass - an economic framework for evaluating language models",
-    "url": "https://arxiv.org/abs/2504.13359",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "unit-economics",
-    "kind": "paper",
-    "super_area": "understand"
-  },
-  {
-    "title": "Cursor charges by tokens, split into first-party and third-party pools",
-    "url": "https://cursor.com/docs/account/pricing",
-    "verified_on": "2026-08-22",
-    "stale_after": "2026-11-20",
-    "category": "pricing-models",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "DeepSeek V4.1-Flash - a 4-7x cut, a 35-hour peak window, and a retirement that was called off",
-    "url": "https://api-docs.deepseek.com/quick_start/pricing",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-13",
-    "category": "pricing-models",
-    "kind": "model",
-    "super_area": "understand"
-  },
-  {
-    "title": "Devin's Agent Compute Unit has no published definition of what it meters",
-    "url": "https://docs.devin.ai/admin/billing/enterprise",
-    "verified_on": "2026-08-22",
-    "stale_after": "2026-11-20",
-    "category": "pricing-models",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "DORA 2025 - AI as amplifier, and the delivery-stability tension",
-    "url": "https://dora.dev/insights/balancing-ai-tensions/",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "unit-economics",
-    "kind": "report",
-    "super_area": "understand"
-  },
-  {
-    "title": "Doubleword",
-    "url": "https://doubleword.ai",
-    "verified_on": "2026-08-22",
-    "stale_after": "2026-11-20",
-    "category": "pricing-models",
-    "kind": "company",
-    "super_area": "understand"
-  },
-  {
-    "title": "Fable 5 leaves subscription inclusion - frontier tier moves to usage-credit metering (July 7 cliff)",
-    "url": "https://www.anthropic.com/news/redeploying-fable-5",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-09-25",
-    "category": "pricing-models",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "Factory (droids) - subscription pricing + $150M Series C at $1.5B",
-    "url": "https://factory.ai/pricing",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "market-competitors",
-    "kind": "company",
-    "super_area": "understand"
-  },
-  {
-    "title": "Faros - \"The Acceleration Whiplash\" (AI Engineering Report 2026)",
-    "url": "https://pages.faros.ai/hubfs/AI_Engineering_Report_2026_The_Acceleration_Whiplash_Faros.pdf",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "unit-economics",
-    "kind": "report",
-    "super_area": "understand"
-  },
-  {
-    "title": "State of FinOps 2026 - AI spend management is now the norm",
-    "url": "https://data.finops.org/",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "buyer-incentives",
-    "kind": "report",
-    "super_area": "understand"
-  },
-  {
-    "title": "Gartner - worldwide AI spending forecast: $2.59T in 2026 (+47% YoY)",
-    "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-19-gartner-forecasts-worldwide-ai-spending-to-grow-47-percent-in-2026",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "market-sizing",
-    "kind": "report",
-    "super_area": "understand"
-  },
-  {
-    "title": "Gemini 3.6 Flash - a Flash tier marketed on fewer tokens per task, not just a lower unit price",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-    "verified_on": "2026-07-26",
-    "stale_after": "2026-10-26",
-    "category": "model-economics",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "Gemini CLI retirement → Antigravity CLI (open-source coding agent closes, pricing restructures)",
-    "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "market-competitors",
-    "kind": "tool",
-    "super_area": "understand"
-  },
-  {
-    "title": "Gemini Flash pricing doubles on 2027-01-01, and for 3.6 Flash that is a return to its launch price",
-    "url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.8-flash",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-05",
-    "category": "pricing-models",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "getDX - AI coding assistant pricing & ROI guide (2026)",
-    "url": "https://getdx.com/blog/ai-coding-assistant-pricing/",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "unit-economics",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "Google AI Pro price and Gemini/Antigravity free-tier limits (2026)",
-    "url": "https://gemini.google/us/subscriptions/",
-    "verified_on": "2026-09-06",
-    "stale_after": "2026-12-05",
-    "category": "pricing-models",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "GPT-5.6 family (Sol / Terra / Luna) - API pricing",
-    "url": "https://developers.openai.com/api/docs/pricing",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-05",
-    "category": "pricing-models",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "GPT-6 Astra - API pricing and the 272K long-context surcharge",
-    "url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-05",
-    "category": "pricing-models",
-    "kind": "model",
-    "super_area": "understand"
-  },
-  {
-    "title": "JetBrains independently measured two token-saving skills against their own claims",
-    "url": "https://blog.jetbrains.com/ai/2026/07/rtk-claude-code-token-savings/",
-    "verified_on": "2026-07-20",
-    "stale_after": "2026-10-20",
-    "category": "compression-efficacy",
-    "kind": "benchmark",
-    "super_area": "understand"
-  },
-  {
-    "title": "Kimi K2.6/K2.7-Code and GLM-5.2 official API pricing",
-    "url": "https://platform.kimi.ai/docs/pricing/chat-k27-code",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-05",
-    "category": "model-economics",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "Lanai",
-    "url": "https://www.prnewswire.com/news-releases/lanai-launches-ai--work-operating-system-to-help-enterprises-close-the-ai-accountability-gap-302743892.html",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "buyer-incentives",
-    "kind": "company",
-    "super_area": "understand"
-  },
-  {
-    "title": "LiteLLM flex/priority service-tier cost keys - the harness-level tier-routing lever",
-    "url": "https://docs.litellm.ai/docs/proxy/custom_pricing",
-    "verified_on": "2026-08-22",
-    "stale_after": "2026-11-20",
-    "category": "pricing-models",
-    "kind": "technique",
-    "super_area": "understand"
-  },
-  {
-    "title": "LLM price decline + Jevons paradox - unit price crashes, total spend climbs",
-    "url": "https://a16z.com/llmflation-llm-inference-cost/",
-    "verified_on": "2026-08-22",
-    "stale_after": "2026-11-20",
-    "category": "pricing-models",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "LLM token pricing dimensions - the structure of a token bill",
-    "url": "https://platform.claude.com/docs/en/about-claude/pricing",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-13",
-    "category": "pricing-models",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "Local / open-model economics for coding - state of the field (2026)",
-    "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "model-economics",
-    "kind": "technique",
-    "super_area": "understand"
-  },
-  {
-    "title": "Menlo Ventures - enterprise generative-AI spend $11.5B → $37B (2024→2025)",
-    "url": "https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "market-sizing",
-    "kind": "report",
-    "super_area": "understand"
-  },
-  {
-    "title": "METR - measured vs perceived AI productivity (the RCT)",
-    "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "unit-economics",
-    "kind": "paper",
-    "super_area": "understand"
-  },
-  {
-    "title": "AI Tokenomics: how to tokenmin while ROImaxxing (MMC Ventures)",
-    "url": "https://mmc.vc/research/ai-tokenomics-how-to-tokenmin-while-roimaxxing/",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
-    "category": "market-sizing",
-    "kind": "report",
-    "super_area": "understand"
-  },
-  {
-    "title": "OckBench - measuring token efficiency / verbosity of LLM reasoning",
-    "url": "https://arxiv.org/abs/2511.05722",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "model-economics",
-    "kind": "paper",
-    "super_area": "understand"
-  },
-  {
-    "title": "OpenAI Agents API - a hosted agent harness with no harness fee and an admitted metering gap",
-    "url": "https://developers.openai.com/api/docs/guides/agents-api/observability",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-13",
-    "category": "pricing-models",
-    "kind": "tool",
-    "super_area": "understand"
-  },
-  {
-    "title": "OpenAI is winding down the self-serve fine-tuning API and platform",
-    "url": "https://developers.openai.com/api/docs/deprecations",
-    "verified_on": "2026-08-22",
-    "stale_after": "2026-11-20",
-    "category": "pricing-models",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "OpenHands - MIT OSS coding agent, free local + free cloud tier, at-cost LLM option",
-    "url": "https://github.com/OpenHands/OpenHands",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "market-competitors",
-    "kind": "oss",
-    "super_area": "understand"
-  },
-  {
-    "title": "\"Qwen 3.6 27B is the sweet spot for local development\" - Migdał / Quesma (first-party)",
-    "url": "https://quesma.com/blog/qwen-36-is-awesome/",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "model-economics",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "Reasoning-token billing across providers - the hidden output multiplier",
-    "url": "https://developers.openai.com/api/docs/guides/reasoning",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "model-economics",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "Reasoning-token consumption behavior - length ≠ effort, and verbosity is a separate lever",
-    "url": "https://arxiv.org/abs/2602.13517",
-    "verified_on": "2026-07-02",
-    "stale_after": "2026-10-02",
-    "category": "model-economics",
-    "kind": "paper",
-    "super_area": "understand"
-  },
-  {
-    "title": "Reserved-capacity reliability economics (Azure PTU · AWS Bedrock MU)",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/provisioned-throughput",
-    "verified_on": "2026-07-05",
-    "stale_after": "2026-10-05",
-    "category": "reliability-sla",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "Tokenization multiplicity & overcharging - the pay-per-token integrity problem",
-    "url": "https://arxiv.org/abs/2506.06446",
-    "verified_on": "2026-08-22",
-    "stale_after": "2026-11-20",
-    "category": "pricing-models",
-    "kind": "paper",
-    "super_area": "understand"
-  },
-  {
-    "title": "Tokenomics Foundation (Linux Foundation + FinOps Foundation)",
-    "url": "https://www.linuxfoundation.org/press/linux-foundation-launches-the-tokenomics-foundation-to-define-the-economics-and-roi-of-ai-value",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-10-09",
-    "category": "consolidation",
-    "kind": "company",
-    "super_area": "understand"
-  },
-  {
-    "title": "Uber caps AI-coding spend at $1,500/mo per tool after burning its budget in ~4 months",
-    "url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
-    "verified_on": "2026-07-01",
-    "stale_after": "2026-10-01",
-    "category": "buyer-incentives",
-    "kind": "article",
-    "super_area": "understand"
-  },
-  {
-    "title": "Windsurf became Devin Desktop and switched credits to token-based quota",
-    "url": "https://docs.devin.ai/desktop/accounts/quota",
-    "verified_on": "2026-08-22",
-    "stale_after": "2026-11-20",
-    "category": "pricing-models",
-    "kind": "article",
-    "super_area": "understand"
   }
 ]
