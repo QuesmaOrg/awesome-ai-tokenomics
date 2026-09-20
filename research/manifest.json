@@ -2185,5 +2185,14 @@
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
+  },
+  {
+    "title": "Cloud FinOps Skill",
+    "url": "https://github.com/OptimNow/cloud-finops-skills",
+    "verified_on": "2026-09-20",
+    "stale_after": "2026-12-19",
+    "category": "billing-audit-finops",
+    "kind": "oss",
+    "super_area": "govern"
   }
 ]

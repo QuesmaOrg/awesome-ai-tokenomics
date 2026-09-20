@@ -19,6 +19,7 @@
 ## Billing Audit FinOps
 
 ### Tools
+- [Cloud FinOps Skill](https://github.com/OptimNow/cloud-finops-skills) - A markdown reference library for agents, packaged as a Claude skill and as an MCP server with six retrieval tools, that holds the billing mechanics a model tends to get wrong: eleven of its references cover AI spend (Anthropic, Bedrock, Azure OpenAI PTUs, Vertex AI, provisioned vs shared capacity, self-hosted vs managed inference, coding-tool seats, agent cost anatomy), the rest cloud and SaaS. It states ratios and multipliers and tells the agent to fetch absolute prices from a live source instead of quoting them. ![tool: CC BY-SA 4.0](https://img.shields.io/badge/tool-CC_BY--SA_4.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/OptimNow/cloud-finops-skills?style=flat-square&label=)
 - [FinOps for AI - canonical practitioner framework for governing AI/LLM spend](https://www.finops.org/framework/scope/finops-for-ai/) - FinOps for AI is the FinOps Foundation's official practitioner framework for governing AI, GPU, and token spend. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [Vaudit - TokenAudit](https://www.vaudit.com/) - Vaudit is an AI-native, independent spend-auditing and recovery platform (San Francisco, founded late 2023). TokenAudit is its LLM invoice-reconciliation product. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
