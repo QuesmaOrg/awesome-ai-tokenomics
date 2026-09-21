@@ -241,6 +241,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 
 - [FinOps for AI - canonical practitioner framework for governing AI/LLM spend](https://www.finops.org/framework/scope/finops-for-ai/) - FinOps for AI is the FinOps Foundation's official practitioner framework for governing AI, GPU, and token spend. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [Vaudit - TokenAudit](https://www.vaudit.com/) - Vaudit is an AI-native, independent spend-auditing and recovery platform (San Francisco, founded late 2023). TokenAudit is its LLM invoice-reconciliation product. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [VibeAudit](https://vibeaudit.sh/) - Pre-launch security audit for AI-built apps: reads the whole repo and returns findings with file:line and a paste-ready fix prompt each. Free quick scan.
 
 ### Budgets Caps
 
