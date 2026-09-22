@@ -270,6 +270,15 @@
     "super_area": "measure"
   },
   {
+    "title": "claude-carbon",
+    "url": "https://github.com/gwittebolle/claude-carbon",
+    "verified_on": "2026-09-22",
+    "stale_after": "2026-12-21",
+    "category": "energy-carbon",
+    "kind": "oss",
+    "super_area": "measure"
+  },
+  {
     "title": "Claw-SWE-Bench",
     "url": "https://github.com/opensquilla/claw-swe-bench",
     "verified_on": "2026-07-01",
