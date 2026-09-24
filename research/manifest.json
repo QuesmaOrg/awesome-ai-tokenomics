@@ -630,6 +630,15 @@
     "super_area": "monitor"
   },
   {
+    "title": "antiburn",
+    "url": "https://github.com/antiburn/antiburn",
+    "verified_on": "2026-09-24",
+    "stale_after": "2026-12-23",
+    "category": "dashboards",
+    "kind": "oss",
+    "super_area": "monitor"
+  },
+  {
     "title": "Arize Phoenix",
     "url": "https://github.com/Arize-ai/phoenix",
     "verified_on": "2026-07-01",
