@@ -54,8 +54,8 @@ You may submit your own project. Additional rules apply:
   users referencing it, package downloads beyond the author's own automation, or a third-party
   write-up or benchmark. Star counts alone do not count; we check where they come from. A real
   project with no outside users yet is welcome back once it has some.
-- Near-identical submissions sent to many lists at once are declined. The submitting account's
-  PR history across GitHub is part of the review.
+- Near-identical submissions sent to many lists at once are a flag, not a decline. They get a
+  closer substance check. The submitting account's PR history across GitHub is part of the review.
 
 ## Freshness
 
