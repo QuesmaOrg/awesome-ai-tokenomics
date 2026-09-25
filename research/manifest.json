@@ -1584,6 +1584,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "snip",
+    "url": "https://github.com/edouard-claude/snip",
+    "verified_on": "2026-09-25",
+    "stale_after": "2026-12-24",
+    "category": "context-engineering",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
     "title": "trace-mcp",
     "url": "https://github.com/nikolai-vysotskyi/trace-mcp",
     "verified_on": "2026-09-06",
