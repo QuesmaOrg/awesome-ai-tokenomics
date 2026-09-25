@@ -19,6 +19,7 @@
 ## Billing Audit FinOps
 
 ### Tools
+- [Cloud FinOps Skill](https://github.com/OptimNow/cloud-finops-skills) - A markdown reference library for agents, packaged as a Claude skill and as an MCP server with six retrieval tools, that holds the billing mechanics a model tends to get wrong: eleven of its references cover AI spend (Anthropic, Bedrock, Azure OpenAI PTUs, Vertex AI, provisioned vs shared capacity, self-hosted vs managed inference, coding-tool seats, agent cost anatomy), the rest cloud and SaaS. It states ratios and multipliers and tells the agent to fetch absolute prices from a live source instead of quoting them. ![tool: CC BY-SA 4.0](https://img.shields.io/badge/tool-CC_BY--SA_4.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/OptimNow/cloud-finops-skills?style=flat-square&label=)
 - [FinOps for AI - canonical practitioner framework for governing AI/LLM spend](https://www.finops.org/framework/scope/finops-for-ai/) - FinOps for AI is the FinOps Foundation's official practitioner framework for governing AI, GPU, and token spend. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [Vaudit - TokenAudit](https://www.vaudit.com/) - Vaudit is an AI-native, independent spend-auditing and recovery platform (San Francisco, founded late 2023). TokenAudit is its LLM invoice-reconciliation product. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
@@ -29,19 +30,6 @@
 
 ### Reading
 - [Claude Code's 5-hour/weekly usage quotas - Anthropic has stopped publishing exact numbers](https://support.claude.com/en/articles/11049741-what-is-the-max-plan) - Anthropic stopped publishing exact Claude Code usage quotas, describing Max plans only as 5x/20x multipliers of Pro with no absolute numbers.
-
-## Energy Carbon
-
-### Tools
-- [CodeCarbon](https://github.com/mlco2/codecarbon) - An open-source (MIT) library for estimating a workload's energy use and CO2e emissions, and ML's widely-cited carbon baseline. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mlco2/codecarbon?style=flat-square&label=)
-- [EcoLogits](https://github.com/mlco2/ecologits) - Estimates the energy and carbon footprint of calling generative-AI APIs: the hosted counterpart to CodeCarbon, which measures your own hardware. ![tool: MPL-2.0](https://img.shields.io/badge/tool-MPL--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mlco2/ecologits?style=flat-square&label=)
-
-### Research & Benchmarks
-- [Google - measuring the environmental impact of AI inference (provider disclosure)](https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference) - Google published a first-party disclosure of the energy, carbon, and water cost of a median Gemini Apps text prompt, authored by Amin Vahdat and Jeff Dean. ![report](https://img.shields.io/badge/report-555?style=flat-square)
-- [ML.ENERGY Leaderboard](https://ml.energy/blog/measurement/energy/diagnosing-inference-energy-consumption-with-the-mlenergy-leaderboard-v30/) - Version 3.0 of this leaderboard measures real GPU inference energy across 46 models x 7 tasks, finding reasoning models use roughly 25x the energy of others. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
-
-### Reading
-- [Epoch AI - how much energy a query uses (the per-token energy anchor)](https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use) - Epoch AI built a transparent, first-principles estimate of how much energy one LLM query costs.
 
 ## Policy Enforcement
 

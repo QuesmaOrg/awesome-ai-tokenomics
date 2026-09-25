@@ -27,7 +27,13 @@
 ## Observability
 
 ### Tools
+- [Braintrust](https://www.braintrust.dev) - A closed-source eval and observability SaaS whose span metrics normalize cached and cache-creation prompt tokens across providers, compute a cache hit rate from them, and expose per-user and per-model spend through an estimated_cost() SQL function backed by a per-model price registry. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Langfuse](https://langfuse.com) - An open-source platform for tracing, evaluating, and analyzing LLM and agent transcripts, with a prompt-management layer on top. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square)
+
+## Observability Platforms
+
+### Tools
+- [OpenAI Prompt Cache Diagnostics - the vendor tells you why the cache missed](https://developers.openai.com/api/docs/guides/prompt-caching/diagnostics) - OpenAI's first-party cache-miss explainer, GA in the Responses API on 2026-09-08 for GPT-5.6 and later: pass a baseline response ID and the API returns a machine-readable reason for why the prefix was not reused, free of charge. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
 
 ## OTel for LLMs
 

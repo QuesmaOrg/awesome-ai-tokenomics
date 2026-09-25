@@ -26,6 +26,7 @@
 - [Gemini context caching - the per-hour storage meter (the third-vendor axis)](https://ai.google.dev/gemini-api/docs/pricing) - Among major providers, only Gemini bills a per-hour storage meter for explicit prompt caching.
 - [OpenAI prompt-caching `cached_tokens` accounting](https://platform.openai.com/docs/guides/prompt-caching) - This is the measurement substrate for prompt-cache savings on the OpenAI API.
 - [OpenAI Responses conversation state - you pay for the whole chain every turn (and the compaction levers)](https://developers.openai.com/api/docs/guides/conversation-state) - This entry covers the billing semantics of stateful conversations on OpenAI's Responses API, plus the two server-side compaction levers that mitigate them.
+- [The cache share of an agentic bill, simulated on Open-SWE-Traces](https://www.completeskeptic.com/p/kv-cache-rules-everything-around) - A replay simulation over NVIDIA's Open-SWE-Traces that puts output tokens at 9-18% of an agentic bill and cache traffic at the remaining 82-91%, arriving at the cache-dominance figure from a wholly different direction than the billed-run studies.
 
 ## Cost Anatomy
 
@@ -34,13 +35,29 @@
 - [TensorZero - cross-vendor token-count divergence ("stop comparing $/M tokens")](https://www.tensorzero.com/blog/stop-comparing-price-per-million-tokens-the-hidden-llm-api-costs/) - The same input can produce 2.65x more tokens on one tokenizer than another's: Claude Opus 4-7 runs 1.57x-2.65x more tokens than GPT-5.4 on the same content.
 - [Vision-token pricing formulas across the big three](https://platform.claude.com/docs/en/build-with-claude/vision) - Anthropic, OpenAI, and Google each convert an image into billed tokens with a different formula, so no single cross-vendor image-cost number exists. (also: [OpenAI](https://developers.openai.com/api/docs/guides/images-vision) · [Google](https://ai.google.dev/gemini-api/docs/image-understanding))
 
+## Energy Carbon
+
+### Tools
+- [Alumet](https://github.com/alumet-dev/alumet) - A Rust measurement framework (EUPL-1.2 or later) that reads hardware energy counters through RAPL, NVML, AMD SMI and Jetson INA plugins, and attributes the energy to processes, cgroups and Kubernetes pods. ![tool: EUPL-1.2-or-later](https://img.shields.io/badge/tool-EUPL--1.2--or--later-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/alumet-dev/alumet?style=flat-square&label=)
+- [CodeCarbon](https://github.com/mlco2/codecarbon) - An open-source (MIT) library for estimating a workload's energy use and CO2e emissions, and ML's widely-cited carbon baseline. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mlco2/codecarbon?style=flat-square&label=)
+- [EcoLogits](https://github.com/mlco2/ecologits) - Estimates the energy and carbon footprint of calling generative-AI APIs: the hosted counterpart to CodeCarbon, which measures your own hardware. ![tool: MPL-2.0](https://img.shields.io/badge/tool-MPL--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mlco2/ecologits?style=flat-square&label=)
+
+### Research & Benchmarks
+- [Google - measuring the environmental impact of AI inference (provider disclosure)](https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference) - Google published a first-party disclosure of the energy, carbon, and water cost of a median Gemini Apps text prompt, authored by Amin Vahdat and Jeff Dean. ![report](https://img.shields.io/badge/report-555?style=flat-square)
+- [ML.ENERGY Leaderboard](https://ml.energy/blog/measurement/energy/diagnosing-inference-energy-consumption-with-the-mlenergy-leaderboard-v30/) - Version 3.0 of this leaderboard measures real GPU inference energy across 46 models x 7 tasks, finding reasoning models use roughly 25x the energy of others. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
+
+### Reading
+- [Epoch AI - how much energy a query uses (the per-token energy anchor)](https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use) - Epoch AI built a transparent, first-principles estimate of how much energy one LLM query costs.
+
 ## Harness Overhead
 
 ### Research & Benchmarks
 - [Claude Code system prompts (Piebald extraction)](https://github.com/Piebald-AI/claude-code-system-prompts) - Piebald AI extracts Claude Code's full compiled prompt payload per release: 515 prompt strings and 27 tool descriptions at v2.1.212, each priced in tokens. ![data](https://img.shields.io/badge/data-555?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/Piebald-AI/claude-code-system-prompts?style=flat-square&label=)
 - [Claude Code vs OpenCode token overhead (Systima study)](https://systima.ai/blog/claude-code-vs-opencode-token-overhead) - Systima measured harness scaffolding overhead before a prompt is even read: Claude Code carries about 32,800 tokens versus OpenCode's 6,900, a 4.7x gap. ![report](https://img.shields.io/badge/report-555?style=flat-square)
+- [FrontierHarness Eval](https://runta.com/blog/introducing-frontierharness-eval/) - Nine coding harnesses in twelve configurations on one model through one gateway: pass rates cluster between 50% and 67% while cost per completed task spans $1.05 to $18.34, with task definitions and results published. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
 - [Multi-vendor system-prompt and tool-schema corpus (x1xhlol)](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - A 35-vendor collection of extracted agent system prompts with separate tool-schema JSON files (Claude Code's Tools.json alone is 48,962 bytes), published as raw text with no token counts. ![data](https://img.shields.io/badge/data-555?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/x1xhlol/system-prompts-and-models-of-ai-tools?style=flat-square&label=)
 - [Multi-vendor system-prompt corpus (asgeirtj)](https://github.com/asgeirtj/system_prompts_leaks) - A 481-file prompt corpus under CC0 covering harnesses others miss (Antigravity CLI at 24,493 bytes and Copilot CLI at 72,738), with dated Anthropic prompt series but no token counts. ![data](https://img.shields.io/badge/data-555?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/asgeirtj/system_prompts_leaks?style=flat-square&label=)
+- [The Harness Tax (twelve-harness fixed-model token benchmark)](https://www.eishanlawrence.com/blog/harness-bench/harness-efficiency-paper.pdf) - Holds the model, tasks and gateway fixed across twelve coding-harness configurations and finds tokens per solved task spanning 46x on one model and 83x on a second, with startup tax times turn count predicting the spread at R-squared 0.99. (also: [author writeup](https://www.eishanlawrence.com/blog/harness-efficiency-bench) · [Composio, independent second primary](https://composio.dev/content/best-agent-harness-deepseek-v4-flash) · [The New Stack coverage](https://thenewstack.io/agent-harness-token-costs/)) ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
 ## Metering
 

@@ -18,7 +18,7 @@
 
 ### Tools
 - [Context Mode](https://github.com/mksglu/context-mode) - This MCP server sandboxes tool calls and returns only the distilled result, claiming a 98% cut: 315 KB of output down to 5.4 KB. ![tool: Elastic-2.0](https://img.shields.io/badge/tool-Elastic--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mksglu/context-mode?style=flat-square&label=)
-- [headroom](https://github.com/headroomlabs-ai/headroom) - An Apache-2.0 context-compression tool for LLM/agent pipelines at 65,698 GitHub stars (2026-08-10), confirmed organic by star-forensics. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/headroomlabs-ai/headroom?style=flat-square&label=)
+- [headroom](https://github.com/headroomlabs-ai/headroom) - An Apache-2.0 context-compression tool for LLM/agent pipelines at 69,078 GitHub stars (2026-09-06), confirmed organic by star-forensics; its TOST non-inferiority framework was removed from the public repo on 2026-07-10 and never merged to main. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/headroomlabs-ai/headroom?style=flat-square&label=)
 - [lean-ctx - MCP context layer with a self-measured savings ledger](https://github.com/yvgude/lean-ctx) - Rust MCP server that mediates what a coding agent reads, with a self-measured 60-90% token-reduction headline, a reported quality column, and an accounting of its own context overhead. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/yvgude/lean-ctx?style=flat-square&label=)
 - [LLMLingua](https://github.com/microsoft/LLMLingua) - Microsoft's prompt-compression library that uses a small model to drop low-information tokens before a prompt reaches the target LLM. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/microsoft/LLMLingua?style=flat-square&label=)
 - [llmtrim](https://github.com/fkiene/llmtrim) - A local proxy that compresses a coding agent's prompt, tool schemas, and history before forwarding and can reroute Claude calls to Grok. ![tool: MPL-2.0](https://img.shields.io/badge/tool-MPL--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/fkiene/llmtrim?style=flat-square&label=)
@@ -33,6 +33,7 @@
 ### Tools
 - [Repomix](https://github.com/yamadashy/repomix) - Packs an entire repository into a single AI-friendly file, reporting token counts and using Tree-sitter to compress code to signatures only. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/yamadashy/repomix?style=flat-square&label=)
 - [Serena](https://github.com/oraios/serena) - An open-source (MIT) MCP toolkit that gives a coding agent IDE-grade semantic code retrieval and editing: 'the IDE for your coding agent'. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/oraios/serena?style=flat-square&label=)
+- [trace-mcp](https://github.com/nikolai-vysotskyi/trace-mcp) - An MCP server that pre-indexes a repository into a symbol and dependency graph so an agent queries call graphs, change impact, or file outlines instead of reading files, with a self-published benchmark reporting a 90.6% median input-token cut on pull-request review context and a 15-point comprehension drop on the same 60 pull requests. (also: [PR review context benchmark](https://trace-mcp.com/pr-context-benchmark.html) · [quality preregistration (verdict: MISSED)](https://trace-mcp.com/perf/prereg-pr-quality/) · [response-token preregistration](https://trace-mcp.com/perf/prereg-response-tokens/) · [npm](https://www.npmjs.com/package/trace-mcp)) ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/nikolai-vysotskyi/trace-mcp?style=flat-square&label=)
 
 ### Research & Benchmarks
 - [AgentDiet - trajectory reduction ("Reducing Cost of LLM Agents with Trajectory Reduction")](https://arxiv.org/abs/2509.23586) - AgentDiet is an inference-time module that strips useless, redundant, and expired information from an agent's trajectory, without hurting performance. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
@@ -67,7 +68,8 @@
 ## Harness Efficiency
 
 ### Tools
-- [WOZCODE](https://www.tbench.ai/leaderboard/terminal-bench/2.0) - Claude Code plugin claiming lower token usage and higher task completion, listed sixth on the Terminal-Bench 2.0 leaderboard at 80.2% as an unverified submission. ![tool: none declared](https://img.shields.io/badge/tool-none_declared-blue?style=flat-square)
+- [SoL-Pi](https://nvlabs.github.io/SoL-Pi/) - An NVIDIA Labs extension for the Pi coding harness that packages four token-efficiency mechanisms, reporting 45-49% fewer tokens than stock Pi while a held-out gate keeps roughly 94% of its score. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square)
+- [WOZCODE](https://wozcode.com) - A proprietary Claude Code plugin. Its own published dataset (35 paired tasks, one run each, read 2026-09-14) records 54.4% lower cost and 69.3% fewer tokens than stock Claude Code; no live Terminal-Bench leaderboard lists it. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
 
 ## Memory
 
@@ -85,6 +87,11 @@
 - [Karpathy's LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) - Andrej Karpathy's LLM Wiki pattern has an agent build and maintain a persistent markdown wiki from your sources, instead of re-retrieving raw files.
 
 ## Multi-Agent Systems
+
+### Tools
+- [CrewAI](https://github.com/crewAIInc/crewAI) - An MIT-licensed multi-agent orchestration framework whose crew object exposes cache-aware token totals, including an explicit reconciliation step so cached Anthropic prompt tokens are not undercounted against the bill. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/crewAIInc/crewAI?style=flat-square&label=)
+- [LangChain](https://github.com/langchain-ai/langchain) - The MIT-licensed agent framework underneath LangGraph, LangMem and LangSmith: it defines the cache-aware UsageMetadata every LangChain integration reports, reconciles Anthropic cache tokens into billed input totals in provider code, and ships context-editing, summarization and call-limit middleware; it prices nothing. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/langchain-ai/langchain?style=flat-square&label=)
+- [LangGraph](https://github.com/langchain-ai/langgraph) - LangChain's graph orchestration library for stateful agents, with per-super-step checkpointing, per-node pending writes, and an opt-in node result cache; it ships no token accounting of its own. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/langchain-ai/langgraph?style=flat-square&label=)
 
 ### Research & Benchmarks
 - [SupervisorAgent - "Stop Wasting Your Tokens" (runtime supervision)](https://arxiv.org/abs/2510.26585) - SupervisorAgent is a lightweight, modular framework for runtime, adaptive supervision of multi-agent systems. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
@@ -107,6 +114,7 @@
 ## Retrieval Memory
 
 ### Tools
+- [LlamaIndex](https://github.com/run-llama/llama_index) - An MIT-licensed data framework for LLM applications, shipping a token-counting callback with an optional hard token budget and per-index-type cost documentation; the counter records tokens sent and carries no cached-token field. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/run-llama/llama_index?style=flat-square&label=)
 - [PageIndex](https://github.com/VectifyAI/PageIndex) - Vectorless RAG engine that builds a hierarchical tree index over long documents and has an LLM reason over the index instead of embedding chunks. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/VectifyAI/PageIndex?style=flat-square&label=)
 - [Signet AI](https://github.com/Signet-AI/signetai) - Local-first memory and context layer that syncs memories, transcripts and secrets across Claude Code, Codex, OpenCode and other harnesses. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/Signet-AI/signetai?style=flat-square&label=)
 - [xmemory](https://arxiv.org/abs/2604.27906) - Schema-grounded agent memory that extracts structured facts instead of storing text, reporting 97.10% F1 against named memory baselines in its own paper. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
@@ -155,6 +163,7 @@
 
 ### Tools
 - [SGLang](https://github.com/sgl-project/sglang) - A high-performance serving framework for large language and multimodal models. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/sgl-project/sglang?style=flat-square&label=)
+- [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) - NVIDIA's open-source LLM inference engine, with cross-request KV-cache reuse over a radix tree, per-request cache retention priorities, in-flight batching, and prefill-decode disaggregation. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/NVIDIA/TensorRT-LLM?style=flat-square&label=)
 - [vLLM](https://github.com/vllm-project/vllm) - The canonical open-source LLM serving engine, using PagedAttention to manage KV-cache memory in blocks so more requests batch at lower cost. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/vllm-project/vllm?style=flat-square&label=)
 
 ### Research & Benchmarks
