@@ -1998,6 +1998,15 @@
     "super_area": "understand"
   },
   {
+    "title": "GPT-6 Astra pricing at $6 an hour, audited",
+    "url": "https://pastagi.com/tools/gpt-6-astra-pricing-audit/",
+    "verified_on": "2026-09-24",
+    "stale_after": "2026-12-23",
+    "category": "pricing-models",
+    "kind": "article",
+    "super_area": "understand"
+  },
+  {
     "title": "JetBrains independently measured two token-saving skills against their own claims",
     "url": "https://blog.jetbrains.com/ai/2026/07/rtk-claude-code-token-savings/",
     "verified_on": "2026-07-20",
