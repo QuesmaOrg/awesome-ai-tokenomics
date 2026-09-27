@@ -124,6 +124,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Harness-side runaway-loop cost guardrails (Claude Code + Codex, July 2026)](https://github.com/anthropics/claude-code/releases/tag/v2.1.212) - In mid-July 2026 Claude Code and Codex both shipped first-party guardrails against runaway agent loops within days of each other.
 
 ### Gateways and Proxies
+- **[APIClaw](https://apiclaw.biz/)** – Flat-rate OpenAI-compatible AI API gateway ($19–$129/mo) with free 50-request trial; one endpoint for Claude, OpenAI, Kimi, Qwen, DeepSeek, GLM.
 
 - [Bifrost (Maxim AI)](https://github.com/maximhq/bifrost) - Bifrost is a Go-based AI gateway fronting 1,000+ models that measured just 11 microseconds of added latency per request at 5,000 requests per second. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/maximhq/bifrost?style=flat-square&label=)
 - [Cloudflare AI Gateway (Spend Limits)](https://developers.cloudflare.com/ai-gateway/features/spend-limits/) - Cloudflare AI Gateway is an edge-native LLM proxy that added dollar-denominated spend limits in June 2026, blocking or rerouting requests once a budget is hit. ![co](https://img.shields.io/badge/co-555?style=flat-square)
