@@ -62,6 +62,10 @@ Tools, papers, benchmarks, and vendor pages on what AI tokens cost and where the
   - [Whole Bill Accounting](#whole-bill-accounting)
 - [Related lists](#related-lists)
 
+### Legend
+
+Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) (blue, with the license when known), or a gray badge for ![paper](https://img.shields.io/badge/paper-555?style=flat-square), ![bench](https://img.shields.io/badge/bench-555?style=flat-square), ![data](https://img.shields.io/badge/data-555?style=flat-square), ![co](https://img.shields.io/badge/co-555?style=flat-square) for companies, and ![report](https://img.shields.io/badge/report-555?style=flat-square). Plain entries are articles. GitHub-hosted tools also carry a live last-commit badge.
+
 ## Monitor
 
 ### Dashboards
@@ -473,7 +477,5 @@ Tools, papers, benchmarks, and vendor pages on what AI tokens cost and where the
 - [Green Software Landscape](https://landscape.bundesverband-green-software.de/) - Catalog of green-software tools maintained by Bundesverband Green Software e.V., with AI training and inference energy subcategories.
 
 ## Footnotes
-
-Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) (blue, with the license when known), or a gray badge for ![paper](https://img.shields.io/badge/paper-555?style=flat-square), ![bench](https://img.shields.io/badge/bench-555?style=flat-square), ![data](https://img.shields.io/badge/data-555?style=flat-square), ![co](https://img.shields.io/badge/co-555?style=flat-square) for companies, and ![report](https://img.shields.io/badge/report-555?style=flat-square). Plain entries are articles. GitHub-hosted tools also carry a live last-commit badge.
 
 Maintained by the team at [Quesma](https://quesma.com).
