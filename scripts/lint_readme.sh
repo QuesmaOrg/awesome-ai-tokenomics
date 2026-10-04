@@ -60,4 +60,26 @@ if [ -n "$sup_hits" ]; then
   exit 1
 fi
 
-echo "lint_readme: OK (${waived_count} waived awesome-list-item marker-format notices; no em-dashes; no superlatives)"
+# Entry length (2026-10-04, from the sindresorhus/awesome#4394 review): name
+# plus one-liner stay within 300 characters. The URL and kind badges don't
+# count, matching the rule in CONTRIBUTING.md.
+len_hits="$(python3 - <<'EOF'
+import re
+for i, line in enumerate(open('README.md'), 1):
+    m = re.match(r'^- \[([^\]]*)\]\((?!#)[^)]*\) - (.*)$', line.rstrip('\n'))
+    if not m:
+        continue
+    desc = re.sub(r' ?!\[[^\]]*\]\([^)]*\)', '', m.group(2))
+    n = len(m.group(1)) + len(desc)
+    if n > 300:
+        print(f'README.md:{i}: {n} chars: {m.group(1)}')
+EOF
+)"
+if [ -n "$len_hits" ]; then
+  printf '%s\n' "$len_hits"
+  echo
+  echo "lint_readme: FAIL (entry name plus one-liner over 300 characters; shorten to one sentence)"
+  exit 1
+fi
+
+echo "lint_readme: OK (${waived_count} waived awesome-list-item marker-format notices; no em-dashes; no superlatives; entries within 300 chars)"
