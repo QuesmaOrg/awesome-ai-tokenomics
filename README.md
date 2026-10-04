@@ -4,28 +4,17 @@
 
 > Pricing, measurement, optimization, and governance of tokens used by AI models.
 
-Every entry is a link with a one-line summary: what it does, and the number behind it. On top of the list sit a few short pages written here: practices (what to do), concepts (how the economics work), claims (what we currently believe, with the evidence), and setups (configs you can paste straight into Claude Code or Codex). It's a reference to browse, grep, or hand to your agent - not a product.
-
-**Topics:** [Caching](#caching) · [Compression](#compression) · [Context engineering](#context-engineering) · [Memory](#memory) · [Routing](#routing-model-selection) · [Multi-agent systems](#multi-agent-systems) · [Gateways](#gateways-and-proxies) · [Observability](#observability) · [Benchmarks](#benchmarks-evals) · [Cache accounting](#cache-accounting) · [Budgets](#budgets-caps) · [Pricing models](#pricing-models) · [Energy](#energy-carbon)
+Every entry is a link with a one-sentence description.
 
 ## Contents
 
-- [Where to start](#where-to-start)
 - [Legend](#legend)
 - [Monitor](#monitor)
 - [Optimize](#optimize)
 - [Govern](#govern)
 - [Understand](#understand)
 - [Measure](#measure)
-- [Practices](#practices)
-- [Concepts](#concepts)
-- [Claims](#claims)
-- [Setups and skills](#setups-and-skills)
 - [Related lists](#related-lists)
-
-## Where to start
-
-Just want the numbers: the five area sections below hold every entry. Want the method: read the practices first, then the concepts behind them. Building something: setups and skills holds runnable configurations.
 
 ## Legend
 
@@ -190,7 +179,6 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [MTRouter - per-turn cost-aware routing with history-model joint embeddings](https://arxiv.org/abs/2604.23530) - MTRouter picks a different model for each turn of a multi-turn conversation, rather than one model per query, to hit a cost budget without losing quality. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [NadirClaw - a pre-router proxy, with its benchmark attached to the paid tier](https://github.com/NadirRouter/NadirClaw) - An OpenAI-compatible pre-router proxy for coding harnesses: a ~10ms embedding classifier picks the cheapest model predicted to answer, verifies the answer against quality heuristics, and escalates on failure. Its committed RouterBench numbers belong to the paid Nadir Pro classifier, not the free OSS one. ![tool: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/tool-PolyForm_Noncommercial_1.0.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/NadirRouter/NadirClaw?style=flat-square&label=)
 - [OpenCode - explicit cost-tier routing](https://opencode.ai/docs/) - OpenCode is an open-source (MIT) coding-agent CLI with its own explicit cost- and model-routing configuration, set directly in config. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square)
-- [opencode-fusion](https://github.com/mihneaptu/opencode-fusion) - An OpenCode config layer that denies the main agent's edit and search tools so they are removed from its tool schema entirely, forcing every file change through a cheaper sidekick agent. Model assignments are fixed per role at startup, and the project publishes no savings measurement of its own. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mihneaptu/opencode-fusion?style=flat-square&label=)
 - [OrcaRouter - production LinUCB bandit router (hybrid offline-online)](https://arxiv.org/abs/2605.30736) - OrcaRouter is a production LLM router built on a LinUCB bandit, with its cost/quality tradeoff independently confirmed on the RouterArena leaderboard. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [Plano (formerly archgw)](https://github.com/katanemo/plano) - An Envoy-based proxy whose router matches queries to user-defined domains and actions via a small routing model, rather than picking by benchmark rank. Since July 2026 it also prices the warm cache a model switch would discard, and vetoes switches once their cumulative cost passes a configured overhead cap. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/katanemo/plano?style=flat-square&label=)
 - [ruflo (formerly Claude-Flow) - cost-adjusted model routing](https://github.com/ruvnet/ruflo) - ruflo is an open-source agent meta-harness for Claude Code and Codex, providing swarm orchestration and persistent memory. Ships on npm as `claude-flow` (v3.17.0). ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/ruvnet/ruflo?style=flat-square&label=)
@@ -434,22 +422,6 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [FOCUS 1.4 - the cross-vendor billing-data normalization standard (now with invoice reconciliation)](https://focus.finops.org/focus-specification/) - FOCUS 1.4, the Linux Foundation's billing-data schema, added Invoice Detail and Billing Period datasets to reconcile spend against real invoices. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [FOCUS 1.5 - what the AI-cost release includes, and what it rules out](https://www.tokeneconomics.com/projects/what-1-5-does-for-ai-cost-and-what-it-does-not/) - The FOCUS working group's own scope statement for release 1.5: model identity merged into SkuPriceDetails with no new columns, cache and token-type work still unmerged, and session, event and harness identifiers ruled out of scope on the record.
 
-## Practices
-
-Tool-agnostic, evidence-grounded standards for token-efficient agentic coding. Each is one page: TL;DR, claim, evidence, links. [Browse the practices](practices/README.md).
-
-## Concepts
-
-Short reference notes explaining the ideas behind the practices: cache economics, the harness-waste taxonomy, orchestration economics. [Browse the concepts](concepts/README.md).
-
-## Claims
-
-Confidence-scored beliefs, clearly labeled as beliefs rather than facts, each with its strongest evidence linked. [Read the claims](claims.md).
-
-## Setups and skills
-
-Runnable, validated Claude Code and Codex configurations and skills for token-efficient agentic coding, each labeled with how it was validated. [Browse the setups](setups/README.md).
-
 ## Related lists
 
 - [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) - Curated papers, frameworks, and resources on large language models.
@@ -459,8 +431,5 @@ Runnable, validated Claude Code and Codex configurations and skills for token-ef
 - [Green Software Landscape](https://landscape.bundesverband-green-software.de/) - A CC0 catalog of 130 green-software tools maintained by Bundesverband Green Software e.V., with AI training and inference energy subcategories.
 
 ## Footnotes
-
-*"I feel nervous when I have subscription left over. That just means I haven't maximized my token throughput."*
-<br>Andrej Karpathy, [No Priors](https://podscripts.co/podcasts/no-priors-artificial-intelligence-technology-startups/andrej-karpathy-on-code-agents-autoresearch-and-the-loopy-era-of-ai) (2026)
 
 Maintained by the team at [Quesma](https://quesma.com).
