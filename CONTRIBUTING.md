@@ -23,6 +23,11 @@ List entries follow one repeating shape:
 
 Keep the one-liner factual and specific: what it does and why it's here, not marketing copy.
 
+- The name is the name of the thing (tool, paper, page), not a headline.
+- The one-liner is one sentence.
+- Name and one-liner together stay within 300 characters. The URL and the kind badge don't count.
+- Avoid wording tied to a model version or a month, so the entry doesn't need weekly updates.
+
 ## Cross-references
 
 Every internal cross-reference is a plain relative markdown link. No wikilinks:
