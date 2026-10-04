@@ -4,7 +4,7 @@
 
 > Pricing, measurement, optimization, and governance of tokens used by AI models.
 
-Every entry is a link with a one-sentence description.
+Every entry is a link with a one-line summary of what it does. It's a reference to browse, grep, or hand to your agent - not a product.
 
 ## Contents
 
