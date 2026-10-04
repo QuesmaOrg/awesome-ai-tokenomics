@@ -1,6 +1,6 @@
 # Awesome AI Tokenomics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-<a href="https://quesma.com"><img src=".github/logo.svg" align="right" width="110" alt=""></a>
+<a href="https://github.com/QuesmaOrg/awesome-ai-tokenomics"><img src=".github/logo.svg" align="right" width="110" alt=""></a>
 
 > Pricing, measurement, optimization, and governance of tokens used by AI models.
 
@@ -310,7 +310,6 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 
 ### Model Economics
 
-- ["Qwen 3.6 27B is the sweet spot for local development" - Migdał / Quesma (first-party)](https://quesma.com/blog/qwen-36-is-awesome/) - Piotr Migdał's #1-on-Hacker-News essay argues Qwen3.6-27B (dense) is the first local model good enough for real coding instead of a metered cloud API.
 - [Artificial Analysis - Coding Agent Index](https://artificialanalysis.ai/agents/coding-agents) - This benchmark scores full model-plus-harness stacks; on the v1.5 board read 2026-09-29, cost per task spans $0.09 to $14.19 across 25 combinations, per Artificial Analysis. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
 - [Artificial Analysis - Intelligence Index + Blended Price](https://artificialanalysis.ai/leaderboards/models) - Artificial Analysis's Intelligence Index is a live 0-100 capability score for base LLMs, shown with price and cost-per-task; v4.3.2 on 2026-09-29. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
 - [Claude Opus 5 - flat price vs Opus 4.8, but 1M context and thinking on by default](https://platform.claude.com/docs/en/release-notes/api) - Claude Opus 5 launched 2026-07-24 at the same $5/$25 per MTok as Opus 4.8, but ships 1M context and thinking on by default.
