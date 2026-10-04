@@ -4,7 +4,13 @@
 
 > Pricing, measurement, optimization, and governance of tokens used by AI models.
 
-Every entry is a link with a one-line summary of what it does. It's a reference to browse, grep, or hand to your agent - not a product.
+Tools, papers, benchmarks, and vendor pages on what AI tokens cost and where they go, grouped in five areas:
+
+- Monitor: see token use as it happens.
+- Optimize: use fewer tokens for the same work.
+- Govern: set budgets, allocate spend, catch anomalies.
+- Understand: pricing models and market economics.
+- Measure: benchmark and account for the whole bill.
 
 ## Contents
 
