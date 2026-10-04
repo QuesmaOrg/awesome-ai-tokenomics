@@ -4,17 +4,10 @@
 
 > Pricing, measurement, optimization, and governance of tokens used by AI models.
 
-Tools, papers, benchmarks, and vendor pages on what AI tokens cost and where they go, grouped in five areas:
-
-- Monitor: see token use as it happens.
-- Optimize: use fewer tokens for the same work.
-- Govern: set budgets, allocate spend, catch anomalies.
-- Understand: pricing models and market economics.
-- Measure: benchmark and account for the whole bill.
+Tools, papers, benchmarks, and vendor pages on what AI tokens cost and where they go.
 
 ## Contents
 
-- [Legend](#legend)
 - [Monitor](#monitor)
   - [Dashboards](#dashboards)
   - [eBPF Kernel Capture](#ebpf-kernel-capture)
@@ -68,10 +61,6 @@ Tools, papers, benchmarks, and vendor pages on what AI tokens cost and where the
   - [Transcript Analysis](#transcript-analysis)
   - [Whole Bill Accounting](#whole-bill-accounting)
 - [Related lists](#related-lists)
-
-## Legend
-
-Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) (blue, with the license when known), or a gray badge for ![paper](https://img.shields.io/badge/paper-555?style=flat-square), ![bench](https://img.shields.io/badge/bench-555?style=flat-square), ![data](https://img.shields.io/badge/data-555?style=flat-square), ![co](https://img.shields.io/badge/co-555?style=flat-square) for companies, and ![report](https://img.shields.io/badge/report-555?style=flat-square). Plain entries are articles. GitHub-hosted tools also carry a live last-commit badge.
 
 ## Monitor
 
@@ -484,5 +473,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Green Software Landscape](https://landscape.bundesverband-green-software.de/) - Catalog of green-software tools maintained by Bundesverband Green Software e.V., with AI training and inference energy subcategories.
 
 ## Footnotes
+
+Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) (blue, with the license when known), or a gray badge for ![paper](https://img.shields.io/badge/paper-555?style=flat-square), ![bench](https://img.shields.io/badge/bench-555?style=flat-square), ![data](https://img.shields.io/badge/data-555?style=flat-square), ![co](https://img.shields.io/badge/co-555?style=flat-square) for companies, and ![report](https://img.shields.io/badge/report-555?style=flat-square). Plain entries are articles. GitHub-hosted tools also carry a live last-commit badge.
 
 Maintained by the team at [Quesma](https://quesma.com).
