@@ -168,6 +168,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [LiteLLM](https://github.com/BerriAI/litellm) - Open-source gateway fronting 100+ LLM APIs that computes per-request dollar cost from a pricing map, with spend limits. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/BerriAI/litellm?style=flat-square&label=)
 - [OpenRouter Provider Selection](https://openrouter.ai/docs/guides/routing/provider-selection) - OpenRouter documentation on routing requests across models and providers by price, with fallback on outages. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Portkey AI Gateway Budget Limits](https://portkey.ai/docs/product/ai-gateway/virtual-keys/budget-limits) - Portkey documentation on routing LLM traffic across providers and enforcing hard USD budget limits on virtual keys. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [Standard Compute Budgets and Limits](https://docs.standardcompute.com/budgets-and-limits) - Standard Compute documentation on its hosted LLM router, sold as monthly plans with a fixed compute budget, that returns HTTP 402 once the budget is used instead of charging overage. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
 ### Harness Efficiency
 

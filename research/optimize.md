@@ -66,6 +66,7 @@
 - [LiteLLM](https://github.com/BerriAI/litellm) - An open-source gateway fronting 100+ LLM APIs that computes real per-request dollar cost from a live pricing map, with spend limits. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/BerriAI/litellm?style=flat-square&label=)
 - [OpenRouter](https://openrouter.ai/docs/guides/routing/provider-selection) - A unified API gateway fronting 400+ models across 70+ providers that auto-routes each request by price, with fallback on outages. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Portkey AI Gateway](https://portkey.ai/docs/product/ai-gateway/virtual-keys/budget-limits) - Routes LLM traffic across providers and enforces hard USD budget limits on virtual keys, auto-expiring a key once its cap is hit. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [Standard Compute (Budgets and Limits)](https://docs.standardcompute.com/budgets-and-limits) - A hosted LLM router with OpenAI- and Anthropic-compatible endpoints, sold as monthly plans with a fixed compute budget; requests return HTTP 402 when the budget is used, with no overage charges. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
 ## Harness Efficiency
 
