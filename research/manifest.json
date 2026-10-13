@@ -198,6 +198,15 @@
     "super_area": "govern"
   },
   {
+    "title": "Standard Compute (Budgets and Limits)",
+    "url": "https://docs.standardcompute.com/budgets-and-limits",
+    "verified_on": "2026-10-14",
+    "stale_after": "2027-01-12",
+    "category": "budgets-caps",
+    "kind": "company",
+    "super_area": "govern"
+  },
+  {
     "title": "TrueFoundry (AI Gateway - Budget Limiting)",
     "url": "https://www.truefoundry.com/docs/ai-gateway/budgetlimiting",
     "verified_on": "2026-09-29",
