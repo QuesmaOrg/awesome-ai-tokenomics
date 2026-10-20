@@ -55,6 +55,7 @@ Tools, papers, benchmarks, and vendor pages on what AI tokens cost and where the
   - [Benchmarks Evals](#benchmarks-evals)
   - [Cache Accounting](#cache-accounting)
   - [Cost Anatomy](#cost-anatomy)
+  - [Datasets](#datasets)
   - [Energy Carbon](#energy-carbon)
   - [Harness Overhead](#harness-overhead)
   - [Metering](#metering)
@@ -74,9 +75,9 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [ccusage](https://github.com/ccusage/ccusage) - CLI that reads local agent logs to report token usage and cost across coding-agent sources, with caching-aware pricing. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/ccusage/ccusage?style=flat-square&label=)
 - [Claude Code Usage Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) - Live terminal dashboard for Claude Code usage with burn-rate analytics, limit detection, and session-expiry forecasts. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/Maciek-roboblog/Claude-Code-Usage-Monitor?style=flat-square&label=)
 - [claude-usage](https://github.com/phuryn/claude-usage) - Local dashboard for Claude Code token usage, costs, and session history. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/phuryn/claude-usage?style=flat-square&label=)
-- [ClaudeBar](https://github.com/tddworks/ClaudeBar) - Menu-bar app for macOS that monitors AI coding quotas across multiple providers. ![tool: MIT declared in README](https://img.shields.io/badge/tool-MIT_declared_in_README-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/tddworks/ClaudeBar?style=flat-square&label=)
+- [ClaudeBar](https://github.com/tddworks/ClaudeBar) - Menu-bar app for macOS that monitors AI coding quotas across multiple providers. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/tddworks/ClaudeBar?style=flat-square&label=)
 - [CodeBurn](https://github.com/getagentseal/codeburn#find-and-fix-waste) - Usage tracker for coding tools whose optimize command flags harness-waste patterns with dollar estimates. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square)
-- [Codex Usage Tracker](https://github.com/douglasmonsky/codex-usage-tracker) - Local-first dashboard, CLI, and MCP tools that index Codex CLI logs into SQLite to show where tokens, credits, and cost go, including cache ratios. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/douglasmonsky/codex-usage-tracker?style=flat-square&label=)
+- [Codex Usage Tracker](https://github.com/douglasmonsky/codex-usage-tracker) - Local-first MCP tools and evidence console that index Codex CLI session logs into SQLite and report token, credit, allowance, and cost figures, with cached and uncached input split out. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/douglasmonsky/codex-usage-tracker?style=flat-square&label=)
 - [CodexBar](https://github.com/steipete/CodexBar) - Menu-bar app for macOS that shows limits, reset timers, credit balances, and spending across AI providers. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/steipete/CodexBar?style=flat-square&label=)
 - [CodeZeno Usage Monitor](https://github.com/CodeZeno/Claude-Code-Usage-Monitor) - Windows taskbar widget that shows Claude Code quota and usage without opening a terminal. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/CodeZeno/Claude-Code-Usage-Monitor?style=flat-square&label=)
 - [Datadog LLM Observability Cost](https://docs.datadoghq.com/llm_observability/monitoring/cost/) - Datadog documentation on per-request LLM cost estimates computed from token counts and public pricing. ![co](https://img.shields.io/badge/co-555?style=flat-square)
@@ -84,7 +85,8 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Grafana Cloud GenAI Observability](https://grafana.com/docs/grafana-cloud/monitor-applications/ai-observability/genai/observability/) - Prebuilt Grafana Cloud dashboard for LLM cost, token usage, and latency, built on the OpenLIT SDK. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [OpenLIT](https://github.com/openlit/openlit) - OpenTelemetry-native platform with a self-hosted dashboard for LLM cost, token, and latency observability. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/openlit/openlit?style=flat-square&label=)
 - [OpenUsage](https://github.com/robinebers/openusage) - Native Swift macOS menu-bar meter for AI coding subscriptions, showing session and weekly limits, credits, and estimated spend. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/robinebers/openusage?style=flat-square&label=)
-- [TokenTracker](https://github.com/mm7894215/TokenTracker) - Local-first token and cost dashboard for coding tools, with a desktop pet, native widgets, and achievements. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mm7894215/TokenTracker?style=flat-square&label=)
+- [Opik Cost Intelligence](https://github.com/comet-ml/opik/blob/main/apps/opik-documentation/documentation/fern/docs-v2/cost_intelligence/overview.mdx) - Comet enterprise feature that runs a local proxy on each developer machine and splits every coding-agent call into about 20 cost buckets from the provider's usage payload; Comet's 15% to 30% savings figure has no published method. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/comet-ml/opik?style=flat-square&label=)
+- [TokenTracker](https://github.com/xiufengsun/TokenTracker) - Local-first token and cost dashboard for coding tools, with a desktop pet, native widgets, and achievements. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/xiufengsun/TokenTracker?style=flat-square&label=)
 
 ### eBPF Kernel Capture
 
@@ -116,7 +118,6 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 
 ### Caching
 
-- [khazad](https://github.com/GuglielmoCerri/khazad) - Transport-layer semantic cache for LLM APIs on Redis 8 Vector Sets that intercepts HTTP traffic without application code changes. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/GuglielmoCerri/khazad?style=flat-square&label=)
 - [LMCache](https://github.com/LMCache/LMCache) - Self-hosted KV-cache layer beneath vLLM that gives token-level cache-hit observability for teams that own their GPUs. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/LMCache/LMCache?style=flat-square&label=)
 - [prompt-cache](https://github.com/messkan/prompt-cache) - Go LLM proxy with a three-tier semantic cache that uses a cheap verification model for borderline similarity matches. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/messkan/prompt-cache?style=flat-square&label=)
 - [Redis LangCache](https://redis.io/langcache/) - Managed semantic cache with a REST API that returns a stored response when a new query is similar to a past one. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
@@ -124,6 +125,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 ### Cheap Local Models
 
 - [llama.cpp](https://github.com/ggml-org/llama.cpp) - Open-source (MIT) local LLM inference engine with a built-in OpenAI-compatible server. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/ggml-org/llama.cpp?style=flat-square&label=)
+- [Magnitude](https://github.com/magnitudedev/magnitude) - Apache-2.0 local inference engine for agents, written in Rust, that tunes GPU kernels on the user's device and shares prefix caches across concurrent sessions; its maker reports 92% faster decode than llama.cpp on an M4 Pro. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/magnitudedev/magnitude?style=flat-square&label=)
 - [Ollama](https://github.com/ollama/ollama) - Runtime for running open-weight models locally on hardware you already own. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/ollama/ollama?style=flat-square&label=)
 
 ### Compression
@@ -153,6 +155,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Self-Compacting Language Model Agents](https://arxiv.org/abs/2606.23525) - Paper introducing SELFCOMPACT, where the model itself decides when and how to compress a growing agent trace. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [Serena](https://github.com/oraios/serena) - Open-source MCP toolkit that gives a coding agent IDE-grade semantic code retrieval and editing. ![tool: GPL-3.0-or-later](https://img.shields.io/badge/tool-GPL--3.0--or--later-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/oraios/serena?style=flat-square&label=)
 - [trace-mcp](https://github.com/nikolai-vysotskyi/trace-mcp) - MCP server that pre-indexes a repository into a symbol and dependency graph so an agent can query call graphs, change impact, or file outlines instead of reading files. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/nikolai-vysotskyi/trace-mcp?style=flat-square&label=)
+- [Unreal Agent](https://unreallabs.ai/blog/long-horizon-agents-at-half-the-cost/) - MIT async agent harness whose vendor-reported SWE-Marathon run shows the same 69/160 pass count as Codex with GPT-6.1 Sol at xhigh, for $445.75 against $850.52, after adding mid-session compaction. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square)
 
 ### Cost Controls
 
@@ -181,7 +184,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Cognee](https://github.com/topoteretes/cognee) - Open-source (Apache-2.0) AI-memory platform that gives agents persistent memory through a self-hosted knowledge graph. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/topoteretes/cognee?style=flat-square&label=)
 - [Karpathy's LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) - Gist by Andrej Karpathy describing a pattern where an agent builds and maintains a persistent markdown wiki from your sources.
 - [LangMem](https://github.com/langchain-ai/langmem) - LangChain long-term memory library that extracts and consolidates facts from conversations and integrates with LangGraph's memory store. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/langchain-ai/langmem?style=flat-square&label=)
-- [Letta](https://github.com/letta-ai/letta) - Platform for stateful agents, from the MemGPT project, that pages an LLM's context like an operating system. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/letta-ai/letta?style=flat-square&label=)
+- [Letta](https://github.com/letta-ai/letta-code) - Platform for stateful agents, from the MemGPT project, that pages an LLM's context like an operating system. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/letta-ai/letta-code?style=flat-square&label=)
 - [Mem0](https://github.com/mem0ai/mem0) - Open-source memory layer that extracts salient facts from conversations and retrieves only the relevant ones per call. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mem0ai/mem0?style=flat-square&label=)
 - [Supermemory](https://github.com/supermemoryai/supermemory) - Memory and context engine for agents. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/supermemoryai/supermemory?style=flat-square&label=)
 - [Zep / Graphiti](https://www.getzep.com/) - Memory platform for agents built on temporal knowledge graphs. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square)
@@ -203,6 +206,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 
 ### Retrieval Memory
 
+- [deja-vu](https://vshulcz.github.io/deja-vu/guide/day-zero.html) - MIT single-binary local memory for coding agents built from session history already on disk, with no LLM; its maker's 11-runs-per-arm benchmark cut median tokens from 126,222 to 53,558. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square)
 - [LlamaIndex](https://github.com/run-llama/llama_index) - MIT-licensed data framework for LLM applications with a token-counting callback and an optional hard token budget. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/run-llama/llama_index?style=flat-square&label=)
 - [PageIndex](https://github.com/VectifyAI/PageIndex) - Vectorless RAG engine that builds a hierarchical tree index over long documents and has an LLM reason over the index instead of embedding chunks. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/VectifyAI/PageIndex?style=flat-square&label=)
 - [Signet AI](https://github.com/Signet-AI/signetai) - Local-first memory and context layer that syncs memories, transcripts, and secrets across Claude Code, Codex, OpenCode, and other harnesses. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/Signet-AI/signetai?style=flat-square&label=)
@@ -218,19 +222,22 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Claude Code Router](https://github.com/musistudio/claude-code-router) - Local gateway that puts Claude Code, Codex, and other coding CLIs behind one endpoint and routes each request by rules or a prompt tag. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/musistudio/claude-code-router?style=flat-square&label=)
 - [Claude Code via LiteLLM](https://docs.litellm.ai/docs/tutorials/claude_non_anthropic_models) - LiteLLM tutorial for pointing Claude Code at a LiteLLM proxy so cheaper or non-Anthropic models can handle some work.
 - [Cluster, Route, Escalate](https://arxiv.org/abs/2606.27457) - Paper proposing a two-stage cost-aware cascade for LLM serving that combines routing and escalation. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
+- [Copilot HydraFusion](https://github.blog/2026-09-04-project-hydrafusion-frontier-quality-via-multi-model-orchestration/) - GitHub research-preview feature that picks one of three multi-model workflows (Single, Cascade, Critique) per request; GitHub reports 36% to 67% lower estimated cost than Claude Opus 5 at -1.5 to +4.9 points of quality, tuned on the same benchmarks. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
 - [Cursor Router](https://cursor.com/blog/router) - Cursor blog post on Auto mode, which classifies each request and routes it to a model under Intelligence, Balance, or Cost modes. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Distilling Agent Behavior](https://arxiv.org/abs/2505.17612) - Paper on distilling a large agent's behavior into a small task-specific model to cut per-token cost.
 - [GitHub Copilot Auto Model Selection](https://docs.github.com/en/copilot/concepts/models/auto-model-selection) - GitHub documentation on Copilot's Auto setting, which routes by model health and task complexity. ![co](https://img.shields.io/badge/co-555?style=flat-square)
-- [pi-model-router](https://github.com/yeliu84/pi-model-router) - Heuristic per-turn model router for the pi coding agent, with an OpenCode counterpart that routes by keyword and word-count rules. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/yeliu84/pi-model-router?style=flat-square&label=)
 - [MTRouter](https://arxiv.org/abs/2604.23530) - Paper on picking a different model for each turn of a multi-turn conversation to meet a cost budget. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [NadirClaw](https://github.com/NadirRouter/NadirClaw) - OpenAI-compatible pre-router proxy for coding harnesses that picks the cheapest model predicted to answer and escalates on failure. ![tool: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/tool-PolyForm_Noncommercial_1.0.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/NadirRouter/NadirClaw?style=flat-square&label=)
+- [NVIDIA NeMo Switchyard](https://github.com/NVIDIA-NeMo/Switchyard) - Apache-2.0, pre-1.0 routing library that picks a model per agent request from your own pool, also hosted on OpenRouter; its cost cuts (28% to 74% from partners, about one third internally) are self-reported. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/NVIDIA-NeMo/Switchyard?style=flat-square&label=)
+- [OpenAI Decisions API](https://developers.openai.com/api/docs/guides/decisions) - Beta endpoint that answers typed questions (probability, choice, score) about text or images with gpt-6-luna at $0.10 per 1M input tokens and no output, cache-read, or cache-write charges (as of 2026-10-06). ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
 - [OpenCode](https://opencode.ai/docs/) - Open-source (MIT) coding-agent CLI with explicit cost and model routing configuration. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square)
 - [OrcaRouter](https://arxiv.org/abs/2605.30736) - Paper on a production LLM router built on a LinUCB bandit. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
+- [pi-model-router](https://github.com/yeliu84/pi-model-router) - Heuristic per-turn model router for the pi coding agent, with an OpenCode counterpart that routes by keyword and word-count rules. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/yeliu84/pi-model-router?style=flat-square&label=)
 - [Plano](https://github.com/katanemo/plano) - Envoy-based proxy whose router matches queries to user-defined domains and actions using a small routing model. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/katanemo/plano?style=flat-square&label=)
 - [ruflo](https://github.com/ruvnet/ruflo) - Open-source agent meta-harness for Claude Code and Codex with swarm orchestration, persistent memory, and cost-adjusted model routing. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/ruvnet/ruflo?style=flat-square&label=)
 - [TypeSafe Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev) - TypeSafe AI blog post on a hosted decision model that answers typed questions with a choice or score and a probability.
 - [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) - Open-source, self-hostable router that sends routine queries to cheap or local models and hard ones to stronger backends. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/vllm-project/semantic-router?style=flat-square&label=)
-- [Weave Router](https://github.com/workweave/router) - Drop-in proxy that picks a model for every request with an on-box embedding cluster scorer, under the Elastic License 2.0. ![tool: ELv2](https://img.shields.io/badge/tool-ELv2-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/workweave/router?style=flat-square&label=)
+- [Weave Router](https://github.com/weave-os/router) - Drop-in proxy that picks a model for every turn of a coding-agent session and weighs the cost of switching, relicensed from Elastic License 2.0 to Apache-2.0 on 2026-09-24; its benchmark results are vendor-reported. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/weave-os/router?style=flat-square&label=)
 
 ### Search and Retrieval Boundary
 
@@ -264,6 +271,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 
 ### Allocation Chargeback
 
+- [AWS Bedrock Cost Attribution in Cost Explorer](https://docs.aws.amazon.com/cost-management/latest/userguide/ce-filtering.html) - Since 2026-10-08, AWS Cost Explorer and Budgets group and filter Amazon Bedrock cost by model, provider, inference type (input, output, prompt cache read), and feature, at no extra charge. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
 - [CloudZero](https://www.cloudzero.com/blog/ai-cost-optimization-at-scale/) - Commercial cloud and AI cost-intelligence and FinOps platform. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [JetBrains AI Credits for Business](https://blog.jetbrains.com/blog/2026/07/07/jetbrains-ai-for-teams-and-organizations-from-fragmented-ai-usage-to-coordinated-software-development/) - JetBrains blog post on moving business AI plans from monthly per-seat licenses to reallocatable credits with a governance dashboard.
 - [Mavvrik](https://www.mavvrik.ai/press-releases/mavvrik-unveils-full-stack-ai-cost-governance/) - AI and hybrid-infrastructure cost governance and FinOps platform, formerly DigitalEx. ![co](https://img.shields.io/badge/co-555?style=flat-square)
@@ -283,6 +291,8 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 
 ### Budgets Caps
 
+- [AWS Spend Limits](https://docs.aws.amazon.com/accounts/latest/reference/create-spend-limit.html) - AWS project-level spend limits, announced 2026-09-16 for a limited set of customers, pause a project's resources when spend reaches the limit, with optional earlier controls on the top cost drivers. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
+- [Claude Code Review Billing](https://code.claude.com/docs/en/code-review-costs) - Anthropic's Code Review has no flat per-review price, bills tokens through usage credits outside plan limits, defaults new repositories to a review after every push, and offers a monthly spend limit. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
 - [Claude Max Plan Usage](https://support.claude.com/en/articles/11049741-what-is-the-max-plan) - Anthropic support article describing Max plan usage as multipliers of Pro, without absolute quota numbers.
 - [TrueFoundry AI Gateway Budget Limiting](https://www.truefoundry.com/docs/ai-gateway/budgetlimiting) - TrueFoundry documentation on budget limits in its AI gateway for GenAI deployments. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
@@ -314,6 +324,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Cursor Spend Controls Changelog](https://cursor.com/changelog/05-04-26) - Cursor changelog entry for admin spend controls: budget caps, credit metering, and usage dashboards.
 - [GitHub Copilot Billing Backlash](https://news.ycombinator.com/item?id=47923357) - Discussion thread on reaction to GitHub's move from flat-rate Copilot plans to metered AI Credits.
 - [Lanai](https://www.prnewswire.com/news-releases/lanai-launches-ai--work-operating-system-to-help-enterprises-close-the-ai-accountability-gap-302743892.html) - Lanai's AI @ Work platform, which discovers sanctioned and shadow AI workflows across an organization and maps token spend to the KPIs they drive. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [OpenAI Researcher Coding-Agent Spend](https://epoch.ai/data-insights/openai-coding-agent-spending) - OpenAI reports its median researcher used over $600 per day of coding-agent inference at API prices by mid-August 2026; Epoch AI's fit puts the recent doubling time at about 34 days. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [State of FinOps](https://data.finops.org/) - FinOps Foundation annual survey of how organizations manage cloud and AI spend. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [The $47k Claude Code Bill](https://yusufhansacak.medium.com/the-47-000-agent-bill-what-the-viral-token-stories-get-wrong-7ee1cdd81e65) - Teardown of a viral Claude Code bill story that traces the cost to quadratic context re-ingestion.
 - [Uber AI Coding Spend Cap](https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/) - TechCrunch report on Uber capping per-employee AI-coding spend per tool.
@@ -338,9 +349,9 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 
 ### Market Sizing
 
-- [MMC Ventures AI Tokenomics](https://mmc.vc/research/ai-tokenomics-how-to-tokenmin-while-roimaxxing/) - MMC Ventures research mapping the token-efficiency vendor landscape across context and memory, multi-model systems, inference, routing, and output. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [Gartner AI Spending Forecast](https://www.gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-worldwide-ai-spending-to-grow-49-point-5-percent-in-2026) - Gartner press release forecasting worldwide AI spending. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [Menlo Ventures State of Generative AI in the Enterprise](https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/) - Menlo Ventures report on enterprise generative-AI spend, including coding tools as an application category. ![report](https://img.shields.io/badge/report-555?style=flat-square)
+- [MMC Ventures AI Tokenomics](https://mmc.vc/research/ai-tokenomics-how-to-tokenmin-while-roimaxxing/) - MMC Ventures research mapping the token-efficiency vendor landscape across context and memory, multi-model systems, inference, routing, and output. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 
 ### Model Economics
 
@@ -349,41 +360,46 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Claude API Release Notes](https://platform.claude.com/docs/en/release-notes/api) - Anthropic's Claude API release notes, listing model launches and API changes.
 - [Gemini Flash Models](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/) - Google blog post introducing Gemini Flash models and their token-efficiency claims.
 - [Kimi API Pricing](https://platform.kimi.ai/docs/pricing/chat-k27-code) - Moonshot's official API pricing page for Kimi models.
-- [Qwen3.6-27B](https://huggingface.co/Qwen/Qwen3.6-27B) - Hugging Face model card for Qwen3.6-27B, an open-weight coding model.
 - [OckBench](https://arxiv.org/abs/2511.05722) - Benchmark that measures token efficiency and verbosity of LLM reasoning for the same answer. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [OpenAI Reasoning Guide](https://developers.openai.com/api/docs/guides/reasoning) - OpenAI guide to reasoning models and how reasoning tokens are billed as output.
+- [Qwen3.6-27B](https://huggingface.co/Qwen/Qwen3.6-27B) - Hugging Face model card for Qwen3.6-27B, an open-weight coding model.
 - [Reasoning-Token Consumption](https://arxiv.org/abs/2602.13517) - Paper on how chain-of-thought token use differs from effort, and why verbosity is a separate lever. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
 ### Pricing Models
 
 - [AICostBudget AI API Pricing Dataset](https://aicostbudget.com/en/datasets/ai-api-pricing) - Source-linked AI API pricing records with normalized JSON and CSV exports. ![data](https://img.shields.io/badge/data-555?style=flat-square)
+- [Anthropic API Pricing](https://platform.claude.com/docs/en/about-claude/pricing) - Anthropic pricing documentation covering how tokens are metered and priced on the Claude API.
 - [Anthropic Batch Processing](https://platform.claude.com/docs/en/docs/build-with-claude/batch-processing) - Anthropic documentation on asynchronous batch processing, which trades latency for a lower price.
-- [Bessemer AI Pricing Playbook](https://www.bvp.com/atlas/the-ai-pricing-and-monetization-playbook) - Bessemer playbook on the shift in AI pricing from per-seat to usage and outcome-based models.
 - [Anthropic Prompt Caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching) - Anthropic documentation on prompt caching, including cache-read and cache-write pricing.
-- [ChatGPT Pricing](https://learn.chatgpt.com/docs/pricing) - OpenAI pricing page for ChatGPT subscription tiers and Codex bundling.
+- [Bessemer AI Pricing Playbook](https://www.bvp.com/atlas/the-ai-pricing-and-monetization-playbook) - Bessemer playbook on the shift in AI pricing from per-seat to usage and outcome-based models.
 - [ChatGPT Credit Rate Card](https://help.openai.com/en/articles/11481834-chatgpt-rate-card-business-enterpriseedu-credit-based-pricing) - OpenAI help article with the credit-based rate card for ChatGPT Business, Enterprise, and Edu workspaces.
+- [ChatGPT Pricing](https://learn.chatgpt.com/docs/pricing) - OpenAI pricing page for ChatGPT subscription tiers and Codex bundling.
 - [Claude Fable 5.1 and Mythos 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1) - Anthropic announcement with the rate card for Claude Fable 5.1 and Mythos 5.1.
+- [Claude Haiku 5.5](https://platform.claude.com/docs/en/models/haiku-5-5/overview) - Launched 2026-10-07 at $0.10 / $0.50 per MTok for prompts up to 100K tokens and $0.50 / $2.50 above, a tenth of Haiku 4.5's list price; the threshold counts cache reads and writes, and the newer tokenizer counts the same text as about 30% more tokens.
 - [Claude Opus 5.5 Overview](https://platform.claude.com/docs/en/models/opus-5-5/overview) - Anthropic documentation for Claude Opus 5.5, including pricing, cache rates, and default effort.
 - [Claude Sonnet 5.5 Overview](https://platform.claude.com/docs/en/models/sonnet-5-5/overview) - Anthropic documentation for Claude Sonnet 5.5, including pricing and effort levels.
 - [Claude Tokenizer Vocabulary](https://tokencontributions.substack.com/p/on-the-biology-of-claudes-tokenizer) - Substack analysis of how a smaller Claude tokenizer vocabulary changed token counts for plain English text.
-- [Cursor Pricing](https://cursor.com/docs/account/pricing) - Cursor documentation on token-based metering, split into first-party and third-party pools.
+- [Cursor Pricing](https://cursor.com/docs/account/pricing/legacy-cursor-plans) - Cursor documentation on token-based metering for legacy plans, split into first-party and third-party pools.
+- [Cursor Subscription Plans](https://cursor.com/docs/models-and-pricing) - Between 2026-10-12 and 2026-10-13 Cursor replaced its plans with The X Subscription ($8 to $200 per month): one weekly pool covers only Cursor's own models, and Claude, GPT, and Gemini are billed at API list price from prepaid credit on Premium and above.
 - [DeepSeek API Pricing](https://api-docs.deepseek.com/quick_start/pricing) - DeepSeek's official pricing page listing per-token rates for its models, including cache hits and peak-window rates.
 - [Devin Agent Compute Units](https://docs.devin.ai/admin/billing/enterprise) - Devin documentation on Enterprise billing in Agent Compute Units.
+- [Devin Desktop Quota](https://docs.devin.ai/desktop/accounts/quota) - Devin documentation on token-based quota for Devin Desktop, formerly Windsurf.
 - [Doubleword](https://doubleword.ai) - Provider of asynchronous and batch inference on open models that publishes a cost-per-token table. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Fable 5 Subscription Changes](https://www.anthropic.com/news/redeploying-fable-5) - Anthropic announcement on how Fable 5 is offered across subscription plans and usage credits.
+- [Gemini 4 Argon Pricing](https://ai.google.dev/gemini-api/docs/pricing#gemini-4-argon) - GA on 2026-10-13 at an introductory $2 input / $10 output / $0.10 cache read per 1M tokens through 2026-11-30, with every rate doubling on 2026-12-01; implicit caching only.
 - [Gemini API Pricing](https://ai.google.dev/gemini-api/docs/pricing#gemini-3.8-flash) - Google's Gemini API pricing page with per-token rates and dated rate changes for Flash models.
 - [Google AI Subscriptions](https://gemini.google/us/subscriptions/) - Google page listing Google AI subscription tiers and their Gemini and Antigravity rate limits.
 - [GPT-5.6 API Pricing](https://developers.openai.com/api/docs/pricing) - OpenAI API pricing page for the GPT-5.6 family.
 - [GPT-6 Astra API Pricing](https://developers.openai.com/api/docs/models/gpt-6-astra) - OpenAI model page for GPT-6 Astra, with per-token rates and the long-context surcharge.
 - [GPT-6 Sol and Luna API Pricing](https://developers.openai.com/api/docs/models/gpt-6-sol) - OpenAI model page for GPT-6 Sol and GPT-6 Luna, with per-token rates and the long-context surcharge.
+- [GPT-6.1 Sol Pricing](https://developers.openai.com/api/docs/models/gpt-6.1-sol) - Released 2026-09-29 at $2 input / $0.10 cached / $2.50 cache write / $10 output per 1M tokens, the GPT-6 Sol rate with cache reads cut from 10% to 5% of input.
 - [LiteLLM Custom Pricing](https://docs.litellm.ai/docs/proxy/custom_pricing) - LiteLLM documentation on custom pricing, including flex and priority service-tier cost keys.
 - [LLMflation](https://a16z.com/llmflation-llm-inference-cost/) - Andreessen Horowitz analysis of falling LLM inference prices alongside rising total AI spend.
-- [Anthropic API Pricing](https://platform.claude.com/docs/en/about-claude/pricing) - Anthropic pricing documentation covering how tokens are metered and priced on the Claude API.
+- [Mistral Large 4 Pricing](https://docs.mistral.ai/models/mistral-large-4) - Public preview 2026-10-06 at $1.36 input / $0.14 cached input / $4.18 output per 1M tokens, sold at 50% off for two weeks from launch; open weights announced, not yet released.
 - [OpenAI Agents API Observability](https://developers.openai.com/api/docs/guides/agents-api/observability) - OpenAI documentation on usage and billing for hosted agent runs in the Agents API. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
 - [OpenAI Deprecations](https://developers.openai.com/api/docs/deprecations) - Page listing deprecated OpenAI APIs and models, including the wind-down of self-serve fine-tuning.
 - [Tokenization Multiplicity and Overcharging](https://arxiv.org/abs/2506.06446) - Paper on how the same output can be billed a different token count depending on tokenization. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [Tokenomics Foundation Prompt Cache Explainer](https://www.tokeneconomics.com/cache-explainer/) - Explainer on prompt caching that defines Cache Hit Rate and Cache Cost Efficiency and maps cache economics across access modes. ![tool: CC BY 4.0](https://img.shields.io/badge/tool-CC_BY_4.0-blue?style=flat-square)
-- [Devin Desktop Quota](https://docs.devin.ai/desktop/accounts/quota) - Devin documentation on token-based quota for Devin Desktop, formerly Windsurf.
 
 ### Reliability SLAs
 
@@ -408,6 +424,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Deterministic Anchoring](https://arxiv.org/abs/2606.26979) - ISSTA 2026 paper on injecting static-analysis facts as plain-text comments for code agents. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [GitHub Copilot Agentic Harness Evaluation](https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/) - GitHub blog post comparing Copilot's agentic-harness resolution rate with cost per task across benchmarks and models. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [Harness-Bench](https://arxiv.org/abs/2605.27922) - Benchmark that holds task, model, and budget fixed while varying only the agent harness. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
+- [livenerf](https://github.com/ninjahawk/livenerf) - Pre-registered, append-only daily benchmark that tests whether a Claude model gets worse after launch, with a locked 78-question panel, a control model, and a stated detection limit of about 7.5 accuracy points per 10-day window. ![bench](https://img.shields.io/badge/bench-555?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/ninjahawk/livenerf?style=flat-square&label=)
 - [LongMemEval](https://github.com/xiaowu0162/LongMemEval) - Benchmark for long-term memory in chat assistants, published at ICLR 2025. ![bench](https://img.shields.io/badge/bench-555?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/xiaowu0162/LongMemEval?style=flat-square&label=)
 - [MemoryBench](https://github.com/supermemoryai/memorybench) - Pluggable harness that runs memory systems head-to-head across datasets like LoCoMo. ![bench](https://img.shields.io/badge/bench-555?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/supermemoryai/memorybench?style=flat-square&label=)
 - [Prompt Compression in the Wild](https://arxiv.org/abs/2604.02985) - ECIR 2026 study of end-to-end speed-ups from LLMLingua prompt compression. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
@@ -421,15 +438,20 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 ### Cache Accounting
 
 - [Gemini Context Caching Pricing](https://ai.google.dev/gemini-api/docs/pricing) - Google's Gemini API pricing page, including the per-hour storage charge for explicit context caching.
-- [OpenAI Prompt Caching](https://platform.openai.com/docs/guides/prompt-caching) - OpenAI guide to prompt caching and the cached_tokens usage field.
-- [OpenAI Conversation State](https://developers.openai.com/api/docs/guides/conversation-state) - OpenAI guide to conversation state in the Responses API, including billing semantics and server-side compaction.
 - [Open-SWE-Traces Cache Simulation](https://www.completeskeptic.com/p/kv-cache-rules-everything-around) - Replay simulation over NVIDIA's Open-SWE-Traces that splits an agentic bill into output tokens and cache traffic.
+- [OpenAI Conversation State](https://developers.openai.com/api/docs/guides/conversation-state) - OpenAI guide to conversation state in the Responses API, including billing semantics and server-side compaction.
+- [OpenAI Prompt Caching](https://platform.openai.com/docs/guides/prompt-caching) - OpenAI guide to prompt caching and the cached_tokens usage field.
 
 ### Cost Anatomy
 
 - [Anthropic Pricing Line Items](https://platform.claude.com/docs/en/about-claude/pricing#code-execution-tool) - Anthropic pricing documentation that enumerates the meters on a Claude API bill.
-- [TensorZero Token-Count Divergence](https://www.tensorzero.com/blog/stop-comparing-price-per-million-tokens-the-hidden-llm-api-costs/) - TensorZero blog post on how the same input produces different token counts across vendor tokenizers.
 - [Claude Vision Token Pricing](https://platform.claude.com/docs/en/build-with-claude/vision) - Anthropic vision documentation on how images convert to billed tokens, with OpenAI and Google equivalents.
+- [Cursor Token Mix](https://cursor.com/insights/developer-habits#cache-reads-dominate-token-activity) - Cursor telemetry puts cache reads at 89.9% of all tokens and output at 0.6% (May 2026), and a September read finds the top 10% of users consume nearly two-thirds of tokens. ![report](https://img.shields.io/badge/report-555?style=flat-square)
+- [TensorZero Token-Count Divergence](https://www.tensorzero.com/blog/stop-comparing-price-per-million-tokens-the-hidden-llm-api-costs/) - TensorZero blog post on how the same input produces different token counts across vendor tokenizers.
+
+### Datasets
+
+- [FreeInference Agentic Trace](https://huggingface.co/datasets/harvardMadsys/freeinference_agentic_trace) - CC-BY-4.0 request-level trace of 12,002 real agent sessions from 14 harnesses over 16 weeks, with per-request token counts, cache-read tokens, and prefix hashes for cache replay, and no message text. ![data](https://img.shields.io/badge/data-555?style=flat-square)
 
 ### Energy Carbon
 
@@ -446,8 +468,10 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Claude Code System Prompts](https://github.com/Piebald-AI/claude-code-system-prompts) - Piebald AI extraction of Claude Code's compiled prompt strings and tool descriptions for each release. ![data](https://img.shields.io/badge/data-555?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/Piebald-AI/claude-code-system-prompts?style=flat-square&label=)
 - [Claude Code vs OpenCode Token Overhead](https://systima.ai/blog/claude-code-vs-opencode-token-overhead) - Systima study of harness scaffolding token overhead in Claude Code and OpenCode. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [FrontierHarness Eval](https://runta.com/blog/introducing-frontierharness-eval/) - Runta benchmark of coding harnesses on one model through one gateway, comparing pass rates and cost per completed task. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
+- [HarnessTax](https://arena.ai/blog/coding-agents-harness-tax) - Arena and Berkeley study of seven models across Claude Code, Codex CLI, and Pi on 30 SWE-bench Lite and 30 Terminal-Bench 2.0 tasks: success rates moved within a few points while cost per rollout varied up to 5.07x for the same model (3.49x in native model-harness pairs). ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [System Prompts and Models of AI Tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - Collection of extracted agent system prompts and tool-schema JSON files across many vendors, published as raw text. ![data](https://img.shields.io/badge/data-555?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/x1xhlol/system-prompts-and-models-of-ai-tools?style=flat-square&label=)
 - [System Prompts Leaks](https://github.com/asgeirtj/system_prompts_leaks) - CC0 corpus of extracted system prompts for AI harnesses and models, with dated Anthropic prompt series. ![data](https://img.shields.io/badge/data-555?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/asgeirtj/system_prompts_leaks?style=flat-square&label=)
+- [TestDino Harness Overhead Benchmark](https://testdino.com/blog/harness-overhead-benchmark) - TestDino sent the same one-word prompt through 11 coding agents in one clean repo on 2026-10-08 and recorded first-call input tokens: 1,894 (Pi) to 31,480 (Claude Code), a 16.8x spread against a 31,798 Kiro CLI estimate, median of 3 runs.
 - [The Harness Tax](https://www.eishanlawrence.com/blog/harness-bench/harness-efficiency-paper.pdf) - Paper that holds model, tasks, and gateway fixed across coding-harness configurations and compares tokens per solved task. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
 ### Metering
@@ -455,7 +479,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [AgentsView and caut](https://github.com/kenn-io/agentsview) - Open-source tools that read local session logs to aggregate token usage and cost across coding-agent vendors. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/kenn-io/agentsview?style=flat-square&label=)
 - [How Do AI Agents Spend Your Money?](https://arxiv.org/abs/2604.22750) - Stanford study of token spend in agentic coding across frontier models on SWE-bench Verified tasks. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [OpenCost Inference Cost Tracking](https://github.com/opencost/opencost/blob/develop/docs/inference-cost-tracking.md) - OpenCost documentation on turning GPU and shared-infrastructure spend on vLLM and llm-d deployments into cost per million tokens. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/opencost/opencost?style=flat-square&label=)
-- [tokview](https://github.com/headroomlabs-ai/tokview) - Local, zero-config proxy that shows a coding agent's token spend by session, model, and tool call. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/headroomlabs-ai/tokview?style=flat-square&label=)
+- [tokview](https://github.com/chopratejas/tokview) - Local, zero-config proxy that shows a coding agent's token spend by session, model, and tool call. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/chopratejas/tokview?style=flat-square&label=)
 
 ### Transcript Analysis
 
@@ -465,8 +489,8 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 
 ### Whole Bill Accounting
 
-- [FOCUS Specification](https://focus.finops.org/focus-specification/) - Linux Foundation billing-data schema specification, with invoice detail and billing period datasets for reconciling spend against invoices. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [FOCUS 1.5 and AI Cost](https://www.tokeneconomics.com/projects/what-1-5-does-for-ai-cost-and-what-it-does-not/) - Tokenomics Foundation post on the scope of FOCUS release 1.5 for AI cost, including what it leaves out.
+- [FOCUS Specification](https://focus.finops.org/focus-specification/) - Linux Foundation billing-data schema specification, with invoice detail and billing period datasets for reconciling spend against invoices. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 
 ## Related lists
 
