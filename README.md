@@ -314,6 +314,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 
 ### Unit Economics
 
+- [FiscaLLM](https://github.com/magna56/fiscallm) - SDKs (TypeScript, Python) and self-hostable server that join per-user LLM token cost with RevenueCat or Stripe (beta) payments to show margin per user and plan, with budget alerts and optional spend caps. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/magna56/fiscallm?style=flat-square&label=)
 - [Paid](https://paid.ai/) - Monetization platform for AI agents that sets pricing, tracks delivery cost per action, and reports margin per customer. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
 ## Understand
