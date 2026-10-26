@@ -2437,5 +2437,14 @@
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
+  },
+  {
+    "title": "Speakeasy",
+    "url": "https://www.speakeasy.com/",
+    "verified_on": "2026-10-26",
+    "stale_after": "2027-01-24",
+    "category": "allocation-chargeback",
+    "kind": "company",
+    "super_area": "govern"
   }
 ]
