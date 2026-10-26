@@ -882,6 +882,15 @@
     "super_area": "monitor"
   },
   {
+    "title": "Lookout for VS Code",
+    "url": "https://github.com/nimrod-teich/lookout",
+    "verified_on": "2026-10-26",
+    "stale_after": "2027-01-24",
+    "category": "dashboards",
+    "kind": "oss",
+    "super_area": "monitor"
+  },
+  {
     "title": "OpenAI Prompt Cache Diagnostics",
     "url": "https://developers.openai.com/api/docs/guides/prompt-caching/diagnostics",
     "verified_on": "2026-09-29",
