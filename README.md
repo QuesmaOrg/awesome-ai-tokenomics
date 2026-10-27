@@ -393,6 +393,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [GPT-6 Astra API Pricing](https://developers.openai.com/api/docs/models/gpt-6-astra) - OpenAI model page for GPT-6 Astra, with per-token rates and the long-context surcharge.
 - [GPT-6 Sol and Luna API Pricing](https://developers.openai.com/api/docs/models/gpt-6-sol) - OpenAI model page for GPT-6 Sol and GPT-6 Luna, with per-token rates and the long-context surcharge.
 - [GPT-6.1 Sol Pricing](https://developers.openai.com/api/docs/models/gpt-6.1-sol) - Released 2026-09-29 at $2 input / $0.10 cached / $2.50 cache write / $10 output per 1M tokens, the GPT-6 Sol rate with cache reads cut from 10% to 5% of input.
+- [Jvlang AI](https://jvlangai.com/models) - Chinese-language lookup of published LLM API prices and relay-provider quotes, with source links and verification status. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [LiteLLM Custom Pricing](https://docs.litellm.ai/docs/proxy/custom_pricing) - LiteLLM documentation on custom pricing, including flex and priority service-tier cost keys.
 - [LLMflation](https://a16z.com/llmflation-llm-inference-cost/) - Andreessen Horowitz analysis of falling LLM inference prices alongside rising total AI spend.
 - [Mistral Large 4 Pricing](https://docs.mistral.ai/models/mistral-large-4) - Public preview 2026-10-06 at $1.36 input / $0.14 cached input / $4.18 output per 1M tokens, sold at 50% off for two weeks from launch; open weights announced, not yet released.

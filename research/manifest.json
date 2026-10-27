@@ -2437,5 +2437,14 @@
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
+  },
+  {
+    "title": "Jvlang AI",
+    "url": "https://jvlangai.com/models",
+    "verified_on": "2026-10-27",
+    "stale_after": "2027-01-25",
+    "category": "pricing-models",
+    "kind": "company",
+    "super_area": "understand"
   }
 ]
