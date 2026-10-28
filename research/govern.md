@@ -7,6 +7,7 @@
 - [CloudZero](https://www.cloudzero.com/blog/ai-cost-optimization-at-scale/) - Commercial cloud and AI cost-intelligence and FinOps platform. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Mavvrik](https://www.mavvrik.ai/press-releases/mavvrik-unveils-full-stack-ai-cost-governance/) - AI and hybrid-infrastructure cost governance and FinOps platform, formerly DigitalEx. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Pay-i](https://docs.ascerta.com/) - SDK-based GenAI cost-observability platform, now Ascerta, that tracks token-level spend per call and rolls it up into cost-center allocation. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [Speakeasy](https://www.speakeasy.com/) - Hosted AI control plane with vendor-documented cost attribution by person and role from client-reported telemetry. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
 ### Reading
 - [JetBrains AI Credits for Business](https://blog.jetbrains.com/blog/2026/07/07/jetbrains-ai-for-teams-and-organizations-from-fragmented-ai-usage-to-coordinated-software-development/) - JetBrains blog post on moving business AI plans from monthly per-seat licenses to reallocatable credits with a governance dashboard.
