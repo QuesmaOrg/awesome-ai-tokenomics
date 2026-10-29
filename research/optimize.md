@@ -74,6 +74,9 @@
 - [SoL-Pi](https://nvlabs.github.io/SoL-Pi/) - NVIDIA Labs extension for the Pi coding harness that packages four token-efficiency mechanisms. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square)
 - [WOZCODE](https://wozcode.com) - Proprietary Claude Code plugin that publishes its own paired-task dataset comparing cost and tokens against stock Claude Code. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
 
+### Research & Benchmarks
+- [Agon](https://arxiv.org/abs/2606.24177) - Paper on a research orchestrator built on a Prompt Economy principle, with 18 roles in 230.6 KiB of prompts against 302.4 to 1297.5 KiB for three comparable systems. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
+
 ## Memory
 
 ### Tools
@@ -97,6 +100,7 @@
 - [LangGraph](https://github.com/langchain-ai/langgraph) - LangChain graph orchestration library for stateful agents, with per-super-step checkpointing and an opt-in node result cache. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/langchain-ai/langgraph?style=flat-square&label=)
 
 ### Research & Benchmarks
+- [PerspectiveGap](https://arxiv.org/abs/2606.08878) - Benchmark of 110 orchestration scenarios that tests how a model writes sub-agent prompts and counts the out-of-role context it leaks to each sub-agent. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
 - [SupervisorAgent](https://arxiv.org/abs/2510.26585) - Paper on a lightweight, modular framework for runtime, adaptive supervision of multi-agent systems. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
 ### Reading

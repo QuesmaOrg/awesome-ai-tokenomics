@@ -2446,5 +2446,23 @@
     "category": "allocation-chargeback",
     "kind": "company",
     "super_area": "govern"
+  },
+  {
+    "title": "Agon",
+    "url": "https://arxiv.org/abs/2606.24177",
+    "verified_on": "2026-10-29",
+    "stale_after": "2027-01-27",
+    "category": "harness-efficiency",
+    "kind": "paper",
+    "super_area": "optimize"
+  },
+  {
+    "title": "PerspectiveGap",
+    "url": "https://arxiv.org/abs/2606.08878",
+    "verified_on": "2026-10-29",
+    "stale_after": "2027-01-27",
+    "category": "multi-agent-overhead",
+    "kind": "benchmark",
+    "super_area": "optimize"
   }
 ]
