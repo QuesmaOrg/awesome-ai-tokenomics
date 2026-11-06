@@ -97,6 +97,7 @@
 - [LangGraph](https://github.com/langchain-ai/langgraph) - LangChain graph orchestration library for stateful agents, with per-super-step checkpointing and an opt-in node result cache. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/langchain-ai/langgraph?style=flat-square&label=)
 
 ### Research & Benchmarks
+- [PerspectiveGap](https://arxiv.org/abs/2606.08878) - Benchmark of 110 orchestration scenarios that tests how a model writes sub-agent prompts and counts the out-of-role information fragments it leaks into each sub-agent's prompt. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
 - [SupervisorAgent](https://arxiv.org/abs/2510.26585) - Paper on a lightweight, modular framework for runtime, adaptive supervision of multi-agent systems. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
 ### Reading

@@ -2446,5 +2446,14 @@
     "category": "allocation-chargeback",
     "kind": "company",
     "super_area": "govern"
+  },
+  {
+    "title": "PerspectiveGap",
+    "url": "https://arxiv.org/abs/2606.08878",
+    "verified_on": "2026-10-29",
+    "stale_after": "2027-01-27",
+    "category": "multi-agent-overhead",
+    "kind": "benchmark",
+    "super_area": "optimize"
   }
 ]
