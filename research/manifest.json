@@ -1206,6 +1206,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "EC²-Bench (EC2-Bench)",
+    "url": "https://arxiv.org/abs/2610.17816",
+    "verified_on": "2026-11-06",
+    "stale_after": "2027-02-04",
+    "category": "routing-model-selection",
+    "kind": "paper",
+    "super_area": "optimize"
+  },
+  {
     "title": "deja-vu",
     "url": "https://vshulcz.github.io/deja-vu/guide/day-zero.html",
     "verified_on": "2026-10-09",
