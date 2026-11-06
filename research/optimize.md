@@ -154,6 +154,7 @@
 ### Reading
 - [Claude Code via LiteLLM](https://docs.litellm.ai/docs/tutorials/claude_non_anthropic_models) - LiteLLM tutorial for pointing Claude Code at a LiteLLM proxy so cheaper or non-Anthropic models can handle some work.
 - [Distilling Agent Behavior](https://arxiv.org/abs/2505.17612) - Paper on distilling a large agent's behavior into a small task-specific model to cut per-token cost.
+- [EC²-Bench (EC2-Bench)](https://arxiv.org/abs/2610.17816) - Paper and benchmark comparing query routing, per-step routing, and edge-controlled delegation or advisory between a small edge model and a cloud model on long-horizon agent tasks, scoring task performance, cloud cost, and privacy exposure together. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [TypeSafe Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev) - TypeSafe AI blog post on a hosted decision model that answers typed questions with a choice or score and a probability.
 
 ## Search and Retrieval Boundary
