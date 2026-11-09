@@ -1,4 +1,4 @@
-# Awesome AI Tokenomics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+﻿# Awesome AI Tokenomics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <a href="https://github.com/QuesmaOrg/awesome-ai-tokenomics"><img src=".github/logo.svg" align="right" width="110" alt=""></a>
 
