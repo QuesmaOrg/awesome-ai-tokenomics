@@ -1216,9 +1216,9 @@
   },
   {
     "title": "deja-vu",
-    "url": "https://vshulcz.github.io/deja-vu/guide/day-zero.html",
-    "verified_on": "2026-10-09",
-    "stale_after": "2027-01-07",
+    "url": "https://github.com/vshulcz/deja-vu",
+    "verified_on": "2026-11-06",
+    "stale_after": "2027-02-04",
     "category": "retrieval-memory",
     "kind": "oss",
     "super_area": "optimize"
