@@ -78,26 +78,26 @@
 - [ChatGPT Credit Rate Card](https://help.openai.com/en/articles/11481834-chatgpt-rate-card-business-enterpriseedu-credit-based-pricing) - OpenAI help article with the credit-based rate card for ChatGPT Business, Enterprise, and Edu workspaces.
 - [ChatGPT Pricing](https://learn.chatgpt.com/docs/pricing) - OpenAI pricing page for ChatGPT subscription tiers and Codex bundling.
 - [Claude Fable 5.1 and Mythos 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1) - Anthropic announcement with the rate card for Claude Fable 5.1 and Mythos 5.1.
-- [Claude Haiku 5.5](https://platform.claude.com/docs/en/models/haiku-5-5/overview) - Launched 2026-10-07 at $0.10 / $0.50 per MTok for prompts up to 100K tokens and $0.50 / $2.50 above, a tenth of Haiku 4.5's list price; the threshold counts cache reads and writes, and the newer tokenizer counts the same text as about 30% more tokens.
+- [Claude Haiku 5.5](https://platform.claude.com/docs/en/models/haiku-5-5/overview) - Anthropic model page for Claude Haiku 5.5, with release date, per-token rates split at a 100K-token prompt threshold, cache rates, and a note on token counts under the newer tokenizer.
 - [Claude Opus 5.5 Overview](https://platform.claude.com/docs/en/models/opus-5-5/overview) - Anthropic documentation for Claude Opus 5.5, including pricing, cache rates, and default effort.
 - [Claude Sonnet 5.5 Overview](https://platform.claude.com/docs/en/models/sonnet-5-5/overview) - Anthropic documentation for Claude Sonnet 5.5, including pricing and effort levels.
 - [Claude Tokenizer Vocabulary](https://tokencontributions.substack.com/p/on-the-biology-of-claudes-tokenizer) - Substack analysis of how a smaller Claude tokenizer vocabulary changed token counts for plain English text.
 - [Cursor Pricing](https://cursor.com/docs/account/pricing/legacy-cursor-plans) - Cursor documentation on token-based metering for legacy plans, split into first-party and third-party pools.
-- [Cursor Subscription Plans](https://cursor.com/docs/models-and-pricing) - Between 2026-10-12 and 2026-10-13 Cursor replaced its plans with The X Subscription ($8 to $200 per month): one weekly pool covers only Cursor's own models, and Claude, GPT, and Gemini are billed at API list price from prepaid credit on Premium and above.
+- [Cursor Subscription Plans](https://cursor.com/docs/models-and-pricing) - Cursor documentation on its subscription plans, the weekly included-usage pool, and how Claude, GPT, and Gemini models are billed at API list price from prepaid credit.
 - [DeepSeek API Pricing](https://api-docs.deepseek.com/quick_start/pricing) - DeepSeek's official pricing page listing per-token rates for its models, including cache hits and peak-window rates.
 - [Devin Agent Compute Units](https://docs.devin.ai/admin/billing/enterprise) - Devin documentation on Enterprise billing in Agent Compute Units.
 - [Devin Desktop Quota](https://docs.devin.ai/desktop/accounts/quota) - Devin documentation on token-based quota for Devin Desktop, formerly Windsurf.
 - [Fable 5 Subscription Changes](https://www.anthropic.com/news/redeploying-fable-5) - Anthropic announcement on how Fable 5 is offered across subscription plans and usage credits.
-- [Gemini 4 Argon Pricing](https://ai.google.dev/gemini-api/docs/pricing#gemini-4-argon) - GA on 2026-10-13 at an introductory $2 input / $10 output / $0.10 cache read per 1M tokens through 2026-11-30, with every rate doubling on 2026-12-01; implicit caching only.
+- [Gemini 4 Argon Pricing](https://ai.google.dev/gemini-api/docs/pricing#gemini-4-argon) - Gemini API pricing section for Gemini 4 Argon, listing rates for each service tier, scheduled rate changes, and implicit-only context caching.
 - [Gemini API Pricing](https://ai.google.dev/gemini-api/docs/pricing#gemini-3.8-flash) - Google's Gemini API pricing page with per-token rates and dated rate changes for Flash models.
 - [Google AI Subscriptions](https://gemini.google/us/subscriptions/) - Google page listing Google AI subscription tiers and their Gemini and Antigravity rate limits.
-- [GPT-5.6 API Pricing](https://developers.openai.com/api/docs/pricing) - OpenAI API pricing page for the GPT-5.6 family.
 - [GPT-6 Astra API Pricing](https://developers.openai.com/api/docs/models/gpt-6-astra) - OpenAI model page for GPT-6 Astra, with per-token rates and the long-context surcharge.
 - [GPT-6 Sol and Luna API Pricing](https://developers.openai.com/api/docs/models/gpt-6-sol) - OpenAI model page for GPT-6 Sol and GPT-6 Luna, with per-token rates and the long-context surcharge.
-- [GPT-6.1 Sol Pricing](https://developers.openai.com/api/docs/models/gpt-6.1-sol) - Released 2026-09-29 at $2 input / $0.10 cached / $2.50 cache write / $10 output per 1M tokens, the GPT-6 Sol rate with cache reads cut from 10% to 5% of input.
+- [GPT-6.1 Sol Pricing](https://developers.openai.com/api/docs/models/gpt-6.1-sol) - OpenAI model page for GPT-6.1 Sol, with per-token input, cached-input, cache-write, and output rates and the long-context surcharge.
 - [LiteLLM Custom Pricing](https://docs.litellm.ai/docs/proxy/custom_pricing) - LiteLLM documentation on custom pricing, including flex and priority service-tier cost keys.
 - [LLMflation](https://a16z.com/llmflation-llm-inference-cost/) - Andreessen Horowitz analysis of falling LLM inference prices alongside rising total AI spend.
-- [Mistral Large 4 Pricing](https://docs.mistral.ai/models/mistral-large-4) - Public preview 2026-10-06 at $1.36 input / $0.14 cached input / $4.18 output per 1M tokens, sold at 50% off for two weeks from launch; open weights announced, not yet released.
+- [Mistral Large 4 Pricing](https://docs.mistral.ai/models/mistral-large-4) - Mistral model page for Mistral Large 4, listing release status, license, per-token input, cached-input, and output rates, and a link to the open weights.
+- [OpenAI API Pricing](https://developers.openai.com/api/docs/pricing) - Pricing page listing per-token input, cached-input, cache-write, and output rates for each OpenAI API model.
 - [OpenAI Deprecations](https://developers.openai.com/api/docs/deprecations) - Page listing deprecated OpenAI APIs and models, including the wind-down of self-serve fine-tuning.
 
 ## Reliability SLAs
