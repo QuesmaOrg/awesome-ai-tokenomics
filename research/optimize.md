@@ -7,6 +7,9 @@
 - [prompt-cache](https://github.com/messkan/prompt-cache) - Go LLM proxy with a three-tier semantic cache that uses a cheap verification model for borderline similarity matches. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/messkan/prompt-cache?style=flat-square&label=)
 - [Redis LangCache](https://redis.io/langcache/) - Managed semantic cache with a REST API that returns a stored response when a new query is similar to a past one. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
 
+### Research & Benchmarks
+- [CacheLint (Silent and Costly)](https://arxiv.org/abs/2610.34817) - Paper and static-analysis detector for prompt-caching mis-integration in agent code, built from 120 caching-related pull requests in 10 open-source agent systems and applied to 571 agent projects. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
+
 ## Cheap Local Models
 
 ### Tools
@@ -17,6 +20,7 @@
 ## Compression
 
 ### Tools
+- [Amazon Bedrock Prompt Shortening](https://docs.aws.amazon.com/bedrock/latest/userguide/advanced-prompt-optimization-shorten.html) - AWS documentation for the prompt shortening setting in Bedrock Advanced Prompt Optimization, which returns a shorter prompt template only when it scores at least as high as the original on your own evaluation. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
 - [Context Mode](https://github.com/mksglu/context-mode) - MCP server that sandboxes tool calls and returns only the distilled result to the model. ![tool: Elastic-2.0](https://img.shields.io/badge/tool-Elastic--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mksglu/context-mode?style=flat-square&label=)
 - [headroom](https://github.com/headroomlabs-ai/headroom) - Apache-2.0 context-compression tool for LLM and agent pipelines. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/headroomlabs-ai/headroom?style=flat-square&label=)
 - [lean-ctx](https://github.com/yvgude/lean-ctx) - Rust MCP server that mediates what a coding agent reads, with a savings ledger and an accounting of its own context overhead. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/yvgude/lean-ctx?style=flat-square&label=)
@@ -42,6 +46,7 @@
 - [AgentDiet](https://arxiv.org/abs/2509.23586) - Paper on an inference-time module that strips useless, redundant, and expired information from an agent's trajectory. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [Context Rot](https://www.trychroma.com/research/context-rot) - Chroma study of how LLM output quality changes as input length grows, with task difficulty held fixed. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [ContextBudget](https://arxiv.org/abs/2604.01664) - Paper on BACM, a method where an agent decides when and how much to compress its history based on the remaining context budget. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
+- [CTXAgent](https://arxiv.org/abs/2610.34425) - Paper and open-source agent in which the model decides when to compact and curate its own context, compared on list-price cost and task success against Claude Code, Codex and OpenCode on sessions of 35 to 212 turns with the same model behind every harness. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [RULER](https://github.com/NVIDIA/RULER) - NVIDIA long-context benchmark that measures how model quality holds up as the context window fills. ![bench](https://img.shields.io/badge/bench-555?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/NVIDIA/RULER?style=flat-square&label=)
 - [Self-Compacting Language Model Agents](https://arxiv.org/abs/2606.23525) - Paper introducing SELFCOMPACT, where the model itself decides when and how to compress a growing agent trace. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
@@ -100,6 +105,7 @@
 ### Research & Benchmarks
 - [PerspectiveGap](https://arxiv.org/abs/2606.08878) - Benchmark of 110 orchestration scenarios that tests how a model writes sub-agent prompts and counts the out-of-role information fragments it leaks into each sub-agent's prompt. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
 - [SupervisorAgent](https://arxiv.org/abs/2510.26585) - Paper on a lightweight, modular framework for runtime, adaptive supervision of multi-agent systems. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
+- [The Coordination Tax and the Heterogeneity Dividend](https://arxiv.org/abs/2610.37700) - Paper with a closed-form break-even model for multi-agent LLM pipelines and a 2,430-run measurement of planner-coder-reviewer pipelines against single calls and a router on code-generation tasks, reporting dollar cost, wall time and pass@1. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
 ### Reading
 - [CrewAI Hierarchical Process](https://docs.crewai.com/en/learn/hierarchical-process) - CrewAI documentation on the hierarchical process, where a manager LLM plans and validates work delegated to other agents.
@@ -107,7 +113,7 @@
 ## Prompt Agent Loop
 
 ### Tools
-- [benjamin-plus](https://github.com/JetBrains/benjamin-plus-skill) - JetBrains skill, a small instruction payload that changes how a coding agent looks things up and waits, with a published A/B rig. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/JetBrains/benjamin-plus-skill?style=flat-square&label=)
+- [benjamin-plus](https://github.com/JetBrains/benjamin-plus-skill) - JetBrains skill, a small instruction payload that changes how a coding agent looks things up and waits, with published A/B results. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/JetBrains/benjamin-plus-skill?style=flat-square&label=)
 - [token-ninja](https://github.com/oanhduong/token-ninja) - Intercepts deterministic commands like `git status` or `npm test` before they reach the model and runs them locally. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/oanhduong/token-ninja?style=flat-square&label=)
 
 ### Research & Benchmarks
@@ -122,7 +128,7 @@
 - [deja-vu](https://github.com/vshulcz/deja-vu) - MIT single-binary local memory for 43 coding agents, built from session history on disk with no LLM; its maker's [benchmark](https://vshulcz.github.io/deja-vu/guide/day-zero.html) (11 runs per arm) cut median task tokens from 126,222 to 53,558. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/vshulcz/deja-vu?style=flat-square&label=)
 - [LlamaIndex](https://github.com/run-llama/llama_index) - MIT-licensed data framework for LLM applications with a token-counting callback and an optional hard token budget. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/run-llama/llama_index?style=flat-square&label=)
 - [PageIndex](https://github.com/VectifyAI/PageIndex) - Vectorless RAG engine that builds a hierarchical tree index over long documents and has an LLM reason over the index instead of embedding chunks. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/VectifyAI/PageIndex?style=flat-square&label=)
-- [Signet AI](https://github.com/Signet-AI/signetai) - Local-first memory and context layer that syncs memories, transcripts, and secrets across Claude Code, Codex, OpenCode, and other harnesses. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/Signet-AI/signetai?style=flat-square&label=)
+- [Signet AI](https://github.com/Signet-AI/signetai) - Self-hostable memory and context layer that syncs memories, transcripts, and secrets across Claude Code, Codex, OpenCode, and other harnesses. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/Signet-AI/signetai?style=flat-square&label=)
 - [xmemory](https://arxiv.org/abs/2604.27906) - Paper on schema-grounded agent memory that extracts structured facts instead of storing text. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
 
 ## Retry and Reliability
@@ -135,9 +141,9 @@
 ### Tools
 - [Antigravity CLI Changelog](https://github.com/google-antigravity/antigravity-cli/blob/main/CHANGELOG.md) - Release notes for Antigravity CLI covering per-subagent model-tier routing and an effort control. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/google-antigravity/antigravity-cli?style=flat-square&label=)
 - [Claude Code Router](https://github.com/musistudio/claude-code-router) - Local gateway that puts Claude Code, Codex, and other coding CLIs behind one endpoint and routes each request by rules or a prompt tag. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/musistudio/claude-code-router?style=flat-square&label=)
-- [Copilot HydraFusion](https://github.blog/2026-09-04-project-hydrafusion-frontier-quality-via-multi-model-orchestration/) - GitHub research-preview feature that picks one of three multi-model workflows (Single, Cascade, Critique) per request; GitHub reports 36% to 67% lower estimated cost than Claude Opus 5 at -1.5 to +4.9 points of quality, tuned on the same benchmarks. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
 - [Cursor Router](https://cursor.com/blog/router) - Cursor blog post on Auto mode, which classifies each request and routes it to a model under Intelligence, Balance, or Cost modes. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [GitHub Copilot Auto Model Selection](https://docs.github.com/en/copilot/concepts/models/auto-model-selection) - GitHub documentation on Copilot's Auto setting, which routes by model health and task complexity. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [GitHub Copilot Fusion](https://github.blog/2026-09-04-project-hydrafusion-frontier-quality-via-multi-model-orchestration/) - Copilot feature, previewed as HydraFusion, that picks one of three multi-model workflows (Single, Cascade, Critique) per request; in preview GitHub reported 36% to 67% lower estimated cost than Claude Opus 5 at -1.5 to +4.9 points of quality, tuned on the same benchmarks. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
 - [NadirClaw](https://github.com/NadirRouter/NadirClaw) - OpenAI-compatible pre-router proxy for coding harnesses that picks the cheapest model predicted to answer and escalates on failure. ![tool: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/tool-PolyForm_Noncommercial_1.0.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/NadirRouter/NadirClaw?style=flat-square&label=)
 - [NVIDIA NeMo Switchyard](https://github.com/NVIDIA-NeMo/Switchyard) - Apache-2.0, pre-1.0 routing library that picks a model per agent request from your own pool, also hosted on OpenRouter; its cost cuts (28% to 74% from partners, about one third internally) are self-reported. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/NVIDIA-NeMo/Switchyard?style=flat-square&label=)
 - [OpenAI Decisions API](https://developers.openai.com/api/docs/guides/decisions) - OpenAI guide to the Decisions API, which returns typed answers (probability, choice, score) about text, images, or JSON, with a section on input and prompt-cache billing. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
@@ -150,13 +156,13 @@
 
 ### Research & Benchmarks
 - [Cluster, Route, Escalate](https://arxiv.org/abs/2606.27457) - Paper proposing a two-stage cost-aware cascade for LLM serving that combines routing and escalation. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
+- [EC²-Bench (EC2-Bench)](https://arxiv.org/abs/2610.17816) - Paper and benchmark comparing query routing, per-step routing, and edge-controlled delegation or advisory between a small edge model and a cloud model on long-horizon agent tasks, scoring task performance, cloud cost, and privacy exposure together. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [MTRouter](https://arxiv.org/abs/2604.23530) - Paper on picking a different model for each turn of a multi-turn conversation to meet a cost budget. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [OrcaRouter](https://arxiv.org/abs/2605.30736) - Paper on a production LLM router built on a LinUCB bandit. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
 ### Reading
 - [Claude Code via LiteLLM](https://docs.litellm.ai/docs/tutorials/claude_non_anthropic_models) - LiteLLM tutorial for pointing Claude Code at a LiteLLM proxy so cheaper or non-Anthropic models can handle some work.
 - [Distilling Agent Behavior](https://arxiv.org/abs/2505.17612) - Paper on distilling a large agent's behavior into a small task-specific model to cut per-token cost.
-- [EC²-Bench (EC2-Bench)](https://arxiv.org/abs/2610.17816) - Paper and benchmark comparing query routing, per-step routing, and edge-controlled delegation or advisory between a small edge model and a cloud model on long-horizon agent tasks, scoring task performance, cloud cost, and privacy exposure together. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [TypeSafe Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev) - TypeSafe AI blog post on a hosted decision model that answers typed questions with a choice or score and a probability.
 
 ## Search and Retrieval Boundary
@@ -165,7 +171,7 @@
 - [Exa](https://exa.ai/pricing) - Search API for agents that bills content retrieval separately per type, such as query-scoped highlights or summaries. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Firecrawl](https://github.com/firecrawl/firecrawl) - Web scraping API that converts pages to markdown or structured JSON before they reach the model. ![tool: AGPL-3.0](https://img.shields.io/badge/tool-AGPL--3.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/firecrawl/firecrawl?style=flat-square&label=)
 - [Parallel Benchmarks](https://parallel.ai/benchmarks) - Parallel web search and extraction API benchmarks page with accuracy-versus-cost tables. ![co](https://img.shields.io/badge/co-555?style=flat-square)
-- [Tavily](https://docs.tavily.com/documentation/api-credits) - Search API for agents that returns capped content snippets instead of full pages and prices by credit. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [Tavily](https://docs.tavily.com/documentation/api-credits) - Search API for agents that returns short content snippets instead of full pages and prices by credit. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Valyu](https://github.com/valyuAI/valyu-benchmarks) - Search and deep-research API with an open benchmark harness for cost-versus-accuracy results on the DRACO benchmark. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
 ## Serving Inference
@@ -187,8 +193,8 @@
 ## Tool Protocol Overhead
 
 ### Tools
-- [Coral](https://github.com/withcoral/coral) - Gives agents one SQL interface over APIs and internal systems instead of many MCP servers, with its own task benchmark. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/withcoral/coral?style=flat-square&label=)
-- [StackOne Falcon](https://www.stackone.com/blog/mcp-token-optimization/) - Execution engine that cuts tool-calling tokens by filtering tool definitions, shaping responses, and running code at the edge. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [Coral](https://github.com/withcoral/coral) - Self-hosted MCP gateway where agents write TypeScript programs that call provider tools in a sandbox, with Allow, Ask or Block rules per tool and working programs saved as reusable custom tools. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/withcoral/coral?style=flat-square&label=)
+- [StackOne Falcon](https://www.stackone.com/blog/mcp-token-optimization/) - Execution engine for agent tool calls that cuts tokens by narrowing the tools an agent sees and returning only mapped response fields. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
 ### Research & Benchmarks
 - [MCP Tool Descriptions Are Smelly!](https://arxiv.org/abs/2602.14878) - Study of how poorly written MCP tool descriptions affect agent efficiency, using an LLM-jury scanner on MCP-Universe. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)

@@ -34,7 +34,7 @@
 - [Amp](https://ampcode.com/) - Coding agent spun out of Sourcegraph, with monthly tiers and credits billed at provider API prices. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [Cline](https://github.com/cline/cline) - Open-source (Apache-2.0) AI coding agent built on a bring-your-own-API-key cost model. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/cline/cline?style=flat-square&label=)
 - [Factory](https://factory.com/pricing) - Pricing page for Factory's Droids coding agents, sold as subscription tiers with usage-based rate limits. ![co](https://img.shields.io/badge/co-555?style=flat-square)
-- [Gemini CLI Retirement](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/) - Google Developers Blog post on transitioning from the open-source Gemini CLI to Antigravity CLI. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
+- [Gemini CLI to Antigravity CLI Transition](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/) - Google Developers Blog post on transitioning from the open-source Gemini CLI to Antigravity CLI. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [OpenHands](https://github.com/OpenHands/OpenHands) - MIT-licensed open-source coding-agent platform with a free local mode, a free cloud tier, and an at-cost LLM option. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/OpenHands/OpenHands?style=flat-square&label=)
 
 ## Market Sizing
@@ -55,7 +55,7 @@
 ### Reading
 - [Claude API Release Notes](https://platform.claude.com/docs/en/release-notes/api) - Anthropic's Claude API release notes, listing model launches and API changes.
 - [Gemini Flash Models](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/) - Google blog post introducing Gemini Flash models and their token-efficiency claims.
-- [Kimi API Pricing](https://platform.kimi.ai/docs/pricing/chat-k27-code) - Moonshot's official API pricing page for Kimi models.
+- [Kimi API Pricing](https://platform.kimi.ai/docs/pricing/chat) - Moonshot's official API pricing page for Kimi models.
 - [OpenAI Reasoning Guide](https://developers.openai.com/api/docs/guides/reasoning) - OpenAI guide to reasoning models and how reasoning tokens are billed as output.
 - [Qwen3.6-27B](https://huggingface.co/Qwen/Qwen3.6-27B) - Hugging Face model card for Qwen3.6-27B, an open-weight coding model.
 
@@ -78,6 +78,7 @@
 - [ChatGPT Credit Rate Card](https://help.openai.com/en/articles/11481834-chatgpt-rate-card-business-enterpriseedu-credit-based-pricing) - OpenAI help article with the credit-based rate card for ChatGPT Business, Enterprise, and Edu workspaces.
 - [ChatGPT Pricing](https://learn.chatgpt.com/docs/pricing) - OpenAI pricing page for ChatGPT subscription tiers and Codex bundling.
 - [Claude Fable 5.1 and Mythos 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1) - Anthropic announcement with the rate card for Claude Fable 5.1 and Mythos 5.1.
+- [Claude Fable 5.2 and Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2) - Anthropic announcement of Claude Fable 5.2 and Mythos 5.2, with per-token and fast-mode rates and the data retention requirement.
 - [Claude Haiku 5.5](https://platform.claude.com/docs/en/models/haiku-5-5/overview) - Anthropic model page for Claude Haiku 5.5, with release date, per-token rates split at a 100K-token prompt threshold, cache rates, and a note on token counts under the newer tokenizer.
 - [Claude Opus 5.5 Overview](https://platform.claude.com/docs/en/models/opus-5-5/overview) - Anthropic documentation for Claude Opus 5.5, including pricing, cache rates, and default effort.
 - [Claude Sonnet 5.5 Overview](https://platform.claude.com/docs/en/models/sonnet-5-5/overview) - Anthropic documentation for Claude Sonnet 5.5, including pricing and effort levels.
@@ -89,6 +90,7 @@
 - [Devin Desktop Quota](https://docs.devin.ai/desktop/accounts/quota) - Devin documentation on token-based quota for Devin Desktop, formerly Windsurf.
 - [Fable 5 Subscription Changes](https://www.anthropic.com/news/redeploying-fable-5) - Anthropic announcement on how Fable 5 is offered across subscription plans and usage credits.
 - [Gemini 4 Argon Pricing](https://ai.google.dev/gemini-api/docs/pricing#gemini-4-argon) - Gemini API pricing section for Gemini 4 Argon, listing rates for each service tier, scheduled rate changes, and implicit-only context caching.
+- [Gemini 4 Carbon Pricing](https://ai.google.dev/gemini-api/docs/pricing#gemini-4-carbon) - Gemini API pricing section for Gemini 4 Carbon, listing rates for each service tier, the scheduled rate change, and implicit-only context caching.
 - [Gemini API Pricing](https://ai.google.dev/gemini-api/docs/pricing#gemini-3.8-flash) - Google's Gemini API pricing page with per-token rates and dated rate changes for Flash models.
 - [Google AI Subscriptions](https://gemini.google/us/subscriptions/) - Google page listing Google AI subscription tiers and their Gemini and Antigravity rate limits.
 - [GPT-6 Astra API Pricing](https://developers.openai.com/api/docs/models/gpt-6-astra) - OpenAI model page for GPT-6 Astra, with per-token rates and the long-context surcharge.

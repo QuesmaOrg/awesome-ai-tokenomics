@@ -48,6 +48,7 @@
 ### Tools
 - [ChatGPT Enterprise Spend Controls](https://openai.com/index/chatgpt-enterprise-spend-controls/) - OpenAI post on usage analytics and spend controls for ChatGPT Enterprise and Business: credit caps, request workflows, and a Cost API. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
 - [Claude Enterprise Admin Controls](https://www.claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend) - Anthropic post on admin analytics and cost controls for Claude Enterprise and Team: spend caps, model defaults, and per-user cost analytics. ![tool: proprietary](https://img.shields.io/badge/tool-proprietary-blue?style=flat-square)
+- [Larridin Token Spend and Insights](https://larridin.com/tokens-spend-insights/) - Enterprise AI measurement platform that reports AI adoption, all-in AI spend split by tool and by human or agent actor, and engineering output, with budget alerts and model switching at a budget threshold. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [nable](https://github.com/getnable/finopsmcp) - MCP server that reports cloud and AI spend in one answer, running locally with a free local package and some paid features. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/getnable/finopsmcp?style=flat-square&label=)
 - [PointFive TokenShift](https://www.pointfive.co/press/pointfive-launches-ai-efficiency-os-tokenshift) - PointFive's AI Efficiency OS, which governs coding-agent token spend across Claude Code, Cursor, Codex, and other tools. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Revenium](https://www.revenium.ai/) - Tracks AI agent spend at runtime, attributing every model call and tool cost to its workflow, with automatic shutoff on runaway budgets. ![co](https://img.shields.io/badge/co-555?style=flat-square)
@@ -57,4 +58,4 @@
 ## Unit Economics
 
 ### Tools
-- [Paid](https://paid.ai/) - Monetization platform for AI agents that sets pricing, tracks delivery cost per action, and reports margin per customer. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [Paid](https://paid.ai/) - Monetization platform for AI agents that meters agent events, configures pricing and billing, and links each billed action to its AI cost. ![co](https://img.shields.io/badge/co-555?style=flat-square)
