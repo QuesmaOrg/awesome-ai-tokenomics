@@ -23,6 +23,10 @@
 
 ## Cache Accounting
 
+### Research & Benchmarks
+- [The Hidden Costs of Forgetting: Trajectory Deletion in SWE Agents](https://arxiv.org/abs/2610.35496) - Paper that runs 42 trajectory-deletion configurations on two SWE-bench agents and prices each one under flat and caching-aware pricing, showing token cuts that look cheaper under flat pricing cost more once cached prefixes are priced. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
+- [The Physical Cost of Context](https://arxiv.org/abs/2610.34763) - Paper that measures coding-agent context policies by model calls, uncached prefill and GPU energy on self-hosted serving, and shows observation masking that cuts prompt tokens can raise uncached prefill by breaking prefix-cache reuse. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
+
 ### Reading
 - [Gemini Context Caching Pricing](https://ai.google.dev/gemini-api/docs/pricing) - Google's Gemini API pricing page, including the per-hour storage charge for explicit context caching.
 - [Open-SWE-Traces Cache Simulation](https://www.completeskeptic.com/p/kv-cache-rules-everything-around) - Replay simulation over NVIDIA's Open-SWE-Traces that splits an agentic bill into output tokens and cache traffic.
@@ -66,9 +70,11 @@
 - [Claude Code vs OpenCode Token Overhead](https://systima.ai/blog/claude-code-vs-opencode-token-overhead) - Systima study of harness scaffolding token overhead in Claude Code and OpenCode. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [FrontierHarness Eval](https://runta.com/blog/introducing-frontierharness-eval/) - Runta benchmark of coding harnesses on one model through one gateway, comparing pass rates and cost per completed task. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
 - [HarnessTax](https://arena.ai/blog/coding-agents-harness-tax) - Arena and Berkeley study of seven models across Claude Code, Codex CLI, and Pi on 30 SWE-bench Lite and 30 Terminal-Bench 2.0 tasks: success rates moved within a few points while cost per rollout varied up to 5.07x for the same model (3.49x in native model-harness pairs). ![report](https://img.shields.io/badge/report-555?style=flat-square)
+- [HarnessTax Replication and Config Tax](https://github.com/rbartoli/harnesstax-replication) - Independent rerun of the HarnessTax protocol on 30 Terminal-Bench 2.0 tasks (540 trials, one row per trial published) that compares Codex CLI and Pi on the same model and measures what a personal CLAUDE.md, skills and rules setup adds to cost per task. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [System Prompts and Models of AI Tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - Collection of extracted agent system prompts and tool-schema JSON files across many vendors, published as raw text. ![data](https://img.shields.io/badge/data-555?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/x1xhlol/system-prompts-and-models-of-ai-tools?style=flat-square&label=)
 - [System Prompts Leaks](https://github.com/asgeirtj/system_prompts_leaks) - CC0 corpus of extracted system prompts for AI harnesses and models, with dated Anthropic prompt series. ![data](https://img.shields.io/badge/data-555?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/asgeirtj/system_prompts_leaks?style=flat-square&label=)
 - [The Harness Tax](https://www.eishanlawrence.com/blog/harness-bench/harness-efficiency-paper.pdf) - Paper that holds model, tasks, and gateway fixed across coding-harness configurations and compares tokens per solved task. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
+- [When Instruction Files Go Stale](https://arxiv.org/abs/2611.09802) - Paper measuring tool calls, tokens and task success when a coding agent's AGENTS.md or CLAUDE.md file holds a stale, corrected or removed line, across 732 Claude Code runs. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
 ### Reading
 - [TestDino Harness Overhead Benchmark](https://testdino.com/blog/harness-overhead-benchmark) - TestDino sent the same one-word prompt through 11 coding agents in one clean repo on 2026-10-08 and recorded first-call input tokens: 1,894 (Pi) to 31,480 (Claude Code), a 16.8x spread against a 31,798 Kiro CLI estimate, median of 3 runs.
@@ -91,6 +97,7 @@
 
 ### Research & Benchmarks
 - [Failure-Aware Observability for Multi-Agent LLM Systems](https://arxiv.org/abs/2606.01365) - Paper on a live waste-detection framework for multi-agent systems that finds wasted computation early. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
+- [How Do AI Agents Waste Your Money?](https://arxiv.org/abs/2611.07238) - Paper and open-source framework that traces agent trajectories, uses an LLM judge to mark removable output spans by waste pattern, and validates the marks by deleting them and re-running the agent. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 
 ## Whole Bill Accounting
 

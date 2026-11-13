@@ -65,8 +65,8 @@
   {
     "title": "Claude Max Plan Usage",
     "url": "https://support.claude.com/en/articles/11049741-what-is-the-max-plan",
-    "verified_on": "2026-10-09",
-    "stale_after": "2027-01-07",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "budgets-caps",
     "kind": "article",
     "super_area": "govern"
@@ -74,8 +74,8 @@
   {
     "title": "Claude Enterprise Admin Controls",
     "url": "https://www.claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
-    "verified_on": "2026-09-29",
-    "stale_after": "2026-12-28",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "spend-management",
     "kind": "tool",
     "super_area": "govern"
@@ -153,6 +153,15 @@
     "super_area": "govern"
   },
   {
+    "title": "Larridin Token Spend and Insights",
+    "url": "https://larridin.com/tokens-spend-insights/",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
+    "category": "spend-management",
+    "kind": "company",
+    "super_area": "govern"
+  },
+  {
     "title": "Mavvrik",
     "url": "https://www.mavvrik.ai/press-releases/mavvrik-unveils-full-stack-ai-cost-governance/",
     "verified_on": "2026-09-29",
@@ -173,8 +182,8 @@
   {
     "title": "nable",
     "url": "https://github.com/getnable/finopsmcp",
-    "verified_on": "2026-08-19",
-    "stale_after": "2026-11-19",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "spend-management",
     "kind": "tool",
     "super_area": "govern"
@@ -182,8 +191,8 @@
   {
     "title": "Paid",
     "url": "https://paid.ai/",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "unit-economics",
     "kind": "company",
     "super_area": "govern"
@@ -225,10 +234,19 @@
     "super_area": "govern"
   },
   {
+    "title": "Speakeasy",
+    "url": "https://www.speakeasy.com/",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
+    "category": "allocation-chargeback",
+    "kind": "company",
+    "super_area": "govern"
+  },
+  {
     "title": "Standard Compute Budgets and Limits",
     "url": "https://docs.standardcompute.com/budgets-and-limits",
-    "verified_on": "2026-11-07",
-    "stale_after": "2027-02-05",
+    "verified_on": "2026-11-09",
+    "stale_after": "2027-02-07",
     "category": "budgets-caps",
     "kind": "company",
     "super_area": "govern"
@@ -270,6 +288,15 @@
     "super_area": "govern"
   },
   {
+    "title": "How Do AI Agents Waste Your Money?",
+    "url": "https://arxiv.org/abs/2611.07238",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
+    "category": "transcript-analysis",
+    "kind": "paper",
+    "super_area": "measure"
+  },
+  {
     "title": "Alumet",
     "url": "https://github.com/alumet-dev/alumet",
     "verified_on": "2026-09-05",
@@ -290,8 +317,8 @@
   {
     "title": "HarnessTax",
     "url": "https://arena.ai/blog/coding-agents-harness-tax",
-    "verified_on": "2026-10-19",
-    "stale_after": "2027-01-17",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "harness-overhead",
     "kind": "report",
     "super_area": "measure"
@@ -434,8 +461,8 @@
   {
     "title": "FOCUS 1.5 and AI Cost",
     "url": "https://www.tokeneconomics.com/projects/what-1-5-does-for-ai-cost-and-what-it-does-not/",
-    "verified_on": "2026-09-29",
-    "stale_after": "2026-12-28",
+    "verified_on": "2026-11-13",
+    "stale_after": "2026-12-04",
     "category": "whole-bill-accounting",
     "kind": "article",
     "super_area": "measure"
@@ -497,10 +524,19 @@
   {
     "title": "The Harness Tax",
     "url": "https://www.eishanlawrence.com/blog/harness-bench/harness-efficiency-paper.pdf",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-13",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "harness-overhead",
     "kind": "paper",
+    "super_area": "measure"
+  },
+  {
+    "title": "HarnessTax Replication and Config Tax",
+    "url": "https://github.com/rbartoli/harnesstax-replication",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
+    "category": "harness-overhead",
+    "kind": "report",
     "super_area": "measure"
   },
   {
@@ -524,8 +560,8 @@
   {
     "title": "livenerf",
     "url": "https://github.com/ninjahawk/livenerf",
-    "verified_on": "2026-10-19",
-    "stale_after": "2027-01-17",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "benchmarks-evals",
     "kind": "benchmark",
     "super_area": "measure"
@@ -569,8 +605,8 @@
   {
     "title": "OpenAI Prompt Caching",
     "url": "https://platform.openai.com/docs/guides/prompt-caching",
-    "verified_on": "2026-10-09",
-    "stale_after": "2027-01-07",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "cache-accounting",
     "kind": "article",
     "super_area": "measure"
@@ -587,10 +623,19 @@
   {
     "title": "OpenCost Inference Cost Tracking",
     "url": "https://github.com/opencost/opencost/blob/develop/docs/inference-cost-tracking.md",
-    "verified_on": "2026-07-29",
-    "stale_after": "2026-10-27",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "metering",
     "kind": "oss",
+    "super_area": "measure"
+  },
+  {
+    "title": "The Physical Cost of Context",
+    "url": "https://arxiv.org/abs/2610.34763",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
+    "category": "cache-accounting",
+    "kind": "paper",
     "super_area": "measure"
   },
   {
@@ -630,6 +675,15 @@
     "super_area": "measure"
   },
   {
+    "title": "When Instruction Files Go Stale",
+    "url": "https://arxiv.org/abs/2611.09802",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
+    "category": "harness-overhead",
+    "kind": "paper",
+    "super_area": "measure"
+  },
+  {
     "title": "SWE-bench",
     "url": "https://github.com/SWE-bench/SWE-bench",
     "verified_on": "2026-10-19",
@@ -650,8 +704,8 @@
   {
     "title": "System Prompts Leaks",
     "url": "https://github.com/asgeirtj/system_prompts_leaks",
-    "verified_on": "2026-07-30",
-    "stale_after": "2026-10-28",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "harness-overhead",
     "kind": "dataset",
     "super_area": "measure"
@@ -659,8 +713,8 @@
   {
     "title": "System Prompts and Models of AI Tools",
     "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-    "verified_on": "2026-07-30",
-    "stale_after": "2026-10-28",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "harness-overhead",
     "kind": "dataset",
     "super_area": "measure"
@@ -708,6 +762,15 @@
     "stale_after": "2027-01-17",
     "category": "metering",
     "kind": "oss",
+    "super_area": "measure"
+  },
+  {
+    "title": "The Hidden Costs of Forgetting: Trajectory Deletion in SWE Agents",
+    "url": "https://arxiv.org/abs/2610.35496",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
+    "category": "cache-accounting",
+    "kind": "paper",
     "super_area": "measure"
   },
   {
@@ -767,8 +830,8 @@
   {
     "title": "Claude Code Usage Monitor",
     "url": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor",
-    "verified_on": "2026-10-09",
-    "stale_after": "2027-01-07",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "dashboards",
     "kind": "oss",
     "super_area": "monitor"
@@ -779,15 +842,6 @@
     "verified_on": "2026-10-09",
     "stale_after": "2027-01-07",
     "category": "tracing",
-    "kind": "oss",
-    "super_area": "monitor"
-  },
-  {
-    "title": "claude-usage",
-    "url": "https://github.com/phuryn/claude-usage",
-    "verified_on": "2026-10-09",
-    "stale_after": "2027-01-07",
-    "category": "dashboards",
     "kind": "oss",
     "super_area": "monitor"
   },
@@ -875,8 +929,8 @@
   {
     "title": "Langfuse",
     "url": "https://langfuse.com",
-    "verified_on": "2026-09-29",
-    "stale_after": "2026-12-28",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "observability",
     "kind": "oss",
     "super_area": "monitor"
@@ -1008,10 +1062,19 @@
     "super_area": "optimize"
   },
   {
+    "title": "Amazon Bedrock Prompt Shortening",
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/advanced-prompt-optimization-shorten.html",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
+    "category": "context-engineering",
+    "kind": "tool",
+    "super_area": "optimize"
+  },
+  {
     "title": "benjamin-plus",
     "url": "https://github.com/JetBrains/benjamin-plus-skill",
-    "verified_on": "2026-08-19",
-    "stale_after": "2026-11-17",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "prompt-agent-loop",
     "kind": "oss",
     "super_area": "optimize"
@@ -1026,10 +1089,19 @@
     "super_area": "optimize"
   },
   {
+    "title": "CacheLint (Silent and Costly)",
+    "url": "https://arxiv.org/abs/2610.34817",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
+    "category": "caching",
+    "kind": "paper",
+    "super_area": "optimize"
+  },
+  {
     "title": "Claude Code Compaction Engine",
     "url": "https://barazany.dev/blog/claude-codes-compaction-engine",
-    "verified_on": "2026-09-29",
-    "stale_after": "2026-12-28",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "context-engineering",
     "kind": "article",
     "super_area": "optimize"
@@ -1073,8 +1145,8 @@
   {
     "title": "Claude Code Changelog",
     "url": "https://code.claude.com/docs/en/changelog",
-    "verified_on": "2026-09-29",
-    "stale_after": "2026-12-28",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "cost-controls",
     "kind": "article",
     "super_area": "optimize"
@@ -1118,8 +1190,8 @@
   {
     "title": "Codex CLI Compaction Issue",
     "url": "https://github.com/openai/codex/issues/16812",
-    "verified_on": "2026-08-28",
-    "stale_after": "2026-11-26",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "context-engineering",
     "kind": "article",
     "super_area": "optimize"
@@ -1161,6 +1233,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "The Coordination Tax and the Heterogeneity Dividend",
+    "url": "https://arxiv.org/abs/2610.37700",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
+    "category": "multi-agent-overhead",
+    "kind": "paper",
+    "super_area": "optimize"
+  },
+  {
     "title": "GitHub Copilot Auto Model Selection",
     "url": "https://docs.github.com/en/copilot/concepts/models/auto-model-selection",
     "verified_on": "2026-09-29",
@@ -1170,10 +1251,10 @@
     "super_area": "optimize"
   },
   {
-    "title": "Copilot HydraFusion",
+    "title": "GitHub Copilot Fusion",
     "url": "https://github.blog/2026-09-04-project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-    "verified_on": "2026-10-09",
-    "stale_after": "2027-01-07",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "routing-model-selection",
     "kind": "tool",
     "super_area": "optimize"
@@ -1181,8 +1262,8 @@
   {
     "title": "Coral",
     "url": "https://github.com/withcoral/coral",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "tool-protocol-overhead",
     "kind": "oss",
     "super_area": "optimize"
@@ -1194,6 +1275,15 @@
     "stale_after": "2026-12-05",
     "category": "multi-agent-overhead",
     "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
+    "title": "CTXAgent",
+    "url": "https://arxiv.org/abs/2610.34425",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
+    "category": "context-engineering",
+    "kind": "paper",
     "super_area": "optimize"
   },
   {
@@ -1215,28 +1305,28 @@
     "super_area": "optimize"
   },
   {
-    "title": "EC²-Bench (EC2-Bench)",
-    "url": "https://arxiv.org/abs/2610.17816",
-    "verified_on": "2026-11-06",
-    "stale_after": "2027-02-04",
-    "category": "routing-model-selection",
-    "kind": "paper",
-    "super_area": "optimize"
-  },
-  {
     "title": "deja-vu",
     "url": "https://github.com/vshulcz/deja-vu",
-    "verified_on": "2026-11-06",
-    "stale_after": "2027-02-04",
+    "verified_on": "2026-11-09",
+    "stale_after": "2027-02-07",
     "category": "retrieval-memory",
     "kind": "oss",
     "super_area": "optimize"
   },
   {
+    "title": "EC²-Bench (EC2-Bench)",
+    "url": "https://arxiv.org/abs/2610.17816",
+    "verified_on": "2026-11-09",
+    "stale_after": "2027-02-07",
+    "category": "routing-model-selection",
+    "kind": "paper",
+    "super_area": "optimize"
+  },
+  {
     "title": "Exa",
     "url": "https://exa.ai/pricing",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "search-retrieval-boundary",
     "kind": "company",
     "super_area": "optimize"
@@ -1244,8 +1334,8 @@
   {
     "title": "Firecrawl",
     "url": "https://github.com/firecrawl/firecrawl",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "search-retrieval-boundary",
     "kind": "oss",
     "super_area": "optimize"
@@ -1325,8 +1415,8 @@
   {
     "title": "lean-ctx",
     "url": "https://github.com/yvgude/lean-ctx",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-03",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "context-engineering",
     "kind": "oss",
     "super_area": "optimize"
@@ -1496,8 +1586,8 @@
   {
     "title": "Orchestrator-Worker Model Tiering",
     "url": "https://www.mindstudio.ai/blog/smart-orchestrator-cheaper-sub-agent-models-claude-code",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-13",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "prompt-agent-loop",
     "kind": "technique",
     "super_area": "optimize"
@@ -1505,8 +1595,8 @@
   {
     "title": "PageIndex",
     "url": "https://github.com/VectifyAI/PageIndex",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "retrieval-memory",
     "kind": "oss",
     "super_area": "optimize"
@@ -1514,10 +1604,19 @@
   {
     "title": "Parallel Benchmarks",
     "url": "https://parallel.ai/benchmarks",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "search-retrieval-boundary",
     "kind": "company",
+    "super_area": "optimize"
+  },
+  {
+    "title": "PerspectiveGap",
+    "url": "https://arxiv.org/abs/2606.08878",
+    "verified_on": "2026-11-03",
+    "stale_after": "2027-02-01",
+    "category": "multi-agent-overhead",
+    "kind": "benchmark",
     "super_area": "optimize"
   },
   {
@@ -1622,8 +1721,8 @@
   {
     "title": "Signet AI",
     "url": "https://github.com/Signet-AI/signetai",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "retrieval-memory",
     "kind": "oss",
     "super_area": "optimize"
@@ -1649,8 +1748,8 @@
   {
     "title": "StackOne Falcon",
     "url": "https://www.stackone.com/blog/mcp-token-optimization/",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "tool-protocol-overhead",
     "kind": "company",
     "super_area": "optimize"
@@ -1685,8 +1784,8 @@
   {
     "title": "Tavily",
     "url": "https://docs.tavily.com/documentation/api-credits",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "search-retrieval-boundary",
     "kind": "company",
     "super_area": "optimize"
@@ -1757,8 +1856,8 @@
   {
     "title": "Valyu",
     "url": "https://github.com/valyuAI/valyu-benchmarks",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "search-retrieval-boundary",
     "kind": "company",
     "super_area": "optimize"
@@ -1811,8 +1910,8 @@
   {
     "title": "xmemory",
     "url": "https://arxiv.org/abs/2604.27906",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "retrieval-memory",
     "kind": "tool",
     "super_area": "optimize"
@@ -1829,8 +1928,8 @@
   {
     "title": "AICostBudget AI API Pricing Dataset",
     "url": "https://aicostbudget.com/en/datasets/ai-api-pricing",
-    "verified_on": "2026-08-13",
-    "stale_after": "2026-11-12",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "pricing-models",
     "kind": "dataset",
     "super_area": "understand"
@@ -1892,8 +1991,8 @@
   {
     "title": "Big-T Notation",
     "url": "https://www.tokeneconomics.com/projects/big-t-notation/",
-    "verified_on": "2026-08-19",
-    "stale_after": "2026-11-17",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "unit-economics",
     "kind": "framework",
     "super_area": "understand"
@@ -1910,8 +2009,8 @@
   {
     "title": "ChatGPT Pricing",
     "url": "https://learn.chatgpt.com/docs/pricing",
-    "verified_on": "2026-10-09",
-    "stale_after": "2027-01-07",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
@@ -1946,8 +2045,17 @@
   {
     "title": "Claude Fable 5.1 and Mythos 5.1",
     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-    "verified_on": "2026-10-09",
-    "stale_after": "2027-01-07",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
+    "category": "pricing-models",
+    "kind": "model",
+    "super_area": "understand"
+  },
+  {
+    "title": "Claude Fable 5.2 and Mythos 5.2",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "pricing-models",
     "kind": "model",
     "super_area": "understand"
@@ -1964,8 +2072,8 @@
   {
     "title": "Claude Opus 5.5 Overview",
     "url": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
-    "verified_on": "2026-10-09",
-    "stale_after": "2027-01-07",
+    "verified_on": "2026-11-13",
+    "stale_after": "2026-12-01",
     "category": "pricing-models",
     "kind": "model",
     "super_area": "understand"
@@ -1991,8 +2099,8 @@
   {
     "title": "Claude Subscription Arbitrage",
     "url": "https://zed.dev/blog/anthropic-subscription-changes",
-    "verified_on": "2026-10-09",
-    "stale_after": "2027-01-07",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "buyer-incentives",
     "kind": "article",
     "super_area": "understand"
@@ -2036,8 +2144,8 @@
   {
     "title": "GitHub Copilot Billing Backlash",
     "url": "https://news.ycombinator.com/item?id=47923357",
-    "verified_on": "2026-09-06",
-    "stale_after": "2026-12-05",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "buyer-incentives",
     "kind": "article",
     "super_area": "understand"
@@ -2108,8 +2216,8 @@
   {
     "title": "Fable 5 Subscription Changes",
     "url": "https://www.anthropic.com/news/redeploying-fable-5",
-    "verified_on": "2026-10-09",
-    "stale_after": "2027-01-07",
+    "verified_on": "2026-11-13",
+    "stale_after": "2026-11-17",
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
@@ -2162,17 +2270,26 @@
   {
     "title": "Gemini 4 Argon Pricing",
     "url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-4-argon",
-    "verified_on": "2026-10-19",
-    "stale_after": "2027-01-17",
+    "verified_on": "2026-11-13",
+    "stale_after": "2026-12-02",
     "category": "pricing-models",
     "kind": "model",
     "super_area": "understand"
   },
   {
-    "title": "Gemini CLI Retirement",
+    "title": "Gemini 4 Carbon Pricing",
+    "url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-4-carbon",
+    "verified_on": "2026-11-13",
+    "stale_after": "2026-12-02",
+    "category": "pricing-models",
+    "kind": "model",
+    "super_area": "understand"
+  },
+  {
+    "title": "Gemini CLI to Antigravity CLI Transition",
     "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
-    "verified_on": "2026-09-29",
-    "stale_after": "2026-12-28",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "market-competitors",
     "kind": "tool",
     "super_area": "understand"
@@ -2180,8 +2297,8 @@
   {
     "title": "Gemini API Pricing",
     "url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.8-flash",
-    "verified_on": "2026-10-09",
-    "stale_after": "2027-01-07",
+    "verified_on": "2026-11-13",
+    "stale_after": "2026-12-02",
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
@@ -2207,8 +2324,8 @@
   {
     "title": "OpenAI API Pricing",
     "url": "https://developers.openai.com/api/docs/pricing",
-    "verified_on": "2026-10-09",
-    "stale_after": "2027-01-07",
+    "verified_on": "2026-11-13",
+    "stale_after": "2026-12-01",
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
@@ -2216,8 +2333,8 @@
   {
     "title": "GPT-6.1 Sol Pricing",
     "url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
-    "verified_on": "2026-10-09",
-    "stale_after": "2027-01-07",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "pricing-models",
     "kind": "model",
     "super_area": "understand"
@@ -2251,9 +2368,9 @@
   },
   {
     "title": "Kimi API Pricing",
-    "url": "https://platform.kimi.ai/docs/pricing/chat-k27-code",
-    "verified_on": "2026-10-09",
-    "stale_after": "2027-01-07",
+    "url": "https://platform.kimi.ai/docs/pricing/chat",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-01-01",
     "category": "model-economics",
     "kind": "article",
     "super_area": "understand"
@@ -2324,8 +2441,8 @@
   {
     "title": "Mistral Large 4 Pricing",
     "url": "https://docs.mistral.ai/models/mistral-large-4",
-    "verified_on": "2026-10-19",
-    "stale_after": "2027-01-17",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "pricing-models",
     "kind": "model",
     "super_area": "understand"
@@ -2333,8 +2450,8 @@
   {
     "title": "MMC Ventures AI Tokenomics",
     "url": "https://mmc.vc/research/ai-tokenomics-how-to-tokenmin-while-roimaxxing/",
-    "verified_on": "2026-08-03",
-    "stale_after": "2026-11-01",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "market-sizing",
     "kind": "report",
     "super_area": "understand"
@@ -2351,8 +2468,8 @@
   {
     "title": "OpenAI Agents API Observability",
     "url": "https://developers.openai.com/api/docs/guides/agents-api/observability",
-    "verified_on": "2026-09-14",
-    "stale_after": "2026-12-13",
+    "verified_on": "2026-11-13",
+    "stale_after": "2027-02-11",
     "category": "pricing-models",
     "kind": "tool",
     "super_area": "understand"
@@ -2432,8 +2549,8 @@
   {
     "title": "Tokenomics Foundation",
     "url": "https://www.linuxfoundation.org/press/linux-foundation-launches-the-tokenomics-foundation-to-define-the-economics-and-roi-of-ai-value",
-    "verified_on": "2026-10-09",
-    "stale_after": "2026-10-30",
+    "verified_on": "2026-11-13",
+    "stale_after": "2026-12-08",
     "category": "consolidation",
     "kind": "company",
     "super_area": "understand"
@@ -2455,23 +2572,5 @@
     "category": "pricing-models",
     "kind": "article",
     "super_area": "understand"
-  },
-  {
-    "title": "Speakeasy",
-    "url": "https://www.speakeasy.com/",
-    "verified_on": "2026-10-26",
-    "stale_after": "2027-01-24",
-    "category": "allocation-chargeback",
-    "kind": "company",
-    "super_area": "govern"
-  },
-  {
-    "title": "PerspectiveGap",
-    "url": "https://arxiv.org/abs/2606.08878",
-    "verified_on": "2026-10-29",
-    "stale_after": "2027-01-27",
-    "category": "multi-agent-overhead",
-    "kind": "benchmark",
-    "super_area": "optimize"
   }
 ]
