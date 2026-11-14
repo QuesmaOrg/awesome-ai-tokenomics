@@ -463,6 +463,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 
 ### Datasets
 
+- [AI API Price Change Log](https://aitokensai.com/pricing/changelog/) - CC-BY-4.0 dated record of observed LLM rate changes with normalized JSON and CSV exports, for cost models that need the rate applying on a past date. ![data](https://img.shields.io/badge/data-555?style=flat-square)
 - [FreeInference Agentic Trace](https://huggingface.co/datasets/harvardMadsys/freeinference_agentic_trace) - CC-BY-4.0 request-level trace of 12,002 real agent sessions from 14 harnesses over 16 weeks, with per-request token counts, cache-read tokens, and prefix hashes for cache replay, and no message text. ![data](https://img.shields.io/badge/data-555?style=flat-square)
 
 ### Energy Carbon
