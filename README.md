@@ -509,7 +509,6 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 
 ## Related lists
 
-- [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) - Curated papers, frameworks, and resources on large language models.
 - [Awesome-LLMOps](https://github.com/tensorchord/Awesome-LLMOps) - Tools and platforms for operating LLMs in production.
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - A collection of Model Context Protocol servers.
 - [awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning) - Open-source libraries to deploy, monitor, version, and scale machine learning.
