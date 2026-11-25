@@ -474,6 +474,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Epoch AI Energy per Query](https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use) - Epoch AI analysis estimating from first principles how much energy one LLM query uses.
 - [Google AI Inference Environmental Impact](https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference) - Google disclosure of the energy, carbon, and water footprint of a median Gemini Apps text prompt. ![report](https://img.shields.io/badge/report-555?style=flat-square)
 - [ML.ENERGY Leaderboard](https://ml.energy/blog/measurement/energy/diagnosing-inference-energy-consumption-with-the-mlenergy-leaderboard-v30/) - Leaderboard that measures real GPU inference energy across models and tasks. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
+- [SOMA AI Emission Factors (SAEF)](https://doi.org/10.5281/zenodo.20443585) - Open dataset of per-request energy, CO2e and water factors for LLM inference by model class and cloud region, from a peer-reviewed paper, with a PyPI package and an MCP server. ![data](https://img.shields.io/badge/data-555?style=flat-square)
 
 ### Harness Overhead
 
