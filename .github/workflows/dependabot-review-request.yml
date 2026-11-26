@@ -1,0 +1,28 @@
+# When Dependabot opens a PR or pushes to it, posts a review request for it to the team's review
+# channel on Slack, so the bump is reviewed without anyone asking. A push, such as a rebase after
+# main moves, dismisses the earlier approval, so the new head needs its own review.
+# DEPENDABOT_REVIEW_WEBHOOK is a Slack incoming webhook, stored as an organization Dependabot
+# secret: a workflow that Dependabot starts reads Dependabot secrets, not Actions secrets. Without
+# it the job only warns, so the PR's checks stay green.
+name: dependabot-review-request
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+permissions: {}
+jobs:
+  post:
+    if: github.event.pull_request.user.login == 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - env:
+          WEBHOOK: ${{ secrets.DEPENDABOT_REVIEW_WEBHOOK }}
+          REPO: ${{ github.repository }}
+          NUM: ${{ github.event.pull_request.number }}
+        run: |
+          if [ -z "$WEBHOOK" ]; then
+            echo "::warning::DEPENDABOT_REVIEW_WEBHOOK is not set, so no review request was posted"
+            exit 0
+          fi
+          jq -n --arg text "review-request $REPO#$NUM reviewers:1" '{text: $text}' |
+            curl -fsS --retry 3 -X POST -H 'Content-Type: application/json' --data @- "$WEBHOOK"
