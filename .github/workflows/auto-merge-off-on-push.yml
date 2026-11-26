@@ -1,0 +1,29 @@
+# GitHub keeps auto-merge on through a later push to the PR, so a commit nobody reviewed could merge.
+# On a push, this turns auto-merge off when a review turned it on: the PR has the label
+# auto-merge-after-review, which is added with it. The new head needs its own review. Auto-merge that a
+# person turned on has no label and stays on. A PR from a fork is left alone: GitHub turns auto-merge
+# off itself when someone without write access pushes.
+name: auto-merge-off-on-push
+on:
+  pull_request:
+    types: [synchronize]
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  off:
+    if: >-
+      contains(github.event.pull_request.labels.*.name, 'auto-merge-after-review') &&
+      github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          NUM: ${{ github.event.pull_request.number }}
+        run: |
+          if [ "$(gh pr view "$NUM" -R "$REPO" --json autoMergeRequest --jq '.autoMergeRequest != null')" = true ]; then
+            gh pr merge "$NUM" -R "$REPO" --disable-auto
+          fi
+          gh pr edit "$NUM" -R "$REPO" --remove-label auto-merge-after-review
