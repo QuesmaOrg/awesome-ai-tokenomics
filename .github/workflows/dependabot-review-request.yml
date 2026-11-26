@@ -1,12 +1,13 @@
-# When Dependabot opens a PR, posts a review request for it to the team's review channel on Slack,
-# so the bump is reviewed without anyone asking. DEPENDABOT_REVIEW_WEBHOOK is a Slack incoming
-# webhook, stored as an organization Dependabot secret: a workflow that Dependabot starts reads
-# Dependabot secrets, not Actions secrets. Without it the job only warns, so the PR's checks stay
-# green.
+# When Dependabot opens a PR or pushes to it, posts a review request for it to the team's review
+# channel on Slack, so the bump is reviewed without anyone asking. A push, such as a rebase after
+# main moves, dismisses the earlier approval, so the new head needs its own review.
+# DEPENDABOT_REVIEW_WEBHOOK is a Slack incoming webhook, stored as an organization Dependabot
+# secret: a workflow that Dependabot starts reads Dependabot secrets, not Actions secrets. Without
+# it the job only warns, so the PR's checks stay green.
 name: dependabot-review-request
 on:
   pull_request:
-    types: [opened, reopened]
+    types: [opened, reopened, synchronize]
 permissions: {}
 jobs:
   post:
