@@ -1458,6 +1458,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "LLMTR",
+    "url": "https://llmtr.com",
+    "verified_on": "2026-11-27",
+    "stale_after": "2027-02-25",
+    "category": "routing-model-selection",
+    "kind": "company",
+    "super_area": "optimize"
+  },
+  {
     "title": "llmtrim",
     "url": "https://github.com/fkiene/llmtrim",
     "verified_on": "2026-10-19",
